@@ -1,0 +1,88 @@
+@media only screen and (min-width:750px) {
+    .content-box {
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(51, 99, 100);
+        width: 80%;
+        max-width: 1400px;
+        border-radius: 10px;
+    }
+
+    .b-img img {
+        border: 1px solid black;
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .content img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .a-img img {
+        border: 1px solid black;
+        width: 100%;
+        height: 50vh;
+        max-height: 220px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .content-box {
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(101, 149, 150);
+        width: 90%;
+        border-radius: 10px;
+        max-width: 1400px;
+    }
+
+    .b-img img {
+        border: 1px solid black;
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .content img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .a-img img {
+        border: 1px solid black;
+        width: 100%;
+        height: 50vh;
+        max-height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+.cover-image img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 50vh;
+}
+
+.c-img img {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.d-img img {
+    width: 100%;
+    height: 40vh;
+    max-height: 300px;
+    object-fit: cover;
+}
+.text{
+    font-family: 'Roboto Slab';
+}
+.txt-final{
+    font-size: 1.2em;
+}
