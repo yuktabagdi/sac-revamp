@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.first-page {
+  background-image: url("back.jpeg");
+  padding: 12% 0;
+  font-weight: bolder;
+}
+
+.first-page h1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 4%;
+  border-bottom: solid white 2mm;
+}
+.navbar {
+  padding: 0;
+  width: inherit;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 7%;
+  margin-top: 2%;
+  border-bottom: solid #0278ae 2mm;
+}
+
+.co h1 {
+  margin-bottom: 5%;
+}
+
+.main {
+  padding: 2.5% 1.5% 1.5%;
+  background-color: #d6d2c4;
+  border-radius: 5mm;
+}
+
+.gsec {
+  width: 95%;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #888888;
+  padding: 5% 0;
+  margin-bottom: 0.25%;
+}
+
+.co {
+  width: 95%;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #888888;
+  background-color: white;
+  padding: 1% 3% 3%;
+  margin-bottom: 0.25%;
+}
+
+.wt {
+  width: 95%;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #888888;
+  padding: 5% 3%;
+  margin-bottom: 0.25%;
+}
+
+.dt {
+  width: 95%;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #888888;
+  padding: 5% 3%;
+  margin-bottom: 0.25%;
+}
+.row {
+  width: inherit;
+  padding-bottom: 2%;
+}
+
+.card {
+  background-color: #968c83;
+  margin: 2%;
+  width: 250px;
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 2s;
+}
+
+@media only screen and (min-width: 775px) {
+  .r-card {
+    left: 42%;
+  }
+
+  .l-card {
+    left: 20%;
+  }
+  .m-card{
+    left: 25%;
+  }
+  .dt .l-card{
+    left:15%;
+  }
+  .dt .r-card{
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .card {
+    left: 20%;
+    width: 75%;
+  }
+}
+
+.r-card .tex {
+  text-align: right;
+}
+
+.card:hover {
+  background-color: black;
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  color: white;
+  backface-visibility: hidden;
+}
+h2
+{
+  text-align: center;
+}
+.card__face--back {
+  transition: .5s ease;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  background-color: black;
+  transform: rotateY(180deg);
+}
+.bg-card{
+  background-color: #838383;
+  width: 260px;
+  height: 255px;
+  padding-top: 1%;
+  box-shadow: 5px 5px 10px 5px #888888;
+}
