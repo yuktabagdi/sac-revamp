@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alumni Talks</title>
+
+  <!--CSS only-->
+  <link rel="stylesheet" href="css/alumni_talks.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--GSAP core plugin-->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+  <!--GSAP scroll trigger-->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/guest-lecture/sac_logo.png"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Students Alumni Meet</a>
+            <a class="dropdown-item" href="#">Alumni Meet</a>
+            <a class="dropdown-item" href="#">Homecomming</a>
+            <a class="dropdown-item" href="#">Phonathon</a>
+            <a class="dropdown-item" href="#">Leadership Summit</a>
+            <a class="dropdown-item" href="#">Alumni Talks</a>
+            <a class="dropdown-item" href="#">ALVIDA</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Initiatives
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">SAMP</a>
+            <a class="dropdown-item" href="#">SPARC</a>
+            <a class="dropdown-item" href="#">MYIMPRINT</a>
+            <a class="dropdown-item" href="#">ACAP</a>
+            <a class="dropdown-item" href="#">Alumni Blog</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Publications
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Yearbook</a>
+            <a class="dropdown-item" href="#">Yearnings of Yore</a>
+            <a class="dropdown-item" href="#">Tempo Shout</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Alumni-Reg</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sponsors
+          </a>
+          <div class="dropdown-menu" style="padding-right: 50px !important;" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">2019</a>
+            <a class="dropdown-item" href="#">2018</a>
+            <a class="dropdown-item" href="#">2017</a>
+            <a class="dropdown-item" href="#">2016</a>
+            <a class="dropdown-item" href="#">2015</a>
+            <a class="dropdown-item" href="#">2014</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h1 style="text-align: left;">ALUMNI TALKS</h1>
+          <h6 style="text-align: left;">Some one liner</h6>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-1">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="panel text-left">
+            <h1>ABOUT</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="pt-4">
+              Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent
+              personalities in the history of the nation. The Alumni Talks provide a medium for the alumni
+              to give back to the institute by imparting their experience to the students and preparing
+              them for the real world. The topics of these guest lectures are spread all over ranging from
+              personality development to department related technical lectures. The guest lectures pave a
+              way for interaction between the alumni and the current students. Having a large alumni base
+              to learn from has always been an integral benefit of being a student of IIT Kharagpur and
+              these lectures ensure exactly that.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="pray">
+            <br><br><br><br>
+            <img src="img/guest-lecture/alumnitalks-2019-2.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">Speakers from McKinsey & Company:</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-fluid" style="width:100%;">
+                      <h5 class="x">Aditya Sharma</h5>
+                      <h6 class="x">(Partner)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-fluid" style="width:100%;">
+                      <h5 class="x">Abhishek Narain</h5>
+                      <h6 class="x">(Senior Associate)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-fluid" style="width:100%;">
+                      <h5 class="x">Ashutosh Mohapatra</h5>
+                      <h6 class="x">(Associate)</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img class="image" src="img/guest-lecture/talk_MCK/a.jpg" class="image img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <img class="image" src="img/guest-lecture/talk_MCK/b.jpg" class="image img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                  </div>
+                  <br>
+                  <h5 class="x">Some one liner</h5>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel2 text-center">
+            <h1 class="x">Guest Lectures</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">Mr. Mark Richard (President and COO at DatabaseUSA)</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/3.jpg" class="image img-fluid" style="width:100%;">
+
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/2.jpg" class="image img-fluid" style="width:100%;">
+                      <br>
+                      <img src="img/guest-lecture/Mr_Mark_Richard/5.jpg" class="image img-fluid" style="width:100%;">
+
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/4.jpg" class="image img-fluid" style="width:100%;">
+                      <br>
+                      <img src="img/guest-lecture/Mr_Mark_Richard/1.jpg" class="image img-fluid" style="width:100%;">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="x">Mr Veerendra Jaitly</h4>
+                  <h4 class="x">(Founder C_CUBE Consultants | RTD.Commander of Indian Navy)</h4>
+                  <br>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.jpg" class="image img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.jpg" class="image img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.jpg" class="image img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                  </div>
+                  <br>
+                  <h5 class="x">Some one liner</h5>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class="x">Tips from Top</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/Tips_from_Top/a.jpg" class="image img-fluid" style="width:100%">
+                <h5 class="x">Mr. Vineet Goyal</h5>
+                <h6 class="x">(IPS, Addl. Commissioner of Police, Kolkata)</h6>
+              </div>
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/Tips_from_Top/b.jpg" class="image img-fluid" style="width:100%">
+                <h5 class="x">Prof Parameshwar P. Iyer</h5>
+                <h6 class="x">(Principal research scientist at IISc. Bangalore)</h6>
+              </div>
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/Tips_from_Top/c.jpg" class="image img-fluid" style="width:100%">
+                <h5 class="x">Mr. Maneesh Bhandari</h5>
+                <h6 class="x">(Director of Center for Innovation Incubation and Entrepreneurship, IIM Ahmedabad)</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class="x">Kgp & Beyond</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/kgp_beyond/a.jpg" class="image img-fluid" style="width:100%">
+              </div>
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/kgp_beyond/b.jpg" class=" image img-fluid" style="width:100%">
+              </div>
+              <div class="col-12 col-sm-4 align-items-center">
+                <img src="img/guest-lecture/kgp_beyond/c.jpg" class=" image img-fluid" style="width:100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class="x">Videos</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--footer start-->
+  <main>
+    <section id='footer'>
+      <div class='container-fluid'>
+        <div class='row'>
+          <div class='col-4 footer-top-left'>
+            <h1> Get Social <br>With Us<br><span class='dots'>...</span>
+            </h1>
+          </div>
+          <div class=col-2>
+          </div>
+          <div class='col-6 footer-top-right'>
+            <h5>Students' Alumni Cell, IIT Kharagpur</h5>
+            <p>Office of Alumni Affairs & International Relations,<br>
+              Indian Institute of Technology, Kharagpur<br>
+              Pin-721302, West Bengal, India<br><br>
+              <em>Ph: 03222-281860</em> <br>
+              <em>Email: aao@hijli.iitkgp.ernet.in</em>
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-2 '>
+            <span class='bar'>|</span>
+          </div>
+          <div class=col-2>
+            <i class="icon fab fa-facebook"></i>
+          </div>
+          <div class='col-2'>
+            <i class="icon fab fa-instagram"></i>
+          </div>
+          <div class='col-2'>
+            <i class="icon fab fa-twitter-square"></i>
+          </div>
+          <div class='col-2'>
+            <i class="icon fab fa-medium"></i>
+          </div>
+          <div class='col-2'>
+            <i class="icon fab fa-linkedin"></i>
+          </div>
+
+        </div>
+      </div>
+  </main>
+  <!-- 	Footer end	 -->
+
+
+  <script>
+    gsap.from('header', { opacity: 0, duration: 1 })
+    gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
+    gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from('.nav-item', {
+      scrollTrigger: {
+        trigger: '.nav-item',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+
+    gsap.from('.section-1 h1', {
+      scrollTrigger: {
+        trigger: '.section-1 h1',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+    gsap.from('.section-1 p', {
+      scrollTrigger: {
+        trigger: '.section-1 p',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 2.0,
+    });
+
+    gsap.from('.section-1 img', {
+      scrollTrigger: {
+        trigger: '.section-1 img',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1.5,
+      x: 200
+    });
+
+    var arr = document.getElementsByClassName("x");
+    for (var i = 0; i < arr.length; i++) {
+
+      gsap.from(arr[i], {
+        scrollTrigger: {
+          trigger: arr[i],
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: -200
+      });
+
+    }
+    var img_arr = document.getElementsByClassName("image");
+    for (var i = 0; i < img_arr.length; i++) {
+
+      gsap.from(img_arr[i], {
+        scrollTrigger: {
+          trigger: img_arr[i],
+          start: "top center",
+          toggleActions: "play none none none",
+        },
+        opacity: 0,
+        duration: 1.5,
+      });
+
+    }
+    gsap.utils.toArray('#panel').forEach((panel, i) => {
+      ScrollTrigger.create({
+        trigger: panel,
+        start: "top top",
+        pin: true,
+        pinSpacing: false
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+</body>
+
+</html>
