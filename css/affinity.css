@@ -1,0 +1,142 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.initial{
+  background-image: linear-gradient(45deg,#70adb5,#5d54a4);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  color: #212121;
+  font-size: 1.2rem;
+  padding: 5% 7%;
+}
+.initial h1
+{
+  font-size: 4.5rem;
+
+  margin-bottom: 5%;
+  border-bottom: solid #212121 2mm;
+  display: inline-block;
+
+}
+.initial h2{
+  font-size: 3rem;
+  margin-bottom: 15%;
+}
+.content{
+  text-align: center;
+  padding: 2% 4%;
+  background-color: #f6f6f6;
+  border-radius: 5mm;
+}
+.text{
+  text-align: left;
+  display: inline-block;
+  background-color: white;
+  margin-right: 70px;
+  margin-bottom: 4%;
+  font-weight: 500;
+  padding: 6% 3% 8%;
+  bottom: 4%;
+  width: 60%;
+  box-shadow: 5px 5px 10px 5px #888888;
+  border-bottom-left-radius: 9mm;
+  border-top-right-radius: 9mm;
+}
+.image
+{
+  display: inline-block;
+  box-shadow: 5px 5px 10px 5px #888888;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+.card__face--back {
+  transition: .5s ease;
+  padding-top:  4%;
+  padding-left:  4%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  background-color: black;
+  transform: rotateY(180deg);
+}
+.bg-card{
+  background-color: #838383;
+  width: 300px;
+  height: 295px;
+  padding-top: 1%;
+  box-shadow: 5px 5px 10px 5px #888888;
+}
+.card__face {
+  color: white;
+  backface-visibility: hidden;
+}
+@media only screen and (max-width: 775px) {
+  .card {
+    left: 10%;
+    width: 75%;
+  }
+  .image{
+    display: none;
+  }
+  .text{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.card:hover {
+  background-color: black;
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.card {
+  background-color: #968c83;
+  margin-top: 8%;
+  width: 290px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 2s;
+}
+.row {
+  width: inherit;
+  padding-bottom: 2%;
+  margin-left:0;
+  margin-right: 0;
+}
+@media only screen and (min-width: 775px) {
+  .r-card {
+    left: 50%;
+  }
+
+  .l-card {
+    left: 12%;
+  }
+
+
+.past .l-card{
+    left: 38%;
+}
+}
+.company {
+  width: 90%;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #888888;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 3% 3% ;
+}
+.company h1{
+  margin-bottom:3%;
+  padding: 0;
+  display: inline-block;
+  border-top: solid black 1mm;
+  border-bottom: solid black 1mm;
+  border-bottom-right-radius: 4mm;
+  border-bottom-left-radius: 4mm;
+}

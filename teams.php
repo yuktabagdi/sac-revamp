@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.5">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Teams</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="teams.css">
+  <link rel="stylesheet" href="css/teams.css">
 
 </head>
 
@@ -30,28 +30,32 @@
         <div class="col-md-2 col-sm-12 l-card">
           <div class="card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/akash.jpg" alt="">
+              <img src="img/Head_images/akash.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Akash Srivastava</h2>
+              <br>
               <li>+91-9547572222</li>
               <li>akashsrivastava3144@gmail.com</li>
-              <a href="https://www.facebook.com/profile.php?id=100038929590419"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/akash-srivastava-/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/profile.php?id=100038929590419"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;"  href="https://www.linkedin.com/in/akash-srivastava-/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/subhadra.jpg" alt="">
+              <img src="img/Head_images/subhadra.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Subhadra Jena</h2>
+              <br>
               <li>+91-7838902041</li>
               <li>subhdra99jena@gmail.com</li>
-              <a href="https://www.facebook.com/subhadra.jena.543"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/subhadra-jena/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/subhadra.jena.543"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/subhadra-jena/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
@@ -65,28 +69,32 @@
         <div class="col-md-2 col-sm-12 l-card">
           <div class="card  bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/mayank.jpg" alt="">
+              <img src="img/Head_images/mayank.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Mayank Arora</h2>
+              <br>
               <li>+91-7047032522</li>
               <li>mayankprahalad@gmail.com</li>
-              <a href="https://www.facebook.com/mayank.arora.19"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/mayank-arora-/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a  style="padding-left:100px;"href="https://www.facebook.com/mayank.arora.19"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/mayank-arora-/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/sanjay.jpg" alt="">
+              <img src="img/Head_images/sanjay.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Sanjay Mothwani</h2>
+              <br>
               <li>+91-8741040674</li>
               <li>motwanisanjay007@gmail.com</li>
-              <a href="https://www.facebook.com/profile.php?id=100008534588329"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/sanjay-motwani-/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/profile.php?id=100008534588329"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/sanjay-motwani-/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
@@ -95,28 +103,32 @@
         <div class="col-md-2 col-sm-12 l-card">
           <div class="card  bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/nitika.jpg" alt="">
+              <img src="img/Head_images/nitika.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>nitika Shorff</h2>
+              <br>
               <li>+91-9007732515</li>
               <li>nitika30051999@gmail.com</li>
-              <a href="https://www.facebook.com/nitika.shroff"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/nitika-shroff/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/nitika.shroff"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/nitika-shroff/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/vishaw.jpg" alt="">
+              <img src="img/Head_images/vishaw.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Vishaw Kashyap</h2>
+              <br>
               <li>+91-7051222639</li>
               <li>vishaw786@gmail.com</li>
-              <a href="https://www.facebook.com/vishaw.kashyap"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/vishawkashyap/>"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/vishaw.kashyap"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/vishawkashyap/>"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
@@ -131,28 +143,32 @@
         <div class="col-md-2 col-sm-12 l-card ">
           <div class="card bg-card ">
             <div class="card__face card__face--front">
-              <img src="Head_images/anuja.jpg" alt="">
+              <img src="img/Head_images/anuja.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Anuja Raj Verma</h2>
+              <br>
               <li>+91-7602102266</li>
               <li>anujamanarv27@gmail.com</li>
-              <a href="https://www.facebook.com/anujaraj.verma.5"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/anuja-raj-verma/>"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/anujaraj.verma.5"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/anuja-raj-verma/>"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/yukta.jpg" alt="">
+              <img src="img/Head_images/yukta.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Yukta Bagdi</h2>
+              <br>
               <li>+91-7602106894</li>
               <li>yuktabagdi@gmail.com</li>
-              <a href="https://www.facebook.com/yukta.bagdi"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/yukta-bagdi/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/yukta.bagdi"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/yukta-bagdi/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
@@ -166,42 +182,48 @@
         <div class="col-md-2 col-sm-12 l-card ">
           <div class="card  bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/prasang.jpg" alt="">
+              <img src="img/Head_images/prasang.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Prasang Kumar</h2>
+              <br>
               <li>+91-9931176420</li>
               <li>mail.prasangkr@gmail.com</li>
-              <a href="https://www.facebook.com/prasangkr"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/prasangkr/>"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/prasangkr"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/prasangkr/>"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 m-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/ritish.jpg" alt="">
+              <img src="img/Head_images/ritish.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Ritish Dutt</h2>
+              <br>
               <li>+91-8167019999</li>
               <li>ritishduttiitkgp@gmail.com</li>
-              <a href="https://www.facebook.com/ritish.dutt.14"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/ritish-dutt/>"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/ritish.dutt.14"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/ritish-dutt/>"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
         <div class="col-md-2 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
-              <img src="Head_images/nischay.jpg" alt="">
+              <img src="img/Head_images/nischay.jpg" alt="">
             </div>
             <div class="card__face card__face--back">
               <h2>Nischay Gothwal</h2>
+              <br>
               <li>+91-8768014777</li>
               <li>nischaygothwal23@gmail.com</li>
-              <a href="https://www.facebook.com/nischay.gothwal.13"> <i class="fa fa-facebook"></i> </a>
-              <a href="https://www.linkedin.com/in/nischay-gothwal/"> <i class="fa fa-linkedin"></i> </a>
+              <br>
+              <a style="padding-left:100px;" href="https://www.facebook.com/nischay.gothwal.13"> <i class="fa fa-facebook"></i> </a>
+              <a style="padding-left:30px;" href="https://www.linkedin.com/in/nischay-gothwal/"> <i class="fa fa-linkedin"></i> </a>
             </div>
           </div>
         </div>
@@ -444,7 +466,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-  <script src="teams.js" charset="utf-8"></script>
+  <script src="js/teams.js" charset="utf-8"></script>
 </body>
 
 </html>
