@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/mobile-style.css">
+  <link rel="stylesheet" href="css/SAMP_style.css" />
+  <link rel="stylesheet" href="css/SAMP_mobile-style.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-md-6 col-12">
             <div class="pray">
-              <img src="pexels-photo-1904769.jpeg" alt="Pray" class="" />
+              <img src="img/pexels-photo-1904769.jpeg" alt="Pray" class="" />
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -91,12 +91,7 @@
         <div class="col-md-12 col-sm-12">
           <h1 class="text-center">Framework of Mentorship Programme</h1>
           <p>Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
-            <br> the students facing crossroads at every other turn and unable to choose what's best for them due to a lack of insight into how things would actually materialize with each road that they choose to take, it becomes crucial that they get advice from people who have faced the very same crossroads in their student life and the big bad competitive world beyond it.
-                <br>
-                The Alumni with their vast repository of personal experiences can help improve insight among students into so many diverse aspects of life which include academics, extracurriculars, the professional life after college or the general way of life. This is where the Student Alumni Mentorship Programme comes into the picture.
-                <br>
-                It facilitates a medium where the student connects with an Alumnus from a field he has a profound interest in. He gives his preference of field, year and place while registering online and he is accordingly allotted a mentor based on a predefined code. In the process of learning the ropes in that particular field he takes home so much more from the guide, coach, supporter and motivator, he finds in his mentor.
-                <br>
+            <br> the students facing crossroads at every other turn and unable to choose what's best for them due to a lack of insight into how things would actually materialize with each road that they choose to take, it becomes crucial that they get advice from people who have faced the very same crossroads in their student life and the big bad competitive world beyond it.       
             </span></p>
         </div>
       </div>
@@ -115,7 +110,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="js/text.js"></script>
+  <script src="js/SAMP.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <script>
