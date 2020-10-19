@@ -1,17 +1,18 @@
 body {
   text-align: center;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
 }
 
 .first-page {
-  background-image: url("back.jpeg");
+  background-image: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-1300x500.jpeg");
   padding: 12% 0;
   font-weight: bolder;
 }
 
 .first-page h1 {
+    display: inline-block;
   color: white;
   font-size: 5rem;
   margin-bottom: 4%;
@@ -22,13 +23,18 @@ body {
   width: inherit;
 }
 
-h1 {
+.main h1,.Pre_Heads h1{
+  border-bottom: solid #0278ae 1mm;
+  border-top: solid #0278ae 1mm;
+  border-bottom-left-radius: 5mm;
+  border-bottom-right-radius: 5mm;
   color: black;
+  padding-right: 4%;
+  padding-left: 4%;
   font-weight: bold;
   display: inline-block;
   margin-bottom: 7%;
   margin-top: 2%;
-  border-bottom: solid #0278ae 2mm;
 }
 
 .co h1 {
@@ -37,7 +43,7 @@ h1 {
 
 .main {
   padding: 2.5% 1.5% 1.5%;
-  background-color: #d6d2c4;
+  background-color: #f6f6f6;
   border-radius: 5mm;
 }
 
@@ -70,7 +76,7 @@ h1 {
   width: 95%;
   background-color: white;
   box-shadow: 5px 5px 10px 5px #888888;
-  padding: 5% 3%;
+  padding: 8% 3%;
   margin-bottom: 0.25%;
 }
 .row {
@@ -80,7 +86,6 @@ h1 {
 
 .card {
   background-color: #968c83;
-  margin: 2%;
   width: 250px;
   position: relative;
   cursor: pointer;
@@ -114,16 +119,14 @@ h1 {
     width: 75%;
   }
 }
-
-.r-card .tex {
-  text-align: right;
-}
-
 .card:hover {
   background-color: black;
   transform: translateX(-100%) rotateY(-180deg);
 }
-
+.main li
+{
+  margin-left:  7%;
+}
 .card__face {
   color: white;
   backface-visibility: hidden;
@@ -136,7 +139,8 @@ h2
   transition: .5s ease;
   width: 100%;
   height: 100%;
-  position: absolute;
+position:absolute;
+  padding:5%;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
@@ -149,4 +153,23 @@ h2
   height: 255px;
   padding-top: 1%;
   box-shadow: 5px 5px 10px 5px #888888;
+}
+.Pre_Heads{
+  box-shadow: 5px 5px 10px 5px #888888;
+  color: black;
+  background: white;
+  text-align: left;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.Pre_Heads h4{
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-bottom: solid #0278ae 1mm;
+  border-top: solid #0278ae 1mm;
+  border-bottom-left-radius: 5mm;
+  border-bottom-right-radius: 5mm;
 }
