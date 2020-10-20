@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!---->
-    <link rel="stylesheet" href="sparc.css">
+    <link rel="stylesheet" href="css/sparc.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -103,7 +103,7 @@
       </nav>
 
     <header class="cover-image ">
-        <img src="imgs/sparccover.jpg">
+        <img src="img\sparccover.jpg">
     </header>
 
     <section class="py-5">
@@ -144,28 +144,28 @@
             </div>
             <div class="row justify-content-center px-4">
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/1.jpg">
+                    <img src="img\sam\Mumbai\1.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/2.jpg">
+                    <img src="img/sam/Mumbai/2.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/3.jpg">
+                    <img src="img/sam/Mumbai/3.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/1.jpg">
+                    <img src="img/sam/Mumbai/1.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/2.jpg">
+                    <img src="img/sam/Mumbai/2.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/3.jpg">
+                    <img src="img/sam/Mumbai/3.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/2.jpg">
+                    <img src="img/sam/Mumbai/2.jpg">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 px-2 py-2 a-img images">
-                    <img src="imgs/Mumbai/3.jpg">
+                    <img src="img/sam/Mumbai/3.jpg">
                 </div>
 
             </div>
@@ -183,7 +183,7 @@
             </div>
             <div class="row justify-content-around">
                 <div class=" col-xs-12 px-4 py-4 b-img images">
-                    <img src="imgs/kolkata19/7.jpg">
+                    <img src="img\sam\kolkata19\7.jpg">
                     <p>
                     <h5 style="text-align: center;">
                         <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
@@ -207,13 +207,13 @@
             </div>
             <div class="row justify-content-around px-4">
                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img images">
-                    <img src="imgs/Mumbai/1.jpg">
+                    <img src="img/sam/Mumbai/1.jpg">
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img images">
-                    <img src="imgs/Mumbai/2.jpg">
+                    <img src="img/sam/Mumbai/2.jpg">
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img images">
-                    <img src="imgs/Mumbai/3.jpg">
+                    <img src="img/sam/Mumbai/3.jpg">
                 </div>
             </div>
         </div>
@@ -230,7 +230,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-xs-12 px-4 py-4 d-img images">
-                    <img src="imgs/future_init.png">
+                    <img src="img\future_init.png">
                 </div>
                 <div class="col-md-4 col-xs-12 px-4 py-4 text txt-final">
                         "An IDEA can change your life". <strong>SPARC</Strong> also aims in formation of "Students' PAN
