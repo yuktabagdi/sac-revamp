@@ -94,7 +94,7 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url("background_image.jpg");
+  background: url(../img/background_image.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -277,7 +277,7 @@ header .container .col-md-7 p {
 .section-3 {
   height: 70vmin;
   margin-top: 15vmin;
-  background-image: url("stars.jpg");
+  background-image: url(../img/stars.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

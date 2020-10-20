@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mobile_style.css">
+  <link rel="stylesheet" href="css/SAM_style.css">
+  <link rel="stylesheet" href="css/SAM_mobile_style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS only -->
@@ -30,7 +30,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="img/sac_logo.png"> </a>
+    <a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -147,7 +147,7 @@
           <div class="col-md-6 col-12">
             <div class="pray">
               <br><br><br><br>
-              <img src="img/sam1.jpg" alt="Pray" class="" />
+              <img src="img/sam/sam_about.jpg" alt="Pray" class="" />
             </div>
           </div>
         </div>
