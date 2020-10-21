@@ -15,7 +15,7 @@
 
 </head>
 
-<body style="background-color:#effad3;">
+<body style="background-color:black;">
 
 
 <section class="section1">
@@ -136,7 +136,7 @@
         </div>
 </section>
 
-<section class="section-3 mb-5">
+<section class="section3 ">
     <div class="container">
         <div class="panel z-depth-5">
             <div class="row ">
@@ -196,7 +196,7 @@
     </div>
 </section>
 
-<section class="section4 mb-5" style="background-color:#effad3;">
+<section class="section4">
 <div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
@@ -292,11 +292,11 @@
   <div class="process-wrapper">
 <div id="progress-bar-container">
 	<ul>
-		<li class="step step01 active"><div class="step-inner">GRAND REUNION</div></li>
-		<li class="step step02"><div class="step-inner">2.2 MARATHON</div></li>
-		<li class="step step03"><div class="step-inner">HALL VISIT</div></li>
-		<li class="step step04"><div class="step-inner">CAMPUS TOUR</div></li>
-		<li class="step step05"><div class="step-inner">DEPARTMENT VISIT</div></li>
+		<li class="step step01 active"><div class="step-inner">JANUARY</div></li>
+		<li class="step step02"><div class="step-inner">FEBRUAURY</div></li>
+		<li class="step step03"><div class="step-inner">MARCH</div></li>
+		<li class="step step04"><div class="step-inner">APRIL</div></li>
+		<li class="step step05"><div class="step-inner">MAY</div></li>
 	</ul>
 	
 	<div id="line">
@@ -306,45 +306,27 @@
 
 <div id="progress-content-section">
 	<div class="section-content discovery active">
-
-		<h2 class="two">GRAND REUNION</h2>
-		<p class="two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-	        <div c>
-                <a href=#><img src="img/reunion.jpg" class="img-fluidi img-thumbnail"></a>
-           </div> 
-    
+		<p class="two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p> 
     </div>
 	
 	<div class="section-content strategy">
-		<h2>2.2 MARATHON</h2>
+
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-		        <div >
-                <a href=#><img src="img/reunion.jpg" class="img-fluidi img-thumbnail"></a>
-           </div> 
     </div>
 	
 	<div class="section-content creative">
-		<h2>HALL VISIT</h2>
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-		        <div >
-                <a href=#><img src="img/reunion.jpg" class="img-fluidi img-thumbnail"></a>
-           </div> 
     </div>
 	
 	<div class="section-content production">
-		<h2>CAMPUS TOUR</h2>
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-		        <div >
-                <a href=#><img src="img/reunion.jpg" class="img-fluidi img-thumbnail"></a>
-           </div> 
     </div>
 	
 	<div class="section-content analysis">
-		<h2>DEPARTMENT VISIT</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-		        <div>
-                <a href=#><img src="img/reunion.jpg" class="img-fluidi img-thumbnail"></a>
-           </div> 
     </div>
 	</div>
 </div>
@@ -405,6 +387,8 @@
 </section>
 
 
+  <div id="preloader"></div>
+    <a href="#" class="back-to-top"><i class="far fa-3x fa-arrow-alt-circle-up"></i></a>
 
 
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
