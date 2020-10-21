@@ -13,7 +13,7 @@
     <style>
         .heading {
             background-image: url("imgs/1st page-01.jpg");
-            height: 100vh;
+            height: 80vh;
             background-position: center bottom;
             background-repeat: no-repeat;
             background-size: cover;
@@ -33,30 +33,36 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .content-text{
+
+        .content-text {
             color: white;
             border-radius: 10px;
-            background-color: rgba(100,149,237,0.2);
+            background-color: rgba(100, 149, 237, 0.2);
             margin-top: 10%;
-            box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
         }
-        .content-text h1{
-            color:rgb(25,25,112);
+
+        .content-text h1 {
+            color: rgb(25, 25, 112);
             font-size: 3rem;
         }
-        .content-text h4{
+
+        .content-text h4 {
             font-size: 1.3em;
         }
+
         .yearbooks {
-            background-image: url("imgs/bricks_Mesa de trabajo 1.jpg");
-            height: 200vh;
+            background: url("imgs/bricks_Mesa de trabajo 1.jpg"),
+                url("");
+            height: 100%;
             background-position: center bottom;
             background-repeat: no-repeat;
             background-size: cover;
             font-size: 7rem;
             color: white;
         }
-        .book{
+
+        .book img {
             height: 400px;
             width: 100%;
             max-width: 300px;
@@ -70,7 +76,7 @@
         <div class="container-fluid" style="max-width:1400px">
             <div class="row" style="height: 100vh;">
                 <div class="col-md-6 px-6 align-self-center">
-                    Yearbook<br/>
+                    Yearbook<br />
                 </div>
             </div>
         </div>
@@ -81,14 +87,13 @@
             <div class="row px-md-5 px-2">
                 <div class="col-md-6 col-x-12 py-4 content-text">
                     <div class="px-3 py-1">
-                    <h1 class="">About</h1>
-                     <div class="progress ">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h4 class="">The yearbook is a dedicated volume that captures the nostalgic memories of the graduating batch of our Institute. The beautiful years spent in the Institute are engraved and expressed via photos and writeups which is given as a souvenir of departure from the Institute. Few years down the road when they will walk down the memory lane, 
-                    the yearbook will be the light which will lit up the faded memories and show the path through the old forgotten ways
-                    </h4>
+                        <h1 class="">About</h1>
+                        <div class="progress ">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4 class="">The yearbook is a dedicated volume that captures the nostalgic memories of the graduating batch of our Institute. The beautiful years spent in the Institute are engraved and expressed via photos and writeups which is given as a souvenir of departure from the Institute. Few years down the road when they will walk down the memory lane,
+                            the yearbook will be the light which will lit up the faded memories and show the path through the old forgotten ways
+                        </h4>
                     </div>
                 </div>
             </div>
@@ -102,16 +107,13 @@
                 </div>
             </div>
             <div class="row-xs-12 py-4">
-                <div class="col-md-6 col-xs-12 px-5 ">
-                    <img src="imgs\yearbook\year2012.jpg" class="book">
+                <div class="col-md-6 col-xs-12 px-5 book">
+                    <img src="imgs\yearbook\year2012.jpg">
                 </div>
             </div>
-            <div class="row-xs-12 py-4">
-            <div class="col-md-6 col-xs-12">
-                    
-                    </div>
-                <div class="col-md-6 col-xs-12">
-                    
+            <div class="row-xs-12 py-4 justify-content-end">
+                <div class="col-md-6 col-xs-12 book">
+                    <img src="imgs\yearbook\year2012.jpg">
                 </div>
             </div>
         </div>
