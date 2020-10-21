@@ -96,7 +96,6 @@
       </ul>
     </div>
   </nav>
-
   <header>
     <div class="container text-center">
       <div class="row">
@@ -107,7 +106,6 @@
       </div>
     </div>
   </header>
-
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
@@ -160,17 +158,17 @@
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Aditya Sharma</h5>
                       <h6 class="x">(Partner)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Abhishek Narain</h5>
                       <h6 class="x">(Senior Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Ashutosh Mohapatra</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
@@ -179,11 +177,11 @@
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/a.jpg" class="image img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/a.jpg" class="image img-responsive img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-6">
-                      <img class="image" src="img/guest-lecture/talk_MCK/b.jpg" class="image img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/b.jpg" class="image img-responsive  img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                   </div>
@@ -339,7 +337,6 @@
       </div>
     </div>
   </section>
-
   <section class="section-2">
     <div class="container text-center">
       <div class="row">
@@ -385,8 +382,6 @@
       </div>
     </div>
   </section>
-
-
   <!--footer start-->
   <main>
     <section id='footer'>
@@ -433,8 +428,6 @@
       </div>
   </main>
   <!-- 	Footer end	 -->
-
-
   <script>
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })

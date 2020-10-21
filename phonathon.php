@@ -255,7 +255,7 @@
                 </div>
                 <div class="col-12 col-sm-6 text-black">
                     <h1 class="font-weight-bold testimonial3_images testimonialheadingleft">Anmol Thakkar</h1>
-                    <h2 class="font-weight-bold testimonial3_images testimonialheadingleft">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3_images testimonialheadingleft" style="color: grey;">batch of '20</h2>
                     <div class="card c1 testimonialcaptionsleft testimonial3_images">
                         <div class="card-body mr-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -270,7 +270,7 @@
             <div class="row my-1 align-items-center bigscreenvisible" style="margin-top: 5%; margin-bottom: 5%;">
                 <div class="col-12 col-sm-6 offset-sm-1 text-black">
                     <h1 class="font-weight-bold testimonial2-images1 testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1 testimonialheadingright">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial2-images1 testimonialheadingright" style="color: grey;">batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial2-images1">
                         <div class="card-body ml-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -290,7 +290,7 @@
                 </div>
                 <div class="col-12 col-sm-6  text-black">
                     <h1 class="font-weight-bold testimonial2-images1b testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1b testimonialheadingright">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial2-images1b testimonialheadingright" style="color: grey;">batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial2-images1b">
                         <div class="card-body ml-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-12 col-sm-6 text-black">
                     <h1 class="font-weight-bold testimonial_images testimonialheadingleft">Aman Verma</h1>
-                    <h2 class="font-weight-bold testimonial_images testimonialheadingleft">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial_images testimonialheadingleft" style="color: grey;">batch of '20</h2>
                     <div class="card c1 testimonialcaptionsleft testimonial_images">
                         <div class="card-body mr-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -321,7 +321,7 @@
             <div class="row  align-items-center bigscreenvisible" style="margin-top: 5%;">
                 <div class="col-12 col-sm-6 offset-sm-1 text-black">
                     <h1 class="font-weight-bold testimonial3-images1 testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1 testimonialheadingright">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3-images1 testimonialheadingright"style="color: grey;">batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial3-images1">
                         <div class="card-body ml-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -342,7 +342,7 @@
                 </div>
                 <div class="col-12 col-sm-6  text-black">
                     <h1 class="font-weight-bold testimonial3-images1b testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1b testimonialheadingright">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3-images1b testimonialheadingright" style="color: grey;">batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial3-images1b">
                         <div class="card-body ml-auto">
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
