@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<?php include 'navbar.php' ?>
   <header>
     
     <div class="container text-center">
