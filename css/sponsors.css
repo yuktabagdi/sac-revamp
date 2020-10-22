@@ -1,0 +1,21 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+
+}
+hr{
+  border-bottom: solid #0278ae 1mm;
+}
+.mod{
+  top: 14%;
+  left: 2%;
+  z-index: 4;
+  display:contents;
+}
+h3{
+margin-left:2%;
+border-bottom:solid blue 1mm;
+display:inline-block;
+padding-bottom: 1%;
+margin-bottom: 4%;
+}
