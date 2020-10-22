@@ -31,33 +31,39 @@
       </div>
     </div>
   </header>
-  
-    <section class="section-1">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-6 col-12">
-            <div class="pray">
-              <img src="img/pexels-photo-1904769.jpeg" alt="Pray" class="" />
+
+<main>
+  <section class="section-1">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="panel text-left">
+            <h1>About the Programme</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
             </div>
-          </div>
-          <div class="col-md-6 col-12">
-            <div class="panel text-left">
-              <h1>Student Alumni Mentorship Programme</h1>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <p class="pt-4">
-                Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the Students' Alumni Cell, IIT Kharagpur.
+            <p class="pt-4">
+              Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the Students' Alumni Cell, IIT Kharagpur.
                 Through this programme students are connected with alumni who serve both as a guide and a source of inspiration for them.
                 SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
-              </p>
-              <br>
-              <button class="btn justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i class="fa fa-book"></i> Mentorship Portal</button>
-            </div>
+            </p>
+            <br>
+            <button class="btn justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i class="fa fa-book"></i> Mentorship Portal</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="pray">
+            <br><br><br><br>
+            <img src="img/mentorship.jpg" alt="Pray" class="" />
+            <br><br>
+            <img src="img/MENTORSHIPbnew.jpg" alt="Pray" class="" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
     <section class="section-2 container-fluid p-0">
       <div class="cover">
         <div class="overlay"></div>
@@ -87,17 +93,39 @@
       </div>
       </div>
     </section>
-    <section class="section-3 container-fluid p-0 text-left">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h1 class="text-center">Framework of Mentorship Programme</h1>
-          <p>Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
-            <br> the students facing crossroads at every other turn and unable to choose what's best for them due to a lack of insight into how things would actually materialize with each road that they choose to take, it becomes crucial that they get advice from people who have faced the very same crossroads in their student life and the big bad competitive world beyond it.       
-            </span></p>
+
+    <section class="section-1">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>Framework of the Programme</h1>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <p class="pt-4">
+                Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation. It facilitates a medium where the student connects with an Alumnus from a field he has a profound interest in.
+            
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>Connecting with our Alumni</h1>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <p class="pt-4">
+                The Institute has undergone many changes from time to time- While some are quite evident like the construction and commencement of classes at the new Nalanda Complex, others are a bit subtle like the formation of interesting new societies, changes in the General Championship standings and other transitions that the Institute is undergoing.
+            
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- Section 4 -->
     <section class="section-4">
       <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" 
