@@ -24,21 +24,13 @@ body {
 }
 
 .main h1,.Pre_Heads h1{
-  border-bottom: solid #0278ae 1mm;
-  border-top: solid #0278ae 1mm;
-  border-bottom-left-radius: 5mm;
-  border-bottom-right-radius: 5mm;
   color: black;
   padding-right: 4%;
   padding-left: 4%;
   font-weight: bold;
+  font-size: 3em;
   display: inline-block;
-  margin-bottom: 7%;
   margin-top: 2%;
-}
-
-.co h1 {
-  margin-bottom: 5%;
 }
 
 .main {
@@ -48,15 +40,17 @@ body {
 }
 
 .gsec {
-  width: 95%;
+  width: 85%;
   background-color: white;
   box-shadow: 5px 5px 10px 5px #888888;
   padding: 5% 0;
   margin-bottom: 0.25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .co {
-  width: 95%;
+  width: 85%;
   background-color: white;
   box-shadow: 5px 5px 10px 5px #888888;
   background-color: white;
@@ -65,7 +59,7 @@ body {
 }
 
 .wt {
-  width: 95%;
+  width: 85%;
   background-color: white;
   box-shadow: 5px 5px 10px 5px #888888;
   padding: 5% 3%;
@@ -73,7 +67,7 @@ body {
 }
 
 .dt {
-  width: 95%;
+  width: 85%;
   background-color: white;
   box-shadow: 5px 5px 10px 5px #888888;
   padding: 8% 3%;
@@ -96,20 +90,20 @@ body {
 
 @media only screen and (min-width: 775px) {
   .r-card {
-    left: 42%;
+    left: 50%;
   }
 
   .l-card {
     left: 20%;
   }
   .m-card{
-    left: 25%;
+    left: 27%;
   }
   .dt .l-card{
-    left:15%;
+    left:8%;
   }
   .dt .r-card{
-    left: 35%;
+    left: 45%;
   }
 }
 
@@ -139,8 +133,8 @@ h2
   transition: .5s ease;
   width: 100%;
   height: 100%;
-position:absolute;
-  padding:5%;
+  position:absolute;
+ padding:5%;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
@@ -159,8 +153,9 @@ position:absolute;
   color: black;
   background: white;
   text-align: left;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Pre_Heads h4{
   text-align: center;
@@ -172,4 +167,9 @@ position:absolute;
   border-top: solid #0278ae 1mm;
   border-bottom-left-radius: 5mm;
   border-bottom-right-radius: 5mm;
+}
+.progress{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
