@@ -69,15 +69,22 @@
  $(document).ready(function(){
       $('#login_button').click(function(){
            var username = $('#username').val();
-           var password = $('#password').val();
-           if(username != '' && password != '')
+           var designation = $('#designation').val();
+           var details = $('#details').val();
+           var email = $('#email').val();
+           var phonenumber = $('#number').val();
+           var address = $('#Address').val();
+           if(username != '' && designation != '' && email!='' && phonenumber!=''&&address!=''&&details!='')
            {
                 $.ajax({
                      url:"action.php",
                      method:"POST",
-                     data: {username:username, password:password},
+                     data: {username:username, designation:designation ,details:details,email:email,phonenumber:phonenumber,address:address},
                      success:function(data)
                      {
+                       if (phonenumber.length < 10) {
+                        alert("entered number is wrong");
+                      }
                           //alert(data);
                           if(data == 'No')
                           {
@@ -93,7 +100,7 @@
            }
            else
            {
-                alert("Both Fields are required");
+                alert("Every field is required");
            }
       });
       $('#logout').click(function(){
