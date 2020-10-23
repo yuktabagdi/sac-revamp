@@ -354,6 +354,7 @@
                 </div>
             </div>
         </section>
+        
         <!--Scroll animations for testimonials section-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
@@ -431,53 +432,7 @@
 
         </script>
     </main>
-    <section id='footer'>
-        <div class='container-fluid'>
-            <div class='row'>
-                <div class='col-4 footer-top-left'>
-                    <h1> Get Social <br>With Us<br><span class='dots'>...</span>
-                    </h1>
-                </div>
-                <div class=col-2>
-                </div>
-                <div class='col-6 footer-top-right'>
-                    <h5>Students' Alumni Cell, IIT Kharagpur</h5>
-                    <p>Office of Alumni Affairs & International Relations,<br>
-                        Indian Institute of Technology, Kharagpur<br>
-                        Pin-721302, West Bengal, India<br><br>
-                        <em>Ph: 03222-281860</em> <br>
-                        <em>Email: aao@hijli.iitkgp.ernet.in</em>
-                    </p>
-                    <hr>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-2 '>
-                    <span class='bar'>|</span>
-                </div>
-                <div class=col-2>
-                    <i class="icon fab fa-facebook"></i>
-                </div>
-                <div class='col-2'>
-                    <i class="icon fab fa-instagram"></i>
-                </div>
-                <div class='col-2'>
-                    <i class="icon fab fa-twitter-square"></i>
-                </div>
-                <div class='col-2'>
-                    <i class="icon fab fa-medium"></i>
-                </div>
-                <div class='col-2'>
-                    <i class="icon fab fa-linkedin"></i>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <div id='copyright'>
-        <p>&copy; 2018 Students' Alumni Cell</p>
-    </div>
-
+    <?php include 'footer.php' ?>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

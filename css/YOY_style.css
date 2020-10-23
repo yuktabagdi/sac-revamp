@@ -123,6 +123,7 @@ header {
   background: url(../img/background_image.jpg);
   background-size: cover;
   background-position: center;
+  height: 90vh;
 }
 
 header .container .col-md-7 {
