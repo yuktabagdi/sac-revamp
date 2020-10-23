@@ -139,7 +139,7 @@
 <!--    Copyright -->
   	</section>
   	<section id='copyright'>
-  		<p>&copy; 2018 Students' Alumni Cell</p>
+  		<p>&copy; 2020 Students' Alumni Cell</p>
   	</section>
   	
 
