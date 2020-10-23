@@ -77,11 +77,7 @@
 
         <section class="section-3">
             <div class="container-fluid">
-                <h1 class="text-center"><span style='color: blue'>E</span><span style='color: red'>x</span><span
-                        style='color: green'>i</span><span style='color: black'>b</span><span
-                        style='color: orange'>i</span><span style='color: purple'>t</span><span
-                        style='color: yellow'>i</span><span style='color: pink'>o</span><span
-                        style='color: orangered'>n</span> Corner......</h1>
+                <h1 class="text-center">Exibition Corner......</h1>
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
@@ -228,10 +224,10 @@
                                 </div>
                             </div>
                             <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev-icon bg-dark"></span>
+                                <span class="carousel-control-prev"><i class="fas fa-chevron-circle-left" style="color: black;padding-left: 2em; font-size: 5em;"></i></span>
                             </a>
                             <a href="#inam" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next-icon bg-dark"></span>
+                                <span class="carousel-control-next"><i class="fas fa-chevron-circle-right" style="color: black;padding-right: 2em; font-size: 5em;"></i></span>
                             </a>
 
                         </div>

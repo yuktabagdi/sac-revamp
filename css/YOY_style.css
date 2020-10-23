@@ -284,9 +284,11 @@ header .container .col-md-7 p {
   }
 
 .section-3 h1{
-  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.4em 0;
+  font-size: 3em;
   color: black;
-  font-size: 10vmin;
 }
 .section-3 .card{
     position: relative;
