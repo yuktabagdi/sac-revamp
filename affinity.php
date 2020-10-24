@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Affinity program</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/affinity.css">
@@ -21,6 +21,9 @@
   <div class="initial">
     <h2>Student Alumni Cell</h2>
     <h1>Affinity Programme</h1>
+    <div class="progress" style="margin-bottom:7%;width:60%;">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
     <p> GET SPECIAL BENIFITS FOR BEIGN IN IIT KHARAGPUR FAMILY </p>
     <br>
     <p>For students and Alumni</p>
@@ -28,12 +31,11 @@
   </div>
   <div class="info content">
     <div class="text">
-      <h1>Affinity programme</h1>
-      <br>
-      <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius nulla id leo sollicitudin, ut imperdiet sapien tincidunt. Ut eleifend sagittis feugiat. Sed ultricies dignissim sem quis condimentum. Proin dui elit, auctor at mattis nec,
-        ornare sit amet tellus. Pellentesque non felis lacus. Morbi mauris erat, porta sed erat ut, ornare bibendum est. Donec varius malesuada eros, ut volutpat dui tristique quis. Nulla facilisi. Proin viverra tellus quis orci venenatis, ac
-        suscipit nulla semper. </p>
+      <h1>AFFINITY PROGRAMME</h1>
+      <div class="progress" style="margin-bottom:7%;width:80%;margin-left:0;">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+      <p>Students' Alumni Cell is a pioneer in volunteer-based organisations, since it's inception it has strived towards building connections between the students and the alumni community. One of the only initiative of its kind in the institute is the IIT Kharagpur Affinity Programme. We strive towards establishing strong and firm relations with multinational companies by establishing two-way ties in which they provide KGPians with incentives and unimaginable discounts on goods and services and in return these companies benefit by gaining a huge client base an unprecedented marketing.  </p>
     </div>
     <div class="image">
       <img src="img/afinity/work.jpeg" style="height:400px;width:250px;" alt="">
@@ -41,7 +43,10 @@
   </div>
   <div class="present content">
     <div class="company">
-      <h1>Current Association</h1>
+      <h1>CURRENT ASSOCIATION</h1>
+      <div class="progress" style="margin-bottom:7%;width:60%;">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
       <div class="row">
         <div class="col-md-2 col-sm-12 l-card">
           <div class="card  bg-card">
@@ -122,7 +127,10 @@
   </div>
   <div class="past content">
     <div class="company">
-      <h1>Previous Association</h1>
+      <h1>PREVIOUS ASSOCIATION</h1>
+      <div class="progress" style="margin-bottom:7%;width:60%;">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
       <div class="row">
         <div class="col-md-2 col-sm-12 l-card">
           <div class="card  bg-card">
@@ -149,14 +157,12 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body" style="text-align:left;font-weight:500;">
+          <div class="modal-body" style="text-align:left;font-weight:lighter;">
 
           </div>
         </div>
       </div>
     </div>
-
-    <?php include 'footer.php' ?>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
