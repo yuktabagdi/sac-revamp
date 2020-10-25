@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 body {
   text-align: center;
   width: 100%;
@@ -12,9 +14,10 @@ body {
 }
 
 .first-page h1 {
-    display: inline-block;
+  display: inline-block;
+  font-weight: lighter;
   color: white;
-  font-size: 5rem;
+  font-size: 4.5rem;;
   margin-bottom: 4%;
   border-bottom: solid white 2mm;
 }
@@ -22,60 +25,58 @@ body {
   padding: 0;
   width: inherit;
 }
-
-.main h1,.Pre_Heads h1{
-  border-bottom: solid #0278ae 1mm;
-  border-top: solid #0278ae 1mm;
-  border-bottom-left-radius: 5mm;
-  border-bottom-right-radius: 5mm;
-  color: black;
-  padding-right: 4%;
-  padding-left: 4%;
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 7%;
-  margin-top: 2%;
+li{
+  font-size: 0.9em;
+  font-family: "Rubik", cursive;
+  line-height: 1.5;
 }
-
-.co h1 {
-  margin-bottom: 5%;
+.main h1,.Pre_Heads h1{
+  color: black;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: inline-block;
+  padding-bottom: 0.4em;
+  font-weight: bold;
+font-family: 'Raleway', sans-serif;
+font-size: 3em;
 }
 
 .main {
   padding: 2.5% 1.5% 1.5%;
-  background-color: #f6f6f6;
   border-radius: 5mm;
 }
 
 .gsec {
-  width: 95%;
-  background-color: white;
-  box-shadow: 5px 5px 10px 5px #888888;
+  width: 85%;
+  background-color: transparent;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   padding: 5% 0;
   margin-bottom: 0.25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .co {
-  width: 95%;
-  background-color: white;
-  box-shadow: 5px 5px 10px 5px #888888;
+  width: 85%;
+  background-color: transparent;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   background-color: white;
   padding: 1% 3% 3%;
   margin-bottom: 0.25%;
 }
 
 .wt {
-  width: 95%;
-  background-color: white;
-  box-shadow: 5px 5px 10px 5px #888888;
+  width: 85%;
+  background-color: transparent;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   padding: 5% 3%;
   margin-bottom: 0.25%;
 }
 
 .dt {
-  width: 95%;
-  background-color: white;
-  box-shadow: 5px 5px 10px 5px #888888;
+  width: 85%;
+  background-color: transparent;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   padding: 8% 3%;
   margin-bottom: 0.25%;
 }
@@ -96,20 +97,20 @@ body {
 
 @media only screen and (min-width: 775px) {
   .r-card {
-    left: 42%;
+    left: 50%;
   }
 
   .l-card {
     left: 20%;
   }
   .m-card{
-    left: 25%;
+    left: 27%;
   }
   .dt .l-card{
-    left:15%;
+    left:8%;
   }
   .dt .r-card{
-    left: 35%;
+    left: 45%;
   }
 }
 
@@ -134,13 +135,17 @@ body {
 h2
 {
   text-align: center;
+  padding: 0.4em 0;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+
 }
 .card__face--back {
   transition: .5s ease;
   width: 100%;
   height: 100%;
-position:absolute;
-  padding:5%;
+  position:absolute;
+ padding:5%;
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
@@ -152,15 +157,16 @@ position:absolute;
   width: 260px;
   height: 255px;
   padding-top: 1%;
-  box-shadow: 5px 5px 10px 5px #888888;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 }
 .Pre_Heads{
-  box-shadow: 5px 5px 10px 5px #888888;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   color: black;
-  background: white;
+  background-color: transparent;
   text-align: left;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Pre_Heads h4{
   text-align: center;
@@ -172,4 +178,9 @@ position:absolute;
   border-top: solid #0278ae 1mm;
   border-bottom-left-radius: 5mm;
   border-bottom-right-radius: 5mm;
+}
+.progress{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
