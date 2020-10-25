@@ -27,7 +27,7 @@
   <div class="main">
     <div class="gsec container-fluid">
       <h1>GENERAL SECRETARIES</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;" >
+      <div class="progress" style="margin-bottom:7%;" >
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
@@ -69,7 +69,7 @@
   <div class="main">
     <div class="co container-fluid">
       <h1>CO-ORDINATORS</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
@@ -146,7 +146,7 @@
   <div class="main">
     <div class="wt container-fluid">
       <h1>WEB TEAM</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
@@ -188,11 +188,11 @@
   <div class="main">
     <div class="dt container-fluid">
       <h1>PUBLIC RELATION HEADS</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
-        <div class="col-md-2 col-sm-12 l-card ">
+        <div class="col-lg-2 col-md-6 col-sm-12 l-card ">
           <div class="card  bg-card">
             <div class="card__face card__face--front">
               <img src="img/Head_images/prasang.jpg" alt="">
@@ -208,7 +208,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-12 m-card">
+        <div class="col-lg-2 col-md-6 col-sm-12 m-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
               <img src="img/Head_images/ritish.jpg" alt="">
@@ -224,7 +224,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-12 r-card">
+        <div class="col-lg-2 col-md-12 col-sm-12 r-card">
           <div class=" card bg-card">
             <div class="card__face card__face--front">
               <img src="img/Head_images/nischay.jpg" alt="">
@@ -245,8 +245,8 @@
   </div>
   <div class="main">
     <div class="Pre_Heads">
-      <h1 style="margin-left: 30%;" >FORMER HEADS</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <h1 >FORMER HEADS</h1>
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row" style="margin-top: 50px;">
