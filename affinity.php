@@ -21,7 +21,7 @@
   <div class="initial">
     <h2>Student Alumni Cell</h2>
     <h1>Affinity Programme</h1>
-    <div class="progress" style="margin-bottom:7%;width:60%;">
+    <div class="progress" style="margin-bottom:7%;">
         <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
     <p> GET SPECIAL BENIFITS FOR BEIGN IN IIT KHARAGPUR FAMILY </p>
@@ -44,7 +44,7 @@
   <div class="present content">
     <div class="company">
       <h1>CURRENT ASSOCIATION</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
@@ -128,7 +128,7 @@
   <div class="past content">
     <div class="company">
       <h1>PREVIOUS ASSOCIATION</h1>
-      <div class="progress" style="margin-bottom:7%;width:60%;">
+      <div class="progress" style="margin-bottom:7%;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
       <div class="row">
