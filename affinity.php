@@ -44,11 +44,8 @@
                 aria-valuemax="100"></div>
             </div>
             <p class="pt-4">
-              Students' Alumni Cell is a pioneer in volunteer-based organisations,
-              since it's inception it has strived towards building connections between the
-              students and the alumni community. One of the only initiative of its kind in
-              the institute is the IIT Kharagpur Affinity Programme, an initiative that is
-              undertaken by the SAC to benefit the entire KGP community ie. alumni and
+              IIT Kharagpur's Affinity Programme, is an initiative
+              undertaken by the Students' Alumni Cell to benefit the entire KGP community ie. alumni and
               students alike. We strive towards establishing strong and firm relations
               with multinational companies by establishing two-way ties in which they provide
               KGPians with incentives and unimaginable discounts on goods and services and
@@ -81,23 +78,55 @@
             <div class="row">
               <div class="col-sm-4">
                 <div class="service-card">
-                  <div class="card">
-                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:14.4em;'>
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:13em;'>
                     <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text">
+                        <b>The benefits of this association include:</b><br>
+                           Special Prices<br>
+                           Affordable EMIs<br>
+                           Free 3rd party accidental and liquid damage insurance<br>
+                           Easy Exchange<br>
+                           <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-sm-4">
                 <div class="service-card">
-                  <div class="card">
-                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="service-card">
-                  <div class="card">
+                  <div class="card content">
+                    <div class="content-overlay"></div>
                     <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text">
+                        <b>Avail the special offers now.</b><br>
+                          50% Discount on Amazon SDE Test series <br>
+
+                           25% Discount on Data Structures & Algorithm course<br>
+                           Use coupon code<br> KGPIAN_PERKS (For Amazon SDE) <br>& KGPIAN_PERKS_DSA (For DSA Course)<br>
+                       <a href=https://lm.facebook.com/l.php?u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fcourses%2Fonline%3Ffbclid%3DIwAR1-zfhfePh_nbITuRw83AUrbhqUIAhxGG9dcqnACpcPd0yaI2yjpqhhumc&h=AT2_tlm-K4l51Fw7EpLlMArnoapR3WVYkpbrtNcp0u5cBv1ZxayQBK_eclqGcEI6X-KSRPJiBirv6iqno5b3OD78VmhqzvoZ7Abb3f21d6pc8diH8Qy2t0J6aZupLTp4CZfLlnVsuPoy42qknI4YcARAtbSJjGw7I11dQw>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content">
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text">
+                        <b>The benefits of this association include:</b><br>
+                         Courses with discount coupons.<br>
+                         A chance to get internship for selected enrolled students.<br>
+                         Discounted passes for Annual data Science conference for selected students.<br>
+                         <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -126,16 +155,33 @@
               </div>
               <div class="col-sm-4">
                 <div class="service-card">
-                  <div class="card" >
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
                     <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text">
+                        <b>HDFC offering the following options: </b><br>
+                          The benefits of this association includes:
+                          New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
+                        <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
+                        <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <br>
               <div class="col-sm-4">
                 <div class="service-card">
-                  <div class="card" >
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
                     <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text"><b>Oyo offering the following stay options: </b><br>
+                           Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
+                           Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
