@@ -5,7 +5,7 @@
 }
 
 header,section{
-  overflow-y: hidden; /* Hide vertical scrollbar */
+ overflow-y:hidden;/* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 body{
@@ -88,45 +88,18 @@ nav{
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    color: #effad3;
+    color: blue;
     transition: all 0.4s;
 }
-
-.back-to-top .fa-arrow-alt-circle-up:hover {
-   background: #effad3;
-    color: green;
-}
 	
 	
 	
-	
-	
-	
-	
-	
-.navbar-nav .nav-item .nav-link .dropdown-menu li{
-  transition:.5s;
-}
-.navbar-nav .nav-item .nav-link .dropdown-menu li:checked{
-    background:#fff;
-}
-.navbar-nav .nav-item .dropdown-menu li:nth-child(2n){
-	background:#f7f7f7;	
-    
-}
-.navbar-nav .nav-item .dropdown-menu li:hover{
-	border: 1px solid black;
-}
-.navbar .nav-item:hover .dropdown-menu{
-    display: block; 
-    }
-.navbar-brand img{
-        width:149.3px;
-        height:70px;
-    }
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/	
 .section1   .carousel-item .img-fluid {
   width:100%;
-  height:100vh;
+  height:80vh;
 }
 
 .section1  .carousel-item a {
@@ -159,7 +132,9 @@ nav{
 .carousel-control-next:hover {
   color:red;
 }
-    
+.section4 .fa-chevron-circle-right,.section4 .fa-chevron-circle-left {
+color:black;
+ }	 
 .carousel,.item,.section1 .carousel-inner .active{height:680px;}
 .section1 .carousel-inner{height:680px;}
 
@@ -167,84 +142,38 @@ nav{
     width:60%;
 }
 
-.about p{
+.section2,.section3,.section5,.section4 p{
 line-height:2;
-font-size:1.25rem;
+/*font-size:1.25rem;*/
+ font-size: 0.9em;
+color: rgba(0, 0, 0, 0.5);
+ font-family: var(--Rubik);
+
 }  
+#footer p{
+	color:white;
+}
 
 .about h2{
-font-weight:600;
-font-size:2.25rem;
-padding:2rem;
-border-bottom: 2px solid black;
+font-weight:bold;
+font-size:3em;
+padding:0 2rem;
 
 }  
   
 .section1,.section2{
     margin-bottom:6rem;
 }
-.section3,.section5,.section4{
+.section3,.section5,.section4 {
     margin-bottom:7rem;
 }
-
-.
-
 @media (max-width: 768px){
-.z{
-    height:110px;
-    width:110px;
+	.z{
+		width:110px;
+		height:110px;
+	}
 }
-}
-
-
-
-  #footer{
-    background-color: #23232b;
-    height:18rem;
-  }
-  
-  .footer-top-left{
-    height:12rem;
-    background-image: linear-gradient(to bottom right, #283949, #342b2d);
-    color:white;
-    padding-top:1.8rem;
-  }
-  
-  .footer-top-right{
-    padding:1.8rem;
-    color:#eef0ef;
-  
-  }
-  
-  .dots{
-    font-size: 2em;
-    position:relative;
-    bottom:2.5rem;
-  }
-  
-  .bar{
-    font-size:3em;
-    color:white;
-    position:absolute;
-    top:-2.8rem;
-    left:2rem;
-  
-  
-  }
-  
-  .icon{
-    font-size: 2em;
-    color:white;
-    position:absolute;
-    top:-1rem;
-    
-  }
-  #copyright{
-    background-color: black;
-    text-align:center;
-    color:grey;
-  }
-  .section-3{
+.section-3{
     margin-bottom:12rem;
 }
 /*
@@ -285,9 +214,10 @@ border-bottom: 2px solid black;
 .panel {
 	top: 7vmin;
     left: -18vmin;
-	background:#a8dda8;
+	background:#fff;
 	border-radius: 3px;
 	padding: 5vmin 5vmin 5vmin 5vmin;
+	  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 	font-family: var(--Rubik);
   }
 .round-img{
@@ -306,7 +236,6 @@ border-bottom: 2px solid black;
 }
 .box:hover{
     transform:translateY(-40px);
-    background:#a8dda8;
 }
 
 .section4 .carousel-indicators{
@@ -326,7 +255,7 @@ border-bottom: 2px solid black;
 } 
 } 
 .section4 .carousel-indicators li{
-    background-color:#a8dda8!important;
+    background-color:black!important;
 }
 .section4 .carousel{
     height:500px;
@@ -467,9 +396,9 @@ border-bottom: 2px solid black;
 #progress-content-section {
 	width:90%;
 	margin: auto;
-	background: #a8dda8;
+	background: #fff;
 	border-radius: 4px;
-    box-shadow:0 0px 0px 0 rgba(0,0,0,0.7);
+		  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -486,11 +415,11 @@ border-bottom: 2px solid black;
     margin-bottom:2rem;
 }
 
-#progress-content-section .section-content p {
+/*#progress-content-section .section-content p {
 	font-size:16px;
 	line-height:1.8em;
 	color:#777;
-}
+}*/
 
 #progress-content-section .section-content {
 	display:none;
