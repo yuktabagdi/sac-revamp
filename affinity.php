@@ -8,7 +8,7 @@
   <title>Alumni Talks</title>
 
   <!--CSS only-->
-  <link rel="stylesheet" href="css/alumni_talks.css">
+  <link rel="stylesheet" href="css/affinity.css">
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -80,22 +80,25 @@
             <br>
             <div class="row">
               <div class="col-sm-4">
-                <div class="card">
-                  <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:14.4em;'>
-                  <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
-                </div>
-
-              </div>
-              <div class="col-sm-4">
-                <div class="card">
-                  <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
-
+                <div class="service-card">
+                  <div class="card">
+                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:14.4em;'>
+                    <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
+                  </div>
                 </div>
               </div>
               <div class="col-sm-4">
-                <div class="card">
-                  <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
-
+                <div class="service-card">
+                  <div class="card">
+                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card">
+                    <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,16 +125,18 @@
 
               </div>
               <div class="col-sm-4">
-                <div class="card" >
-                  <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
+                <div class="service-card">
+                  <div class="card" >
+                    <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
+                  </div>
                 </div>
-
               </div>
               <br>
               <div class="col-sm-4">
-                <div class="card" >
-                  <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
-
+                <div class="service-card">
+                  <div class="card" >
+                    <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
+                  </div>
                 </div>
               </div>
               <div class="col-sm-2">
