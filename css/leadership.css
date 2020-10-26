@@ -120,7 +120,7 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/background_image.jpg);
+  background: url(../img/sparccover.jpg);
   background-size: cover;
   background-position: center;
   
@@ -152,12 +152,12 @@ header .container .col-md-7 p {
 
 
 main{
-  background: var(--bggradient);
+  background: white;
 }
 
 
 .section-1 {
-	padding: 10vmin 0vmin;
+	padding: 5vmin 0vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
@@ -349,13 +349,13 @@ main{
 }
 
 .card:hover .card-title {
-    transition-delay: 1s;
+    transition-delay: all 1s ease;
     opacity: 0.8;
 }
 
 .card:hover .card-img {
     opacity: 0.5;
-    transition-delay: 1s;
+    transition-delay: all 1s ease;
 }
 
 .card-img {

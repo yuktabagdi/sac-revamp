@@ -32,7 +32,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(#00498D,white);
+  --bggradient: linear-gradient(#151965,#32407b);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -120,7 +120,8 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../yearbook/imgs/night-01.jpg);
+  height: 90vh;
+  background: url(../img/yearbook/main-building-01-01.jpg);
   background-size: cover;
   background-position: center;
   
@@ -324,44 +325,69 @@ main{
     color:grey;
   }
 
-  .heading {
-    align-self: center;
+ 
+
+@media only screen and (min-width: 768px){
+  .content-box {
+    font-family: var(--Rubik);
+    background-image: url("../yearbook/imgs/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    font-size: 3em;
     color: white;
 }
-
-.yearbooks {
-    background-color: blanchedalmond;
-    background:linear-gradient(#02386E,white);
-}
-
-.card {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    height: 450px;
-    background:linear-gradient(#02386E,white);
-}
-@media only screen and (min-width: 768px){
-.book {
-    margin-left: 30%;
-    height: 300px;
-    width: 33%;
-    position: absolute;
-}
-
-.book img {
-    height: 100%;
-    object-fit: center;
+  .book {
+    padding:20px;
+  }
+  
+  .book img{
+    border: 3px solid black;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-}
+    height: 400px;
+    object-fit: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    header .navbar-brand {
-      padding-left: 1rem;
-    }
+  .content-box {
+    background-image: url("../yearbook/imgs/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    font-size: 3em;
+    color: white;
+  }
+  .book {
+    padding:0px;
+  }
+  .headin{
+    font-size: 1em;
+  }
+  .book img{
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 300px;
+    object-fit: center;
+  }
+}
 
-    .section-1 .row .col-md-6 .panel {
-        position: initial;
-        width: initial;
-        height: initial;
-      }
+.book div{
+  opacity: 1;
+}
+
+.img-txt h4{
+  border:1px outset black;
+  background-color: #DCDCDC;
+  color: blue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
