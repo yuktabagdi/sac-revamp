@@ -400,6 +400,8 @@
               </div>
             </div>
             <div class="row">
+              <div class="col-sm-3 align-items-center">
+              </div>
 
               <div class="col-12 col-sm-6 col-6">
                   <div class="service-card last-card">
@@ -429,7 +431,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-6 align-items-center">
+              <div class="col-sm-3 align-items-center">
               </div>
             </div>
           </div>

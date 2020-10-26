@@ -1,174 +1,265 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Affinity program</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/affinity.css">
+  <title>Alumni Talks</title>
+
+  <!--CSS only-->
+  <link rel="stylesheet" href="css/alumni_talks.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--GSAP core plugin-->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+  <!--GSAP scroll trigger-->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <?php include 'navbar.php'; ?>
-  <div class="initial">
-    <h2>Student Alumni Cell</h2>
-    <h1>Affinity Programme</h1>
-    <div class="progress" style="margin-bottom:7%;">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-    <p> GET SPECIAL BENIFITS FOR BEIGN IN IIT KHARAGPUR FAMILY </p>
-    <br>
-    <p>For students and Alumni</p>
-    <hr>
-  </div>
-  <div class="info content">
-    <div class="text">
-      <h1>AFFINITY PROGRAMME</h1>
-      <div class="progress" style="margin-bottom:7%;width:80%;margin-left:0;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-      <p>Students' Alumni Cell is a pioneer in volunteer-based organisations, since it's inception it has strived towards building connections between the students and the alumni community. One of the only initiative of its kind in the institute is the IIT Kharagpur Affinity Programme. We strive towards establishing strong and firm relations with multinational companies by establishing two-way ties in which they provide KGPians with incentives and unimaginable discounts on goods and services and in return these companies benefit by gaining a huge client base an unprecedented marketing.  </p>
-    </div>
-    <div class="image">
-      <img src="img/afinity/work.jpeg" style="height:400px;width:250px;" alt="">
-    </div>
-  </div>
-  <div class="present content">
-    <div class="company">
-      <h1>CURRENT ASSOCIATION</h1>
-      <div class="progress" style="margin-bottom:7%;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+  <header>
+    <div class="container text-center">
       <div class="row">
-        <div class="col-md-2 col-sm-12 l-card">
-          <div class="card  bg-card">
-            <div class="card__face card__face--front">
-              <img src="img/afinity/samsung.jpg" alt="">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h1 style="text-align: left;">AFFINITY PROGRAMME</h1>
+          <h6 style="text-align: left;">SAC initiative</h6>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="panel text-left">
+            <h1>AFFINITY PROGRAMME</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
             </div>
-            <div class="card__face card__face--back" data-toggle="modal" data-target="#magnify" role="button" data-div=0>
-              <b class="heading">The benefits of this association include:</b>
-              <p class="text_align" style="font: 20px"><br>
-                -> Special Prices<br>
-                -> Affordable EMIs<br>
-                -> Free 3rd party accidental and liquid damage insurance<br>
-                -> Easy Exchange<br>
-                -> <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a><-
-              </p>
-            </div>
+            <p class="pt-4">
+              Students' Alumni Cell is a pioneer in volunteer-based organisations,
+              since it's inception it has strived towards building connections between the
+              students and the alumni community. One of the only initiative of its kind in
+              the institute is the IIT Kharagpur Affinity Programme, an initiative that is
+              undertaken by the SAC to benefit the entire KGP community ie. alumni and
+              students alike. We strive towards establishing strong and firm relations
+              with multinational companies by establishing two-way ties in which they provide
+              KGPians with incentives and unimaginable discounts on goods and services and
+              in return these companies benefit by gaining a huge client base an unprecedented
+              marketing. Thus, this initiative is an excellent way to help instigate a
+              feeling of privilege and pride to be part of the IIT Kharagpur community.
+            </p>
           </div>
         </div>
-        <div class="col-md-2 col-sm-12 r-card">
-          <div class=" card bg-card">
-            <div class="card__face card__face--front">
-              <img src="img/afinity/geek.png" alt="">
+        <div class="col-md-6 col-12">
+          <div class="pray">
+            <br><br><br><br>
+            <img src="img/guest-lecture/alumnitalks-2019-2.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Current Associations</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
             </div>
-            <div class="card__face card__face--back" data-toggle="modal" data-target="#magnify" role="button" data-div=1>
-              <b class="heading"> Geek for Geeks avail the special offers now.</b>
-              <p class="text_align" style="font: 15px"><br>
-                -> 50% Discount on Amazon SDE Test series <br>
+            <br>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:14.4em;'>
+                  <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
+                </div>
 
-                -> 25% Discount on Data Structures & Algorithm course<br>
-                -> Use coupon code KGPIAN_PERKS (For Amazon SDE) & KGPIAN_PERKS_DSA (For DSA Course)<br>
-                -><a
-                  href=https://lm.facebook.com/l.php?u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fcourses%2Fonline%3Ffbclid%3DIwAR1-zfhfePh_nbITuRw83AUrbhqUIAhxGG9dcqnACpcPd0yaI2yjpqhhumc&h=AT2_tlm-K4l51Fw7EpLlMArnoapR3WVYkpbrtNcp0u5cBv1ZxayQBK_eclqGcEI6X-KSRPJiBirv6iqno5b3OD78VmhqzvoZ7Abb3f21d6pc8diH8Qy2t0J6aZupLTp4CZfLlnVsuPoy42qknI4YcARAtbSJjGw7I11dQw>CLICK
-                  HERE</a><-
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2 col-sm-12 l-card">
-          <div class="card  bg-card">
-            <div class="card__face card__face--front">
-              <img src="img/afinity/a_v2.jpg" alt="">
-            </div>
-            <div class="card__face card__face--back" data-toggle="modal" data-target="#magnify" role="button" data-div=2>
-              <b class="heading">The benefits of this association include:</b>
-              <p class="text_align" style="font: 20px"><br>
-                -> Courses with discount coupons.<br>
-                -> A chance to get internship for selected enrolled students.<br>
-                -> Discounted passes for Annual data Science conference for selected students.<br>
-                -> <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a> <-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-12 r-card">
-          <div class=" card bg-card">
-            <div class="card__face card__face--front">
-              <img src="img/afinity/hdfc.png" alt="">
-            </div>
-            <div class="card__face card__face--back" data-toggle="modal" data-target="#magnify" role="button" data-div=3>
-              <b class="heading">HDFC offering the following options: </b>
-              <p class="text_align">
-                -> New upgraded HDFC bank Diners Club Black Credit Card.<br>
-                -> card contains :- <br>
-                . Annual Memberships,<br>
-                . Monthly Milestone benefits,<br>
-                . other added features<br>
-                <br>
-                <a href="Diners-Privilege.pdf">->Life Time Free Diners Black Card</a> <br>
-                <a href="Diners-Black-New.pdf">->Priced Diners Black card</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="past content">
-    <div class="company">
-      <h1>PREVIOUS ASSOCIATION</h1>
-      <div class="progress" style="margin-bottom:7%;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-      <div class="row">
-        <div class="col-md-2 col-sm-12 l-card">
-          <div class="card  bg-card">
-            <div class="card__face card__face--front">
-              <img src="img/afinity/Oyo.jpg" alt="">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
+
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
+
+                </div>
+              </div>
             </div>
-            <div class="card__face card__face--back" data-toggle="modal" data-target="#magnify" role="button" data-div=4>
-              <b class="heading">-> Oyo offering the following stay options: </b>
-              <p class="text_align"><br>
-                -> Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
-                -> Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="magnify" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body" style="text-align:left;font-weight:lighter;">
 
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-    <script src="js/affinity.js" charset="utf-8"></script>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Previous Associations</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-2">
+
+              </div>
+              <div class="col-sm-4">
+                <div class="card" >
+                  <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
+                </div>
+
+              </div>
+              <br>
+              <div class="col-sm-4">
+                <div class="card" >
+                  <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
+
+                </div>
+              </div>
+              <div class="col-sm-2">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer start-->
+ <?php include 'footer.php' ?>
+  </main>
+  <!-- 	Footer end	 -->
+  <script>
+    gsap.from('header', { opacity: 0, duration: 1 })
+    gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
+    gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from('.nav-item', {
+      scrollTrigger: {
+        trigger: '.nav-item',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+
+    gsap.from('.section-1 h1', {
+      scrollTrigger: {
+        trigger: '.section-1 h1',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+    gsap.from('.section-1 p', {
+      scrollTrigger: {
+        trigger: '.section-1 p',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 2.0,
+    });
+
+    gsap.from('.section-1 img', {
+      scrollTrigger: {
+        trigger: '.section-1 img',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1.5,
+      x: 200
+    });
+
+    var arr = document.getElementsByClassName("x");
+    for (var i = 0; i < arr.length; i++) {
+
+      gsap.from(arr[i], {
+        scrollTrigger: {
+          trigger: arr[i],
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: -200
+      });
+
+    }
+    var img_arr = document.getElementsByClassName("image");
+    for (var i = 0; i < img_arr.length; i++) {
+
+      gsap.from(img_arr[i], {
+        scrollTrigger: {
+          trigger: img_arr[i],
+          start: "top center",
+          toggleActions: "play none none none",
+        },
+        opacity: 0,
+        duration: 1.5,
+      });
+
+    }
+    gsap.utils.toArray('#panel').forEach((panel, i) => {
+      ScrollTrigger.create({
+        trigger: panel,
+        start: "top top",
+        pin: true,
+        pinSpacing: false
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
 </body>
 
 </html>
