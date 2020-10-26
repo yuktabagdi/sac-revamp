@@ -280,11 +280,7 @@ header a {
 	.card-img-top{
 		object-fit: cover;
 	}
-	.last-card{
-		/* width:80%; */
-		position:relative;
-		left:20.6rem;
-	}
+
 .contact-icon{
 	font-size: 1rem;
 	color:#52575d;
@@ -300,7 +296,7 @@ header a {
 .former-team-text{
 	text-align:left;
 	postion:relative;
-	left:5rem;
+	left:3.6rem;
 }
     #footer{
       background-color: #23232b;

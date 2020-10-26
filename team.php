@@ -401,9 +401,9 @@
             </div>
             <div class="row">
 
-              <div class="col-12 col-sm-6 align-items-center">
+              <div class="col-12 col-sm-6 col-6">
                   <div class="service-card last-card">
-                    <div class="card align-item-center">
+                    <div class="card ">
                       <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
                       <img class="card-img-top" src="img\team2020\nischay.jpg" alt="Card image cap">
                       <!-- <h3>CODEPEN</h3> -->
