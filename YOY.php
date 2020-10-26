@@ -152,7 +152,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/2006.jpg" class="card-img-top">
+                                                    <img src="img/yoy/2014.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2014....</h4>
 
@@ -224,10 +224,10 @@
                                 </div>
                             </div>
                             <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev"><i class="fas fa-chevron-circle-left" style="color: black;padding-left: 2em; font-size: 5em;"></i></span>
+                                <span class="carousel-control-prev-icon bg-dark"></span>
                             </a>
                             <a href="#inam" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next"><i class="fas fa-chevron-circle-right" style="color: black;padding-right: 2em; font-size: 5em;"></i></span>
+                                <span class="carousel-control-next-icon bg-dark"></span>
                             </a>
 
                         </div>
