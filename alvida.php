@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALVIDA</title>
     <link rel="stylesheet" href="css/alvida.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <script src="JS/alvida.js"></script>
+		<link href="vendor/venobox/venobox.css" rel="stylesheet">
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+  
 </head>
 
 <body>
@@ -134,7 +135,9 @@
                     <div class="col-md-6 col-12">
                         <div class="pray">
                             <br><br><br><br>
-                            <img src="img/Alvida/fifteen.jpg" alt="Pray" class="img-fluid">
+							<a href="img/Alvida/fifteen.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/Alvida/fifteen.jpg" alt="" class="img-fluid">
+							</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +157,9 @@
                             <!-- Photo Grid -->
                             <div class="row"> 
                                 <div class="col-12 col-sm-3">
-                                  <img src="img/Alvida/Alvida_2018/3.jpg" class="image" style="width:100%">
+								<a href="img/Alvida/Alvida_2018/3.jpg" class="venobox" data-gall="gallery-item">
+                                  <img src="img/Alvida/Alvida_2018/3.jpg" >
+								  </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
                                     <img src="img/Alvida/Alvida_2018/4.jpg" class="image" style="width:100%">
@@ -286,7 +291,7 @@
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
 
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
         gsap.from('header', { opacity: 0, duration: 1 })
@@ -348,7 +353,7 @@
             });
 
         }
-        var img_arr = document.getElementsByClassName("image");
+        /*var img_arr = document.getElementsByClassName("image");
         for (var i = 0; i < img_arr.length; i++) {
 
             gsap.from(img_arr[i], {
@@ -361,7 +366,7 @@
                 duration: 1.5,
             });
 
-        }
+        }*/
 
         gsap.registerPlugin(ScrollTrigger);
 
@@ -373,19 +378,14 @@
                 pinSpacing: false
             });
         });
+		$(document).ready(function(){
+    $('.venobox').venobox(); 
+});
     </script>
+<script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-
+		<script src="vendor/venobox/venobox.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

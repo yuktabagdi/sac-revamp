@@ -18,8 +18,69 @@
 <body style="background-color:#fff;">
 
 
-<section class="section1">
-<?php include 'navbar.php' ?>
+<section class="section1 m-0 p-0">
+<nav class="navbar navbar-expand-md navbar-dark p-0">
+<a class="navbar-brand p-0 pl-lg-4 pl-md-3 m-0 mb-1" href="#">
+    <img src="img/sac_logoprevious.png" alt="">
+  </a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span>
+ </button>
+ 
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto ">
+        <li class="nav-item dropdown">
+			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Events  </a>
+		    <ul class="dropdown-menu p-0">
+			    <li><a class="dropdown-item" href="#">Annual Alumni Meet</a></li>
+			    <li><a class="dropdown-item" href="#">Homecoming</a></li>
+			    <li><a class="dropdown-item" href="#">Phonathon </a></li>
+                <li><a class="dropdown-item" href="#">Students' Alumni Meet </a></li>
+                <li><a class="dropdown-item" href="#">Leadership Summit</a></li>
+                <li><a class="dropdown-item" href="#">Alumni Talks</a></li>
+                <li><a class="dropdown-item" href="#">Alvida</a></li>
+            </ul>
+		</li>
+        <li class="nav-item dropdown">
+			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Initiatives</a>
+		    <ul class="dropdown-menu p-0">
+			    <li><a class="dropdown-item" href="#">SPARC</a></li>
+			    <li><a class="dropdown-item" href="#">Mentorship Programme</a></li>
+			    <li><a class="dropdown-item" href="#">My Imprint</a></li>
+                <li><a class="dropdown-item" href="#">ACAP </a></li>
+                <li><a class="dropdown-item" href="#">Affinity Programme</a></li>
+                <li><a class="dropdown-item" href="#">Alumni Blog</a></li>
+            </ul>
+		</li>  
+        <li class="nav-item dropdown p-0">
+			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Publications</a>
+		    <ul class="dropdown-menu p-0">
+			    <li><a class="dropdown-item" href="#">Yearnings of Yore</a></li>
+			    <li><a class="dropdown-item" href="#">Yearbook</a></li>
+			    <li><a class="dropdown-item" href="#">Tempo Shout</a></li>
+            </ul>
+		</li>          
+        <li class="nav-item dropdown">
+			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Sponsors</a>
+		    <ul class="dropdown-menu p-0">
+                <li><a class="dropdown-item" href="#">2020</a></li>
+			    <li><a class="dropdown-item" href="#">2019</a></li>
+			    <li><a class="dropdown-item" href="#">2018</a></li>
+			    <li><a class="dropdown-item" href="#">2017</a></li>
+                <li><a class="dropdown-item" href="#">2016</a></li>
+                <li><a class="dropdown-item" href="#">2015</a></li>
+                <li><a class="dropdown-item" href="#">2014</a></li>
+                <li><a class="dropdown-item" href="#">2013</a></li>  
+                <li><a class="dropdown-item" href="#">2012</a></li>                
+            </ul>
+		</li>  
+    
+        <li class="nav-item">
+          <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#">The Team</a>
+        </li>
+    </ul>
+</div>
+</nav>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> 
   <ul class="carousel-indicators">
@@ -53,7 +114,7 @@
 </section>
 
 
-<section class="section2">
+<section class="section2 mb-5 p-0">
     <div class="container">
     <div class="panel">
         <div class="row">
@@ -78,11 +139,11 @@
         </div>
 </section>
 
-<section class="section3" style="height:100vh;">
+<section class="section3 m-0 p-0">
     <div class="container">
         <div class="panel">
             <div class="row ">
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-3">
                 <div class="row">
                 <div class="col-4"></div>
                 <div class="col-8 text-center">
@@ -94,7 +155,7 @@
                 </div>
                 
                 
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-3">
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-11">
@@ -104,30 +165,30 @@
                 </div>                             
                 </div>                             
             <div class="row text-center ">         
-                <div class="col-4 mb-4">           
+                <div class="col-4 mb-3">           
                         <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
                 </div>                             
-                <div class="col-4 mb-4">           
+                <div class="col-4 mb-3">           
                         <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
                 </div>                             
-                <div class="col-4 mb-4">           
+                <div class="col-4 mb-3">           
                         <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-4 mt-5 ">
+                <div class="col-md-4">
                 
                             <p class="x">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
                         
                 
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4">
           
                             <p class="x hidden-xs">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
 
                     </div>
                 
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4">
                     
                             <p class="x hidden-xs">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
                         
@@ -138,7 +199,7 @@
     </div>
 </section>
 
-<section class="section4">
+<section class="section4 m-0 p-0">
 <div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
@@ -230,7 +291,7 @@
 </section>
 
 
-<section class="section5" style="padding-bottom:6rem; padding-top:3rem;">
+<section class="section5 mb-5 p-0">
   <div class="process-wrapper">
 <div id="progress-bar-container">
 	<ul>
@@ -277,7 +338,57 @@
 
 
   <!-- 		Footer start -->
- <?php include 'footer.php' ?>
+  <section id='footer'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-4 footer-top-left'>
+          <h1> Get Social <br>With Us<br><span class='dots'>...</span>
+          </h1>
+        </div>
+        <div class=col-2>
+        </div>
+        <div class='col-6 footer-top-right'>
+          <h5>Students' Alumni Cell, IIT Kharagpur</h5>
+          <p>Office of Alumni Affairs & International Relations,<br>
+                     Indian Institute of Technology, Kharagpur<br>
+                     Pin-721302, West Bengal, India<br><br>
+                    <em>Ph: 03222-281860</em> <br>
+                    <em>Email: aao@hijli.iitkgp.ernet.in</em>
+                  </p>
+                  <hr>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-2 '>
+          <span class='bar'>|</span>  
+        </div>
+        <div class='col-2'>
+          <i class="icon fab fa-facebook"></i>	
+        </div>
+        <div class='col-2'>
+          <i class="icon fab fa-instagram"></i>
+        </div>
+        <div class='col-2'>
+          <i class="icon fab fa-twitter-square"></i>
+        </div>
+        <div class='col-2'>
+          <i class="icon fab fa-medium"></i>
+        </div>
+        <div class='col-2'>
+          <i class="icon fab fa-linkedin"></i>
+        </div>
+        
+      </div>
+    </div>  	
+ </section>
+<!-- 	Footer end	 -->
+  
+<!--    Copyright -->
+
+  <section id='copyright'>
+    <p>&copy; 2018 Students' Alumni Cell</p>
+</section>
+ 
 
 
   <div id="preloader"></div>
