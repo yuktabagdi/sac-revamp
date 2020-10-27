@@ -2,13 +2,13 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SAC</title>
-	<link rel="stylesheet"  type="text/css" href="assets/css/homecoming.css">
+	<link rel="stylesheet"  type="text/css" href="css/homecoming.css">
 
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/venobox/venobox.css" rel="stylesheet">
 
    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
    
@@ -21,7 +21,7 @@
 <section class="section1">
 <nav class="navbar navbar-expand-md navbar-dark p-0">
 <a class="navbar-brand p-0 pl-lg-4 pl-md-3 m-0 mb-1" href="#">
-	<img src="assets/img/sac_logoprevious.png" alt="">
+	<img src="img/sac_logoprevious.png" alt="">
   </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <span class="navbar-toggler-icon"></span>
@@ -91,7 +91,7 @@
 			<div class="row d-flex align-items-center">
 			<div class="col-lg-8 p-0 d-flex align-items-center order-1 order-lg-2">
 				<div class="img-gradient">
-					<img class="center" src="assets/img/mrs.maisel.jpg" />  
+					<img class="center" src="img/mrs.maisel.jpg" />  
 				<div class="data-small">
 				<div class="button">
 					<a href="https://www.youtube.com/watch?v=BPaRgF4rTRE" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
@@ -129,7 +129,7 @@
 				<div class="row">
 					<div class="col-lg-6 order-1 order-lg-2">
 						<div class="about-img x">
-							<img src="assets/img/imprint.jpg" alt="">
+							<img src="img/imprint.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -156,7 +156,7 @@
 	<div class="section-title container">
 							<div class="row event-item">
 							<div class="col-lg-6 event-img x">
-							<img src="assets/img/imprint.jpg" class="img-fluid" alt="">
+							<img src="img/imprint.jpg" class="img-fluid" alt="">
 						</div>
 						<div class="col-lg-6 pt-4 pt-lg-0 content text-center">
 							<h3 class="pb-4 x" style="color:#EA1C2C;">GRAND REUNION</h3>
@@ -180,7 +180,7 @@
 							</p>
 						</div>
 							<div class="col-lg-6 event-img x">
-							<img src="assets/img/imprint.jpg" class="img-fluid" alt="">
+							<img src="img/imprint.jpg" class="img-fluid" alt="">
 						</div>
 	 
 						</div>
@@ -189,7 +189,7 @@
 	<div class="section-title container">       
 							<div class="row event-item">
 							<div class="col-lg-6 event-img x">
-							<img src="assets/img/imprint.jpg" class="img-fluid" alt="">
+							<img src="img/imprint.jpg" class="img-fluid" alt="">
 						</div>
 													<div class="col-lg-6 pt-4 pt-lg-0 content text-center">
 							<h3 class="pb-4 x" style="color:#EA1C2C;">Hall Visit</h3>
@@ -210,7 +210,7 @@
 
 						</div>
 							<div class="col-lg-6 event-img x">
-							<img src="assets/img/imprint.jpg" class="img-fluid" alt="">
+							<img src="img/imprint.jpg" class="img-fluid" alt="">
 						</div>
 	 
 						</div>
@@ -219,7 +219,7 @@
 	<div class="section-title container">       
 							<div class="row event-item">
 							<div class="col-lg-6 event-img x">
-							<img src="assets/img/imprint.jpg" class="img-fluid" alt="">
+							<img src="img/imprint.jpg" class="img-fluid" alt="">
 						</div>
 						<div class="col-lg-6 pt-4 pt-lg-0 content text-center">
 							<h3 class="pb-4 x" style="color:#EA1C2C;">Department Visit</h3>
@@ -245,7 +245,7 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/arena.jpg" class="venobox" data-gall="gallery-item">
+							<a href="img/arena.jpg" class="venobox" data-gall="gallery-item">
 								<img src="assets/img/arena.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
@@ -253,72 +253,72 @@
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/campus_tour.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/campus_tour.jpg" alt="" class="img-fluid">
+							<a href="img/campus_tour.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/campus_tour.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4 ">
 						<div class="gallery-item">
-							<a href="assets/img/dept_visit.jpg"  class="venobox" data-gall="gallery-item">
-								<img src="assets/img/dept_visit.jpg" alt="" class="img-fluid">
+							<a href="img/dept_visit.jpg"  class="venobox" data-gall="gallery-item">
+								<img src="img/dept_visit.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/entertania.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/entertania.jpg" alt="" class="img-fluid">
+							<a href="img/entertania.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/entertania.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/hall_visit.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/hall_visit.jpg" alt="" class="img-fluid">
+							<a href="img/hall_visit.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/hall_visit.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/illu.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/illu.jpg" alt="" class="img-fluid">
+							<a href="img/illu.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/illu.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/kite_flying.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/kite_flying.jpg" alt="" class="img-fluid">
+							<a href="img/kite_flying.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/kite_flying.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/marathon.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/marathon.jpg" alt="" class="img-fluid">
+							<a href="img/marathon.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/marathon.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/meet.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/meet.jpg" alt="" class="img-fluid">
+							<a href="img/meet.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/meet.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-4">
 						<div class="gallery-item">
-							<a href="assets/img/musical_night.jpg" class="venobox" data-gall="gallery-item">
-								<img src="assets/img/musical_night.jpg" alt="" class="img-fluid">
+							<a href="img/musical_night.jpg" class="venobox" data-gall="gallery-item">
+								<img src="img/musical_night.jpg" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
@@ -395,12 +395,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
 	<!-- JS Files -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script>
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/vendor/venobox/venobox.min.js"></script>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/venobox/venobox.min.js"></script>
 
 <script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
 
-<script type = "text/javascript" src = "assets/js/homecoming.js"></script>
+<script type = "text/javascript" src = "js/homecoming.js"></script>
 </body>
 </html>
