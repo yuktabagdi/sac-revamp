@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/acap.css">
-    <link rel="stylesheet" href="css/SAMP_mobile-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS only -->
@@ -69,7 +69,7 @@
                     <div class="col-md-6 col-12">
                         <div class="pray">
                             <br><br><br>
-                            <img src="img/acap/2.jpg" alt="Pray" class="" />
+                            <img src="acap/2.jpg" alt="Pray" class="" />
                         </div>
                     </div>
                 </div>
@@ -87,31 +87,38 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
-                                <strong>Student</strong> - Fill the form specifying your top 3 companies in preference
-                                order.<br><br>
 
-                                Alumnus - Fill the form mentioning the company you are currently working for and the
-                                company you got placed in via the CDC recruitment procedure.<br><br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Student</strong> - Fill the form specifying your top 3 companies in
+                                    preference
+                                    order.<br><br>
 
-                                Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by 1st
-                                week of October.<br><br>
+                                    <strong>Alumnus</strong> - Fill the form mentioning the company you are currently
+                                    working for and the
+                                    company you got placed in via the CDC recruitment procedure.<br><br>
 
-                                An ice breaker session shall be organised for each cohort for initiating
-                                communication.<br><br>
+                                    Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by
+                                    1st
+                                    week of October.<br><br>
 
+                                    An ice breaker session shall be organised for each cohort for initiating
+                                    communication.<br><br>
+                                </div>
                                 <!-- Button trigger modal -->
-                                <div class="row">
-                                <div class="col-md-3"></div>
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#exampleModalCenter">
-                                    Alumni Registration
-                                </button>
-                                <div class="col-md-2"></div>
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#exampleModalCenter">
-                                    Student Registration
-                                </button>
-                                <div class="col-md-2"></div>
+                                <div class="col-md-6 text-center">
+                                    <br>
+                                    <br><br>
+                                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Student Registration
+                                    </button>
+                                    <br><br><br>
+                                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Alumni Registration
+                                    </button>
+                                </div>
                             </div>
                             </p>
                         </div>
