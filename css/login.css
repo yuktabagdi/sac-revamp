@@ -24,6 +24,9 @@
   .modal-dialog {
     width:80%;
   }
+  #modal2{
+    width:100%;
+  }
 }
 .modal{
   animation: fadeleft 1s ease-out ;
@@ -47,4 +50,7 @@ input[type=number] {
   position: fixed;
   top: 0;
   width: 100%;
+}
+#modal2{
+  width: 900px;
 }
