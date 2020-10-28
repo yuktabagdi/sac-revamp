@@ -174,7 +174,7 @@
              </div>
         </div>
         <div id="modal2" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
-             <div class="modal-dialog " style="width:120%;min-width:400px;margin-top:1%;margin-bottom:1%;;">
+             <div class="modal-dialog " style="min-width:400px;margin-top:3%;margin-bottom:1%;;" align="center">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;font-size:0.9rem;">
                       <div class="modal-header"style="padding-top:0;">
