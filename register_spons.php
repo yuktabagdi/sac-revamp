@@ -12,34 +12,20 @@
     <title>Document</title>
 </head>
       <body>
-           <br />
-           <div class="container"  style="width:80px;margin-left:4%;padding-top:2%;">
-                <?php
-                if(isset($_SESSION['username']))
-                {
-                ?>
-                <div align="center">
-                     <h1>Welcome - <?php echo $_SESSION['username']; ?></h1><br />
-                     <a href="#" id="logout">Logout</a>
-                </div>
-                <?php
-                }
-                else
-                {
-                ?>
-                <div>
-                     <button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#loginModal">Login</button>
-                </div>
-                <?php
-                }
-                ?>
-           </div>
-           <br />
+                  <nav class="navbar sticky-top navbar-light bg-light">
+
+                     <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
+                       <ul class="navbar-nav header">
+                         <li class="nav-item active">
+                           <h3 class="navbar-brand" style="margin:0;">Associate With Us </h3>
+                         </li>
+                       </ul>
+                </nav>
       </body>
  </html>
- <div id="loginModal" class="modal fade" role="dialog">
-      <div class="modal-dialog row">
-           <div class="modal-content col-sm-8">
+ <div id="loginModal" class="modal fade" role="dialog" style="padding-left:5%;">
+      <div class="modal-dialog modal-dialog-centered" style="min-width:400px;">
+           <div class="modal-content">
              <div class="body">
                <div class="modal-header">
                     <h4 class="modal-title">Join with Us</h4>
@@ -80,9 +66,6 @@
                      url:"action.php",
                      method:"POST",
                      data: {username:username, designation:designation ,details:details,email:email,phonenumber:phonenumber,address:address},
-                     if (phonenumber.length < 10) {
-                      alert("entered number is wrong");
-                    }
                      success:function(data)
                      {
                           //alert(data);
@@ -116,4 +99,21 @@
            });
       });
  });
+ // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
  </script>
