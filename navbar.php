@@ -6,7 +6,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-       <a class="navbar-brand" href="#"><img src="img/logo.ico" style="height: 60px;width:90px;"> </a>
+       <a class="navbar-brand" href="#"><img src="img/logo.ico" style="height: 50px;"> </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -22,13 +22,13 @@
                Events
              </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item" href="#">Students Alumni Meet</a>
-               <a class="dropdown-item" href="#">Alumni Meet</a>
-               <a class="dropdown-item" href="#">Homecomming</a>
-               <a class="dropdown-item" href="#">Phonathon</a>
-               <a class="dropdown-item" href="#">Leadership Summit</a>
-               <a class="dropdown-item" href="#">Alumni Talks</a>
-               <a class="dropdown-item" href="#">ALVIDA</a>
+               <a class="dropdown-item" href="SAM.php">Students Alumni Meet</a>
+               <a class="dropdown-item" href="AAM.php">Alumni Meet</a>
+               <a class="dropdown-item" href="homecoming.php">Homecomming</a>
+               <a class="dropdown-item" href="phonathon.php">Phonathon</a>
+               <a class="dropdown-item" href="leadershipsummit.php">Leadership Summit</a>
+               <a class="dropdown-item" href="alumni_talks.php">Alumni Talks</a>
+               <a class="dropdown-item" href="alvida.php">ALVIDA</a>
              </div>
            </li>
 
@@ -38,10 +38,10 @@
                Initiatives
              </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item" href="#">SAMP</a>
-               <a class="dropdown-item" href="#">SPARC</a>
-               <a class="dropdown-item" href="#">MYIMPRINT</a>
-               <a class="dropdown-item" href="#">ACAP</a>
+               <a class="dropdown-item" href="SAMP.php">SAMP</a>
+               <a class="dropdown-item" href="sparc.php">SPARC</a>
+               <a class="dropdown-item" href="myimprint.php">MYIMPRINT</a>
+               <a class="dropdown-item" href="acap.php">ACAP</a>
                <a class="dropdown-item" href="#">Alumni Blog</a>
              </div>
            </li>
@@ -52,8 +52,8 @@
                Publications
              </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item" href="#">Yearbook</a>
-               <a class="dropdown-item" href="#">Yearnings of Yore</a>
+               <a class="dropdown-item" href="yearbook.php">Yearbook</a>
+               <a class="dropdown-item" href="#">YOY.php</a>
                <a class="dropdown-item" href="#">Tempo Shout</a>
              </div>
            </li>
@@ -65,7 +65,7 @@
              <a class="nav-link" href="#">Alumni-Reg</a>
            </li>
            <li class="nav-item dropdown">
-             <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+             <a class="nav-link dropdown" href="sponsors.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">
                Sponsors
              </a>

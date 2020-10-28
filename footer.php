@@ -40,7 +40,7 @@
 
     #footer {
         background-color: #23232b;
-        height: 18rem;
+        /* height: 18rem; */
     }
 
     .footer-top-left {
@@ -135,13 +135,13 @@
             </div>
         </div>
         <!-- 	Footer end	 -->
-		
+
 <!--    Copyright -->
   	</section>
   	<section id='copyright'>
   		<p>&copy; 2020 Students' Alumni Cell</p>
   	</section>
-  	
+
 
   </body>
 </html>
