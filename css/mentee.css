@@ -14,12 +14,7 @@
   width:80%;
   max-width: 50%;
   height: 90%;
-    overflow-y: scroll;
 
-}
-.body{
-
-  border: solid blue 1mm;
 }
 .modal-header{
   font-family: 'Playfair Display', serif;

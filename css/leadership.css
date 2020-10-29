@@ -120,7 +120,8 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/background_image.jpg);
+  height: 90vh;
+  background: url(../img/sparccover.jpg);
   background-size: cover;
   background-position: center;
   
@@ -152,12 +153,12 @@ header .container .col-md-7 p {
 
 
 main{
-  background: var(--bggradient);
+  background: white;
 }
 
 
 .section-1 {
-	padding: 10vmin 0vmin;
+	padding: 5vmin 0vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
@@ -328,6 +329,7 @@ main{
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     position: relative;
+    
 }
 
 .card-title {
@@ -335,27 +337,29 @@ main{
     opacity: 0;
     height: 300px;
     width: 100%;
-    border:20px solid rgb(138, 135, 135);;
-    background-color: white;
+    border:20px solid rgb(196, 188, 188);
+    background-color:	 #8080ff;
     text-align: center;
     position: absolute;
     font-size: 1.5em;
     color: white;
 }
-
-.card-title p {
-    color: blue;
-    margin-top: 100px;
+.icon{
+  margin-top: 150px;
+  margin-left: -20px;
+}
+.card-title p{
+  margin-top: 100px;
 }
 
 .card:hover .card-title {
-    transition-delay: 1s;
+    transition-delay: all 1s ease;
     opacity: 0.8;
 }
 
 .card:hover .card-img {
     opacity: 0.5;
-    transition-delay: 1s;
+    transition-delay: all 1s ease;
 }
 
 .card-img {
@@ -364,6 +368,7 @@ main{
     width: 100%;
     object-fit: cover;
 }
+
 }
 
     
@@ -378,7 +383,7 @@ main{
         height: initial;
       }
       .card {
-        box-shadow: 10px 10px 5px #433675;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
         background-color: #346adf;
     }
 
@@ -394,5 +399,9 @@ main{
         height: 200px;
         width: 100%;
         object-fit: cover;
+    }
+    .icon{
+      height: 0;
+      width: 0;
     }
 }

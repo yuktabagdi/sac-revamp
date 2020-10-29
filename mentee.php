@@ -28,7 +28,7 @@
                 {
                 ?>
                 <div>
-                     <button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#loginModal">Login</button>
+                     <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
                 </div>
                 <?php
                 }
@@ -37,8 +37,8 @@
            <br />
       </body>
  </html>
- <div id="loginModal" class="modal fade" role="dialog">
-      <div class="modal-dialog row">
+ <div id="loginModal" class="modal fade" role="dialog" style="padding-left:5%;">
+      <div class="modal-dialog" style="min-width:400px;">
            <div class="modal-content">
              <div class="body">
                <div class="modal-header">

@@ -17,50 +17,18 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-    <style>
-        .heading {
-            align-self: center;
-            color: white;
-        }
 
-        .yearbooks {
-            background-color: blanchedalmond;
-            background:linear-gradient(#02386E,white);
-        }
-
-        .card {
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            height: 450px;
-            background:linear-gradient(#02386E,white);
-        }
-
-        .book {
-            margin-left: 30%;
-            height: 300px;
-            width: 33%;
-            position: absolute;
-        }
-
-        .book img {
-            height: 100%;
-            object-fit: center;
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
 
 
-
+    <?php include 'navbar.php' ?>
     <header>
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-                    <h1 style="text-align: left;">  YearBook</h1>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -99,203 +67,272 @@
         </section>
 
 
-        <section class="section-2 ">
-            <div class="container-fluid library">
-                <div class="row justify-content-center">
-                    <div class="col-xs-12">
-                        <h1 class="heading display-1" style="font-size: 4.5em;">The Yearbooks</h1>
+        <!-- <section class="section-2 content-box py-5 px-md-5">
+            <div class="container-fluid ">
+                <div class="row-xs-12 text-center">
+                    <div class="col headin">
+                        The YearBooks
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    <div class="col-9 py-5">
-                        <div id="carouselExampleIndicators" class="carousel slide yearbooks" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                            </ol>
+                </div>
+                <div class="row py-2 justify-content-center">
+                    <div class="col-lg-4 col-md-5 col-xs-12 book">
+                        <h3 style="text-align: center;" class="py-2">Yearbook 2017</h3>
+                        <img src="img\yearbook\year17.jpg">
+                        <div class="container-fluid">
+                            <div class="row justify-content-around py-3">
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>UG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>PG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>RS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-1 col-xs-0"></div>
+                    <div class="col-lg-4 col-md-5 col-xs-12 book">
+                        <h3 style="text-align: center;" class="py-2">Yearbook 2016</h3>
+                        <img src="img\yearbook\year16.jpg">
+                        <div class="container-fluid">
+                            <div class="row justify-content-around py-3">
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>UG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>PG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>RS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-xs-12 book">
+                        <h3 style="text-align: center;" class="py-2">Yearbook 2015</h3>
+                        <img src="img\yearbook\year2015.jpg">
+                        <div class="container-fluid">
+                            <div class="row justify-content-around py-3">
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>UG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>PG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>RS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-1 col-xs-0"></div>
+                    <div class="col-lg-4 col-md-5 col-xs-12 book">
+                        <h3 style="text-align: center;" class="py-2">Yearbook 2014</h3>
+                        <img src="img\yearbook\year2014.jpg">
+                        <div class="container-fluid">
+                            <div class="row justify-content-around py-3">
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>UG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>PG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>RS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-xs-12 book">
+                        <h3 style="text-align: center;" class="py-2">Yearbook 2013</h3>
+                        <img src="img\yearbook\year2013.jpg">
+                        <div class="container-fluid">
+                            <div class="row justify-content-around py-3">
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>UG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>PG</h4>
+                                </div>
+                                <div class="col px-1 text-center img-txt">
+                                    <h4>RS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section> -->
+        <section class="section-3">
+            <div class="container-fluid">
+                <h1 class="text-center">Exibition Corner......</h1>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="container-fluid">
-                                        <div class="row-12 ">
-                                            <div class="col-12">
-                                            <h1 style="text-align: center;">YearBook 2017</h1>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/yoy188.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook2017....</h4>
+                                                        <div class="row justify-content-around py-3">
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>UG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>PG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>RS</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
                                             </div>
-                                        </div>
-                                        <div class="row px-4">
-                                            <div class="col-md-8 col-xs-12 px-2 py-4 card">
-                                                <div class="book">
-                                                    <img src="img\yearbook\year17.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:blue;">UG</h2>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/yoy17.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                    <h4 class="card-title">YearBook2016....</h4>
+                                                        <div class="row justify-content-around py-3">
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>UG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>PG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>RS</h4>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
                                                 </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year17.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:red;">PG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year17.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:green;">Research</h2>
-                                                </div>
-                                                
+
                                             </div>
-                                            <div class="col-md-4 px-2 py-4 col-xs-12 align-self-center">
-                                                <h4>Lorem, ipsum dolor sit ame modi totam voluptatum eius nulla
-                                                    aliquid earum consequuntur obcaecati hic dolore tenetur porro
-                                                    distinctio! Sit, vel voluptas?</h4>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/2016.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                    <h4 class="card-title">YearBook2015....</h4>
+                                                        <div class="row justify-content-around py-3">
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>UG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>PG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>RS</h4>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
                                             </div>
 
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="container-fluid">
-                                    <div class="row-12 ">
-                                            <div class="col-12">
-                                            <h1 style="text-align: center;">YearBook 2016</h1>
-                                            </div>
-                                        </div>
-                                        <div class="row px-4">
-                                            <div class="col-md-8 px-2 py-4 card">
-                                                <div class="book">
-                                                    <img src="img\yearbook\year16.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:blue;">UG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year16.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:red;">PG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year16.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:green;">Research</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 px-2 py-4 align-self-center">
-                                                <h4>Lorem, ipsum dolor sit ame modi totam voluptatum eius nulla
-                                                    aliquid earum consequuntur obcaecati hic dolore tenetur porro
-                                                    distinctio! Sit, vel voluptas?</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="container-fluid">
-                                    <div class="row-12 ">
-                                            <div class="col-12">
-                                            <h1 style="text-align: center;">YearBook 2015</h1>
-                                            </div>
-                                        </div>
-                                        <div class="row px-4">
-                                            <div class="col-md-8 px-2 py-4 card">
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2015.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:blue;">UG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2015.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:red;">PG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2015.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:green;">Research</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 px-2 py-4 align-self-center">
-                                                <h4>Lorem, ipsum dolor sit ame modi totam voluptatum eius nulla
-                                                    aliquid earum consequuntur obcaecati hic dolore tenetur porro
-                                                    distinctio! Sit, vel voluptas?</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="container-fluid">
-                                    <div class="row-12 ">
-                                            <div class="col-12">
-                                            <h1 style="text-align: center;">YearBook 2014</h1>
-                                            </div>
-                                        </div>
-                                        <div class="row px-4">
 
-                                            <div class="col-md-8 px-2 py-4 card">
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2014.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:blue;">UG</h2>
+                                    </div>
+
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row justify-content-center" >
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/2015.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                    <h4 class="card-title">YearBook2014....</h4>
+                                                        <div class="row justify-content-around py-3">
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>UG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>PG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>RS</h4>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+
                                                 </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2014.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:red;">PG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2014.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:green;">Research</h2>
-                                                </div>
+
                                             </div>
-                                            <div class="col-md-4 px-2 py-4 align-self-center">
-                                                <h4>Lorem, ipsum dolor sit ame modi totam voluptatum eius nulla
-                                                    aliquid earum consequuntur obcaecati hic dolore tenetur porro
-                                                    distinctio! Sit, vel voluptas?</h4>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/2014.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook2013....</h4>
+                                                        <div class="row justify-content-around py-3">
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>UG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>PG</h4>
+                                                            </div>
+                                                            <div class="col px-1 text-center img-txt">
+                                                                <h4>RS</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
-                                <div class="carousel-item ">
-                                    <div class="container-fluid">
-                                    <div class="row-12 ">
-                                            <div class="col-12">
-                                            <h1 style="text-align: center;">YearBook 2013</h1>
-                                            </div>
-                                        </div>
-                                        <div class="row px-4">
-                                            <div class="col-md-8 px-2 py-4 card">
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2013.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:blue;">UG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2013.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:red;">PG</h2>
-                                                </div>
-                                                <div class="book">
-                                                    <img src="img\yearbook\year2013.jpg">
-                                                    <h2 style="text-align: center;color:white;background-color:green;">Research</h2>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 px-2 py-4 align-self-center">
-                                                <h4>Lorem, ipsum dolor sit ame modi totam voluptatum eius nulla
-                                                    aliquid earum consequuntur obcaecati hic dolore tenetur porro
-                                                    distinctio! Sit, vel voluptas?</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                                    <span class="carousel-control-prev-icon bg-dark"></span>
+                                </a>
+                                <a href="#inam" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon bg-dark"></span>
+                                </a>
+
                             </div>
 
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
 
+                    </div>
+
+                </div>
+        </section>
+        <section style="height: 100px;"></section>
         <!-- 		Footer start -->
         <?php include 'footer.php' ?>
         <!--        Footer end -->
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
         <script>
-
-
             gsap.from('header', {
                 opacity: 0,
                 duration: 1
@@ -352,31 +389,36 @@
                 x: 200
             });
 
+            var img_txt = document.getElementsByClassName("img-txt");
             var card = document.getElementsByClassName("card");
-            var book = document.getElementsByClassName("book");
-
-            
 
             for (let i = 0; i < card.length; i++) {
+                gsap.from(card[i], {
+                    scrollTrigger: {
+                        trigger: card[i],
+                        toggleActions: "play none none none"
+                    },
+                    opacity: 0,
+                    duration: 1.5,
+                    x: -200
+                });
+
+
                 $(card[i]).on('mouseenter', function(e) {
-                    gsap.to($(book[i * 3]), 1, {
-                        xPercent: -70,
-                        ease: Sine.easeInOut
-                    });
-                    gsap.to($(book[i * 3 + 2]), 1, {
-                        xPercent: +70,
-                        ease: Sine.easeInOut
-                    });
+                    for (let j = 0; j < 3; j++) {
+                        gsap.to($(img_txt[i * 3 + j]), 1, {
+                            opacity: 1,
+                            ease: Sine.easeInOut
+                        });
+                    }
                 });
                 $(card[i]).on('mouseleave', function(e) {
-                    gsap.to($(book[i * 3]), 1, {
-                        xPercent: 0,
-                        ease: Sine.easeInOut
-                    });
-                    gsap.to($(book[i * 3 + 2]), 1, {
-                        xPercent: 0,
-                        ease: Sine.easeInOut
-                    });
+                    for (let j = 0; j < 3; j++) {
+                        gsap.to($(img_txt[i * 3 + j]), 1, {
+                            opacity: 0,
+                            ease: Sine.easeInOut
+                        });
+                    }
                 });
             }
         </script>

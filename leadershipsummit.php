@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/leadership.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -17,81 +17,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Events
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Students Alumni Meet</a>
-            <a class="dropdown-item" href="#">Alumni Meet</a>
-            <a class="dropdown-item" href="#">Homecomming</a>
-            <a class="dropdown-item" href="#">Phonathon</a>
-            <a class="dropdown-item" href="#">Leadership Summit</a>
-            <a class="dropdown-item" href="#">Alumni Talks</a>
-            <a class="dropdown-item" href="#">ALVIDA</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Initiatives
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">SAMP</a>
-            <a class="dropdown-item" href="#">SPARC</a>
-            <a class="dropdown-item" href="#">MYIMPRINT</a>
-            <a class="dropdown-item" href="#">ACAP</a>
-            <a class="dropdown-item" href="#">Alumni Blog</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Publications
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Yearbook</a>
-            <a class="dropdown-item" href="#">Yearnings of Yore</a>
-            <a class="dropdown-item" href="#">Tempo Shout</a>
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">The Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Alumni-Reg</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Sponsors
-          </a>
-          <div class="dropdown-menu" style="padding-right: 50px !important;" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">2019</a>
-            <a class="dropdown-item" href="#">2018</a>
-            <a class="dropdown-item" href="#">2017</a>
-            <a class="dropdown-item" href="#">2016</a>
-            <a class="dropdown-item" href="#">2015</a>
-            <a class="dropdown-item" href="#">2014</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<?php include 'navbar.php' ?>
 
 
 
@@ -99,11 +30,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;">Leadership</h1>
-          <h1 style="text-align: left;"> Summit</h1>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -155,7 +82,7 @@
                       <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
                       <div class="card-title">
                         <p><a>Arjun Malhotra</a></p>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -164,7 +91,7 @@
                       <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
                       <div class="card-title">
                         <p><a>Anjanrai Chaudhuri</a></p>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -174,7 +101,7 @@
                       <div class="card-title">
                         <p>Arunabh Kumar</p>
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -184,7 +111,7 @@
                       <div class="card-title">
                         <p>Gopalraj Garhia</p>
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -192,9 +119,8 @@
                     <div class="card">
                       <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
                       <div class="card-title">
-                        <p>Prasad Menon</p>
-
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                          <p>Prasad Menon</p>
+                          <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -205,7 +131,7 @@
                         <p>Sakyasinha Roy</p>
 
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
