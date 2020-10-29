@@ -46,12 +46,13 @@
                             </div>
                             <p class="pt-4">
                                 When we look back to our college days, we plunge into a pool of nostalgia and savour the
-                                sweet and salty taste of life that was offered to us then.The strangers who turned out
+                                sweet and salty taste of life that was offered to us then. The strangers who turned out
                                 be great friends, the unknown roads which became familiar and the experiences that would
                                 be cherished as beautiful memories forever are some of the gems embedded in their
                                 overwhelming hearts as they leave the place. To treasure these moments, we have Alvida -
-                                the annual farewell dinner held for the passing out batch to get together and share
-                                their memorable stories of the moments they spent in the institute.
+                                the annual farewell dinner generally held in the month of April for the passing out
+                                batch to get together and share their memorable stories of the moments they spent in the
+                                institute.
                             </p>
                         </div>
                     </div>
@@ -78,48 +79,48 @@
                             <!-- Photo Grid -->
                             <div class="row">
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2018/3.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/3.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/3.jpg" class="image" style="width:100%">
-                                    </a>  
+                                    </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2018/4.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/4.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/4.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2018/5.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/5.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/5.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2018/6.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/6.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/6.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2018/7.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/7.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/7.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2018/8.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/8.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/8.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2018/9.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/9.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/9.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2018/10.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2018/10.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2018/10.jpg" class="image" style="width:100%">
-                                    </a> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -141,46 +142,46 @@
                             <!-- Photo Grid -->
                             <div class="row">
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2017/1.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/1.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/1.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2017/2.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/2.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/2.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2017/3.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/3.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/3.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-3">
-                                    <a href= "img/Alvida/Alvida_2017/4.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/4.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/4.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2017/5.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/5.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/5.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2017/6.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/6.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/6.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2017/7.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/7.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/7.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/Alvida_2017/8.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/Alvida_2017/8.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/Alvida_2017/8.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
@@ -204,45 +205,45 @@
                             <!-- Photo Grid -->
                             <div class="row">
                                 <div class="col-12 col-sm-4">
-                                    <a href= "img/Alvida/three.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/three.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/three.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-4">
-                                    <a href= "img/Alvida/nine.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/nine.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/nine.jpg" class="image" style="width:100%">
                                     </a>
 
-                                    <a href= "img/Alvida/eight.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/eight.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/eight.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-4">
-                                    <a href= "img/Alvida/five.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/five.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/five.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/thirteen.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/thirteen.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/thirteen.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/ten.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/ten.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/ten.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/two.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/two.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/two.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <a href= "img/Alvida/one.jpg" class="venobox" data-gall="gallery-item">
+                                    <a href="img/Alvida/one.jpg" class="venobox" data-gall="gallery-item">
                                         <img src="img/Alvida/one.jpg" class="image" style="width:100%">
                                     </a>
                                 </div>

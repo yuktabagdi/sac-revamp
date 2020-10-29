@@ -117,14 +117,13 @@
                 aria-valuemax="100"></div>
             </div>
             <p class="pt-4">
-              Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent
-              personalities in the history of the nation. The Alumni Talks provide a medium for the alumni
-              to give back to the institute by imparting their experience to the students and preparing
-              them for the real world. The topics of these guest lectures are spread all over ranging from
-              personality development to department related technical lectures. The guest lectures pave a
-              way for interaction between the alumni and the current students. Having a large alumni base
-              to learn from has always been an integral benefit of being a student of IIT Kharagpur and
-              these lectures ensure exactly that.
+              Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the
+              history of the nation. The Alumni Talks provide a medium for the alumni to give back to the institute by
+              imparting their experience to the students and preparing them for the real world. The topics of these
+              guest lectures are spread all over ranging from personality development to department-related technical
+              lectures. The guest lectures pave a way for interaction between the alumni and the current students.
+              Alumni Talks form a crucial part of the working of Students' Alumni Cell by bridging the gap between the
+              alumni and students and bringing them closer together.
             </p>
           </div>
         </div>
@@ -158,17 +157,20 @@
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-responsive img-fluid" style="width: 20em;">
+                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
                       <h5 class="x">Aditya Sharma</h5>
                       <h6 class="x">(Partner)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid" style="width: 20em;">
+                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
                       <h5 class="x">Abhishek Narain</h5>
                       <h6 class="x">(Senior Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-responsive img-fluid" style="width: 20em;">
+                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
                       <h5 class="x">Ashutosh Mohapatra</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
@@ -186,7 +188,7 @@
                     </div>
                   </div>
                   <br>
-                  <h5 class="x">Some one liner</h5>
+                  <h5 class="x"></h5>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -260,7 +262,7 @@
                     </div>
                   </div>
                   <br>
-                  <h5 class="x">Some one liner</h5>
+                  <h5 class="x"></h5>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -383,7 +385,7 @@
     </div>
   </section>
   <!--footer start-->
- <?php include 'footer.php' ?>
+  <?php include 'footer.php' ?>
   </main>
   <!-- 	Footer end	 -->
   <script>
