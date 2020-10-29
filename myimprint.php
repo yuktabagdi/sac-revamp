@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>SAC</title>
-  <link rel="stylesheet" type="text/css" href="imprint.css">
+  <link rel="stylesheet" type="text/css" href="css/imprint.css">
 </head>
 
 
 
 <body>
-  <section class="section0 mb-5">
+  <section class="section0 mb-2">
     <div class="header">
 <?php include 'navbar.php'?>
       <section class="container second">
@@ -52,19 +52,19 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="imprint.jpg" alt="Pray" class="two" />
+            <img src="img/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="section-1 mb-5">
+  <section class="section-1 mb-3">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="imprint.jpg" alt="Pray" class="one" />
+            <img src="img/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
@@ -104,7 +104,7 @@
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/cg17.jpg" class="img-fluid img-panel">
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/cg17.jpg" class="img-fluid img-panel">
                 </div>
               </div>
 
@@ -142,7 +142,7 @@
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/cg17.jpg" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -162,7 +162,7 @@
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/cg17.jpg" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -221,7 +221,6 @@
     </div>
   </main>
 
-  <?php include 'footer.php' ?>
 
 
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>

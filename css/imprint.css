@@ -50,7 +50,7 @@ body{
 
 
 .section-1 {
-	padding: 10vmin 0vmin;
+	padding-bottom : 3rem;
   }
   
   .section-1 .row .col-md-6 .pray img {
@@ -240,7 +240,7 @@ body{
   }
 
   #item-2 {
-    background-color: #a3d8f4;
+    background-color: white;
     z-index: 4;
     height: 650px;
     /* margin-top: 100px; */
@@ -252,7 +252,7 @@ body{
     /* margin-top: 200px; */
   }
     #item-4 {
-    background-color: #a3d8f4;
+    background-color: white;
     z-index: 2;
     height: 750px;
     /* margin-top: 200px; */

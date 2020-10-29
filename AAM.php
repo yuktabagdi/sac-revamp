@@ -118,11 +118,12 @@
                             <img src="img/imprint.jpg" class="img-fluid x" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 class="x sub-heading">GRAND REUNION</h3>
+                            <h3 class="x sub-heading">DEPARTMENT VISIT</h3>
                             <p class="x about-us">
-                             Homecoming 2019 reunited graduated KGPians with each other. They could reminiscence with their old friends 
-							and relive those bonds they created many years ago. The conversations refreshed memories of friendships and comradery.
-							The years old kgp life was now fresh on their minds.
+                             Evocative memories of slogging in labs, nicknaming teachers, fighting sleep, 
+							 trying to learn. This place gave us few of our closest friends. More the time flew, 
+							 more grew our attachment with this place. A visit back to department reminiscent all those 
+							 feelings of hard work, procrastination, learning and excitement.
 							</p>							
                         </div>
                     </div>
@@ -131,11 +132,9 @@
                             <img src="img/imprint.jpg" class="img-fluid x" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 class="x sub-heading">GRAND REUNION</h3>
+                            <h3 class="x sub-heading">CAMPUS TOUR</h3>
                             <p class="x about-us">
-                             Homecoming 2019 reunited graduated KGPians with each other. They could reminiscence with their old friends 
-							and relive those bonds they created many years ago. The conversations refreshed memories of friendships and comradery.
-							The years old kgp life was now fresh on their minds.
+                             With the years gone by, there are a lot of changes in the campus and yet a lot of constants remain too. The pleasure pulses kick in when we get to see the same old buildings and roads lying in harmony with the new developments all around. Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
 							</p>							
                         </div>
                     </div>					
@@ -144,11 +143,13 @@
                             <img src="img/imprint.jpg" class="img-fluid x" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 class="x sub-heading">GRAND REUNION</h3>
+                            <h3 class="x sub-heading">2.2 MARATHON</h3>
                             <p class="x about-us">
-                             Homecoming 2019 reunited graduated KGPians with each other. They could reminiscence with their old friends 
-							and relive those bonds they created many years ago. The conversations refreshed memories of friendships and comradery.
-							The years old kgp life was now fresh on their minds.
+                             The emblematic marathon track of our very own campus is enciting enough 
+							 for everyone to keep aside their worries and run their problems off.With the 
+							 alumni revisiting after a long time, the institute organizes a 2.2 marathon at 
+							 the break of the day to bring back nostalgia and also to raise health awareness .
+							 Students and alumni run together to foster the spirit of harmony.
 							</p>							
                         </div>
                     </div>
@@ -157,11 +158,9 @@
                             <img src="img/imprint.jpg" class="img-fluid x" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 class="x sub-heading">GRAND REUNION</h3>
+                            <h3 class="x sub-heading">HALL VISIT</h3>
                             <p class="x about-us">
-                             Homecoming 2019 reunited graduated KGPians with each other. They could reminiscence with their old friends 
-							and relive those bonds they created many years ago. The conversations refreshed memories of friendships and comradery.
-							The years old kgp life was now fresh on their minds.
+                             
 							</p>							
                         </div>
                     </div>
@@ -170,11 +169,9 @@
                             <img src="img/imprint.jpg" class="img-fluid x" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 class="x sub-heading">GRAND REUNION</h3>
+                            <h3 class="x sub-heading">HALL VISIT</h3>
                             <p class="x">
-                             Homecoming 2019 reunited graduated KGPians with each other. They could reminiscence with their old friends 
-							and relive those bonds they created many years ago. The conversations refreshed memories of friendships and comradery.
-							The years old kgp life was now fresh on their minds.
+                             Every KGPian shares a strong bond with their Hall. Visiting a place where we spent the 4 most important years of our life is a stimulus enough to send shivers down our body. The place where we learnt and lived is sure to have latched a fragment of our soul inside it. To come back to our hall of residence is nothing less than a reunion of the parts of our soul. The alumni got the chance to walk through the corridors and reminisce the impressions that they left.
 							</p>							
                         </div>
                     </div>					
