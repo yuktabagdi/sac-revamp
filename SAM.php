@@ -94,15 +94,15 @@
                   <img class="image" src="img/sam/Kolkata/sam6.jpg" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam3.jpg" style="width:100%">
+                  <img class="image" src="img/sam/Kolkata/sam3.jpg" style="width:100%; height: 165px;">
                   <img class="image" src="img/sam/Kolkata/sam4.jpg" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam2.jpg" style="width:100%">
-                  <img class="image" src="img/sam/Kolkata/sam5.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/Kolkata/sam2.jpg" style="width:100%; height: 165px;">
+                  <img class="image" src="img/sam/Kolkata/sam5.jpg" style="width:100%; height: 170px;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/Kolkata/sam.jpg" style="width:100%; height: 342 px;">
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (8).jpg" style="width:100%">
+                  <img class="image" src="img/sam/singapore 18/singapore (1).jpg" style="width:100%; height:144px">
                   <img class="image" src="img/sam/singapore 18/singapore (2).jpg" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
@@ -135,11 +135,12 @@
                   <img class="image" src="img/sam/singapore 18/singapore (4).jpg" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (6).jpg" style="width:100%">
-                  <img class="image" src="img/sam/singapore 18/singapore (7).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore (5).jpg" style="width:100%; height: 144px;">
+                  <img class="image" src="img/sam/singapore 18/singapore (6).jpg" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (1).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore (7).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore (8).jpg" style="width:100%;">
                 </div>
               </div>
             </div>
@@ -176,7 +177,8 @@
                   <img class="image" src="img/sam/bang18/6.jpg" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/bangalore18.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/bang18/7.jpg" style="width:100%;height: 144px;">
+                  <img class="image" src="img/sam/bang18/8.jpg" style="width:100%; height: 144px;">
                 </div>
               </div>
             </div>
@@ -210,9 +212,11 @@
                 </div>
                 <div id="gallery_row" class="column">
                   <img class="image" src="img/sam/hyderabad17/5.jpg" style="width:100%">
+                  <img class="image" src="img/sam/samh/1.jpg" style="width:100%;height: 170px;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/samh/2.jpg" style="width:100%;height: 169px;">
+                  <img class="image" src="img/sam/samh/3.jpg" style="width:100%;height: 169px;">
                 </div>
               </div>
             </div>
