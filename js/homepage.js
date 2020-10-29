@@ -28,30 +28,30 @@ $(document).ready(function(){
  gsap.from('.section2 h2', {
           scrollTrigger: {
             trigger: '.section2 h2',
-            toggleActions: "restart none none none"
+            toggleActions: "play none none none"
           },
           opacity:0,
-          duration:1.5, 
-          x:-200 
+          duration:1, 
+          y:50 
         });
 gsap.from('.section2 p', {
           scrollTrigger: {
             trigger: '.section2 p',
-            toggleActions: "restart none none none"
+            toggleActions: "play none none none"
           },
           opacity:0,
-          duration:1.5, 
-          x:-200 
+          duration:1, 
+          y:50 
         });
 
         gsap.from('.section2 img', {
           scrollTrigger: {
             trigger: '.section2 img',
-            toggleActions: "restart none none none"
+            toggleActions: "play none none none"
           },
           opacity:0,
           duration:1.5, 
-          x:200 
+		  y:50 
         });
         
         
@@ -62,11 +62,11 @@ var arr = document.getElementsByClassName("x");
         gsap.from(arr[i], {
         scrollTrigger: {
         trigger: arr[i],
-        toggleActions: "restart none none none"
+        toggleActions: "play none none none"
            },
         opacity:0,
         duration:1.5, 
-        x: -50
+		y:50 
          });  
 }  
 
@@ -76,11 +76,11 @@ var arr = document.getElementsByClassName("y");
         gsap.from(arr[i], {
         scrollTrigger: {
         trigger: arr[i],
-        toggleActions: "restart none none none"
+        toggleActions: "play none none none"
            },
         opacity:0,
         duration:0.5, 
-        y:-20,
+        y:-50,
         stagger:0.2,
         delay:0.5
          });  
@@ -92,11 +92,11 @@ var arr = document.getElementsByClassName("z");
         gsap.from(arr[i], {
         scrollTrigger: {
         trigger: arr[i],
-        toggleActions: "restart none none none"
+        toggleActions: "play none none none"
            },
         opacity:0,
         duration:1.5, 
-        x: -50
+        y:50 
          });  
 } 
 
@@ -106,11 +106,11 @@ var arr = document.getElementsByClassName("T1");
         gsap.from(arr[i], {
         scrollTrigger: {
         trigger: arr[i],
-        toggleActions: "restart none none none"
+        toggleActions: "play none none none"
            },
         opacity:0,
         duration:0.5, 
-        x: -100
+        y:50 
          });  
 } 
 var arr = document.getElementsByClassName("T2");
@@ -119,11 +119,11 @@ var arr = document.getElementsByClassName("T2");
         gsap.from(arr[i], {
         scrollTrigger: {
         trigger: arr[i],
-        toggleActions: "restart none none none"
+        toggleActions: "play none none none"
            },
         opacity:0,
         duration:0.5, 
-        x: 100
+		y:50 
          });  
 } 
 $(document).ready(function(){
