@@ -40,8 +40,9 @@
 
     #footer {
         background-color: #23232b;
-        /* height: 18rem; */
+         height: 18rem; 
     }
+
 
     .footer-top-left {
         height: 12rem;
@@ -71,6 +72,11 @@
 
 
     }
+	@media(max-width:768px){
+		.icon{
+	font-size:1em;
+	padding:0;}}
+	
 
     .icon {
         font-size: 2em;
@@ -99,7 +105,7 @@
                     <h1> Get Social <br>With Us<br><span class='dots'>...</span>
                     </h1>
                 </div>
-                <div class=col-2>
+                <div class="col-2">
                 </div>
                 <div class='col-6 footer-top-right'>
                     <h5>Students' Alumni Cell, IIT Kharagpur</h5>
@@ -116,7 +122,7 @@
                 <div class='col-2 '>
                     <span class='bar'>|</span>
                 </div>
-                <div class=col-2>
+                <div class="col-2">
                     <i class="icon fab fa-facebook"></i>
                 </div>
                 <div class='col-2'>
