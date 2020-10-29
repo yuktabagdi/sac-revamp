@@ -1,21 +1,9 @@
-.mod-img{
-  display: inline-block;
-  padding-right: 0;
-  max-height: 400px;
-}
 .modal-content{
   display: inline-block;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   padding:2%;
   border: 0;
-}
-.modal-dialog{
-  width:80%;
-  max-width: 50%;
-}
-.body{
-  border: solid blue 1mm;
 }
 .modal-header{
   font-family: 'Playfair Display', serif;
@@ -26,16 +14,19 @@
 @keyframes fadeleft {
   0%{
     left: -80%;
-
   }
   100%{
-    left: 10%;
+    left:0;
   }
 
 }
+@media only screen and (max-width: 500px) {
+  .modal-dialog {
+    width:80%;
+  }
+}
 .modal{
   animation: fadeleft 1s ease-out ;
-  left:10%;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -44,4 +35,16 @@ input::-webkit-inner-spin-button {
 }
 input[type=number] {
   appearance: textfield;
+}
+#login{
+  margin-left: 20%;
+}
+.header
+{
+  margin-right: 20%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
