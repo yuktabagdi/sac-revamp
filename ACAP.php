@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile_style.css">
+    <link rel="stylesheet" href="css/acap.css">
+    <link rel="stylesheet" href="css/SAMP_mobile_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS only -->
@@ -69,7 +69,7 @@
                     <div class="col-md-6 col-12">
                         <div class="pray">
                             <br><br><br>
-                            <img src="acap/2.jpg" alt="Pray" class="" />
+                            <img src="img/acap/2.jpg" alt="Pray" class="" />
                         </div>
                     </div>
                 </div>
