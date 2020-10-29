@@ -1,8 +1,7 @@
-a=[];
-a=$(".row");
 gsap.registerPlugin(ScrollTrigger);
-for (var i = 0; i < a.length; i++) {
-  gsap.from("."+a[i].classList[0]+" h2",{scrollTrigger:"."+a[i].classList[0],x:-300, duration: 2,opacity:0.2});
-  gsap.from("."+a[i].classList[0]+" .col-sm-12",{scrollTrigger:"."+a[i].classList[0],x:-300, duration: 2,opacity:0.2});
+
+for (var i = 1; i <29; i++) {
+  gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+  gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
 
 }

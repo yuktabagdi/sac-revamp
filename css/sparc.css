@@ -120,10 +120,11 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
+  height: 90vh;
   background: url(../img/sparccover.jpg);
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  
 }
 
 header .container .col-md-7 {
@@ -152,12 +153,12 @@ header .container .col-md-7 p {
 
 
 main{
-  background: var(--bggradient);
+  background: white;
 }
 
 
 .section-1 {
-	padding: 10vmin 0vmin;
+	padding: 5vmin 0vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
