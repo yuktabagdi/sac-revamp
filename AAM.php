@@ -21,70 +21,7 @@
 
 
 <section class="section1">
-<nav class="navbar navbar-expand-md navbar-dark p-0">
-<a class="navbar-brand p-0 pl-lg-4 pl-md-3 m-0 mb-1" href="#">
-	<img src="img/sac_logoprevious.png" alt="">
-  </a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-<span class="navbar-toggler-icon"></span>
- </button>
- 
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
-	<ul class="navbar-nav ml-auto ">
-		<li class="nav-item dropdown">
-			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Events  </a>
-			<ul class="dropdown-menu p-0">
-				<li><a class="dropdown-item" href="#">Annual Alumni Meet</a></li>
-				<li><a class="dropdown-item" href="#">Homecoming</a></li>
-				<li><a class="dropdown-item" href="#">Phonathon </a></li>
-				<li><a class="dropdown-item" href="#">Students' Alumni Meet </a></li>
-				<li><a class="dropdown-item" href="#">Leadership Summit</a></li>
-				<li><a class="dropdown-item" href="#">Alumni Talks</a></li>
-				<li><a class="dropdown-item" href="#">Alvida</a></li>
-			</ul>
-		</li>
-		<li class="nav-item dropdown">
-			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Initiatives</a>
-			<ul class="dropdown-menu p-0">
-				<li><a class="dropdown-item" href="#">SPARC</a></li>
-				<li><a class="dropdown-item" href="#">Mentorship Programme</a></li>
-				<li><a class="dropdown-item" href="#">My Imprint</a></li>
-				<li><a class="dropdown-item" href="#">ACAP </a></li>
-				<li><a class="dropdown-item" href="#">Affinity Programme</a></li>
-				<li><a class="dropdown-item" href="#">Alumni Blog</a></li>
-			</ul>
-		</li>  
-		<li class="nav-item dropdown p-0">
-			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Publications</a>
-			<ul class="dropdown-menu p-0">
-				<li><a class="dropdown-item" href="#">Yearnings of Yore</a></li>
-				<li><a class="dropdown-item" href="#">Yearbook</a></li>
-				<li><a class="dropdown-item" href="#">Tempo Shout</a></li>
-			</ul>
-		</li>          
-		<li class="nav-item dropdown">
-			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Sponsors</a>
-			<ul class="dropdown-menu p-0">
-				<li><a class="dropdown-item" href="#">2020</a></li>
-				<li><a class="dropdown-item" href="#">2019</a></li>
-				<li><a class="dropdown-item" href="#">2018</a></li>
-				<li><a class="dropdown-item" href="#">2017</a></li>
-				<li><a class="dropdown-item" href="#">2016</a></li>
-				<li><a class="dropdown-item" href="#">2015</a></li>
-				<li><a class="dropdown-item" href="#">2014</a></li>
-				<li><a class="dropdown-item" href="#">2013</a></li>  
-				<li><a class="dropdown-item" href="#">2012</a></li>                
-			</ul>
-		</li>  
-	
-		<li class="nav-item">
-		  <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#">The Team</a>
-		</li>
-	</ul>
-</div>
-
-</nav>
-
+<?php include 'AAM.php' ?>
 
   
 	<!-- ======= Head Section ======= -->
