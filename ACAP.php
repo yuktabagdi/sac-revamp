@@ -15,14 +15,14 @@
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -57,12 +57,13 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
-                                The most tedious, confusing and overwhelming time of your student life is the placement
-                                season and we here at Students’ Alumni Cell strive to ease the process for you. Through
-                                the Alumni Career Assistance Programme (ACAP) we connect you to alumni who have been
-                                there, done that and succeeded in achieving the same. We aim to provide the students a
-                                seamless placement procedure with the alumni community helping them cross any hurdle
-                                that may arise.
+                                Alumni Career Assistance Programme (ACAP) aims on helping the final year students to
+                                understand the confusing and tedious process of placements. Each alumnus will be
+                                allotted at most 5 mentees and, one mentee will be allotted a mentor based on the
+                                preferences he/she has filled. This initiative will help the students in applying and
+                                getting placed in various companies, and that too without any last minute chaos. This
+                                Program also signifies the first of the Institute's attempt at engagement of the
+                                recently graduated alumni with the Institute
                             </p>
                         </div>
                     </div>
@@ -137,90 +138,101 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
-        gsap.from('header', { opacity: 0, duration: 1 })
-        gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
-        gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+    gsap.from('header', {
+        opacity: 0,
+        duration: 1
+    })
+    gsap.from('header h1', {
+        opacity: 0,
+        duration: 2,
+        x: -200
+    })
+    gsap.from('header h6', {
+        opacity: 0,
+        duration: 2,
+        x: -500
+    })
 
 
-        gsap.from('.nav-item', {
+    gsap.from('.nav-item', {
+        scrollTrigger: {
+            trigger: '.nav-item',
+            toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1,
+        x: -200
+    });
+
+
+    gsap.from('.section-1 h1', {
+        scrollTrigger: {
+            trigger: '.section-1 h1',
+            toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1,
+        x: -200
+    });
+
+    gsap.from('.section-1 p', {
+        scrollTrigger: {
+            trigger: '.section-1 p',
+            toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 2.0,
+    });
+
+    gsap.from('.section-1 img', {
+        scrollTrigger: {
+            trigger: '.section-1 img',
+            toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: 200
+    });
+
+    var arr = document.getElementsByClassName("x");
+    for (var i = 0; i < arr.length; i++) {
+
+        gsap.from(arr[i], {
             scrollTrigger: {
-                trigger: '.nav-item',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 1,
-            x: -200
-        });
-
-
-        gsap.from('.section-1 h1', {
-            scrollTrigger: {
-                trigger: '.section-1 h1',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 1,
-            x: -200
-        });
-
-        gsap.from('.section-1 p', {
-            scrollTrigger: {
-                trigger: '.section-1 p',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 2.0,
-        });
-
-        gsap.from('.section-1 img', {
-            scrollTrigger: {
-                trigger: '.section-1 img',
+                trigger: arr[i],
                 toggleActions: "play none none none"
             },
             opacity: 0,
             duration: 1.5,
-            x: 200
+            x: -200
         });
 
-        var arr = document.getElementsByClassName("x");
-        for (var i = 0; i < arr.length; i++) {
+    }
+    var img_arr = document.getElementsByClassName("image");
+    for (var i = 0; i < img_arr.length; i++) {
 
-            gsap.from(arr[i], {
-                scrollTrigger: {
-                    trigger: arr[i],
-                    toggleActions: "play none none none"
-                },
-                opacity: 0,
-                duration: 1.5,
-                x: -200
-            });
-
-        }
-        var img_arr = document.getElementsByClassName("image");
-        for (var i = 0; i < img_arr.length; i++) {
-
-            gsap.from(img_arr[i], {
-                scrollTrigger: {
-                    trigger: img_arr[i],
-                    toggleActions: "play none none none",
-                    start: "top center"
-                },
-                opacity: 0,
-                duration: 1.5,
-            });
-
-        }
-
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.utils.toArray('#panel').forEach((panel, i) => {
-            ScrollTrigger.create({
-                trigger: panel,
-                start: "top top",
-                pin: true,
-                pinSpacing: false
-            });
+        gsap.from(img_arr[i], {
+            scrollTrigger: {
+                trigger: img_arr[i],
+                toggleActions: "play none none none",
+                start: "top center"
+            },
+            opacity: 0,
+            duration: 1.5,
         });
+
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray('#panel').forEach((panel, i) => {
+        ScrollTrigger.create({
+            trigger: panel,
+            start: "top top",
+            pin: true,
+            pinSpacing: false
+        });
+    });
     </script>
 </body>
 
