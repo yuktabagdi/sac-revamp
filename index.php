@@ -32,7 +32,7 @@
         <li class="nav-item dropdown">
 			<a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Events  </a>
 		    <ul class="dropdown-menu p-0">
-			    <li><a class="dropdown-item" href="#">Annual Alumni Meet</a></li>
+			    <li><a class="dropdown-item" href="homecoming.php">Annual Alumni Meet</a></li>
 			    <li><a class="dropdown-item" href="#">Homecoming</a></li>
 			    <li><a class="dropdown-item" href="#">Phonathon </a></li>
                 <li><a class="dropdown-item" href="#">Students' Alumni Meet </a></li>
