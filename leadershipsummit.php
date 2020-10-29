@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/leadership.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -16,6 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
@@ -29,11 +30,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;">Leadership</h1>
-          <h1 style="text-align: left;"> Summit</h1>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -85,7 +82,7 @@
                       <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
                       <div class="card-title">
                         <p><a>Arjun Malhotra</a></p>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -94,7 +91,7 @@
                       <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
                       <div class="card-title">
                         <p><a>Anjanrai Chaudhuri</a></p>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -104,7 +101,7 @@
                       <div class="card-title">
                         <p>Arunabh Kumar</p>
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -114,7 +111,7 @@
                       <div class="card-title">
                         <p>Gopalraj Garhia</p>
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -122,9 +119,8 @@
                     <div class="card">
                       <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
                       <div class="card-title">
-                        <p>Prasad Menon</p>
-
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                          <p>Prasad Menon</p>
+                          <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
@@ -135,7 +131,7 @@
                         <p>Sakyasinha Roy</p>
 
 
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
