@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>SAC</title>
-  <link rel="stylesheet" type="text/css" href="css/AAM.css">
+  <link rel="stylesheet" type="text/css" href="AAM.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
 </head>
 
@@ -167,7 +167,7 @@
 							<p class="image__description">This is a short description</p>	
 				</div></div>
 				</div>
-				<div class="col-md-8 content-overlay pt-sm-4">
+				<div class="col-md-8 content-overlay pt-sm-0 pt-4">
 									<div class="image">
 
 					<img  src="img/flames2.jpg" class="img-fluid image__img">
@@ -199,7 +199,7 @@
 							<p class="image__description">This is a short description</p>	
 				</div></div>
 				</div>
-				<div class="col-md-4 content-overlay pt-sm-4">
+				<div class="col-md-4 content-overlay pt-4 pt-sm-0">
 									<div class="image">
 
 					<img  src="img/marathon.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
@@ -230,7 +230,7 @@
 							<p class="image__description">This is a short description</p>	
 				</div></div>
 				</div>
-				<div class="col-md-6 content-overlay pt-sm-4">
+				<div class="col-md-6 content-overlay pt-4 pt-sm-0">
 									<div class="image">
 
 					<img  src="img/visit2.jpg" class="img-fluid image__img">
