@@ -161,6 +161,10 @@ header .container .col-md-7 p {
   .section-1 .row .col-md-12:last-child {
 	position: relative;
   }
+
+/*element.style {
+}
+.section-1 .row .col-md-12 .panel*/
   
   .section-1 .row .col-md-12 .panel {
 	top: 7vmin;
@@ -168,7 +172,7 @@ header .container .col-md-7 p {
 	background: white;
 	border-radius: 3px;
 	text-align: left;
-	padding: 10vmin 5vmin 10vmin 10vmin;
+	padding: 5vmin 5vmin 5vmin 10vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 	font-family: var(--Rubik);
 	z-index: 1;
