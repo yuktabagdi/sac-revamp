@@ -47,26 +47,12 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
-                                Few years down the road, the only thing that remains intact are the memories we create.
-                                The transition
-                                from a place completely unknown and unexplored, to a place which is synonymous to life
-                                and friendship is
-                                what we attain in the span of few years in Kharagpur. Yearnings of Yore is a magical
-                                treasury of memoirs
-                                and photographs, which provides us an insight to the life lived by the alumni in KGP.
-                                The gist is clear
-                                from the name itself which expresses an intense longing for former times. The Magazine
-                                is gifted as a
-                                souvenir to all alumni attending the meet. It aims to create a sense of nostalgia among
-                                the alumni
-                                community who relive their beautiful old memories through literary pieces related to
-                                their presence in
-                                the institute. It helps the alumni reconnect to long lost memories hidden under the veil
-                                due to the
-                                breach of time. Through this initiative, the alumni who attended the grand reunion as
-                                well as those who
-                                were not able to attend the meet due to some reasons get a chance to walk down the
-                                memory lane.
+                                Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
+                                insight to the life lived by the alumni in KGP. It’s aimed to create a sense of
+                                nostalgia amongst the alumni community who relive their beautiful old memories through
+                                literary pieces related to their presence in the institute. This magazine is gifted as a
+                                souvenir to the alumni who attended the grand reunion as well as those who were not able
+                                to attend the meet due to some reasons to get a chance to walk down the memory lane.
                             </p>
                         </div>
                     </div>
