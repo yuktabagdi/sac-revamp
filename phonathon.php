@@ -354,7 +354,7 @@
                 </div>
             </div>
         </section>
-        
+          <?php include 'preloader.php' ?>
         <!--Scroll animations for testimonials section-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
