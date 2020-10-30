@@ -234,7 +234,7 @@ body{
     border-bottom-left-radius: 20px;
   }
   #item-1 {
-    background-color: #191919;
+    background-color: #1a1814;;
     z-index: 5;
     height: 600px;
   }
@@ -246,7 +246,7 @@ body{
     /* margin-top: 100px; */
   }
   #item-3 {
-    background-color:#191919;
+    background-color:#1a1814;;
     z-index: 3;
     height: 700px;
     /* margin-top: 200px; */
