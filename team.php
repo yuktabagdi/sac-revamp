@@ -628,6 +628,7 @@
   </section>
   <!--footer start-->
  <?php include 'footer.php' ?>
+   <?php include 'preloader.php' ?>
   </main>
   <!-- 	Footer end	 -->
   <script>

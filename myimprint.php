@@ -52,7 +52,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="two" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="one" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
@@ -98,13 +98,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2019</h1>
+                <h1 class="x">CLASS GIFT 2017</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="img/cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel">
                 </div>
               </div>
             </div>
@@ -116,13 +116,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2018</h1>
+                <h1 class="x">CLASS GIFT 2016</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="img/cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel">
                 </div>
               </div>
 
@@ -136,13 +136,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2017</h1>
+                <h1 class="x">CLASS GIFT 2015</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="img/cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/CG15.jpg"" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -156,13 +156,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2016</h1>
+                <h1 class="x">CLASS GIFT 2014</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="img/cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -221,7 +221,7 @@
     </div>
   </main>
 
-
+	  <?php include 'preloader.php' ?>
 
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
