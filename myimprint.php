@@ -5,76 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>SAC</title>
-  <link rel="stylesheet" type="text/css" href="imprint.css">
+  <link rel="stylesheet" type="text/css" href="css/imprint.css">
 </head>
 
 
 
 <body>
-  <section class="section0 mb-5">
+  <section class="section0 mb-2">
     <div class="header">
-      <nav class="navbar navbar-expand-md navbar-dark p-0">
-        <a class="navbar-brand p-0 pl-lg-4 pl-md-3 m-0 mb-1" href="#">
-          <img src="sac_logoprevious.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto ">
-            <li class="nav-item dropdown">
-              <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Events </a>
-              <ul class="dropdown-menu p-0">
-                <li><a class="dropdown-item" href="#">Annual Alumni Meet</a></li>
-                <li><a class="dropdown-item" href="#">Homecoming</a></li>
-                <li><a class="dropdown-item" href="#">Phonathon </a></li>
-                <li><a class="dropdown-item" href="#">Students' Alumni Meet </a></li>
-                <li><a class="dropdown-item" href="#">Leadership Summit</a></li>
-                <li><a class="dropdown-item" href="#">Alumni Talks</a></li>
-                <li><a class="dropdown-item" href="#">Alvida</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Initiatives</a>
-              <ul class="dropdown-menu p-0">
-                <li><a class="dropdown-item" href="#">SPARC</a></li>
-                <li><a class="dropdown-item" href="#">Mentorship Programme</a></li>
-                <li><a class="dropdown-item" href="#">My Imprint</a></li>
-                <li><a class="dropdown-item" href="#">ACAP </a></li>
-                <li><a class="dropdown-item" href="#">Affinity Programme</a></li>
-                <li><a class="dropdown-item" href="#">Alumni Blog</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown p-0">
-              <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Publications</a>
-              <ul class="dropdown-menu p-0">
-                <li><a class="dropdown-item" href="#">Yearnings of Yore</a></li>
-                <li><a class="dropdown-item" href="#">Yearbook</a></li>
-                <li><a class="dropdown-item" href="#">Tempo Shout</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#" data-toggle="dropdown">Sponsors</a>
-              <ul class="dropdown-menu p-0">
-                <li><a class="dropdown-item" href="#">2020</a></li>
-                <li><a class="dropdown-item" href="#">2019</a></li>
-                <li><a class="dropdown-item" href="#">2018</a></li>
-                <li><a class="dropdown-item" href="#">2017</a></li>
-                <li><a class="dropdown-item" href="#">2016</a></li>
-                <li><a class="dropdown-item" href="#">2015</a></li>
-                <li><a class="dropdown-item" href="#">2014</a></li>
-                <li><a class="dropdown-item" href="#">2013</a></li>
-                <li><a class="dropdown-item" href="#">2012</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link pr-lg-4 pr-md-2 text-dark y" href="#">The Team</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<?php include 'navbar.php'?>
       <section class="container second">
         <div class="row" style="margin-top:20rem">
           <div class="col-4"></div>
@@ -113,19 +52,19 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="imprint.jpg" alt="Pray" class="two" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="section-1 mb-5">
+  <section class="section-1 mb-3">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="imprint.jpg" alt="Pray" class="one" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
@@ -159,13 +98,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2019</h1>
+                <h1 class="x">CLASS GIFT 2017</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel">
                 </div>
               </div>
             </div>
@@ -177,13 +116,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2018</h1>
+                <h1 class="x">CLASS GIFT 2016</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel">
                 </div>
               </div>
 
@@ -197,13 +136,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2017</h1>
+                <h1 class="x">CLASS GIFT 2015</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/CG15.jpg"" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -217,13 +156,13 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
-                <h1 class="x">CLASS GIFT 2016</h1>
+                <h1 class="x">CLASS GIFT 2014</h1>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                     aria-valuemax="100"></div>
                 </div>
                 <div>
-                  <img src="cg17.jpg" class="img-fluid img-panel">
+                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel">
                 </div>
 
               </div>
@@ -282,8 +221,7 @@
     </div>
   </main>
 
-  <?php include 'footer.php' ?>
-
+	  <?php include 'preloader.php' ?>
 
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
