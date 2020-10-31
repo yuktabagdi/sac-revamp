@@ -387,7 +387,6 @@
   <!--footer start-->
   <?php include 'footer.php' ?>
   </main>
-    <?php include 'preloader.php' ?>
   <!-- 	Footer end	 -->
   <script>
     gsap.from('header', { opacity: 0, duration: 1 })
