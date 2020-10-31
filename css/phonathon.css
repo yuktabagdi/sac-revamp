@@ -104,7 +104,7 @@ header .row .col-md-5 img {
 }
 header {
   /* fallback for old browsers */
-  background: #7579e7;
+  background: url(/img/phonathon2019.jpg);
   background-size: cover;
   background-position: center;
   

@@ -103,8 +103,8 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white gsapx">
-                    <h1 style="text-align: left;">Phonathon</h1>
-                    <h6 style="text-align: left;">Some one liner</h6>
+                    <h1 style="text-align: left;"></h1><!--spacing left for heading if required-->
+                    <h6 style="text-align: left;"></h6>
                 </div>
             </div>
         </div>
