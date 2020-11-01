@@ -12,9 +12,11 @@
 
 <body>
   <section class="section0 mb-5">
-    <div class="header">
      <?php include'navbar.php' ?>
-    </div>
+	<header>
+	<div class="container-fluid img">
+	</div>
+	</header>
   </section>
 
 
@@ -39,19 +41,19 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/latest programs/imprint.jpg" alt="Pray" class="two" />
+            <img src="img/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="section-1 mb-3">
+  <section class="section-1">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/latest programs/imprint.jpg" alt="Pray" class="one" />
+            <img src="img/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
