@@ -33,23 +33,23 @@
 
                </div>
                <div class="modal-body">
-                 <label for="username" style="margin:0;">Username:-</label>
+                 <label for="username" style="margin:0;">Username</label>
                     <input type="text" name="username" id="username" class="input" autocomplete="none" placeholder="User Name"/>
                     <br />
-                    <label for="designation" style="margin:0;">Designation:-</label>
+                    <label for="designation" style="margin:0;">Designation</label>
                     <input type="text" name="designation" id="designation" class="input"placeholder="Designation" />
                     <br />
-                    <label for="details" style="margin:0;">Details:-</label>
+                    <label for="details" style="margin:0;">Details</label>
                     <input type="text" name="details" id="details" class="input"placeholder="details" />
                     <br />
-                    <label for="email" style="margin:0;">Email:-</label>
+                    <label for="email" style="margin:0;">Email</label>
                     <input type="email" name="email" id="email "class="input"placeholder="email">
                     <br>
-                    <label for="phonenumber" style="margin:0;">Phonenumber:-</label>
+                    <label for="phonenumber" style="margin:0;">Phonenumber</label>
                     <input type="number" name="phonenumber" id="number" class="input"placeholder="Phone Number"autocomplete="none" onchange="f1(this)" />
                     <p class="error" style="display:none;color:red;margin-bottom:0;opacity:0.7;">please enter correct number !</p>
                     <br />
-                    <label for="Address" style="margin:0;">Address:-</label>
+                    <label for="Address" style="margin:0;">Address</label>
                     <input type="text" name="Address" id="Address" class="input"placeholder="Address" />
                     <br />
                     <button type="button" name="login_button" id="login_button" class="btn btn-lg btn-block btn-primary">Login</button>

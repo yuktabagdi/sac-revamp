@@ -30,35 +30,35 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="name">User name:-</label>
+                                   <label for="name">User name</label>
                                    <input type="name" name="name" class="form-control"id="username" placeholder="Enter your name" required="required" value="">
                                  </div>
                                </div>
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="email">Email:-</label>
+                                   <label for="email">Email</label>
                                    <input type="email" name="email" class="form-control"id="email" placeholder="Enter your email" required="required" value="">
                                  </div>
                                </div>
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="password">Password:-</label>
+                                   <label for="password">Password</label>
                                    <input type="password" name="password" class="form-control"id="passwword" placeholder="Enter your password" required="required">
                                  </div>
                                </div>
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="re-password">Re-password:-</label>
+                                   <label for="re-password">Re-password</label>
                                    <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password " required="required">
                                  </div>
                                </div>
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="department">Department:-</label>
+                                   <label for="department">Department</label>
                                    <select required="" name="department"id="department" class="form-control">
                                      <option value="" disabled="" selected="" style="opacity:0.5;">Select Your Department</option>
                                      <option value="AE">Aerospace Engineering</option>
@@ -108,7 +108,7 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="pout">Year of Graduation:-</label>
+                                   <label for="pout">Year of Graduation</label>
                                    <input type="text" name="pout"id="graduation" class="form-control" placeholder="Enter Your Year Of Graduation" required="required" value="">
 
                                  </div>
@@ -116,7 +116,7 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="foe">Field of Experience:-</label>
+                                   <label for="foe">Field of Experience</label>
                                    <input type="text" name="foe"id="fieldofexperince" class="form-control" placeholder="Enter Your Field Of Expertise" required="required" value="">
 
                                  </div>
@@ -125,7 +125,7 @@
 
 
                                  <div class="col-sm-3" style="display:inline-block;">
-                                   <p style="margin-bottom:0;margin-top:1%;">Preferred No. of Mentees:</p>
+                                   <p style="margin-bottom:0;margin-top:1%;">Preferred No. of Mentees</p>
                                  </div>
                                  <div class="col-sm-4" style="display:inline-block;margin-bottom:2%;">
                                    <select required="" name="mentee"id="mentees" class="form-control">
@@ -144,7 +144,7 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="pref1">First preference:-</label>
+                                   <label for="pref1">First preference</label>
                                    <select required="" name="pref1"id="fieldofmentor" class="form-control"style="opacity:0.5;">
                                      <option value="" disabled="" selected="">Choose your 1st Preference</option>
                                      <option value="4">Banking &amp; Finance</option>
@@ -194,7 +194,7 @@
                                <div id="f1" style="display:none;">
                                  <div class="form-group">
                                    <div class="col-sm-12">
-                                     <label for="extrafield2">Second Preference:-</label>
+                                     <label for="extrafield2">Second Preference</label>
                                      <select name="pref2"id="extrafield2" class="form-control">
                                        <option style="opacity:0.5;">Choose your 2nd Preference</option>
 
@@ -232,7 +232,7 @@
                                  </div>
                                  <div class="form-group">
                                    <div class="col-sm-12">
-                                     <label for="extrafield3">Third Preference:-</label>
+                                     <label for="extrafield3">Third Preference</label>
                                      <select name="pref3"id="extrafield3" class="form-control">
                                        <option style="opacity:0.5;">Choose your 3rd Preference</option>
                                      <option value="4">Banking &amp; Finance</option>
@@ -272,14 +272,14 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="phone">Phonenumber :-</label>
+                                   <label for="phone">Phonenumber</label>
                                    <input type="text" name="phone"id="phonenumber" class="form-control" placeholder="Enter Your Phone No." required="required" value="">
 
                                  </div>
                                </div>
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="firm">Organisation :-</label>
+                                   <label for="firm">Organisation</label>
                                    <input type="text" name="firm" class="form-control"id="organisation" placeholder="Enter Your Organisation" required="required" value="">
 
                                  </div>
@@ -287,7 +287,7 @@
 
                                <div class="form-group">
                                  <div class="col-sm-12">
-                                   <label for="desg">Designation:-</label>
+                                   <label for="desg">Designation</label>
                                    <input type="text" name="desg" class="form-control"id="Designation" placeholder="Enter Your Designation" required="required" value="">
                                  </div>
                                </div>
