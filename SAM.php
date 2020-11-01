@@ -31,22 +31,15 @@
 
 <?php include 'navbar.php' ?>
 
-  <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;">STUDENT</h1>
-          <h1 style="text-align: left;"> ALUMNI MEET</h1>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-          <h6 style="text-align: left;">DELHI | MUMBAI | BANGALORE | HYDERABAD | KOLKATA</h6>
+<header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12  text-white">
+                    <h1 style="text-align: left;"></h1>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
   <main>
     <section class="section-1">

@@ -38,11 +38,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-                    <h1 style="text-align: left;">ALUMNI CAREER ASSISTANCE PROGRAMME</h1>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    <h1 style="text-align: left;"></h1>
                 </div>
             </div>
         </div>
@@ -112,14 +108,14 @@
                                 <div class="col-md-6 text-center">
                                     <br>
                                     <br><br>
-                                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
-                                        data-target="#modal1">
-                                        Alumni Registration
+                                    <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Student Registration
                                     </button>
                                     <br><br><br>
-                                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
-                                        data-target="#modal2">
-                                          Student Registration
+                                    <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Alumni Registration
                                     </button>
                                 </div>
                             </div>
