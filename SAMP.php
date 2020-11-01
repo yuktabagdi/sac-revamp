@@ -19,15 +19,10 @@
 <body>
     <?php include 'navbar.php' ?>
     <header>
-
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-                    <h1>STUDENT ALUMNI MENTORSHIP PROGRAMME</h1>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    <h1 style="text-align: left;"></h1>
                 </div>
             </div>
         </div>
@@ -66,36 +61,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="section-2 container-fluid p-0">
-            <div class="cover">
-                <div class="overlay"></div>
-                <div class="content text-center">
-                    <h1>Our Statistics....</h1>
-                </div>
-            </div>
-            <div class="container-fluid text-center">
-                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-                    <div class="rect">
-                        <h1>2345</h1>
-                        <p>Mentees Registered</p>
-                    </div>
-                    <div class="rect">
-                        <h1>6784</h1>
-                        <p>Mentors Registered</p>
-                    </div>
-                    <div class="rect">
-                        <h1>1056</h1>
-                        <p>Students Benefitted</p>
-                    </div>
-                    <div class="rect">
-                        <h1>9152</h1>
-                        <p>Total Projects</p>
-                    </div>
-                </div>
-            </div>
             </div>
         </section>
 

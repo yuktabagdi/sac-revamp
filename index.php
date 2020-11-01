@@ -1,309 +1,305 @@
 <!DOCTYPE html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAC</title>
-    <link rel="stylesheet"  type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage1.css">
 
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-   
-
-   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 
-</head>
 
-<body style="background-color:#fff;">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js" integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c=" crossorigin="anonymous"></script>
+    
+
+	</head>
 
 
-<section class="section1 m-0 p-0">
+<body>
 
-<?php include 'navbar.php' ?>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> 
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-<div class="carousel-inner" role="listbox">
-<div class="carousel-item active">
-<img class=" img-fluid" src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" alt="A1">
- </div>
-<div class="carousel-item">
-<img class="img-fluid" src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" alt="A2">
+
+    <div id="carouselExampleIndicators" class="carousel slide hero-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-image" style="background-image: url('img/indexslider/sac-logo.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/phonathon2019.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/alvida.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/convocation.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/imprint.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/17th_aam.jpg');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('img/indexslider/homecoming.jpg');"></div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    
+
+
+
+
+
+  
 </div>
-<div class="carousel-item">
-<img class=" img-fluid" src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" alt="A3">
-</div>
-<div class="carousel-item">
-<img class="img-fluid" src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" alt="A4">
-</div>
-</div>
-<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-<i class="fas fa-chevron-circle-left fa-2x"></i>
-<span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next text-faded" href="#carouselExampleControls" role="button" data-slide="next">
-<i class="fas fa-chevron-circle-right fa-2x"></i>
-<span class="sr-only">Next</span>
-</a>
-</div> 
-</section>
+    <main>
+        <section class="section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-12">
+                        <div class="panel text-left">
+                            <h1>ABOUT US</h1>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="pt-3">
+                                The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the
+                                aegis of the Dean of Alumni Affairs and International Relations. It strives to bridge
+                                the gap between IIT Kharagpur and its esteemed alumni community.
 
+                                The Students' Alumni Cell continuously endeavours to strengthen the relations of the
+                                alumni of this Institute and their alma mater. It has been instrumental in organising
+                                the Annual Alumni Meet, Regional Student Alumni Meet, regular guest lectures by
+                                distinguished alumni in the campus, publishing the annual literary magazine (Yearnings
+                                of Yore) & the annual yearbook. The Students' Alumni Cell also operates the Student -
+                                Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and
+                                organises Alvida (the annual farewell dinner).
 
-<section class="section2 mb-5 p-0">
-    <div class="container">
-    <div class="panel">
-        <div class="row">
-
-                <div class="col-md-6 text-center d-flex align-items-center justify-content-center">
-                    <div class="row">
-                        <div class=" col-md-10  about ml-5 ">
-                            <h2 class="mb-3">ABOUT US</h2>
-				<div class="progress" >
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-                            <p class="pt-5">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-3 col-12">
+                        <div class="pray" style="padding-left: 40px; padding-top: 40px;">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                </div>
-         
-        </div>
-        </div>
-</section>
-
-<section class="section3 m-0 p-0">
-    <div class="container">
-        <div class="panel">
-            <div class="row ">
-                <div class="col-6 mb-3">
-                <div class="row">
-                <div class="col-4"></div>
-                <div class="col-8 text-center">
-
-                        <img class="rounded-circle round-img z" alt="100*100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
-                
-                </div>
-                </div>
-                </div>
-                
-                
-                <div class="col-6 mb-3">
-                <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
-                        <img class="rounded-circle round-img z" alt="100*100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
-                    </div>                         
-                </div>                             
-                </div>                             
-                </div>                             
-            <div class="row text-center ">         
-                <div class="col-4 mb-3">           
-                        <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
-                </div>                             
-                <div class="col-4 mb-3">           
-                        <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
-                </div>                             
-                <div class="col-4 mb-3">           
-                        <img class="rounded-circle round-img z" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" data-holder-rendered="true" height="200" width="200">
-                </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                
-                            <p class="x">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                        
-                
-                </div>
-                <div class="col-md-4">
+        </section>
+    
+    
+    </main> 
+
+    <section id="timeline">
+  
+        <div class="tl-item">
           
-                            <p class="x hidden-xs">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-
-                    </div>
-                
+          <div class="tl-bg" style="background-image: url(img/marathon1.jpg)"></div>
+          
+          <div class="tl-year">
+            <p class="f2">What We Do</p>
+            <br>
+            <p class="f2 heading--sanSerif">For Alumni</p>
+          </div>
+      
+          <div class="tl-content">
+            <h1></h1>
+            <p>The Cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.</p>
+          </div>
+      
+        </div>
+      
+        <div class="tl-item">
+          
+          <div class="tl-bg" style="background-image: url(img/IIT.jpg)"></div>
+          
+          <div class="tl-year">
+            <p class="f2">What We Do</p>
+            <br>
+            <p class="f2 heading--sanSerif">For Institute</p>
+          </div>
+      
+          <div class="tl-content">
+            <h1 class="f3 text--accent ttu"></h1>
+            <p>Students' Alumni Cell reconnects the Institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Programme (IDP) aims to promote the Institute's domestic ranking while simultaneously improving the international stature.</p>
+          </div>
+      
+        </div>
+      
+        <div class="tl-item">
+          
+          <div class="tl-bg" style="background-image: url(img/imprint.jpg)"></div>
+          
+          <div class="tl-year">
+            <p class="f3 text --accent ttu">What We Do</p>
+            <br>
+            <p class="f2 heading--sanSerif">For Students</p>
+          </div>
+      
+          <div class="tl-content">
+            <h1 class="f3 text--accent ttu"></h1>
+            <p>Students' Alumni Cell works in conjunction with the student administration bodies and is therefore constantly in touch with the needs and wants of the students. It connects the students with the alumni, giving them a chance to interact with some of the most eminent personalities in all fields of work. It works towards making their learning experience more holistic.</p>
+          </div>
+      
+        </div>
+      
+      </section>
+      
+      <section class="section-3">
+        <div class="container-fluid">
+            <h1 class="text-center">News & Updates......</h1>
+        </div>
+    </section>
+    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+         <div class="container-fluid p-t-2 p-b-2">
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-2 text-md-center lead">
+                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                    <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div> 
+        <div class="container-fluid m-t-2 carousel-inner">
+            <div class="row row-equal carousel-item active m-t-0">
                 <div class="col-md-4">
-                    
-                            <p class="x hidden-xs">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                        
-
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Insight</h6>
+                            <h2>
+                                <a href>Why Stuff Happens Every Year.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Development</h6>
+                            <h2>
+                                <a href>How to Make Every Line Count.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Design</h6>
+                            <h2>
+                                <a href>Responsive is Essential.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Another</h6>
+                            <h2>
+                                <a href>Tagline or Call-to-action.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
+                            <h2>
+                                <a href>This is a Blog Title.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fadeIn wow">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Category 3</h6>
+                            <h2>
+                                <a href>Catchy Title of a Blog Post.</a>
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        
+    </section>
 
-<section class="section4 m-0 p-0">
-<div id="demo" class="carousel slide" data-ride="carousel">
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+        <script>
+            (function($) {
+    "use strict";
 
-  <!-- The slideshow -->
-  <div class="carousel-inner container">
-    <div class="carousel-item active">
-        <div class="row" style="margin-top:5.2rem;">
-            <div class="col-lg-4 col-md-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>                
-        </div>
-    </div>
-    <div class="carousel-item">
-        <div class="row" style="margin-top:5.2rem;">
-            <div class="col-lg-4 col-md-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>                
-        </div>
-    </div>
-    <div class="carousel-item">
-        <div class="row" style="margin-top:5.2rem;">
-            <div class="col-lg-4 col-md-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>
-            <div class="col-md-4 col-lg-4 col-12">
-                <div class="box">
-                    <a href=#><img src="img/chicago-backgrounds-for-laptop-wallpaper-preview.jpg" class="img-fluidi img-thumbnail"></a>
-                    <p class="m-4">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni</p>
-                </div> 
-            </div>                
-        </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev" style="height:500px;">
-<i class="fas fa-chevron-circle-left fa-2x"></i>
-<span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next text-faded" href="#demo" data-slide="next" style="height:500px;">
-<i class="fas fa-chevron-circle-right fa-2x"></i>
-<span class="sr-only">Next</span>
-</a>
+    // manual carousel controls
+    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+    
+})(jQuery);
 
-</div>
-</section>
+(function($){
+  
+  $(document).ready(function(){
+    // Pause hero carousel
+    $('.hero-carousel').carousel('pause');
+  });
+  
+})(jQuery);
+        </script>
 
-
-<section class="section5 mb-5 p-0">
-  <div class="process-wrapper">
-<div id="progress-bar-container">
-	<ul>
-		<li class="step step01 active"><div class="step-inner">JANUARY</div></li>
-		<li class="step step02"><div class="step-inner">FEBRUAURY</div></li>
-		<li class="step step03"><div class="step-inner">MARCH</div></li>
-		<li class="step step04"><div class="step-inner">APRIL</div></li>
-		<li class="step step05"><div class="step-inner">MAY</div></li>
-	</ul>
-	
-	<div id="line">
-		<div id="line-progress"></div>
-	</div>
-</div>
-
-<div id="progress-content-section">
-	<div class="section-content discovery active">
-		<p class="two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p> 
-    </div>
-	
-	<div class="section-content strategy">
-
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-    </div>
-	
-	<div class="section-content creative">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-    </div>
-	
-	<div class="section-content production">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-    </div>
-	
-	<div class="section-content analysis">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu.</p>
-    </div>
-	</div>
-</div>
-</section> 
-
-
-
-  <!-- 		Footer start -->
-<?php include 'footer.php' ?>
-
- 
-
-
-  <div id="preloader"></div>
-    <a href="#" class="back-to-top"><i class="far fa-3x fa-arrow-alt-circle-up"></i></a>
-
-
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-
-<script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
-
-
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-
-<script type = "text/javascript" src = "js/homepage.js"></script>
 </body>
-</html>
