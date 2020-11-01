@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>SAC</title>
-  <link rel="stylesheet" type="text/css" href="imprint.css">
+  <link rel="stylesheet" type="text/css" href="css/imprint.css">
 </head>
 
 
@@ -39,7 +39,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/latest programs/imprint.jpg" alt="Pray" class="two" />
+            <img src="img/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/latest programs/imprint.jpg" alt="Pray" class="one" />
+            <img src="img/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
