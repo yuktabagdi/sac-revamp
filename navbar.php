@@ -53,7 +53,7 @@
              </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                <a class="dropdown-item" href="yearbook.php">Yearbook</a>
-               <a class="dropdown-item" href="#">YOY.php</a>
+               <a class="dropdown-item" href="YOY.php">YOY</a>
                <a class="dropdown-item" href="#">Tempo Shout</a>
              </div>
            </li>

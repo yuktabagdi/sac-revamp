@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
-                            <h1>OVERVIEW</h1>
+                            <h1 class="text-center">OVERVIEW</h1>
                             <div class="progress" style="height:0.7rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
@@ -81,7 +81,7 @@
                         <div class="panel text-left">
                             <h1 class="text-center">Register Here!</h1>
                             <div class="progress" style="height:0.7rem;">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
@@ -226,6 +226,9 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
+		$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
         gsap.from('header', { opacity: 0, duration: 1 })
         gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
         gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })

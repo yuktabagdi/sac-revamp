@@ -150,6 +150,10 @@ header .container .col-md-7 p {
   font-weight: bold;
 }
 
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
 
 main{
   background: white;

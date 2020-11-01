@@ -13,7 +13,7 @@
 
 
 <body>
-  <section class="section0 mb-5">
+  <section class="section0">
      <?php include'navbar.php' ?>
 	<header>
 	<div class="container-fluid img">
@@ -24,7 +24,7 @@
 
 
 
-  <section class="section-1 mt-3 mb-3">
+  <section class="section-1">
     <div class="container text-center">
       <div class="row">
         <div class="col-12">
@@ -82,9 +82,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2017</h1>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100"></div>
+                <div class="progress" style="height:0.7rem;">
+                  <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="height:0.7rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel pt-3">
@@ -102,9 +102,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2016</h1>
-                <div class="progress ">
-                  <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100"></div>
+                <div class="progress " style="height:0.7rem;">
+                  <div id="four" class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="height:0.7rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel pt-3">
@@ -122,9 +122,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2015</h1>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100"></div>
+                <div class="progress" style="height:0.7rem;">
+                  <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="height:0.7rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/CG15.jpg" class="img-fluid img-panel pt-3">
@@ -135,15 +135,15 @@
           </div>
 		  </div>
       </section>
-	        <section class="item section-2 mb-5 pb-5" id="item-4">
+	        <section class="item section-2" id="item-4">
         <div class="container text-center justify-content-center">
           <div class="row align-items-center">
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2014</h1>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100"></div>
+                <div class="progress" style="height:0.7rem;"  >
+                  <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="height:0.7rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg14.jpg" class="img-fluid img-panel pt-3">
@@ -171,13 +171,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-	<script src="vendor/jquery/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script>
-	$( "#one,#two" ).each(function( ) {
+	$( "#one,#two,#three,#four,#five,#six").each(function( ) {
    $(this).addClass("progress-bar-purple");
 });
 

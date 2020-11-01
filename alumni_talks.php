@@ -20,6 +20,17 @@
 
   <!--GSAP scroll trigger-->
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+  
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -111,7 +122,7 @@
       <div class="row">
         <div class="col-12">
           <div class="panel text-left">
-            <h1>ABOUT</h1>
+            <h1 class="text-center">ABOUT</h1>
             <div class="progress" style="height:0.7rem;">
               <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100" style="height:0.7rem;"></div>
@@ -137,7 +148,7 @@
           <div class="panel panel1 text-center">
             <h1 class="x">Alumni Talks</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -232,9 +243,9 @@
         <div class="col-md-12 col-12">
           <div class="panel panel2 text-center">
             <h1 class="x">Guest Lectures</h1>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div class="progress" style="height:0.7rem;">
+              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.7rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -306,9 +317,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">Tips from Top</h1>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div class="progress" style="height:0.7rem;">
+              <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.7rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -340,7 +351,7 @@
           <div class="panel text-center">
             <h1 class="x">Kgp & Beyond</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -367,7 +378,7 @@
           <div class="panel text-center">
             <h1 class="x">Videos</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -410,6 +421,9 @@
   </main>
   <!-- 	Footer end	 -->
   <script>
+  	$( "#one,#two,#three,#four,#five,#six").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
     gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })

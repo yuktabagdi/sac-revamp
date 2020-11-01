@@ -144,7 +144,8 @@ header a {
     background: var(--bggradient);
   }   
 	.progress-bar-purple {
-      background-color: purple !important;
+      background-color: #00416d !important;
+	  height:0.7rem;
 }
 
 
@@ -158,7 +159,7 @@ header a {
 	background: whitesmoke;
 	border-radius: 3px;
 	text-align: left;
-	padding: 0vmin 5vmin 5vmin 5vmin;
+	padding: 5vmin 5vmin 5vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 	font-family: var(--Rubik);
 	z-index: 1;

@@ -26,10 +26,10 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-                    <h1>Yearnings of Yore</h1>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100"></div>
+                    <h1 class="text-center">Yearnings of Yore</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                     </div>
                 </div>
             </div>
@@ -42,9 +42,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Yearnings of Yore</h1>
-                            <div class="progress">
+                            <div class="progress" style="height:0.7rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
@@ -67,9 +67,9 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height:0.7rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,9 @@
     //   duration: 2,
     //   y: 200
     // });
-
+				$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
     gsap.from('header h1', {
         scrollTrigger: {
             trigger: 'header h1',

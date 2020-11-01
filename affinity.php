@@ -38,9 +38,9 @@
       <div class="row">
         <div class="col-md-6 col-12">
           <div class="panel text-left">
-            <h1>AFFINITY PROGRAMME</h1>
+            <h1 class="text-center">AFFINITY PROGRAMME</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <p class="pt-4">
@@ -71,7 +71,7 @@
           <div class="panel panel1 text-center">
             <h1 class="x">Current Associations</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -145,7 +145,7 @@
           <div class="panel panel1 text-center">
             <h1 class="x">Previous Associations</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -202,6 +202,9 @@
     <?php include 'preloader.php' ?>
   <!-- 	Footer end	 -->
   <script>
+  	$( "#one,#two,#three").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
     gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
