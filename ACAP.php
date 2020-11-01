@@ -39,9 +39,9 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
                     <h1 style="text-align: left;">ALUMNI CAREER ASSISTANCE PROGRAMME</h1>
-                    <div class="progress">
+                    <div class="progress" style="height:0.7rem;">
                         <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100"></div>
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                     </div>
                 </div>
             </div>
@@ -52,12 +52,12 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1>OVERVIEW</h1>
-                            <div class="progress">
+                            <div class="progress" style="height:0.7rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
                             <p class="pt-4">
                                 The most tedious, confusing and overwhelming time of your student life is the placement
@@ -69,12 +69,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <div class="pray">
-                            <br><br><br>
-                            <img src="img/acap/2.jpg" alt="Pray" class="" />
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section>
@@ -85,9 +80,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Register Here!</h1>
-                            <div class="progress">
+                            <div class="progress" style="height:0.7rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
 

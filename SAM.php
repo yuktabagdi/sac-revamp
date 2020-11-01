@@ -37,9 +37,9 @@
         <div class="col-md-7 col-sm-12  text-white">
           <h1 style="text-align: left;">STUDENT</h1>
           <h1 style="text-align: left;"> ALUMNI MEET</h1>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-              aria-valuemax="100"></div>
+          <div class="progress" style="height:0.7rem;">
+            <div class="progress-bar" role="progressbar" id="one" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100" style="height:0.7rem;"></div>
           </div>
           <br>
           <h6 style="text-align: left;">DELHI | MUMBAI | BANGALORE | HYDERABAD | KOLKATA</h6>
@@ -52,12 +52,12 @@
     <section class="section-1">
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-6 col-12">
+          <div class="col-12">
             <div class="panel text-left">
               <h1>ABOUT THE MEET</h1>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+              <div class="progress" style="height:0.7rem;">
+                <div class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <p class="pt-4">
                 Student Alumni Meets bring together the students and the alumni under one roof and encourage interactive
@@ -65,12 +65,6 @@
                 is to connect the alumni and the students at a very personal level and ensure long term interaction and
                 strong bonding thus proving to be extremely beneficial to both the students as well as the alumni
               </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-12">
-            <div class="pray">
-              <br><br><br><br>
-              <img src="img/sam/sam_about.jpg" alt="Pray" class="" />
             </div>
           </div>
         </div>
@@ -82,9 +76,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'20 KOLKATA</h1>
-              <div class="progress">
+              <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -118,9 +112,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'18 SINGAPORE</h1>
-              <div class="progress">
+              <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
 
@@ -157,9 +151,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'18 BANGALORE</h1>
-              <div class="progress">
+              <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -195,9 +189,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'17 HYDERABAD</h1>
-              <div class="progress">
+              <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -233,9 +227,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'17 KOLKATA</h1>
-              <div class="progress">
+              <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -272,7 +266,13 @@
 
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script>
+  $(function() { 
+   $("#one").addClass("progress-bar-purple");
+});
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
     gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
@@ -357,6 +357,8 @@
         pinSpacing: false
       });
     });
+	
+	
   </script>
 </body>
 

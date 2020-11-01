@@ -109,12 +109,12 @@
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12" id="padding">
+        <div class="col-12">
           <div class="panel text-left">
             <h1>ABOUT</h1>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div class="progress" style="height:0.7rem;">
+              <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.7rem;"></div>
             </div>
             <p class="pt-4">
               Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the
@@ -126,9 +126,6 @@
               alumni and students and bringing them closer together.
             </p>
           </div>
-        </div>
-        <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
-            <img src="img/full_quality.png">
         </div>
       </div>
     </div>

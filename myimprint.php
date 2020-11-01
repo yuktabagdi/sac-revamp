@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>SAC</title>
   <link rel="stylesheet" type="text/css" href="css/imprint.css">
+
+
 </head>
 
 
@@ -22,13 +24,16 @@
 
 
 
-  <section class="section-1 mt-5 mb-5">
+  <section class="section-1 mt-3 mb-3">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div class="col-12">
           <div class="panel text-left">
-            <h1 class="one">MY IMPRINT</h1>
-              
+            <h1 class="one text-center">MY IMPRINT</h1>
+              <div class="progress"  style="height:0.7rem;">
+                <div id="one" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.7rem;" ></div>
+              </div>
             <p class="pt-3 one">
               Ever since its inception, IIT Kharagpur has given its students outstanding academic resources, a brand to
               identify and reckon with, lasting friendships and countless memories over the years they have spent in its
@@ -38,30 +43,21 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-12">
-          <div class="pray">
-            <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="two" />
-          </div>
-        </div>
       </div>
     </div>
   </section>
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12">
-          <div class="pray">
-            <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="one" />
-          </div>
-        </div>
-        <div class="col-md-6 col-12">
+        <div class="col-12">
           <div class="panel text-left">
-            <h1 class="two">SENIOR CLASS GIFT</h1>
-       
+            <h1 class="one text-center">SENIOR CLASS GIFT</h1>
+			 <div class="progress" style="height:0.7rem;">
+                <div id="two" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.7rem;"></div>
+              </div>
           
-            <p class="pt-3 two">
+            <p class="pt-3 one">
               Under this programme, the graduating batches are given the chance to forfeit their caution deposits and
               the amount generated is partially utilized currently in making their Graduating Class Gift and partially
               goes towards endowment for future use albeit for students' services only. It is an opportunity for the
@@ -175,12 +171,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-
+	<script src="vendor/jquery/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script>
+	$( "#one,#two" ).each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
 
     gsap.registerPlugin(ScrollTrigger);
 
