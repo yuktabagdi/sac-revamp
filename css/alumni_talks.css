@@ -18,7 +18,7 @@ body{
 	padding-right: 0;
 	padding-left: 0;
 }
-header,
+.header,
 section {
   overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ section {
   --bggradient: linear-gradient(to bottom, #3fcef1, #e9e3e3);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
-header a {
+.header a {
     font-family: "Sniglet",cursive;
     font-size: 0.9em;
     color: whitesmoke;
@@ -81,58 +81,59 @@ header a {
     display: block;
   }
   
-  header .nav-item:last-child {
+  .header .nav-item:last-child {
     padding-right: 10.5em;
   }
   
-  header .nav-item {
+  .header .nav-item {
     padding: 0.9em;
   }
   
-  header .navbar-brand {
+  .header .navbar-brand {
     padding-left: 8rem;
   }
   
-  header .nav-link:hover {
+  .header .nav-link:hover {
     color: black;
   }
   
-  header .row .col-md-7 {
+  .header .row .col-md-7 {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
   }
   
-  header .row .col-md-5 {
+  .header .row .col-md-5 {
     padding: 4.2vmin 1vmin;
   }
   
-  header .row .col-md-5 img {
+  .
+  .header .row .col-md-5 img {
     width: 90%;
   }
-  header {
+  .header{
     /* fallback for old browsers */
-    background: url(/img/talks.jpg);
+    background-image: url(/img/talks.jpg);
     background-size: cover;
     background-position: center;
     
   }
   
-  header .container .col-md-7 {
+  .header .container .col-md-7 {
     font-family: 'Raleway', sans-serif;
   }
   
-  header .container .col-md-7 h6 {
+  .header .container .col-md-7 h6 {
     padding: 1vmin;
     letter-spacing: 3px;
   }
   
-  header .container .col-md-7 h1 {
+  .header .container .col-md-7 h1 {
     font-size: 8.5vmin;
     font-weight: bolder;
     padding: 0.1em 0em;
   }
   
-  header .container .col-md-7 p {
+  .header .container .col-md-7 p {
     padding: 1vmin 5vmin;
   }
   
@@ -159,7 +160,7 @@ header a {
     .section-1 .row .col-md-6 .panel {
     background: white;
     border-radius: 3px;
-    text-align: left;
+    text-align: center;
     padding: 4vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     font-family: var(--Rubik);
@@ -204,7 +205,7 @@ header a {
       .section-2 .row .col-md-12 .panel h1 {
       font-weight: bold;
       font-family: 'Raleway', sans-serif;
-      padding: 0.4em 0;
+      padding:0;
       font-size: 3em;
       }
       .section-2 .row .col-md-12 .panel p {

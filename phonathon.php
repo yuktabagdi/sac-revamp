@@ -103,7 +103,8 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white gsapx">
-                    <h1 style="text-align: left;"></h1><!--spacing left for heading if required-->
+                    <h1 style="text-align: left;"></h1>
+                    <!--spacing left for heading if required-->
                     <h6 style="text-align: left;"></h6>
                 </div>
             </div>
@@ -126,7 +127,7 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-6 col-12" id="padding">
                         <div class="panel text-left">
                             <h1 class="gsap1">ABOUT</h1>
                             <div class="progress">
@@ -145,11 +146,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12 align-items-center">
-                        <div class="pray">
-                            <br><br><br><br>
-                            <img src="img/phonathon/phonathon21.jpg" class="gsap1 img-fluid">
-                        </div>
+                    <div class="col-md-6 col-12 align-items-center justify-content-center">
+                        <img src="img/phonathon/phonathon21.jpg" class="gsap1 img-fluid">
                     </div>
                 </div>
             </div>
@@ -207,21 +205,23 @@
             });
 
         </script>
-        <section>
-            <div class="container h-100 section-inner">
+        <section class="section-2">
+            <div class="container text-center">
                 <div class="row align-items-center">
                     <br><br><br><br><br><br>
-                    <div class="col-12 text-center text-black">
-                        <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">Phonathon
-                            3.0
-                        </h1>
-                        <div class="progress gsap3">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="col-12 col-md-12 text-center text-black">
+                        <div class="panel text-center">
+                            <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">Phonathon
+                                3.0
+                            </h1>
+                            <div class="progress gsap3">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <img src="img/phonathon/phonathon31.jpg" class="img-fluid gsap3" height="auto" width="100%"
+                                style="max-width: 100%;">
                         </div>
-                        <br>
-                        <img src="img/phonathon/phonathon31.jpg" class="img-fluid gsap3" height="auto" width="70%"
-                            style="max-width: 100%;">
                     </div>
                 </div>
                 <br><br><br>
@@ -239,120 +239,179 @@
                 duration: 2
             });
         </script>
-        <section>
-            <div class="row align-items-center text-black justify-content-center">
-                <h1 style="font-family: 'Raleway', sans-serif;">
-                    TESTIMONIALS</h1>
-            </div>
-            <br><br>
 
-            <div class="row align-items-center" style="margin-bottom: 5%;">
-                <div class="col-12 col-sm-4 offset-sm-1">
-                    <img src="img/phonathon/2.0/6.jpg" width="100%" height="auto" class="testimonial3_images">
-                </div>
-                <div class="col-12 col-sm-6 text-black">
-                    <h1 class="font-weight-bold testimonial3_images testimonialheadingleft">Anmol Thakkar</h1>
-                    <h2 class="font-weight-bold testimonial3_images testimonialheadingleft" style="color: grey;">batch
-                        of '20</h2>
-                    <div class="card c1 testimonialcaptionsleft testimonial3_images">
-                        <div class="card-body mr-auto">
-                            <p class="card-text">It was quite a funda session for me with an alumnus who is an
-                                entrepreneur. He shared some of the insights and his own experiences.Do you have a
-                                dream? he asked. Don't worry about success or failure | Jump in | This is the time of
-                                your life when you
-                                should take risks. He was stressing the fact that it's you who matters. Its in the
-                                little steps that you
-                                take,result into success.
-
-
-                            </p>
+        <section class="section-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="section-inner text-center">
+                            <div class="row align-items-center">
+                                <div class="col-12 text-center text-black">
+                                    <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">
+                                        Testimonials
+                                    </h1>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/6.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Anmol Thakkar</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    It was quite a funda session for me with an
+                                                    alumnus who is an
+                                                    entrepreneur. He shared some of the insights and his own
+                                                    experiences.Do you have a
+                                                    dream? he asked. Don't worry about success or failure | Jump
+                                                    in | This is the time of
+                                                    your life when you
+                                                    should take risks. He was stressing the fact that it's you
+                                                    who matters. Its in the
+                                                    little steps that you
+                                                    take,result into success.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/5.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Md Zaman Khan</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    Varied feedbacks but most of the alumni were pretty concerned about
+                                                    the
+                                                    expected hike in the tuition fee.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/2.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Aman Verma</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    It was an awesome experience , where I got to talk to the alumni and
+                                                    also got to learn a lot of things. I had really interesting
+                                                    conversations with the
+                                                    alumni, which made the whole event a lot of fun
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/8.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Neerav Jain</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    It was a pretty good talk with one of the alumni. We could connect
+                                                    well, him being from the same town as mine. Overall, it was a great
+                                                    experience.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/7.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Hamdan Iftikhar</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    Being a part of phonathon 2.0 was indeed an amazing experience. From
+                                                    that nervousness before making the first call, to the 'peace' later,
+                                                    it all felt great. I made a lot of new friends in the process, both
+                                                    from my batch and seniors alike. I was glad to know the impression
+                                                    IIT Kharagpur has left on the alumni, and their willingness to
+                                                    support and give back to their Alma Mater. A special thanks to
+                                                    Students' Alumni Cell for giving me the chance to be a part of it.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4 offset-sm-4 align-items-center">
+                                                <img src="img/phonathon/2.0/9.jpg" width="100%" height="auto"
+                                                    class="testimonial3_images">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 align-items-center">
+                                                <h1 class="font-weight-bold">Shrinath Dakare</h1>
+                                                <h2 class="font-weight-bold" style="color: grey;">batch
+                                                    of '20</h2>
+                                                <p class="card-text">
+                                                    One of the alumnus from 1965 batch asked me top 20 in what? India? I
+                                                    told him that kgp is already among top 5 in India, and he was
+                                                    amazed. He told me that he is keen to visit IITKGP again, as he
+                                                    never visited kgp back after his graduation.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <br>
-            <div class="row my-1 align-items-center bigscreenvisible" style="margin-top: 5%; margin-bottom: 5%;">
-                <div class="col-12 col-sm-6 offset-sm-1 text-black">
-                    <h1 class="font-weight-bold testimonial2-images1 testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1 testimonialheadingright" style="color: grey;">batch
-                        of '20</h2>
-                    <div class="card c2 testimonialcaptionsright testimonial2-images1">
-                        <div class="card-body ml-auto">
-                            <p class="card-text">Varied feedbacks but most of the alumni were pretty concerned about the
-                                expected hike in the tuition fee.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <img src="img/phonathon/2.0/5.jpg" width="100%" height="auto" class="testimonial2-images1">
-                </div>
-            </div>
-            <div class="row my-1 align-items-center smallscreenvisible" style="margin-top: 5%; margin-bottom: 5%;">
-                <div class="col-12 col-sm-4 offset-sm-1">
-                    <img src="img/phonathon/2.0/5.jpg" width="100%" height="auto" class="testimonial2-images1b">
-                </div>
-                <div class="col-12 col-sm-6  text-black">
-                    <h1 class="font-weight-bold testimonial2-images1b testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1b testimonialheadingright" style="color: grey;">
-                        batch of '20</h2>
-                    <div class="card c2 testimonialcaptionsright testimonial2-images1b">
-                        <div class="card-body ml-auto">
-                            <p class="card-text">Varied feedbacks but most of the alumni were pretty concerned about the
-                                expected hike in the tuition fee.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row  align-items-center" style="margin-top: 5%; margin-bottom: 5%;">
-                <div class="col-12 col-sm-4 offset-sm-1">
-                    <img src="img/phonathon/2.0/2.jpg" width="100%" height="auto" class="testimonial_images">
-                </div>
-                <div class="col-12 col-sm-6 text-black">
-                    <h1 class="font-weight-bold testimonial_images testimonialheadingleft">Aman Verma</h1>
-                    <h2 class="font-weight-bold testimonial_images testimonialheadingleft" style="color: grey;">batch of
-                        '20</h2>
-                    <div class="card c1 testimonialcaptionsleft testimonial_images">
-                        <div class="card-body mr-auto">
-                            <p class="card-text">It was an awesome experience , where I got to talk to the alumni and
-                                also got to learn a lot of things. I had really interesting conversations with the
-                                alumni, which made the whole event a lot of fun </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row  align-items-center bigscreenvisible" style="margin-top: 5%;">
-                <div class="col-12 col-sm-6 offset-sm-1 text-black">
-                    <h1 class="font-weight-bold testimonial3-images1 testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1 testimonialheadingright" style="color: grey;">batch
-                        of '20</h2>
-                    <div class="card c2 testimonialcaptionsright testimonial3-images1">
-                        <div class="card-body ml-auto">
-                            <p class="card-text">It was a pretty good talk with one of the alumni. We could connect
-                                well, him being from the same town as mine. Overall, it was a great experience. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <img src="img/phonathon/2.0/8.jpg" width="100%" height="auto" class="testimonial3-images1">
-                </div>
-            </div>
-
-            <div class="row  align-items-center smallscreenvisible" style="margin-top: 5%;">
-                <div class="col-12 col-sm-4 offset-sm-1">
-                    <img src="img/phonathon/2.0/8.jpg" width="100%" height="auto" class="testimonial3-images1b">
-                </div>
-                <div class="col-12 col-sm-6  text-black">
-                    <h1 class="font-weight-bold testimonial3-images1b testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1b testimonialheadingright" style="color: grey;">
-                        batch of '20</h2>
-                    <div class="card c2 testimonialcaptionsright testimonial3-images1b">
-                        <div class="card-body ml-auto">
-                            <p class="card-text">It was a pretty good talk with one of the alumni. We could connect
-                                well, him being from the same town as mine. Overall, it was a great experience.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!--Scroll animations for testimonials section-->
