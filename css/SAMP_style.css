@@ -94,7 +94,7 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/background_image.jpg);
+  background: url(../img/mentorship.jpg);
   background-position: center;
   background-size: cover;
 }

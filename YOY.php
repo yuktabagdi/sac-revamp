@@ -26,11 +26,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
                     <h1 class="text-center">Yearnings of Yore</h1>
                     <div class="progress" style="height:0.7rem;">
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                     </div>
+
+                    <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>

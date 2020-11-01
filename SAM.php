@@ -31,6 +31,7 @@
 
 <?php include 'navbar.php' ?>
 
+
   <header>
     <div class="container text-center">
       <div class="row">
@@ -43,10 +44,17 @@
           </div>
           <br>
           <h6 style="text-align: left;">DELHI | MUMBAI | BANGALORE | HYDERABAD | KOLKATA</h6>
+
+<header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12  text-white">
+                    <h1 style="text-align: left;"></h1>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
   <main>
     <section class="section-1">
