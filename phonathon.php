@@ -103,8 +103,8 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white gsapx">
-                    <h1 style="text-align: left;">Phonathon</h1>
-                    <h6 style="text-align: left;">Some one liner</h6>
+                    <h1 style="text-align: left;"></h1><!--spacing left for heading if required-->
+                    <h6 style="text-align: left;"></h6>
                 </div>
             </div>
         </div>
@@ -134,17 +134,14 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4 gsap1">
-                                With an objective to involve students in the institute development, Phonathon is an
-                                initiative of Students’ Alumni Cell which helps in Institute development under the
-                                Endowment Campaign. In various avenues like developing centers of excellence for
-                                innovative research, recruiting world-class faculties, student facilities, students
-                                scholarships etc; this event benefits the institute. In our continuous efforts to expand
-                                the alumni network, bringing forward conversations of first year students with the
-                                alumni supports our efforts as well as provides the students with a unique opportunity
-                                to interact with the alumni as well as contribute to the development of the institute.
-                                The event also provides an easy platform for the alumni to give back to the alma mater
-                                and connect with the institute. Focusing on the needs of the halls of residence, via
-                                Hall endowment, this event has a nostalgic facet.
+                                Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
+                                under the Endowment Campaign while serving as a platform for the alumni to give back to
+                                the alma mater. In various avenues like developing centers of excellence for innovative
+                                research, recruiting world-class faculties, students scholarships etc; this event
+                                benefits the institute. In our continuous efforts to expand the alumni network, bringing
+                                forward conversations of first year students with the alumni supports our efforts as
+                                well as provides the students with a unique opportunity to interact with the alumni as
+                                well as contribute to the development of the institute.
                             </p>
                         </div>
                     </div>
@@ -255,13 +252,20 @@
                 </div>
                 <div class="col-12 col-sm-6 text-black">
                     <h1 class="font-weight-bold testimonial3_images testimonialheadingleft">Anmol Thakkar</h1>
-                    <h2 class="font-weight-bold testimonial3_images testimonialheadingleft" style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3_images testimonialheadingleft" style="color: grey;">batch
+                        of '20</h2>
                     <div class="card c1 testimonialcaptionsleft testimonial3_images">
                         <div class="card-body mr-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. </p>
+                            <p class="card-text">It was quite a funda session for me with an alumnus who is an
+                                entrepreneur. He shared some of the insights and his own experiences.Do you have a
+                                dream? he asked. Don't worry about success or failure | Jump in | This is the time of
+                                your life when you
+                                should take risks. He was stressing the fact that it's you who matters. Its in the
+                                little steps that you
+                                take,result into success.
+
+
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -270,13 +274,12 @@
             <div class="row my-1 align-items-center bigscreenvisible" style="margin-top: 5%; margin-bottom: 5%;">
                 <div class="col-12 col-sm-6 offset-sm-1 text-black">
                     <h1 class="font-weight-bold testimonial2-images1 testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1 testimonialheadingright" style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial2-images1 testimonialheadingright" style="color: grey;">batch
+                        of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial2-images1">
                         <div class="card-body ml-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.</p>
+                            <p class="card-text">Varied feedbacks but most of the alumni were pretty concerned about the
+                                expected hike in the tuition fee.</p>
                         </div>
                     </div>
                 </div>
@@ -290,13 +293,12 @@
                 </div>
                 <div class="col-12 col-sm-6  text-black">
                     <h1 class="font-weight-bold testimonial2-images1b testimonialheadingright">Md Zaman Khan</h1>
-                    <h2 class="font-weight-bold testimonial2-images1b testimonialheadingright" style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial2-images1b testimonialheadingright" style="color: grey;">
+                        batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial2-images1b">
                         <div class="card-body ml-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.</p>
+                            <p class="card-text">Varied feedbacks but most of the alumni were pretty concerned about the
+                                expected hike in the tuition fee.</p>
                         </div>
                     </div>
                 </div>
@@ -307,13 +309,13 @@
                 </div>
                 <div class="col-12 col-sm-6 text-black">
                     <h1 class="font-weight-bold testimonial_images testimonialheadingleft">Aman Verma</h1>
-                    <h2 class="font-weight-bold testimonial_images testimonialheadingleft" style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial_images testimonialheadingleft" style="color: grey;">batch of
+                        '20</h2>
                     <div class="card c1 testimonialcaptionsleft testimonial_images">
                         <div class="card-body mr-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. </p>
+                            <p class="card-text">It was an awesome experience , where I got to talk to the alumni and
+                                also got to learn a lot of things. I had really interesting conversations with the
+                                alumni, which made the whole event a lot of fun </p>
                         </div>
                     </div>
                 </div>
@@ -321,13 +323,12 @@
             <div class="row  align-items-center bigscreenvisible" style="margin-top: 5%;">
                 <div class="col-12 col-sm-6 offset-sm-1 text-black">
                     <h1 class="font-weight-bold testimonial3-images1 testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1 testimonialheadingright"style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3-images1 testimonialheadingright" style="color: grey;">batch
+                        of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial3-images1">
                         <div class="card-body ml-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. </p>
+                            <p class="card-text">It was a pretty good talk with one of the alumni. We could connect
+                                well, him being from the same town as mine. Overall, it was a great experience. </p>
                         </div>
                     </div>
                 </div>
@@ -342,19 +343,17 @@
                 </div>
                 <div class="col-12 col-sm-6  text-black">
                     <h1 class="font-weight-bold testimonial3-images1b testimonialheadingright">Neerav Jain</h1>
-                    <h2 class="font-weight-bold testimonial3-images1b testimonialheadingright" style="color: grey;">batch of '20</h2>
+                    <h2 class="font-weight-bold testimonial3-images1b testimonialheadingright" style="color: grey;">
+                        batch of '20</h2>
                     <div class="card c2 testimonialcaptionsright testimonial3-images1b">
                         <div class="card-body ml-auto">
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. </p>
+                            <p class="card-text">It was a pretty good talk with one of the alumni. We could connect
+                                well, him being from the same town as mine. Overall, it was a great experience.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-          
         <!--Scroll animations for testimonials section-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
