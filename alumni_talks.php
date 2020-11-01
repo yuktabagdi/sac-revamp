@@ -100,8 +100,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;">ALUMNI TALKS</h1>
-          <h6 style="text-align: left;">Some one liner</h6>
+          <h1 style="text-align: left;"></h1><!--spacing for any headimg if needed-->
+          <h6 style="text-align: left;"></h6>
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div class="col-md-6 col-12" id="padding">
           <div class="panel text-left">
             <h1>ABOUT</h1>
             <div class="progress">
@@ -117,22 +117,18 @@
                 aria-valuemax="100"></div>
             </div>
             <p class="pt-4">
-              Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent
-              personalities in the history of the nation. The Alumni Talks provide a medium for the alumni
-              to give back to the institute by imparting their experience to the students and preparing
-              them for the real world. The topics of these guest lectures are spread all over ranging from
-              personality development to department related technical lectures. The guest lectures pave a
-              way for interaction between the alumni and the current students. Having a large alumni base
-              to learn from has always been an integral benefit of being a student of IIT Kharagpur and
-              these lectures ensure exactly that.
+              Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the
+              history of the nation. The Alumni Talks provide a medium for the alumni to give back to the institute by
+              imparting their experience to the students and preparing them for the real world. The topics of these
+              guest lectures are spread all over ranging from personality development to department-related technical
+              lectures. The guest lectures pave a way for interaction between the alumni and the current students.
+              Alumni Talks form a crucial part of the working of Students' Alumni Cell by bridging the gap between the
+              alumni and students and bringing them closer together.
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-12">
-          <div class="pray">
-            <br><br><br><br>
-            <img src="img/guest-lecture/alumnitalks-2019-2.jpg" class="img-fluid">
-          </div>
+        <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
+            <img src="img/full_quality.png">
         </div>
       </div>
     </div>
@@ -158,19 +154,38 @@
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/aditya_sharma.jpg" class="image img-responsive img-fluid" style="width: 20em;">
-                      <h5 class="x">Aditya Sharma</h5>
-                      <h6 class="x">(Partner)</h6>
-                    </div>
-                    <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid" style="width: 20em;">
-                      <h5 class="x">Abhishek Narain</h5>
-                      <h6 class="x">(Senior Associate)</h6>
-                    </div>
-                    <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/ashutosh_mohapatra.jpg" class="image img-responsive img-fluid" style="width: 20em;">
-                      <h5 class="x">Ashutosh Mohapatra</h5>
+                      <img src="img/guest-lecture/aditya_agarwal.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Aditya Agarwal</h5>
                       <h6 class="x">(Associate)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Abhishek Narain</h5>
+                      <h6 class="x">(Associate)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/jitesh_khanna.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Jitesh Khanna</h5>
+                      <h6 class="x">(Associate Partner)</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 offset-sm-2 align-items-center">
+                      <img src="img/guest-lecture/amit_gupta.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Amit Gupta</h5>
+                      <h6 class="x">(Associate Partner)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/kanakvi_aggarwal.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">kanakvi Aggarwal</h5>
+                      <h6 class="x">(Business Analyst)</h6>
+                    </div>
+                    <div class="col-2 col-sm-2 align-items-center">
                     </div>
                   </div>
                 </div>
@@ -185,16 +200,27 @@
                         style="width: 100%; padding: 5%;">
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img class="image" src="img/guest-lecture/talk_MCK/c.jpg" class="image img-responsive img-fluid"
+                        style="width: 100%; padding: 5%;">
+                    </div>
+                    <br>
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img class="image" src="img/guest-lecture/talk_MCK/d.jpg" class="image img-responsive img-fluid"
+                      style="width: 100%; padding: 5%;">
+                    </div>
+                  </div>
                   <br>
-                  <h5 class="x">Some one liner</h5>
+                  <h5 class="x"></h5>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -260,7 +286,7 @@
                     </div>
                   </div>
                   <br>
-                  <h5 class="x">Some one liner</h5>
+                  <h5 class="x"></h5>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -383,9 +409,8 @@
     </div>
   </section>
   <!--footer start-->
- <?php include 'footer.php' ?>
+  <?php include 'footer.php' ?>
   </main>
-    <?php include 'preloader.php' ?>
   <!-- 	Footer end	 -->
   <script>
     gsap.from('header', { opacity: 0, duration: 1 })
