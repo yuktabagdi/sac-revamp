@@ -6,7 +6,21 @@
   border: 0;
 }
 .modal-header{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+}
+.input{
+  border: none;
+background-color: #eeeeee;
+border-radius: 0;
+font-size: small;
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+line-height: 1.5;
+}
+label{
+  margin-bottom: 0;
 }
 .modal-body{
   font-family: 'Raleway', sans-serif;
@@ -43,8 +57,13 @@ input[type=number] {
 {
   margin-right: 20%;
 }
+<<<<<<< HEAD
+.input::-webkit-input-placeholder {
+     opacity: 0.5; /*Change the opacity between 0 and 1*/
+=======
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+>>>>>>> upstream/main
 }

@@ -24,7 +24,7 @@
       </body>
  </html>
  <div id="loginModal" class="modal fade" role="dialog" style="padding-left:5%;">
-      <div class="modal-dialog modal-dialog-centered" style="min-width:400px;">
+      <div class="modal-dialog " style="min-width:400px;">
            <div class="modal-content">
              <div class="body">
                <div class="modal-header">
@@ -33,19 +33,26 @@
 
                </div>
                <div class="modal-body">
-                    <input type="text" name="username" id="username" class="form-control" autocomplete="none" placeholder="User Name"/>
+                 <label for="username" style="margin:0;">Username:-</label>
+                    <input type="text" name="username" id="username" class="input" autocomplete="none" placeholder="User Name"/>
                     <br />
-                    <input type="text" name="designation" id="designation" class="form-control"placeholder="Designation" />
+                    <label for="designation" style="margin:0;">Designation:-</label>
+                    <input type="text" name="designation" id="designation" class="input"placeholder="Designation" />
                     <br />
-                    <input type="text" name="details" id="details" class="form-control"placeholder="details" />
+                    <label for="details" style="margin:0;">Details:-</label>
+                    <input type="text" name="details" id="details" class="input"placeholder="details" />
                     <br />
-                    <input type="email" name="email" id="email "class="form-control"placeholder="email">
+                    <label for="email" style="margin:0;">Email:-</label>
+                    <input type="email" name="email" id="email "class="input"placeholder="email">
                     <br>
-                    <input type="number" name="phonenumber" id="number" class="form-control"placeholder="Phone Number"autocomplete="none" />
+                    <label for="phonenumber" style="margin:0;">Phonenumber:-</label>
+                    <input type="number" name="phonenumber" id="number" class="input"placeholder="Phone Number"autocomplete="none" onchange="f1(this)" />
+                    <p class="error" style="display:none;color:red;margin-bottom:0;opacity:0.7;">please enter correct number !</p>
                     <br />
-                    <input type="text" name="Address" id="Address" class="form-control"placeholder="Address" />
+                    <label for="Address" style="margin:0;">Address:-</label>
+                    <input type="text" name="Address" id="Address" class="input"placeholder="Address" />
                     <br />
-                    <button style="margin-left:45%;" type="button" name="login_button" id="login_button" class="btn btn-lg btn-primary">Login</button>
+                    <button type="button" name="login_button" id="login_button" class="btn btn-lg btn-block btn-primary">Login</button>
                </div>
              </div>
            </div>
@@ -99,6 +106,19 @@
            });
       });
  });
+<<<<<<< HEAD
+ function f1(x){
+   number= $('#number').val();
+   if(number.length!=10)
+   {
+        $(".error").css("display","block");
+   }
+   else {
+       $(".error").css("display","none");
+   }
+
+ }
+=======
  // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -116,4 +136,5 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+>>>>>>> upstream/main
  </script>

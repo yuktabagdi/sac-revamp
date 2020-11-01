@@ -1,23 +1,16 @@
-.mod-img{
-  display: inline-block;
-  padding-right: 0;
-  max-height: 400px;
-}
-.modal-content{
-  display: inline-block;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  padding:2%;
-  border: 0;
-}
 .modal-dialog{
   width:80%;
   max-width: 50%;
+<<<<<<< HEAD
+  height: 80%;
+  max-height: 80%;
+=======
   height: 90%;
 
+>>>>>>> upstream/main
 }
 .modal-header{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .modal-body{
   font-family: 'Raleway', sans-serif;
@@ -35,6 +28,15 @@
 .modal{
   animation: fadeleft 1s ease-out ;
 }
+.form-control{
+  border: none;
+background-color: #eeeeee;
+border-radius: 0;
+font-size: small;
+}
+label{
+  margin-bottom: 0;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -43,11 +45,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   appearance: textfield;
 }
-#extrafield2{
-  display:none;
-}
-#extrafield3{
-  display:none;
+.form-control::-webkit-input-placeholder {
+     opacity: 0.5; /*Change the opacity between 0 and 1*/
 }
 #f1{
   display: none;

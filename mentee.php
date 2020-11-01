@@ -8,31 +8,15 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="css/mentee.css">
+<link rel="stylesheet" href="css/mentor.css">
     <title>Document</title>
 </head>
       <body>
            <br />
            <div class="container"  style="width:80px;margin-left:4%;padding-top:2%;">
-                <?php
-                if(isset($_SESSION['username']))
-                {
-                ?>
-                <div align="center">
-                     <h1>Welcome - <?php echo $_SESSION['username']; ?></h1><br />
-                     <a href="#" id="logout">Logout</a>
-                </div>
-                <?php
-                }
-                else
-                {
-                ?>
                 <div>
                      <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
                 </div>
-                <?php
-                }
-                ?>
            </div>
            <br />
       </body>
@@ -52,30 +36,35 @@
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="name">User name:-</label>
                        <input type="name" name="name"id="username" class="form-control" placeholder="Enter your name" required="required">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="email">Email:-</label>
                        <input type="email" name="email"id="email" class="form-control" placeholder="Enter your email" required="required">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="password">Password:-</label>
                        <input type="password" name="password"id="password" class="form-control" placeholder="Enter your password" required="required">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="re-password">Re-password:-</label>
                        <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password" required="required">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="department">Department:-</label>
                        <select required name='department'id="department" class='form-control'  >
                          <option  value="" disabled selected >Select Your Department</option>
                          <option value="AE">Aerospace Engineering</option>
@@ -124,6 +113,7 @@
                    </div>
                    <div class="form-group">
                      <div class="col-sm-12" id="hall">
+                       <label for="hall">Hall:-</label>
                        <select required name='hall' class='form-control' class="required">
                          <option  value="" disabled selected >Select Your Hall</option>
                          <option value="SAM">Sir Ashutosh Mukherjee  Hall</option>
@@ -153,11 +143,13 @@
                    </div>
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="rollumber">Roll number:-</label>
                        <input type="text" name="roll"id="rollnumber" class="form-control" placeholder="Enter your Roll No." required="required">
                      </div>
                    </div>
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="cgpa">CGPA:-</label>
                        <input type="text" name="cgpa"id="cgpa" class="form-control" placeholder="Enter your CGPA" >
                      </div>
                    </div>
@@ -166,6 +158,7 @@
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="current">Current Year:-</label>
                        <select required name='current'id="currentyear" class='form-control' class="required">
                          <option  value="" disabled selected >Choose your Current Academic Year</option>
                          <option value='1'>1</option>
@@ -180,25 +173,30 @@
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="q1">Question 1:-</label>
                        <input type="text" name="q1"id="q1" class="form-control" placeholder="What is the most important thing you wish to know from your mentor ?" required="required" maxlength="200">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="q2">Question 2:-</label>
                        <input type="text" name="q2"id="q2" class="form-control" placeholder="What are your major reasons for joining the mentorship programme ?" required="required" maxlength="200">
                      </div>
                    </div>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="hcity">Home town:-</label>
                        <input type="text" name="hcity"id="hcity" class="form-control" placeholder="Enter your hometown/Location of Summer Internship" required="required" maxlength="40">
                      </div>
           </div>
 
                    <div class="form-group" >
                      <div class="col-sm-12" >
-                       <h4>In which field do you want to  be Mentored?</h4>
+
+                       <h4 style="margin-left:1%;font-size:1.2em;">In which field do you want to  be Mentored?</h4>
+                        <label for="1st-preference">Preference 1:-</label>
                        <select required name='pref1'id="1st-preference" class='form-control' class="required">
                          <option  value="" disabled selected >Choose your 1st Preference</option>
                          <option value='4'>Banking & Finance</option>
@@ -237,6 +235,7 @@
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="pref2">Preference 2:-</label>
                        <select required name='pref2'id="2nd-preference" class='form-control' class="required">
                          <option  value="" disabled selected >Choose your 2nd Preference</option>
 
@@ -276,6 +275,7 @@
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="pref3">Preference 3:-</label>
                        <select required name='pref3'id="3rd-preference" class='form-control' class="required">
                          <option  value="" disabled selected >Choose your 3rd Preference</option>
                          <option value='4'>Banking & Finance</option>
@@ -313,20 +313,23 @@
                      </div>
                    </div>
 
-                   <h3>Contact Details</h3>
+                   <h3 style="margin-left:3%;font-size:1.2em;">Contact Details</h3>
 
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="phone">Phonenumber</label>
                        <input type="text" name="phone"id="phone-number" class="form-control" placeholder="Enter your Phone No." required="required">
                      </div>
                    </div>
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="furl">Facebook url:-</label>
                        <input type="text" name="fb"id="facebook-url" class="form-control" placeholder="Enter your Facebook Profile link" required="required">
                      </div>
                    </div>
                    <div class="form-group">
                      <div class="col-sm-12">
+                       <label for="lurl">LinkedIn url:-</label>
                        <input type="text" name="linkedin"id="linkedin-url" class="form-control" placeholder="Enter your LinkedIn Profile link" >
                      </div>
                    </div>
