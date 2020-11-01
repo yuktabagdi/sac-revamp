@@ -39,7 +39,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="two" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="two" />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
         <div class="col-md-6 col-12">
           <div class="pray">
             <br><br><br><br>
-            <img src="img/imprint.jpg" alt="Pray" class="one" />
+            <img src="img/latest programs/imprint.jpg" alt="Pray" class="one" />
           </div>
         </div>
         <div class="col-md-6 col-12">
