@@ -19,10 +19,10 @@
 </head>
 
 <body style="background-color:#000000">
-
+<?php include 'navbar.php' ?>
 
 	<section class="section1">
-<?php include 'navbar.php' ?>
+
 
 		<!-- ======= Head Section ======= -->
 		<section id="hero" class="d-flex align-items-center">

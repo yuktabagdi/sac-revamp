@@ -158,54 +158,12 @@ section {
       font-family: var(--Patua);
     }
     
-    .purchase > h1 {
-      padding-top: 15vmin;
-      padding-bottom: 0.1em;
-      font-family: var(--Lobster);
-    }
-    
-    .purchase > p {
-      color: var(--light-black);
-      font-size: 3vmin;
-      padding-bottom: 10vmin;
-    }
-    
-    .purchase .cards .card {
-      width: 22rem;
-      margin: 3vmin 3vmin;
-    }
-    
-    .cards div {
-      padding: 0;
-      margin: 0;
-    }
-    
-    .cards .title {
-      background: rgba(208, 241, 241, 0.199);
-      padding: 1.4em 2.5em;
-      font-size: 2vmin;
-    }
-    
-    .card .card-text {
-      padding: 2.5rem 3rem;
-      color: var(--light-black);
-    }
-    
-    .card-body .pricing {
-      background: rgba(208, 241, 241, 0.199);
-      border-top-right-radius: 170px;
-      border-top-left-radius: 170px;
-    }
-    
-    .card-body .pricing > h1 {
-      font-size: 10vmin;
-      padding: 1em 0.5em;
-    }
+   
 .section-3 h1{
   font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Merriweather', serif;
 	padding: 0.2em 0;
-  font-size: 4em;
+  font-size: 3em;
   color: black;
 }
 
@@ -282,7 +240,7 @@ section {
   overflow: hidden;
 }
 .hero-carousel .carousel-item .carousel-image{
-  height: 100vh;
+  height: 80vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,5 +255,65 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+.card{
+  position: relative;
+  overflow: hidden;
+}
+
+.card:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 220%;
+  background: rgba(65, 61, 63, 0.7);
+  top: 100%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  transform-origin: center top 0;
+  transition: .5s;
+}
+
+.card:hover:before{
+  top: 0%;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card-text{
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  top: -100%;
+  color: #fff;
+  left: 0;
+  z-index: 2;
+  transition: 0.7s;
+}
+
+.card:hover .card-text{
+  top: 80px;
+}
+
+/* #a{
+  background-color: black;
+}
+#b{
+  background-color: black;
+} */
+
 
 
