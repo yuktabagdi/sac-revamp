@@ -12,10 +12,10 @@
 
 
 <body style="background:#fcf6f4;">
+
+<?php include 'navbar.php' ?>
   <section class="section-1">
     <div class="header">
-      <?php include'navbar.php' ?>
-	  
 	<div class="container-fluid img">
 	</div>
     </div>

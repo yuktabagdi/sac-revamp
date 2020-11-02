@@ -11,9 +11,9 @@
 
 
 <body>
+<?php include 'navbar.php' ?>
   <section class="section0 mb-2">
     <div class="header">
-<?php include 'navbar.php'?>
       <section class="container second">
         <div class="row" style="margin-top:20rem">
           <div class="col-4"></div>
