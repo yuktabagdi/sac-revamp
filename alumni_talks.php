@@ -24,7 +24,7 @@
 
 <body>
 <?php include 'navbar.php' ?>
-  <header>
+  <div class="header" style="background-image: url(img/talks.jpg);">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
@@ -33,18 +33,18 @@
         </div>
       </div>
     </div>
-  </header>
-  <section class="section-1">
+</div>
+  <section class="section-2">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12" id="padding">
-          <div class="panel text-left">
-            <h1>ABOUT</h1>
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class ="x">ABOUT</h1>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
-            <p class="pt-4">
+            <p class="pt-3 x">
               Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the
               history of the nation. The Alumni Talks provide a medium for the alumni to give back to the institute by
               imparting their experience to the students and preparing them for the real world. The topics of these
@@ -54,9 +54,6 @@
               alumni and students and bringing them closer together.
             </p>
           </div>
-        </div>
-        <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
-            <img src="img/full_quality.png">
         </div>
       </div>
     </div>
