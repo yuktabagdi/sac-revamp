@@ -32,8 +32,8 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="panel text-left">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
                             <h1>About the Programme</h1>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
@@ -48,16 +48,8 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
+                            <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
                                     class="fa fa-book"></i> Mentorship Portal</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <div class="pray">
-                            <br><br><br><br>
-                            <img src="img/mentorship.jpg" alt="Pray" class="" />
-                            <br><br>
-                            <img src="img/MENTORSHIPbnew.jpg" alt="Pray" class="" />
                         </div>
                     </div>
                 </div>
@@ -74,7 +66,7 @@
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="pt-4" style="padding-bottom: 20px;">
+                            <p class="pt-4">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
                                 an Alumnus from a field he has a profound interest in. The Alumni share their vast
                                 repository of personal experiences and help students improve insight in many diverse
@@ -138,7 +130,8 @@
             gsap.from('.section-1 h1', {
                 scrollTrigger: {
                     trigger: '.section-1 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1,
@@ -148,7 +141,8 @@
             gsap.from('.section-1 p', {
                 scrollTrigger: {
                     trigger: '.section-1 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1.0,
@@ -168,7 +162,8 @@
             gsap.from('.section-3 h1', {
                 scrollTrigger: {
                     trigger: '.section-3 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1,
@@ -178,7 +173,8 @@
             gsap.from('.section-3 p', {
                 scrollTrigger: {
                     trigger: '.section-3 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1.0,
