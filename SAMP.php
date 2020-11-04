@@ -45,13 +45,7 @@
                             <h1 class="text-center">About the Programme</h1>
                             <div class="progress" style="height:0.7rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
-                        <div class="panel text-center">
-                            <h1>About the Programme</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div></div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
                                 Students' Alumni Cell, IIT Kharagpur.

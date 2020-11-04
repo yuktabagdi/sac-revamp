@@ -60,10 +60,7 @@
                         <div class="panel text-left">
                             <h1 class="text-center">OVERVIEW</h1>
                             <div class="progress" style="height:0.7rem;">
-                        <div class="panel text-center">
-                            <h1 class="text-center">OVERVIEW</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
                             <p class="pt-4">

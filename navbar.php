@@ -72,7 +72,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="SAM.php">Students Alumni Meet</a>
             <a class="dropdown-item" href="AAM.php">Alumni Meet</a>
-            <a class="dropdown-item" href="homecomming.php">Homecomming</a>
+            <a class="dropdown-item" href="homecoming.php">Homecoming</a>
             <a class="dropdown-item" href="phonathon.php">Phonathon</a>
             <a class="dropdown-item" href="leadershipsummit.php">Leadership Summit</a>
             <a class="dropdown-item" href="alumni_talks.php">Alumni Talks</a>
@@ -109,11 +109,6 @@
             aria-haspopup="true" aria-expanded="false">
             Publications
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="yearbook.php">Yearbook</a>
-            <a class="dropdown-item" href="YOY.php">Yearnings of Yore</a>
-            <a class="dropdown-item" href="#">Tempo Shout</a>
-          </div>
         </li>
 
         <li class="nav-item">

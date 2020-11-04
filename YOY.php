@@ -47,7 +47,7 @@
                         <div class="panel text-center">
                             <h1 class="text-center">Yearnings of Yore</h1>
                             <div class="progress" style="height:0.7rem;">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
@@ -245,7 +245,7 @@
     //   duration: 2,
     //   y: 200
     // });
-				$( "#one,#two").each(function( ) {
+$( "#one,#two").each(function( ) {
    $(this).addClass("progress-bar-purple");
 });
     gsap.from('header h1', {

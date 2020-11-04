@@ -45,17 +45,7 @@
           <br>
           <h6 style="text-align: left;">DELHI | MUMBAI | BANGALORE | HYDERABAD | KOLKATA</h6>
 
-<header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white">
-                    <h1 style="text-align: left;"></h1>
-                </div>
-            </div>
-
-        </div>
-    </header>
-
+</header>
   <main>
     <section class="section-1">
       <div class="container text-center">
@@ -66,7 +56,7 @@
             <div class="panel text-center">
               <h1>ABOUT THE MEET</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <p class="pt-4">
@@ -87,7 +77,7 @@
             <div class="panel text-center">
               <h1 class="x">SAM'20 KOLKATA</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
@@ -123,7 +113,7 @@
             <div class="panel text-center">
               <h1 class="x">SAM'18 SINGAPORE</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
@@ -162,7 +152,7 @@
             <div class="panel text-center">
               <h1 class="x">SAM'18 BANGALORE</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
@@ -200,7 +190,7 @@
             <div class="panel text-center">
               <h1 class="x">SAM'17 HYDERABAD</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
@@ -238,7 +228,7 @@
             <div class="panel text-center">
               <h1 class="x">SAM'17 KOLKATA</h1>
               <div class="progress" style="height:0.7rem;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                <div id="seven" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.7rem;"></div>
               </div>
               <br>
@@ -281,7 +271,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script>
   $(function() { 
-   $("#one").addClass("progress-bar-purple");
+   $("#one,#two,#three,#four,#five,#six,#seven").addClass("progress-bar-purple");
 });
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
