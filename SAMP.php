@@ -46,6 +46,11 @@
                             <div class="progress" style="height:0.7rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                        <div class="panel text-center">
+                            <h1>About the Programme</h1>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
@@ -56,11 +61,10 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
+                            <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
                                     class="fa fa-book"></i> Mentorship Portal</button>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -75,7 +79,7 @@
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
-                            <p class="pt-4" style="padding-bottom: 20px;">
+                            <p class="pt-4">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
                                 an Alumnus from a field he has a profound interest in. The Alumni share their vast
                                 repository of personal experiences and help students improve insight in many diverse
@@ -142,7 +146,8 @@
             gsap.from('.section-1 h1', {
                 scrollTrigger: {
                     trigger: '.section-1 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1,
@@ -152,7 +157,8 @@
             gsap.from('.section-1 p', {
                 scrollTrigger: {
                     trigger: '.section-1 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1.0,
@@ -172,7 +178,8 @@
             gsap.from('.section-3 h1', {
                 scrollTrigger: {
                     trigger: '.section-3 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1,
@@ -182,7 +189,8 @@
             gsap.from('.section-3 p', {
                 scrollTrigger: {
                     trigger: '.section-3 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1.0,

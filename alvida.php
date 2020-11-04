@@ -29,7 +29,8 @@
 </head>
 
 <body>
-    <header>
+    <?php include 'navbar.php' ?>
+    <div class = "header" style="background-image: url(img/indexslider/alvida.jpg);">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
@@ -38,14 +39,15 @@
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                     </div>
+                    <h1 style="text-align: left;"></h1>
                     <br>
-                    <h6 style="text-align: left;">Some one liner</h6>
+                    <h6 style="text-align: left;"></h6>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <main>
-        <section class="section-1">
+        <section class="section-2">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-12">
@@ -54,8 +56,14 @@
                             <div class="progress" style="height:0.7rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                    <div class="col-md-12 col-12" id="padding">
+                        <div class="panel text-center">
+                            <h1 class="x">THE ANNUAL FAREWELL</h1>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-3 x">
                                 When we look back to our college days, we plunge into a pool of nostalgia and savour the
                                 sweet and salty taste of life that was offered to us then. The strangers who turned out
                                 be great friends, the unknown roads which became familiar and the experiences that would
@@ -67,7 +75,69 @@
                             </p>
                         </div>
                     </div>
-                    
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Alvida 2019</h1>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div class="row">
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2019/2_files/10.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/10.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2019/2_files/21.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/21.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2019/2_files/24.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/24.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2019/2_files/15.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/15.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2019/2_files/28.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/28.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2019/2_files/1.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/1.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2019/2_files/26.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/26.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2019/2_files/14.jpg" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2019/2_files/14.jpg" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

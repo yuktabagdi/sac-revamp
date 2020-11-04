@@ -26,7 +26,7 @@
 
 
 <body>
-
+<?php include 'navbar.php'?>
 
 
     <div id="carouselExampleIndicators" class="carousel slide hero-carousel" data-ride="carousel">
@@ -72,13 +72,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    
-
-
-
-
-
-  
 </div>
     <main>
         <section class="section-1">
@@ -129,7 +122,7 @@
           <div class="tl-year">
             <p class="f2">What We Do</p>
             <br>
-            <p class="f2 heading--sanSerif">For Alumni</p>
+            <p class="f2 heading --sanSerif">For Alumni</p>
           </div>
       
           <div class="tl-content">
@@ -180,102 +173,117 @@
             <h1 class="text-center">News & Updates......</h1>
         </div>
     </section>
-    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
-         <div class="container-fluid p-t-2 p-b-2">
-            <div class="row">
-                <div class="col-5"></div>
-                <div class="col-2 text-md-center lead">
-                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                             <div class="container">
+                                 <div class="row">
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="img/IIT.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">Homecomming December 2020</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="img/marathon1.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">Students Alumni Meet 2020- New York</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="img/students.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">Alumni Meet 2021</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+    
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     
+                                 </div>
+                                 
+                             </div>
+    
+                            
+                        </div>
+                        <div class="carousel-item">
+                             <div class="container">
+                                 <div class="row">
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="images/bgd4.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">IIT alumna cures COVID-19</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+    
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="images/bgd5.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">Sundar Pichai creates History...</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+    
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     <div class="col-sm-12 col-lg-4">
+                                         <div class="card" style="height: 100% !important;">
+                                             <img src="images/bgd6.jpg" class="card-img-top">
+                                             <div class="card-body">
+                                                 <h4 class="card-title">KL Rahul smacks 132 off 69</h4>
+                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+    
+                                             </div>
+                                             
+                                         </div>
+                                         
+                                     </div>
+                                     
+                                 </div>
+                                 
+                             </div>
+    
+                            
+                        </div>
+                        
+                    </div>
+                    <a href="#inam" id="a" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark"></span>
+                    </a>
+                    <a href="#inam" id="b" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark"></span>
+                    </a>
+                    
                 </div>
+                
             </div>
-        </div> 
-        <div class="container-fluid m-t-2 carousel-inner">
-            <div class="row row-equal carousel-item active m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Insight</h6>
-                            <h2>
-                                <a href>Why Stuff Happens Every Year.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Development</h6>
-                            <h2>
-                                <a href>How to Make Every Line Count.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Design</h6>
-                            <h2>
-                                <a href>Responsive is Essential.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-equal carousel-item m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Another</h6>
-                            <h2>
-                                <a href>Tagline or Call-to-action.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
-                            <h2>
-                                <a href>This is a Blog Title.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 fadeIn wow">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Category 3</h6>
-                            <h2>
-                                <a href>Catchy Title of a Blog Post.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         
-    </section>
+    </div>
 
   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

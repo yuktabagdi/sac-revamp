@@ -13,12 +13,28 @@
 
 
 <body>
+
   <section class="section0">
      <?php include'navbar.php' ?>
 	<header>
 	<div class="container-fluid img">
 	</div>
 	</header>
+
+<?php include 'navbar.php' ?>
+  <section class="section0 mb-2">
+    <div class="header">
+      <section class="container second">
+        <div class="row" style="margin-top:20rem">
+          <div class="col-4"></div>
+          <div class="col-4 ">
+            <h1 class="font-weight-bold text-center"> MY IMPRINT</h1>
+            <h2 class="text-center">Senior Class Gift 2020</h2>
+          </div>
+          <div class="col-4"></div>
+        </div>
+      </section>
+    </div>
   </section>
 
 

@@ -8,9 +8,80 @@
   <link rel="stylesheet" type="text/css" href="css/homecoming.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
 </head>
+<body style="background-color:#000000">
+<?php include 'navbar.php' ?>
+
+	<section class="section1">
+
+
+		<!-- ======= Head Section ======= -->
+		<section id="hero" class="d-flex align-items-center">
+			<div>
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-8 p-0 d-flex align-items-center order-1 order-lg-2">
+						<div class="img-gradient">
+							<img class="center" src="img/mrs.maisel.jpg" />
+							<div class="data-small">
+								<div class="button">
+									<a href="https://www.youtube.com/watch?v=BPaRgF4rTRE" class="venobox play-btn"
+										data-vbtype="video" data-autoplay="true"></a>
+								</div><br>
+								<h1 class="pl-0 text-light d-block d-lg-none">Annual Alumni Meet</h1><br>
+								<button class="registration-butt text-light d-block d-lg-none">REGISTRATION</button><br>
+							</div>
+						</div>
+					</div>
 
 
 
+
+					<div class="col-lg-4 order-2 order-lg-1 one p-0">
+						<div class="row d-flex justify-content-center">
+							<div class="col-lg-9 pt-4 pl-5">
+								<h1 class="pl-0 text-light d-lg-block d-none">Annual <br> Alumni <br> Meet</h1>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center mt-5 mr-3">
+							<button class="registration-butt text-light d-none d-lg-block">REGISTRATION</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<!-- ======= About Section ======= -->
+	<section id="about" class="about ">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-6 order-1 order-lg-2">
+					<div class="about-img x">
+						<img src="img/imprint.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+					<h2 class="pb-5 x" style="color:#EA1C2C;">Annual Alumni Meet</h2>
+
+					<p class="about-us x">
+						We live our day to day lives oblivious to the beauty that surrounds us and by the time we do
+						realise what exactly
+						it is that we've been blessed with, it's generally too late. However when the good ol' days call
+						yet again,
+						nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to
+						our alumni
+						a chance to reconnect with their Alma Mater..<br>
+						<span><i class="fas fa-2x fa-hand-point-right pt-2"></i> The Homecoming 2020 will be organized
+							for the batches of 2000, 2005 and 2010.</span>
+					</p>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
 <body>
 
 <section class="section-1">

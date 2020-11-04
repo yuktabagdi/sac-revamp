@@ -141,11 +141,12 @@ section{
   padding: 4%;
 }
 .section-1 {
-  padding: 5vmin 0vmin;
+  padding: 0.5vmin 0vmin;
   }
-  
-  .section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
+  #padding{
+    padding: 4vmin;
+  }
+  .section-1 .row .col-md-6 img {
   width: 100%;
   border-radius: 0.2em;
   }
@@ -155,12 +156,11 @@ section{
   }
   
   .section-1 .row .col-md-6 .panel {
-  top: 7vmin;
-  left: -18vmin;
+ 
   background: white;
   border-radius: 3px;
   text-align: left;
-  padding: 10vmin 5vmin 10vmin 5vmin;
+  padding:4vmin;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   font-family: var(--Rubik);
   z-index: 1;
@@ -204,6 +204,42 @@ section{
     padding-bottom: 2%;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   }
+  .section-2 {
+    padding: 5vmin 0vmin;
+    background-color: transparent;
+    } 
+    .section-2 .container .row .col-md-12 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+    }
+    .img-fluid{
+      padding: 5%;
+    }
+    .section-2 .row .col-md-12:last-child {
+    position: relative;
+    }
+    .section-2 .row .col-md-12 .panel {
+    top: 7vmin;
+    left: -18vmin;
+    background: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+    }
+    .section-2 .row .col-md-12 .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.2em 0;
+    font-size: 3em;
+    }
+    .section-2 .row .col-md-12 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+    }
   .phonathon4_images{
     width: 70%;
     padding: 2%;
@@ -232,6 +268,25 @@ section{
     z-index: 1;
     color: white;
   }
+  .panel {
+    background: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+    }
+    .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+    }
+    .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+    }
   .c1{
     text-align: right;
   }

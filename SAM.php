@@ -62,6 +62,8 @@
         <div class="row">
           <div class="col-12">
             <div class="panel text-left">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
               <h1>ABOUT THE MEET</h1>
               <div class="progress" style="height:0.7rem;">
                 <div class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"

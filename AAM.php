@@ -15,6 +15,8 @@
   <section class="section-1">
       <?php include'navbar.php' ?>
     <header>
+    <div class="header">
+
 	<div class="container-fluid img">
 	</div>
 	</header>
