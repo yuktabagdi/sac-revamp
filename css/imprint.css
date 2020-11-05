@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 *{
     margin:0;
     padding:0;
@@ -6,7 +8,18 @@
 header,
 section {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
 main{
   background: var(--bggradient);
 }
@@ -41,62 +54,58 @@ body{
         height:70px;
     }
 
-.header{
+.img{
     width:100%;
-    height:100vh;
-    background-image:url('img/latest programs/imprint2018.jpg');
-    clip-path:circle(200vh at 50% -100vh)
+    height:120vh;
+background:url(../img/imprint2.png);
+	  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+}
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
 }
 
 
 .section-1 {
-	padding-bottom : 3rem;
+	padding: 5vmin 0vmin;
   }
   
-  .section-1 .row .col-md-6 .pray img {
-	opacity: 0.8;
-	width: 100%;
-	border-radius: 0.2em;
-  }
-  
-  .section-1 .row .col-md-6:last-child {
-	position: relative;
-  }
-  
-  .section-1 .row .col-md-6 .panel {
+  .section-1 .panel {
 	top: 7vmin;
 	left: -18vmin;
-	background: a3d8f4;
+	background: white;
 	border-radius: 3px;
 	text-align: left;
-	padding: 10vmin 5vmin 10vmin 10vmin;
+	padding: 5vmin 5vmin 5vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 	font-family: var(--Rubik);
 	z-index: 1;
   }
   
-  .section-1 .row .col-md-6 .panel h1 {
+  .section-1  .panel h1 {
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	padding: 0.4em 0;
 	font-size: 3em;
   }
   
-  .section-1 .row .col-md-6 .panel p {
+  .section-1 .panel p {
 	font-size: 0.9em;
 	color: rgba(0, 0, 0, 0.5);
   }
 
  .section-2 {
 	padding: 5vmin 0vmin;
+	background-color: transparent;
   }
   
   .section-2 .row .col-md-12 .panel {
-     margin-top:4rem;
 	background:white;
 	border-radius: 3px;
 	text-align: left;
-	padding:1.5rem 5vmin 5vmin 5vmin;
+	padding:5vmin 5vmin 5vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 	font-family: var(--Rubik);
 	z-index: 999;
@@ -104,10 +113,13 @@ body{
   .section-2 .row .col-md-12 .panel h1 {
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
-	padding:0.2rem 0;
+	padding:0.4em 0;
 	font-size: 3em;
     margin:0;
   }
+  .section-2 .fa-chevron-circle-right,.section-2 .fa-chevron-circle-left {
+color:black;
+ }	 
   .sticky {
 	position: fixed;
 	top: 0;
@@ -204,59 +216,3 @@ body{
     text-align:center;
     color:grey;
   }
-
-  header{
-    height: 500px;
-    border: 1px solid grey;
-  }
-
-  main {
-    width: 100%;
-    height:350vh;
-  }
-
-  #wrapper {
-    position: relative;
-    height: 800px;
-  }
-
-  .content {
-    display: flex;
-    height: 300px;
-    position: relative;
-  }
-
-  .item {
-    width: 100%;
-    /* height: 600px;*/
-    display: flex;
-    position: absolute;
-    border-bottom-left-radius: 20px;
-  }
-  #item-1 {
-    background-color:white;
-    z-index: 5;
-    height: 600px;
-  }
-
-  #item-2 {
-    background-color: white;
-    z-index: 4;
-    height: 650px;
-    /* margin-top: 100px; */
-  }
-  #item-3 {
-    background-color:white;
-    z-index: 3;
-    height: 700px;
-    /* margin-top: 200px; */
-  }
-    #item-4 {
-    background-color: white;
-    z-index: 2;
-    height: 750px;
-    /* margin-top: 200px; */
-  }
-  
-  
-  

@@ -127,6 +127,12 @@ header .container .col-md-7 p {
 .section-1 {
 	padding: 5vmin 0vmin;
   }
+
+
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
   
   .section-1 .row .col-md-12 .pray img {
 	opacity: 0.8;
@@ -192,14 +198,14 @@ header .container .col-md-7 p {
   background-color: whitesmoke;
   }
   
-  .section-1 .row .col-md-6 .panel h1 {
+ .panel h1 {
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	padding: 0.4em 0;
 	font-size: 3em;
   }
   
-  .section-1 .row .col-md-6 .panel p {
+ .panel p {
 	font-size: 0.9em;
 	color: rgba(0, 0, 0, 0.5);
   }

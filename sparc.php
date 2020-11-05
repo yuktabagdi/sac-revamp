@@ -30,11 +30,11 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-12 col-12">
                         <div class="panel text-left">
-                            <h1>Students' Pan IIT<br /> Alumni Relations Cell</h1>
+                            <h1 class="text-center">Students' Pan IIT<br /> Alumni Relations Cell</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
                                 The vision of the Indian Institutes of Technology has been to contribute to India and the world
@@ -47,12 +47,6 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <div class="pray">
-                            <br><br><br><br>
-                            <img src="https://source.unsplash.com/300x300/?students" style="width: 100%;">
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -63,7 +57,7 @@
                         <div class="panel text-center">
                             <h1 class="x">Student Alumni Meet '17 - Mumbai</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -99,7 +93,7 @@
                         <div class="panel text-center">
                             <h1 class="x">Student Alumni Meet '16 - Banglore</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <br>
 
@@ -129,7 +123,7 @@
                         <div class="panel text-center">
                             <h1 class="x">Dean's MEET</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -158,7 +152,7 @@
                         <div class="panel text-center">
                             <h1 class="x">Future Initiatives</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -191,6 +185,9 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
+		$( "#one,#two,#three,#four,#five").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
         gsap.from('header', {
             opacity: 0,
             duration: 1

@@ -150,6 +150,10 @@ header .container .col-md-7 p {
   font-weight: bold;
 }
 
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
 
 main{
   background: white;
@@ -169,7 +173,6 @@ main{
   .section-1 .row .col-md-12:last-child {
 	position: relative;
   }
-  
   .section-1 .row .col-md-12 .panel {
 	top: 7vmin;
 	left: -18vmin;
@@ -195,16 +198,6 @@ main{
 	color: rgba(0, 0, 0, 0.5);
   }
 
-  .section-1 .row .col-md-12 .pray img {
-	opacity: 0.8;
-	width: 100%;
-	border-radius: 0.2em;
-  }
-  
-  .section-1 .row .col-md-12:last-child {
-	position: relative;
-  }
-  
   .section-1 .row .col-md-12 .panel {
 	top: 7vmin;
 	left: -18vmin;

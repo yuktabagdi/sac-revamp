@@ -22,7 +22,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
+                    <h1>STUDENT ALUMNI MENTORSHIP PROGRAMME</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                    </div>
+
                     <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>
@@ -33,12 +41,11 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-12">
-                        <div class="panel text-center">
-                            <h1>About the Programme</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="panel text-left">
+                            <h1 class="text-center">About the Programme</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div></div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
                                 Students' Alumni Cell, IIT Kharagpur.
@@ -62,9 +69,9 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Framework of the Programme</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
@@ -79,9 +86,9 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Connecting with our Alumni</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The Student Alumni Mentorship Programme is an active step to keep the alumni in
@@ -118,6 +125,9 @@
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
         <script>
+			$( "#one,#two,#three,#four").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
             gsap.from('header', {
                 opacity: 0,
                 duration: 1

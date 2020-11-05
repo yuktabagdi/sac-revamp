@@ -150,21 +150,19 @@ header .container .col-md-7 p {
 }
 
 
-
+main{
+  background: var(--bggradient);
+}
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
 
 
 .section-1 {
 	padding: 5vmin 0vmin;
   }
-  
-  .section-1 .row .col-md-12:last-child {
-	position: relative;
-  }
 
-/*element.style {
-}
-.section-1 .row .col-md-12 .panel*/
-  
   .section-1 .row .col-md-12 .panel {
 	top: 7vmin;
 	left: -18vmin;

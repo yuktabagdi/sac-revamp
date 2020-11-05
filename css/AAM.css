@@ -61,10 +61,10 @@ overflow-x:hidden;
 .section-1{
 	height:80vh;
 }	
+
 .img{
 	height:65vh;
-	margin-bottom:5rem;
-	background:url('img/17th_aam.jpg');
+	background:url(../img/17th_aam.jpg);
 	  background-repeat: no-repeat;
   background-position: center;
     background-size: cover;
@@ -110,6 +110,10 @@ overflow-x:hidden;
     width: 41.25em;
     position: absolute;
     transform-origin: left;
+}
+iframe{
+	width:40rem;
+	height:24rem;
 }
   
   .section-2 .row .col-md-6 .panel {
@@ -193,5 +197,27 @@ overflow-x:hidden;
 	border-bottom:1px solid black;
 	margin-left:6rem;
 	margin-right:12rem;
+}
+
+ iframe{
+	 width:660px;
+	 height:415px;
+ }
+ 
+@media (max-width: 768px){
+	 .first,.second,.third,iframe{
+		 width:330px;
+		 height:250px;
+	 }
+	 .trailer{
+		 height:30vh;
+		 padding-top:1rem;
+	 }
+}
+@media (min-width: 768px){
+	 .trailer{
+	padding-top:6rem;
+	padding-bottom:6rem;
+}
 }
  

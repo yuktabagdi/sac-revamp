@@ -40,11 +40,10 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-12">
-                        <div class="panel text-center">
+                        <div class="panel text-left">
                             <h1 class="text-center">YearBook</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The yearbook is a dedicated volume that captures the
@@ -68,9 +67,8 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height:0.7rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -235,6 +233,9 @@
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
         <script>
+				$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
             gsap.from('header', {
                 opacity: 0,
                 duration: 1
