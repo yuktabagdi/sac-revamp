@@ -52,3 +52,7 @@ input[type=number] {
 #f1{
   display: none;
 }
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}

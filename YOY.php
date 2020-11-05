@@ -26,7 +26,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
+                    <h1 class="text-center">Yearnings of Yore</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                    </div>
+
                     <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>
@@ -38,9 +46,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="text-center">Yearnings of Yore</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
@@ -63,9 +71,9 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height:0.7rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -225,10 +233,33 @@
 
     <?php include 'footer.php' ?>
 	  <?php include 'preloader.php' ?>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+    //   gsap.from('.card', {
+    //   scrollTrigger: {
+    //     trigger: '.card',
+    //     toggleActions: "play none none none"
+    //   },
+    //   opacity: 0,
+    //   duration: 2,
+    //   y: 200
+    // });
+$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
+    gsap.from('header h1', {
+        scrollTrigger: {
+            trigger: 'header h1',
+            toggleActions: 'play none none none'
+        },
+        opacity: 0,
+        duration: 2,
+        x: -200
+    });
 
-      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-      <script>
+    gsap.from('.section-1 h1', {
+        scrollTrigger: {
         gsap.from('header', { opacity: 0, duration: 1 })
         gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
         gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })

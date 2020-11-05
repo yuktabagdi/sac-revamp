@@ -143,6 +143,39 @@ section {
   }
   main{
     background: var(--bggradient);
+  }   
+	.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
+
+
+.section-1 {
+	padding: 5vmin 0vmin;
+  }
+  
+  .section-1 .panel {
+	top: 7vmin;
+	left: -18vmin;
+	background: whitesmoke;
+	border-radius: 3px;
+	text-align: left;
+	padding: 5vmin 5vmin 5vmin 5vmin;
+	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+	font-family: var(--Rubik);
+	z-index: 1;
+  }
+  
+  .section-1  .panel h1 {
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.4em 0;
+	font-size: 3em;
+  }
+  
+  .section-1 .panel p {
+	font-size: 0.9em;
+	color: rgba(0, 0, 0, 0.5);
   }
   .section-1 {
     padding: 0.5vmin 0vmin;

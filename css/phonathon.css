@@ -131,6 +131,10 @@ header .container .col-md-7 p {
 
 main{
 }
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
 
 
 section{
