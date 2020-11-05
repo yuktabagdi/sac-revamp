@@ -40,11 +40,12 @@
     <section class="section-1">
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-6 col-12">
-            <div class="panel text-left">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
               <h1>The Summit</h1>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
               </div>
               <p class="pt-4">
                 <strong>Leadership Summit</strong>, organized
@@ -52,12 +53,6 @@
                 best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and
                 provide a platform for them to share their experiences and guide students to become future world leaders.
               </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-12">
-            <div class="pray">
-              <br><br><br><br>
-              <img src="img/sam/sam_about.jpg" alt="Pray" class="" />
             </div>
           </div>
         </div>

@@ -87,6 +87,19 @@
                                                     <img src="img\yearbook\year17.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
+                                                        <div class="container-fluid">
+                                                            <div class="row px-2">
+                                                                <div class="col img-txt">
+                                                                    UG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    PG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    RS
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
 
@@ -98,6 +111,19 @@
                                                     <img src="img\yearbook\year16.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
+                                                        <div class="container-fluid">
+                                                            <div class="row px-2">
+                                                                <div class="col img-txt">
+                                                                    UG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    PG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    RS
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -106,7 +132,19 @@
                                                     <img src="img\yearbook\year2015.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2015...</h4>
-
+                                                        <div class="container-fluid">
+                                                            <div class="row px-2">
+                                                                <div class="col img-txt">
+                                                                    UG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    PG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    RS
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
 
                                                 </div>
@@ -127,8 +165,19 @@
                                                     <img src="img\yearbook\year2014.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
-
-
+                                                        <div class="container-fluid">
+                                                            <div class="row px-2">
+                                                                <div class="col img-txt">
+                                                                    UG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    PG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    RS
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
 
                                                 </div>
@@ -139,7 +188,19 @@
                                                     <img src="img\yearbook\year2013.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
-
+                                                        <div class="container-fluid">
+                                                            <div class="row px-2">
+                                                                <div class="col img-txt">
+                                                                    UG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    PG
+                                                                </div>
+                                                                <div class="col img-txt">
+                                                                    RS
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
 
                                                 </div>

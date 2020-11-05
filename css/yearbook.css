@@ -338,3 +338,8 @@ header .container .col-md-7 p {
 .section-3 .card:hover .card-text{
     top: 80px;
 }
+
+.img-txt{
+  border: 1px outset black;
+  padding: 10px;
+}
