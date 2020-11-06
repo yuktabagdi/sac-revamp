@@ -26,7 +26,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
+                    <h1 class="text-center">Yearnings of Yore</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                    </div>
+
                     <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>
@@ -36,11 +44,11 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-12">
-                        <div class="panel text-left">
+                        <div class="panel text-center">
                             <h1 class="text-center">Yearnings of Yore</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
@@ -63,9 +71,9 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress" style="height:0.7rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -225,7 +233,6 @@
 
     <?php include 'footer.php' ?>
 	  <?php include 'preloader.php' ?>
-
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
@@ -238,7 +245,9 @@
     //   duration: 2,
     //   y: 200
     // });
-
+$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
     gsap.from('header h1', {
         scrollTrigger: {
             trigger: 'header h1',
@@ -251,37 +260,91 @@
 
     gsap.from('.section-1 h1', {
         scrollTrigger: {
+        gsap.from('header', { opacity: 0, duration: 1 })
+        gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
+        gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+    
+    
+        gsap.from('.nav-item', {
+          scrollTrigger: {
+            trigger: '.nav-item',
+            toggleActions: "play none none none"
+          },
+          opacity: 0,
+          duration: 1,
+          x: -200
+        });
+    
+    
+        gsap.from('.section-1 h1', {
+          scrollTrigger: {
             trigger: '.section-1 h1',
-            toggleActions: 'play none none none',
-
-        },
-        opacity: 0,
-        duration: 2,
-        y: 200
-    });
-
-    gsap.from('.section-1 p', {
-        scrollTrigger: {
+            toggleActions: "play none none none"
+          },
+          opacity: 0,
+          duration: 1,
+          x: -200
+        });
+    
+        gsap.from('.section-1 p', {
+          scrollTrigger: {
             trigger: '.section-1 p',
-            toggleActions: 'play none none none',
-
-        },
-        opacity: 0,
-        duration: 2,
-        y: 200
-    });
-
-    gsap.from('.section-3 h1', {
-        scrollTrigger: {
-            trigger: '.section-3 h1',
-            toggleActions: 'play none none none',
-
-        },
-        opacity: 0,
-        duration: 2,
-        y: 200
-    });
-    </script>
+            toggleActions: "play none none none"
+          },
+          opacity: 0,
+          duration: 2.0,
+        });
+    
+        gsap.from('.section-1 img', {
+          scrollTrigger: {
+            trigger: '.section-1 img',
+            toggleActions: "play none none none"
+          },
+          opacity: 0,
+          duration: 1.5,
+          x: 200
+        });
+    
+        var arr = document.getElementsByClassName("x");
+        for (var i = 0; i < arr.length; i++) {
+    
+          gsap.from(arr[i], {
+            scrollTrigger: {
+              trigger: arr[i],
+              toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1.5,
+            x: -200
+          });
+    
+        }
+        var img_arr = document.getElementsByClassName("image");
+        for (var i = 0; i < img_arr.length; i++) {
+    
+          gsap.from(img_arr[i], {
+            scrollTrigger: {
+              trigger: img_arr[i],
+              toggleActions: "play none none none",
+              start: "top center"
+            },
+            opacity: 0,
+            duration: 1.5,
+          });
+    
+        }
+    
+        gsap.registerPlugin(ScrollTrigger);
+    
+        gsap.utils.toArray('#panel').forEach((panel, i) => {
+          ScrollTrigger.create({
+            trigger: panel,
+            start: "top top",
+            pin: true,
+            pinSpacing: false
+          });
+        });
+      </script>
 
 </body>
 

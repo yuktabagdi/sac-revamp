@@ -86,8 +86,7 @@
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
             </script>
 <script>
-	// Preloader
-  $(window).on('load', function() {
+	  $(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('fast', function() {
         $(this).remove();
@@ -109,6 +108,7 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
 </script>
 </body>
 </html>

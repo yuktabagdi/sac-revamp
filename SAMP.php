@@ -22,7 +22,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
+                    <h1>STUDENT ALUMNI MENTORSHIP PROGRAMME</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                    </div>
+
                     <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>
@@ -32,13 +40,12 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-12 col-12">
                         <div class="panel text-left">
-                            <h1>About the Programme</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <h1 class="text-center">About the Programme</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div></div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
                                 Students' Alumni Cell, IIT Kharagpur.
@@ -48,16 +55,8 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
+                            <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
                                     class="fa fa-book"></i> Mentorship Portal</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <div class="pray">
-                            <br><br><br><br>
-                            <img src="img/mentorship.jpg" alt="Pray" class="" />
-                            <br><br>
-                            <img src="img/MENTORSHIPbnew.jpg" alt="Pray" class="" />
                         </div>
                     </div>
                 </div>
@@ -70,11 +69,11 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Framework of the Programme</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
-                            <p class="pt-4" style="padding-bottom: 20px;">
+                            <p class="pt-4">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
                                 an Alumnus from a field he has a profound interest in. The Alumni share their vast
                                 repository of personal experiences and help students improve insight in many diverse
@@ -87,9 +86,9 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Connecting with our Alumni</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The Student Alumni Mentorship Programme is an active step to keep the alumni in
@@ -126,6 +125,9 @@
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
         <script>
+			$( "#one,#two,#three,#four").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
             gsap.from('header', {
                 opacity: 0,
                 duration: 1
@@ -138,7 +140,8 @@
             gsap.from('.section-1 h1', {
                 scrollTrigger: {
                     trigger: '.section-1 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1,
@@ -148,7 +151,8 @@
             gsap.from('.section-1 p', {
                 scrollTrigger: {
                     trigger: '.section-1 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top center"
                 },
                 opacity: 0,
                 duration: 1.0,
@@ -168,7 +172,8 @@
             gsap.from('.section-3 h1', {
                 scrollTrigger: {
                     trigger: '.section-3 h1',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1,
@@ -178,7 +183,8 @@
             gsap.from('.section-3 p', {
                 scrollTrigger: {
                     trigger: '.section-3 p',
-                    toggleActions: "play none none none"
+                    toggleActions: "play none none none",
+                    start:"top"
                 },
                 opacity: 0,
                 duration: 1.0,

@@ -130,6 +130,12 @@ section {
 
 main{
 }
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
+
+
 section{
   padding: 4%;
 }

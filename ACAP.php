@@ -38,7 +38,14 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
+
+                    <h1 style="text-align: left;">ALUMNI CAREER ASSISTANCE PROGRAMME</h1>
+                    <div class="progress" style="height:0.7rem;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
+              </div>
                     <h1 style="text-align: left;"></h1>
+
                 </div>
             </div>
         </div>
@@ -48,12 +55,13 @@
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-12 col-12">
+
                         <div class="panel text-left">
-                            <h1>OVERVIEW</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <h1 class="text-center">OVERVIEW</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
                             </div>
                             <p class="pt-4">
                                 The most tedious, confusing and overwhelming time of your student life is the placement
@@ -63,12 +71,6 @@
                                 seamless placement procedure with the alumni community helping them cross any hurdle
                                 that may arise.
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <div class="pray">
-                            <br><br><br>
-                            <img src="img/acap/2.jpg" alt="Pray" class="" />
                         </div>
                     </div>
                 </div>
@@ -81,9 +83,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Register Here!</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
                             <p class="pt-4">
 
@@ -227,6 +229,9 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
+		$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
         gsap.from('header', { opacity: 0, duration: 1 })
         gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
         gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })

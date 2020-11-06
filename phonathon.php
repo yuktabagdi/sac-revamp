@@ -332,7 +332,6 @@
                     </div>
                 </div>
         </section>
-        <?php include 'footer.php' ?>
         <!--Scroll animations for testimonials section-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
@@ -409,6 +408,9 @@
             });
 
         </script>
+    </main>
+	<?php include 'preloader.php' ?>
+    <?php include 'footer.php' ?>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

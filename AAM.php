@@ -12,22 +12,24 @@
 
 
 <body style="background:#fcf6f4;">
-
-<?php include 'navbar.php' ?>
   <section class="section-1">
+      <?php include'navbar.php' ?>
+    <header>
     <div class="header">
+
 	<div class="container-fluid img">
 	</div>
-    </div>
+	</header>
   </section>
-    <section class="section-2 mb-5" style="padding-bottom:5rem;">
+  
+    <section class="section-2" style="padding-bottom:10rem;">
     <div class="container-fluid text-center d-flex align-items-center">
       <div class="row">
-        <div class="col-md-6 col-12 pt-5 about">
-          <div class="panel pt-5 text-left">
-            <h1 class=" x">ABOUT US</h1>
+        <div class="col-md-6 col-12 pt-0 pt-sm-5 about">
+          <div class="panel pt-3 pt-sm-5 text-left">
+            <h1 class="one">ABOUT US</h1>
               
-            <p class="pt-3 x">
+            <p class="pt-3 one">
 				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
 				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
 				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
@@ -36,11 +38,11 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-12 " style="padding-top:5rem; padding-bottom:5rem;">
+        <div class="col-md-6 col-12  pr-4  trailer">
 			<div class="first"></div>
 			<div class="second"></div>
-			<div class="third x">
-			<iframe width="660" height="415" src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="third">
+			<iframe src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>	
           </div>
         </div>
@@ -205,6 +207,7 @@
 	</div>
 	
   </section>
+  <?php include'footer.php' ?>
   <?php include 'preloader.php' ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
