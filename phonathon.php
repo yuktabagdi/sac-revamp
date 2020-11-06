@@ -24,17 +24,16 @@
 </head>
 <body>
 <?php include 'navbar.php' ?>
-    <header>
+    <div class="header" style="background-image: url(img/phonathon2019.jpg)">
         <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white gsapx">
-                    <h1 style="text-align: left;"></h1>
-                    <!--spacing left for heading if required-->
-                    <h6 style="text-align: left;"></h6>
-                </div>
+        <div class="row">
+            <div class="col-md-7 col-sm-12  text-white">
+            <h1 style="text-align: left;"></h1><!--spacing for any headimg if needed-->
+            <h6 style="text-align: left;"></h6>
             </div>
         </div>
-    </header>
+        </div>
+    </div>
     <script>
         gsap.registerPlugin(ScrollTrigger);
         gsap.from(".gsapx", {
@@ -47,19 +46,17 @@
             duration: 2
         });
     </script>
-
-    <main>
-        <section class="section-1">
+        <section class="section-2">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6 col-12" id="padding">
-                        <div class="panel text-left">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
                             <h1 class="gsap1">ABOUT</h1>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="pt-4 gsap1">
+                            <p class="pt-3 gsap1">
                                 Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
                                 under the Endowment Campaign while serving as a platform for the alumni to give back to
                                 the alma mater. In various avenues like developing centers of excellence for innovative
@@ -70,9 +67,6 @@
                                 well as contribute to the development of the institute.
                             </p>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-12 align-items-center justify-content-center">
-                        <img src="img/phonathon/phonathon21.jpg" class="gsap1 img-fluid">
                     </div>
                 </div>
             </div>
@@ -338,7 +332,7 @@
                     </div>
                 </div>
         </section>
-
+        <?php include 'footer.php' ?>
         <!--Scroll animations for testimonials section-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
@@ -415,8 +409,6 @@
             });
 
         </script>
-    </main>
-    <?php include 'footer.php' ?>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
