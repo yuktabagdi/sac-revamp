@@ -7,7 +7,7 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 #timeline:hover .tl-item {
 
@@ -168,5 +168,9 @@ body {
 }
 .tl-item:hover .t1-year p{
   visibility: visible;
-} 
+}
+#x{
+  visibility: hidden;
+  height: 5vmin;
+}
 }

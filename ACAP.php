@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alumni Career Assistance Programme</title>
     <link rel="stylesheet" href="css/acap.css">
     <link rel="stylesheet" href="css/SAMP_mobile_style.css">
     <link rel="stylesheet" href="css/login.css">
@@ -28,6 +28,30 @@
         crossorigin="anonymous"></script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<style>
+    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+        background-color: #00416d !important;
+        border-color: #00416d !important;
+        color:white !important;
+    }
+    .btn-outline-primary{
+        color:  #00416d !important;
+        border-color:  #00416d !important;
+    }
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+        background-color: #00416d !important;
+        border-color: #00416d !important;
+        color:white !important;
+    }
+    @media only screen and (max-width: 768px) {
+    .panel img{
+        padding-top: 30px;
+        height: 250px !important;
+        width: 300px !important;
+    }
+  }
+  
+</style>
 </head>
 
 <body>
@@ -39,11 +63,7 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
 
-                    <h1 style="text-align: left;">ALUMNI CAREER ASSISTANCE PROGRAMME</h1>
-                    <div class="progress" style="height:0.7rem;">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
-              </div>
+                    
                     <h1 style="text-align: left;"></h1>
 
                 </div>
@@ -90,35 +110,34 @@
                             <p class="pt-4">
 
                             <div class="row">
-                                <div class="col-md-6">
+                                <div id="y" class="col-md-6">
                                     <strong>Student</strong> - Fill the form specifying your top 3 companies in
                                     preference
-                                    order.<br><br>
+                                    order.<br>
 
                                     <strong>Alumnus</strong> - Fill the form mentioning the company you are currently
                                     working for and the
-                                    company you got placed in via the CDC recruitment procedure.<br><br>
+                                    company you got placed in via the CDC recruitment procedure.<br>
 
                                     Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by
                                     1st
-                                    week of October.<br><br>
+                                    week of October.<br>
 
                                     An ice breaker session shall be organised for each cohort for initiating
                                     communication.<br><br>
-                                </div>
-                                <!-- Button trigger modal -->
-                                <div class="col-md-6 text-center">
-                                    <br>
-                                    <br><br>
                                     <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#exampleModalCenter">
                                         Student Registration
-                                    </button>
-                                    <br><br><br>
-                                    <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+                                    </button><br>
+                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#exampleModalCenter">
                                         Alumni Registration
                                     </button>
+
+                                </div>
+                                <!-- Button trigger modal -->
+                                <div class="col-md-6 text-center">
+                                    <img src="img/acap/2.jpg" style="height: 315px; width:500px">
                                 </div>
                             </div>
                             </p>
