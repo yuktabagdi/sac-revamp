@@ -337,7 +337,16 @@ main{
     top: 80px;
 }
 
-.img-txt{
-  border: 1px outset black;
-  padding: 10px;
+.img-txt {
+  background-color: #00416d;
+  border: 1px outset #76dd10;
+  color:white;
+  padding:0px 10px;
+  font-size: 1.2em;
+}
+.yrbk-btn{
+  background-color:#132e97;
+  color: white;
+  font-size: 1.5em;
+  padding: 5px;
 }
