@@ -90,7 +90,8 @@
             <a class="dropdown-item" href="sparc.php">SPARC</a>
             <a class="dropdown-item" href="myimprint.php">MYIMPRINT</a>
             <a class="dropdown-item" href="acap.php">ACAP</a>
-            <a class="dropdown-item" href="#">Alumni Blog</a>
+            <a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/">Alumni Blog</a>
+            <a class="dropdown-item" href="affinity.php">Affinity Programme</a>
           </div>
         </li>
            <li class="nav-item dropdown">
@@ -101,23 +102,19 @@
              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                <a class="dropdown-item" href="yearbook.php">Yearbook</a>
                <a class="dropdown-item" href="YOY.php">YOY</a>
-               <a class="dropdown-item" href="#">Tempo Shout</a>
+               <a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf">Tempo Shout</a>
              </div>
            </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Publications
-          </a>
-        </li>
-
         <li class="nav-item">
           <a class="nav-link" href="team.php">The Team</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Alumni-Reg</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="sponsors.php">Sponsors</a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Sponsors
@@ -130,7 +127,7 @@
             <a class="dropdown-item" href="#">2015</a>
             <a class="dropdown-item" href="#">2014</a>
           </div>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
