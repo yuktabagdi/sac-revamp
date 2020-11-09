@@ -80,11 +80,11 @@
                     <div class="col-md-9 col-12">
                         <div class="panel text-left">
                             <h1>ABOUT US</h1>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height: 0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                             </div>
-                            <p class="pt-3">
+                            <p class="pt-4">
                                 The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the
                                 aegis of the Dean of Alumni Affairs and International Relations. It strives to bridge
                                 the gap between IIT Kharagpur and its esteemed alumni community.
@@ -101,8 +101,8 @@
                         </div>
                     </div>
                     <br>
-                    <div class="col-md-3 col-12">
-                        <div class="pray" style="padding-left: 40px; padding-top: 40px;">
+                    <div id="x" class="col-md-3 col-12">
+                        <div class="pray">
                             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
@@ -183,10 +183,10 @@
                                  <div class="row">
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="img/IIT.jpg" class="card-img-top">
+                                             <img src="img/news&updates/0.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">Homecomming December 2020</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">The TOAT</h4>
+                                                 <p class="card-text">Students' Alumni Cell presents its Third post in the KGPInLines Series- 'Tagore Open Air Theatre (TOAT)'<br><br><button type="button" class="btn btn-success">More...</button></p>
                                              </div>
                                              
                                          </div>
@@ -194,10 +194,10 @@
                                      </div>
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="img/marathon1.jpg" class="card-img-top">
+                                             <img src="img/news&updates/1.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">Students Alumni Meet 2020- New York</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">DSA-2020</h4>
+                                                 <p class="card-text">The Distinguished Service Award (DSA) is conferred by IIT Kharagpur on its Alumni who have provided incomparable service to the institute. We cordially invite you to nominate potential candidates for DSA 2020.<br><br><button type="button" class="btn btn-success">More...</button></p>
                                              </div>
                                              
                                          </div>
@@ -205,10 +205,10 @@
                                      </div>
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="img/students.jpg" class="card-img-top">
+                                             <img src="img/news&updates/2.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">Alumni Meet 2021</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">Technology Student's Gymkhana</h4>
+                                                 <p class="card-text">Students' Alumni Cell presents its second post in the KGPInLines Series- 'The Technology Students’ Gymkhana'<br><br><button type="button" class="btn btn-success">More...</button></p>
     
                                              </div>
                                              
@@ -227,10 +227,10 @@
                                  <div class="row">
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="images/bgd4.jpg" class="card-img-top">
+                                             <img src="img/news&updates/3.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">IIT alumna cures COVID-19</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">Festive greetings</h4>
+                                                 <p class="card-text">In these unprecedented times Prof subrata chattopadhyay, the Dean of Alumni Affairs sends warm festive greetings to all the students and alumni of IIT Kharagpur.<br><br><button type="button" class="btn btn-success">More...</button></p>
     
                                              </div>
                                              
@@ -239,10 +239,10 @@
                                      </div>
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="images/bgd5.jpg" class="card-img-top">
+                                             <img src="img/news&updates/4.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">Sundar Pichai creates History...</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">The Main Building</h4>
+                                                 <p class="card-text">Students' Alumni Cell presents its first post in the KGPInLines Series- 'The Main Building'<br><br><button type="button" class="btn btn-success">More...</button></p>
     
                                              </div>
                                              
@@ -251,10 +251,10 @@
                                      </div>
                                      <div class="col-sm-12 col-lg-4">
                                          <div class="card" style="height: 100% !important;">
-                                             <img src="images/bgd6.jpg" class="card-img-top">
+                                             <img src="img/news&updates/5.jpg" style="height: 300px;" class="card-img-top">
                                              <div class="card-body">
-                                                 <h4 class="card-title">KL Rahul smacks 132 off 69</h4>
-                                                 <p class="card-text">Lorem ipsum dolor sit amet.<br><br><button type="button" class="btn btn-danger">More...</button></p>
+                                                 <h4 class="card-title">ACAP-2020</h4>
+                                                 <p class="card-text">Now that you know what ACAP is all about and how it would help you kickstart your career, don't miss out this golden opportunity to make the most out of our brilliant alumni.<br><br><button type="button" class="btn btn-success">More...</button></p>
     
                                              </div>
                                              
@@ -285,12 +285,15 @@
         
     </div>
 
-  
+  <?php include 'footer.php'?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <script>
+          $( "#one").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
             (function($) {
     "use strict";
 
