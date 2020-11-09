@@ -155,7 +155,8 @@ main{
   background: white;
 }
 .progress-bar-purple {
-      background-color:#00416d !important;
+  background-color: #00416d !important;
+  height:0.7rem;
 }
 
 
