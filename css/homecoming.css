@@ -92,12 +92,12 @@ overflow-x:hidden;
 	
   }
 .first{
-	    background: #5f34a4;
+	    background: #ffe4e4;
 	    transform: rotate(10deg) translateX(-50%);
 		opacity:80%;
 }
 .second {
-    background: #232a34;
+    background: #056674;
     transform: rotate(-10deg) translateX(-50%);
 	opacity:80%;
 }
