@@ -63,20 +63,18 @@
                             <!-- Photo Grid -->
                             <div id="gallery_row" class="row">
                                 <div id="gallery_row" class="column">
+                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
                                     <img class="image" src="img/sam/Mumbai/2.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/4.jpg" style="width:100%;">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="width:100%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="width:100%">
                                 </div>
                             </div>
                         </div>
@@ -98,8 +96,8 @@
                             <br>
 
                             <!-- Photo Grid -->
-                            <div class=" col-xs-12 px-4 py-4 b-img image">
-                                <img src="img\sam\kolkata19\7.jpg">
+                            <div class=" col-xs-12 py-4 b-img image">
+                                <img src="img/sam/Bangalore/e.jpg">
                                 <p class="x">
                                     <h5 style="text-align: center;">
                                         <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
@@ -129,13 +127,13 @@
                             <!-- Photo Grid -->
                             <div class="row justify-content-around px-4">
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                    <img src="img/sam/Mumbai/2.jpg">
+                                    <img src="img/deansmeet1.jpg">
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                    <img src="img/sam/Mumbai/1.jpg">
+                                <img src="img/deansmeet2.jpg">
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                    <img src="img/sam/Mumbai/3.jpg">
+                                <img src="img/deansmeet3.png">
                                 </div>
                             </div>
                         </div>
