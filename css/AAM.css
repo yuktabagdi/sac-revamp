@@ -142,7 +142,7 @@ iframe{
 	    position: absolute;
 		display: inline-block;
 }
-@media (max-width: 556px){
+@media (max-width: 992px){
 	 .first,.second,.third,iframe{
 		 width:330px;
 		 height:250px;

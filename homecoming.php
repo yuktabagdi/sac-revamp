@@ -57,51 +57,86 @@
 					<div class="col-md-7 x">
 					<div class="image">
 					<img  src="img/cake.jpg" class="img-fluid image__img">
-				      <div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+				      <div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">GRAND REUNION</div>
+							<p class="image__description">The Annual Alumni Meet is a fun and fascinating trip down memory 
+							lane that allows our alumni to see old friends again and remember places and stories that were 
+							almost forgotten.</p>	
 				</div></div>
 			</div>
 			</div>
 			<div class="row d-flex justify-content-center pt-4">
-					<div class="col-md-6 x">
+					<div class="col-md-4 x">
 					<div class="image">
 					<img  src="img/group1.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
+</p>	
 				</div></div>
 				</div>
-				<div class="col-md-6 content-overlay x">
+				<div class="col-md-8 content-overlay x">
 									<div class="image">
 
 					<img  src="img/group2.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description">Remember the place where we took our first picture in the campus</p>	
 				</div></div>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center pt-4">
-					<div class="col-md-8 content-overlay x">
+			<div class="row d-flex justify-content-center pt-4 x">
+					<div class="col-md-7 content-overlay">
 										<div class="image">
 
-					<img src="img/lantern.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<img src="img/campus_tour.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
+							newer developments in harmony with the same old roads.</p>	
 				</div></div>
 				</div>
 			
 			</div>
-			<div class="row d-flex justify-content-center pt-4 ">
+			<div class="row d-flex justify-content-center pt-4 x">
+					<div class="col-md-6 content-overlay">
+										<div class="image">
+
+					<img  src="img/night.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
+				</div></div>
+				</div>
+				<div class="col-md-6 content-overlay pt-4 pt-sm-0 x">
+									<div class="image">
+
+					<img  src="img/night2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
+				</div></div>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center pt-4 x">
+					<div class="col-md-8 content-overlay">
+										<div class="image">
+
+					<img  src="img/musical_night.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Musical Night</div>
+							<p class="image__description">Taking a trip back to memory lane, Students' alumni cell presented Eastern Technology Music Society that took our alumni back, straight to 
+							their KGP days as they sang with us just like they used to do it in their college days.</p>	
+				</div></div>
+				</div>
+				</div>
+				<div class="row d-flex justify-content-center pt-4 ">
 					<div class="col-md-4 content-overlay x">
 										<div class="image">
 
 					<img  src="img/award1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
 				</div></div>
 				</div>
 				<div class="col-md-8 content-overlay pt-sm-0 pt-4 x">
@@ -109,39 +144,40 @@
 
 					<img  src="img/award2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
 				</div></div>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center pt-4 x">
-					<div class="col-md-9 content-overlay">
+						
+			<div class="row d-flex justify-content-center pt-4">
+					<div class="col-md-9 content-overlay x">
 										<div class="image">
 
-					<img src="img/campus_tour.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<img src="img/comedian.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Stand-Up Comedy</div>
+							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
 				</div></div>
 				</div>
 			
 			</div>
 			<div class="row d-flex justify-content-center pt-4 x">
-					<div class="col-md-8 content-overlay">
+					<div class="col-md-6 content-overlay">
 										<div class="image">
 
-					<img  src="img/musical_night.jpg" class="img-fluid image__img">
+					<img  src="img/etms1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
 				</div></div>
 				</div>
-				<div class="col-md-4 content-overlay pt-4 pt-sm-0 x">
+				<div class="col-md-6 content-overlay pt-4 pt-sm-0 x">
 									<div class="image">
 
-					<img  src="img/night2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<img  src="img/etms2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>
 				</div></div>
 				</div>
 			</div>
@@ -149,15 +185,15 @@
 					<div class="col-md-7 content-overlay x">
 										<div class="image">
 
-					<img src="img/comedian.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">title</div>
-							<p class="image__description">This is a short description</p>	
+					<img src="img/lantern.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Illumination</div>
+							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns creates 
+							an aura of happiness all around before we kick.</p>	
 				</div></div>
 				</div>
 			
 			</div>
-			
 			</div>
 		</div>
 		</div>

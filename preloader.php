@@ -72,7 +72,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    color: blue;
+    color: #00416d;
     transition: all 0.4s;
 }
    </style>
