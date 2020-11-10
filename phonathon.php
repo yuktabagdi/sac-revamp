@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phonathon</title>
-    <!--BOOTSTRAP CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!--CSS ONLY-->
     <link rel="stylesheet" href="css/phonathon.css">
-
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--GSAP core plugin-->
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-
-    <!--GSAP scroll trigger-->
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 </head>
 <body>
 <?php include 'navbar.php' ?>
@@ -56,7 +51,7 @@
                         <div class="panel text-left">
                             <h1 class="gsap1">ABOUT</h1>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4 gsap1">
@@ -97,7 +92,7 @@
                         <h1 class="font-weight-bold gsap2">Phonathon 4.0
                         </h1>
                         <div class="progress gsap2">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <br>
@@ -140,7 +135,7 @@
                                 3.0
                             </h1>
                             <div class="progress gsap3">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <br>
@@ -176,7 +171,7 @@
                                         Testimonials
                                     </h1>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                        <div id="four" class="progress-bar" role="progressbar" style="width: 100%"
                                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
@@ -338,8 +333,25 @@
                     </div>
                 </div>
         </section>
-        <!--Scroll animations for testimonials section-->
+ </main>
+ 
+ 
+	<?php include 'preloader.php' ?>
+    <?php include 'footer.php' ?>
+
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+            </script>
+        <script src="js/SAMP.js"></script>
         <script>
+					$( "#one,#two,#three,#four").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
+   
             gsap.registerPlugin(ScrollTrigger);
 
             gsap.from(".testimonial_images", {
@@ -414,19 +426,6 @@
             });
 
         </script>
-    </main>
-	<?php include 'preloader.php' ?>
-    <?php include 'footer.php' ?>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>

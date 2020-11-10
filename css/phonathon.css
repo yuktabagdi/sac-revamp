@@ -293,43 +293,6 @@ section{
   .c2{
     text-align: left;
   }
-  #footer{
-    background-color: #23232b;
-  }
-  
-  .footer-top-left{
-    height:12rem;
-    background-image: linear-gradient(to bottom right, #283949, #342b2d);
-    color:white;
-    padding-top:1.8rem;
-  }
-  .footer-top-right{
-    padding:1.8rem;
-    color:#eef0ef;
-  }
-    .dots{
-    font-size: 2em;
-    position:relative;
-    bottom:2.5rem;
-  }
-  .bar{
-    font-size:3em;
-    color:white;
-    position:absolute;
-    top:-2.8rem;
-    left:2rem;
-  }
-  .icon{
-    font-size: 2em;
-    color:white;
-    position:absolute;
-    top:-1rem; 
-  }
-  #copyright{
-    background-color: black;
-    text-align:center;
-    color:grey;
-  }
   @media screen and (min-width: 550px)
   {
     .phonathon4_images{
