@@ -64,28 +64,11 @@
                                 well as provides the students with a unique opportunity to interact with the alumni as
                                 well as contribute to the development of the institute.
                             </p>
-    <section class="section-2">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12 col-12">
-                    <div class="panel text-center">
-                        <h1 class="gsap1">ABOUT</h1>
-                        <div class="progress" style="height:0.7rem;">
-                            <div class="progress-bar" id="one" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
-                        </div>
-                        <p class="pt-3 gsap1">
-                            Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
-                            under the Endowment Campaign while serving as a platform for the alumni to give back to
-                            the alma mater. In various avenues like developing centers of excellence for innovative
-                            research, recruiting world-class faculties, students scholarships etc; this event
-                            benefits the institute. In our continuous efforts to expand the alumni network, bringing
-                            forward conversations of first year students with the alumni supports our efforts as
-                            well as provides the students with a unique opportunity to interact with the alumni as
-                            well as contribute to the development of the institute.
-                        </p>
                     </div>
                 </div>
+				<div class="col-md-6 col-12 align-items-center justify-content-center">
+                        <img src="img/phonathon/phonathon21.jpg" class="gsap1 img-fluid">
+                    </div>
             </div>
         </div>
     </section>
@@ -102,131 +85,46 @@
             duration: 2
         });
     </script>
-    <section class="section-2">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col-12 text-center text-black">
-                    <div class="panel text-center">
+<section>
+            <div class="container section-inner">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center text-black">
                         <h1 class="font-weight-bold gsap2">Phonathon 4.0
                         </h1>
                         <div class="progress gsap2">
                             <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                 aria-valuemin="0" aria-valuemax="100"></div>
-                        <div class="progress gsap2" style="height:0.7rem;">
-                            <div class="progress-bar" id="one" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
                         </div>
                         <br>
-                        <div id="gallery_row" class="row align-items-center gsap2">
-                            <div class="col-12 text-center col-sm-3">
-                                <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon42.jpg"
-                                    height="auto">
-                            </div>
-                            <div class="col-12 text-center col-sm-6">
-                                <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon41.jpg"
-                                    height="auto">
-                            </div>
-                            <div class="col-12 text-center col-sm-3">
-                                <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon42.jpg"
-                                    height="auto">
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!--animations of Phonathon 4.0-->
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.from(".gsap2", {
-            scrollTrigger: {
-                trigger: ".gsap2",
-                start: "top center",
-                toggleActions: "play play play play"
-            },
-            opacity: 0,
-            duration: 2
-        });
-        </script>
-        <section class="section-2">
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <br><br><br><br><br><br>
-                    <div class="col-12 col-md-12 text-center text-black">
-                        <div class="panel text-center">
-                            <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">Phonathon
-                                3.0
-                            </h1>
-                            <div class="progress gsap3">
-                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-    </script>
-    <section class="section-2">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col-12 text-center text-black">
-                    <div class="panel text-center">
-                        <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">Phonathon
-                            3.0
-                        </h1>
-                        <div class="progress gsap2" style="height:0.7rem;">
-                            <div class="progress-bar" id="one" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
-                        </div>
-                        <br>
-                        <div id="gallery_row" class="row align-items-center gsap2">
-                            <div class="col-12 text-center">
-                                <img src="img/phonathon/phonathon31.jpg" class="img-fluid gsap3" height="auto"
-                                    width="100%" style="max-width: 100%;">
-                            </div>
-                        </div>
+                <div id="gallery_row" class="row align-items-center gsap2">
+                    <div class="col-12 text-center col-sm-3">
+                        <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon42.jpg" height="auto">
+                    </div>
+                    <div class="col-12 text-center col-sm-6">
+                        <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon41.jpg" height="auto">
+                    </div>
+                    <div class="col-12 text-center col-sm-3">
+                        <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon42.jpg" height="auto">
                     </div>
                 </div>
             </div>
         </section>
+        <!--animations of Phonathon 4.0-->
         <script>
             gsap.registerPlugin(ScrollTrigger);
-            gsap.from(".gsap3", {
+            gsap.from(".gsap2", {
                 scrollTrigger: {
-                    trigger: ".gsap3",
+                    trigger: ".gsap2",
                     start: "top center",
                     toggleActions: "play play play play"
                 },
                 opacity: 0,
                 duration: 2
             });
-        </script>
 
-        <section class="section-2">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12 col-12">
-                        <div class="section-inner text-center">
-                            <div class="row align-items-center">
-                                <div class="col-12 text-center text-black">
-                                    <h1 class="font-weight-bold gsap3" style="font-family: 'Raleway', sans-serif;">
-                                        Testimonials
-                                    </h1>
-                                    <div class="progress">
-                                        <div id="four" class="progress-bar" role="progressbar" style="width: 100%"
-                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-        </div>
-    </section>
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.from(".gsap3", {
-            scrollTrigger: {
-                trigger: ".gsap3",
-                start: "top center",
-                toggleActions: "play play play play"
-            },
-            opacity: 0,
-            duration: 2
-        });
-    </script>
+        </script>
      <section class="section-2">
         <div class="container text-center">
           <div class="row">
