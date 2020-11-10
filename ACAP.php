@@ -126,11 +126,11 @@
                                     An ice breaker session shall be organised for each cohort for initiating
                                     communication.<br><br>
                                     <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
-                                        data-target="#exampleModalCenter">
+                                        data-target="#modal2">
                                         Student Registration
                                     </button><br>
                                     <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
-                                        data-target="#exampleModalCenter">
+                                        data-target="#modal1">
                                         Alumni Registration
                                     </button>
 
@@ -243,7 +243,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <?php include 'preloader.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

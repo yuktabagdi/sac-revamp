@@ -207,13 +207,14 @@
 
                                 </div>
                             </div>
-                            <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev-icon bg-dark"></span>
-                            </a>
-                            <a href="#inam" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next-icon bg-dark"></span>
-                            </a>
-
+                            <a class="carousel-control-prev" href="#inam" data-slide="prev">
+                        <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
+                        <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
+                        <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
+                        <span class="carousel-control-next-icon" style="visibility:hidden"></span>
+                    </a>
                         </div>
 
                     </div>
@@ -226,7 +227,7 @@
 
 
     <?php include 'footer.php' ?>
-	  <?php include 'preloader.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
