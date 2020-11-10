@@ -29,14 +29,14 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-                    
+
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-    <section class="section-1">
+        <section class="section-1">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-12">
@@ -54,12 +54,17 @@
                                 the yearbook will be
                                 the light which will lit up the faded memories and show the path through the old forgotten ways
                             </p>
+                            <div class="row text-right">
+                                <div class="col-12">
+                                    <button class="yrbk-btn">YearBook Portal</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
 
         <section class="section-3">
             <div class="container-fluid">
@@ -85,17 +90,15 @@
                                                     <img src="img\yearbook\year17.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
-                                                        <div class="container-fluid">
-                                                            <div class="row px-2">
-                                                                <div class="col img-txt">
-                                                                    UG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    PG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    RS
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-2 ">
+                                                                <button class="img-txt">UG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">PG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">RS</button>
                                                             </div>
                                                         </div>
 
@@ -109,17 +112,15 @@
                                                     <img src="img\yearbook\year16.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
-                                                        <div class="container-fluid">
-                                                            <div class="row px-2">
-                                                                <div class="col img-txt">
-                                                                    UG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    PG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    RS
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-2 ">
+                                                                <button class="img-txt">UG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">PG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">RS</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -130,17 +131,15 @@
                                                     <img src="img\yearbook\year2015.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2015...</h4>
-                                                        <div class="container-fluid">
-                                                            <div class="row px-2">
-                                                                <div class="col img-txt">
-                                                                    UG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    PG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    RS
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-2 ">
+                                                                <button class="img-txt">UG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">PG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">RS</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -163,17 +162,15 @@
                                                     <img src="img\yearbook\year2014.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
-                                                        <div class="container-fluid">
-                                                            <div class="row px-2">
-                                                                <div class="col img-txt">
-                                                                    UG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    PG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    RS
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-2 ">
+                                                                <button class="img-txt">UG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">PG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">RS</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -186,17 +183,15 @@
                                                     <img src="img\yearbook\year2013.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
-                                                        <div class="container-fluid">
-                                                            <div class="row px-2">
-                                                                <div class="col img-txt">
-                                                                    UG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    PG
-                                                                </div>
-                                                                <div class="col img-txt">
-                                                                    RS
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-2 ">
+                                                                <button class="img-txt">UG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">PG</button>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <button class="img-txt">RS</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -228,14 +223,14 @@
         </section>
         <!-- 		Footer start -->
         <?php include 'footer.php' ?>
-		  <?php include 'preloader.php' ?>
+        <?php include 'preloader.php' ?>
         <!--        Footer end -->
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
         <script>
-				$( "#one,#two").each(function( ) {
-   $(this).addClass("progress-bar-purple");
-});
+            $("#one,#two").each(function() {
+                $(this).addClass("progress-bar-purple");
+            });
             gsap.from('header', {
                 opacity: 0,
                 duration: 1
@@ -305,8 +300,6 @@
                     duration: 1.5,
                     x: -200
                 });
-
-
                 $(card[i]).on('mouseenter', function(e) {
                     for (let j = 0; j < 3; j++) {
                         gsap.to($(img_txt[i * 3 + j]), 1, {
@@ -322,6 +315,20 @@
                             ease: Sine.easeInOut
                         });
                     }
+                });
+            }
+            for(let i=0;i<img_txt.length;i++){
+                $(img_txt[i]).on('mouseenter', function(e) {
+                        gsap.to($(img_txt[i]), 0.5, {
+                            y:-8,
+                            ease: Sine.easeInOut
+                        });
+                });
+                $(img_txt[i]).on('mouseleave', function(e) {
+                        gsap.to($(img_txt[i]), 1, {
+                            y:0,
+                            ease: Sine.easeInOut
+                        });
                 });
             }
         </script>

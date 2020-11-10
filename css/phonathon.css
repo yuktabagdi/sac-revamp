@@ -23,7 +23,7 @@ section {
   --bggradient: linear-gradient(to bottom, #3fcef1, #e9e3e3);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
-header a {
+.header a {
   font-family: var(--Sniglet-font);
   font-size: 0.9em;
   color: whitesmoke;
@@ -75,57 +75,56 @@ header a {
   display: block;
 }
 
-header .nav-item:last-child {
+.header .nav-item:last-child {
   padding-right: 10.5em;
 }
 
-header .nav-item {
+.header .nav-item {
   padding: 0.9em;
 }
 
-header .navbar-brand {
+.header .navbar-brand {
   padding-left: 8rem;
 }
 
-header .nav-link:hover {
+.header .nav-link:hover {
   color: black;
 }
-header .row .col-md-7 {
+.header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
 }
 
-header .row .col-md-5 {
+.header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
 }
 
-header .row .col-md-5 img {
+.header .row .col-md-5 img {
   width: 90%;
 }
-header {
+.header {
   /* fallback for old browsers */
-  background: url(/img/phonathon2019.jpg);
   background-size: cover;
   background-position: center;
   
 }
 
-header .container .col-md-7 {
+.header .container .col-md-7 {
   font-family: 'Raleway', sans-serif;
 }
 
-header .container .col-md-7 h6 {
+.header .container .col-md-7 h6 {
   padding: 1vmin;
   letter-spacing: 3px;
 }
 
-header .container .col-md-7 h1 {
+.header .container .col-md-7 h1 {
   font-size: 8.5vmin;
   font-weight: bolder;
   padding: 0.1em 0em;
 }
 
-header .container .col-md-7 p {
+.header .container .col-md-7 p {
   padding: 1vmin 5vmin;
 }
 
