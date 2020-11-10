@@ -11,6 +11,13 @@
 .modal-body{
   font-family: 'Raleway', sans-serif;
 }
+#login{
+  margin-left: 20%;
+}
+.header
+{
+  margin-right: 20%;
+}
 @keyframes fadeleft {
   0%{
     left: -80%;
@@ -24,6 +31,13 @@
   .modal-dialog {
     width:80%;
   }
+  #login{
+    margin-left:3%;
+  }
+  .header
+  {
+    margin-right: 3%;
+  }
 }
 .modal{
   animation: fadeleft 1s ease-out ;
@@ -36,15 +50,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   appearance: textfield;
 }
-#login{
-  margin-left: 20%;
-}
-.header
-{
-  margin-right: 20%;
-}
 .sticky {
   position: fixed;
-  top: 0;
+  top: 7px;
   width: 100%;
 }

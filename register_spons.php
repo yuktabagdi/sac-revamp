@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
       <body>
-                  <nav class="navbar sticky-top navbar-light bg-light">
+                  <nav class="navbar navbar-light bg-light"style="position: fixed;top: 98px;width: 100%;z-index: 2;">
 
                      <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
                        <ul class="navbar-nav header">

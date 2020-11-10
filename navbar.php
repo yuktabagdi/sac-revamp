@@ -19,9 +19,9 @@
   background-color: gray;
   border-radius:  2px;
 }
-.dropdown:hover .dropdown-menu {   
+.dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; 
+  margin-top: 0;
 }
 .dropdown-item{
   text-align: center !important;
@@ -110,27 +110,26 @@
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Alumni-Reg</a>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="sponsors.php">Sponsors</a>
-        </li>
-        <!-- <li class="nav-item dropdown">
+        </li>  -->
+         <li class="nav-item dropdown">
           <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Sponsors
           </a>
           <div class="dropdown-menu" style="padding-right: 50px !important;" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">2019</a>
-            <a class="dropdown-item" href="#">2018</a>
-            <a class="dropdown-item" href="#">2017</a>
-            <a class="dropdown-item" href="#">2016</a>
-            <a class="dropdown-item" href="#">2015</a>
-            <a class="dropdown-item" href="#">2014</a>
+            <a class="dropdown-item" href="sponsors.php">2020</a>
+            <a class="dropdown-item" href="sponsors2019.php">2019</a>
+            <a class="dropdown-item" href="sponsors2018.php">2018</a>
+            <a class="dropdown-item" href="sponsors2017.php">2017</a>
+            <a class="dropdown-item" href="sponsors2016.php">2016</a>
+            <a class="dropdown-item" href="sponsors2015.php">2015</a>
+            <a class="dropdown-item" href="sponsors2014.php">2014</a>
+            <a class="dropdown-item" href="sponsors2013.php">2013</a>
+            <a class="dropdown-item" href="sponsors2012.php">2012</a>
           </div>
-        </li> -->
+        </li>
       </ul>
     </div>
   </nav>
   </body>
 </html>
-
