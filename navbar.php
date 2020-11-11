@@ -108,9 +108,9 @@
         <li class="nav-item">
           <a class="nav-link" href="team.php">The Team</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Alumni-Reg</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni-Reg</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="sponsors.php">Sponsors</a>
         </li>
