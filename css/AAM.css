@@ -1,26 +1,3 @@
-	
-.navbar-nav .nav-item .nav-link .dropdown-menu li{
-  transition:.5s;
-}
-.navbar-nav .nav-item .nav-link .dropdown-menu li:checked{
-    background:#fff;
-}
-.navbar-nav .nav-item .dropdown-menu li:nth-child(2n){
-	background:#f7f7f7;	
-    
-}
-.navbar-nav .nav-item .dropdown-menu li:hover{
-	border: 1px solid black;
-}
-.navbar .nav-item:hover .dropdown-menu{
-    display: block; 
-    }
-.navbar-brand img{
-        width:149.3px;
-        height:70px;
-    }
-
-
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 *{
@@ -70,7 +47,7 @@ overflow-x:hidden;
     background-size: cover;
 }
 
-  
+/*  
   .section-2 .row .col-md-6:last-child {
 	position: relative;
   }
@@ -123,18 +100,73 @@ iframe{
 	padding: 10vmin 5vmin 10vmin 10vmin;
 	font-family: var(--Rubik);
   }
+  */
+  
+  
+  /*new*/
+  
+  .first{
+	    background: #5f34a4;
+	    transform: rotate(10deg);
+		opacity:80%;
+}
+.second {
+    background: #232a34;
+    transform: rotate(-10deg);
+	opacity:80%;
+}
+.section-2 h1 {
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.4em 0;
+	font-size: 3em;
+  }
+  .section-2 p{
+	  font-size: 1em;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight:500;
+	font-family:sans-serif;
+  }
+.first,.second{
+    display: inline-block;
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+}
+iframe{
+	height:20rem;
+    width: 30rem;
+}
+.third{
+	z-index:999;
+	    position: absolute;
+		display: inline-block;
+}
+@media (max-width: 1300px){
+	 .first,.second,.third,iframe{
+		 width:330px;
+		 height:250px;
+	 }
+	 .trailer{
+		 height:30vh;
+		 padding-top:1rem;
+	 }
+}	  
+  /*end*/
+  
   .about{
 	  padding-right:6rem;
   }
   
  .gallery-h3{
 	 font-weight: 500;
-    font-style: normal;
-    font-size: 1rem;
+    text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
     line-height: 1.111vw;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
+	
 }
+
 	 
 .image {
     position: relative;
@@ -198,7 +230,7 @@ iframe{
 	margin-left:6rem;
 	margin-right:12rem;
 }
-
+/*
  iframe{
 	 width:660px;
 	 height:415px;
@@ -220,4 +252,4 @@ iframe{
 	padding-bottom:6rem;
 }
 }
- 
+ */
