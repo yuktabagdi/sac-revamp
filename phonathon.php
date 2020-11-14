@@ -54,10 +54,10 @@
                 <div class="col-md-12 col-12">
                     <div class="panel text-center">
                         <h1 class="gsap1">ABOUT</h1>
-                        <div class="progress" style="height:0.7rem;">
-                            <div class="progress-bar" id="one" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
-                        </div>
+                        <div class="progress">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
                         <p class="pt-3 gsap1">
                             Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
                             under the Endowment Campaign while serving as a platform for the alumni to give back to
@@ -335,6 +335,9 @@
       </section>   
     <!--Scroll animations for testimonials section-->
     <script>
+        	$( "#one,#two,#three,#four,#five,#six").each(function( ) {
+             $(this).addClass("progress-bar-purple");
+            });
         gsap.registerPlugin(ScrollTrigger);
         gsap.from(".testimonial_images", {
             scrollTrigger: {
