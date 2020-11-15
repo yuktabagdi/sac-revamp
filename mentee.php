@@ -51,32 +51,47 @@
                    <input type="hidden" name="_token" value="BoMRwZovLvPhkKoNk1SBlGTCS1rckmFFzqvifopT">
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="name"style="margin-bottom:0;">Name</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="name" name="name"id="username" class="form-control" placeholder="Enter your name" required="required">
+                       <input type="name" name="name"id="username" class="form-control" placeholder="Enter your name" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="email"style="margin-bottom:0;">Email</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="email" name="email"id="email" class="form-control" placeholder="Enter your email" required="required">
+                       <input type="email" name="email"id="email" class="form-control" placeholder="Enter your email" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="password"style="margin-bottom:0;">password</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="password" name="password"id="password" class="form-control" placeholder="Enter your password" required="required">
+                       <input type="password" name="password"id="password" class="form-control" placeholder="Enter your password" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="password"style="margin-bottom:0;">Re-password</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password" required="required">
+                       <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="department"style="margin-bottom:0;">Department</label>
+                     </div>
                      <div class="col-sm-12">
-                       <select required name='department'id="department" class='form-control'  >
+                       <select required name='department'id="department" class='form-control' style="border:0;background-color:#e8e8e8;font-size:0.9em;" >
                          <option  value="" disabled selected >Select Your Department</option>
                          <option value="AE">Aerospace Engineering</option>
                          <option value="AG">Agricultural & Food Engineering</option>
@@ -123,8 +138,11 @@
                      </div>
                    </div>
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="hall"style="margin-bottom:0;">Hall</label>
+                     </div>
                      <div class="col-sm-12" id="hall">
-                       <select required name='hall' class='form-control' class="required">
+                       <select required name='hall' class='form-control' class="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                          <option  value="" disabled selected >Select Your Hall</option>
                          <option value="SAM">Sir Ashutosh Mukherjee  Hall</option>
                          <option value="AZ">Azad  Hall</option>
@@ -152,21 +170,30 @@
                      </div>
                    </div>
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="rollnumber"style="margin-bottom:0;">Rollnumber</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="roll"id="rollnumber" class="form-control" placeholder="Enter your Roll No." required="required">
+                       <input type="text" name="roll"id="rollnumber" class="form-control" placeholder="Enter your Roll No." required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="cgpa"style="margin-bottom:0;">CGPA</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="cgpa"id="cgpa" class="form-control" placeholder="Enter your CGPA" >
+                       <input type="text" name="cgpa"id="cgpa" class="form-control" placeholder="Enter your CGPA" style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
 
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="currentyear"style="margin-bottom:0;">Currentyear</label>
+                     </div>
                      <div class="col-sm-12">
-                       <select required name='current'id="currentyear" class='form-control' class="required">
+                       <select required name='current'id="currentyear" class='form-control' class="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                          <option  value="" disabled selected >Choose your Current Academic Year</option>
                          <option value='1'>1</option>
                          <option value='2'>2</option>
@@ -179,27 +206,39 @@
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="q1"style="margin-bottom:0;">Question-1</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="q1"id="q1" class="form-control" placeholder="What is the most important thing you wish to know from your mentor ?" required="required" maxlength="200">
+                       <input type="text" name="q1"id="q1" class="form-control" placeholder="What is the most important thing you wish to know from your mentor ?" required="required" maxlength="200"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="q2"style="margin-bottom:0;">Question-2</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="q2"id="q2" class="form-control" placeholder="What are your major reasons for joining the mentorship programme ?" required="required" maxlength="200">
+                       <input type="text" name="q2"id="q2" class="form-control" placeholder="What are your major reasons for joining the mentorship programme ?" required="required" maxlength="200"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="hcity"style="margin-bottom:0;">Home City</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="hcity"id="hcity" class="form-control" placeholder="Enter your hometown/Location of Summer Internship" required="required" maxlength="40">
+                       <input type="text" name="hcity"id="hcity" class="form-control" placeholder="Enter your hometown/Location of Summer Internship" required="required" maxlength="40"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
           </div>
-
+                <h4>In which field do you want to  be Mentored?</h4>
                    <div class="form-group" >
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="1st-preference"style="margin-bottom:0;">Preference1</label>
+                     </div>
                      <div class="col-sm-12" >
-                       <h4>In which field do you want to  be Mentored?</h4>
-                       <select required name='pref1'id="1st-preference" class='form-control' class="required">
+
+                       <select required name='pref1'id="1st-preference" class='form-control' class="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                          <option  value="" disabled selected >Choose your 1st Preference</option>
                          <option value='4'>Banking & Finance</option>
                          <option value='23'>Entrepreneurship</option>
@@ -236,8 +275,11 @@
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="2rd-preference"style="margin-bottom:0;">Preference2</label>
+                     </div>
                      <div class="col-sm-12">
-                       <select required name='pref2'id="2nd-preference" class='form-control' class="required">
+                       <select required name='pref2'id="2nd-preference" class='form-control' class="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                          <option  value="" disabled selected >Choose your 2nd Preference</option>
 
                          <option value='4'>Banking & Finance</option>
@@ -275,8 +317,11 @@
                    </div>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="3rd-preference"style="margin-bottom:0;">Preference3</label>
+                     </div>
                      <div class="col-sm-12">
-                       <select required name='pref3'id="3rd-preference" class='form-control' class="required">
+                       <select required name='pref3'id="3rd-preference" class='form-control' class="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                          <option  value="" disabled selected >Choose your 3rd Preference</option>
                          <option value='4'>Banking & Finance</option>
                          <!-- Deleted Management Consultancy pref 10 -->
@@ -316,18 +361,27 @@
                    <h3>Contact Details</h3>
 
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="phone-number"style="margin-bottom:0;">phonenumber</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="phone"id="phone-number" class="form-control" placeholder="Enter your Phone No." required="required">
+                       <input type="text" name="phone"id="phone-number" class="form-control" placeholder="Enter your Phone No." required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="facebook-url"style="margin-bottom:0;">Facebook-Url</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="fb"id="facebook-url" class="form-control" placeholder="Enter your Facebook Profile link" required="required">
+                       <input type="text" name="fb"id="facebook-url" class="form-control" placeholder="Enter your Facebook Profile link" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                      </div>
                    </div>
                    <div class="form-group">
+                     <div class="col-sm-12"style="margin-bottom:0;">
+                      <label for="linkedin"style="margin-bottom:0;">Linkedin-Url</label>
+                     </div>
                      <div class="col-sm-12">
-                       <input type="text" name="linkedin"id="linkedin-url" class="form-control" placeholder="Enter your LinkedIn Profile link" >
+                       <input type="text" name="linkedin"id="linkedin-url" class="form-control" placeholder="Enter your LinkedIn Profile link"style="border:0;background-color:#e8e8e8;font-size:0.9em;" >
                      </div>
                    </div>
                    <div class="form-group"	>
@@ -391,7 +445,7 @@
            }
            else
            {
-                alert("Both Fields are required");
+                alert("all Fields are required");
            }
       });
       $('#logout').click(function(){
