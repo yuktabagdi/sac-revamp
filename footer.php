@@ -40,8 +40,7 @@
 
     #footer {
         background-color: #23232b;
-         height: 18rem; 
-		 padding-top:5rem;
+         height: 19rem; 
     }
 
 
