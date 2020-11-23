@@ -33,17 +33,23 @@
 
                </div>
                <div class="modal-body">
-                    <input type="text" name="username" id="username" class="form-control" autocomplete="none" placeholder="User Name"/>
+                 <label for="username" style="margin-bottom:0;">User Name</label>
+                    <input type="text" name="username" id="username" class="form-control" autocomplete="none" placeholder="User Name"style="border:0;background-color:#e8e8e8;font-size:0.9em;"/>
                     <br />
-                    <input type="text" name="designation" id="designation" class="form-control"placeholder="Designation" />
+                    <label for="designation"style="margin-bottom:0;">Designation</label>
+                    <input type="text" name="designation" id="designation" class="form-control"placeholder="Designation"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
-                    <input type="text" name="details" id="details" class="form-control"placeholder="details" />
+                    <label for="details"style="margin-bottom:0;">Details</label>
+                    <input type="text" name="details" id="details" class="form-control"placeholder="details"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
-                    <input type="email" name="email" id="email "class="form-control"placeholder="email">
+                    <label for="email"style="margin-bottom:0;">Email</label>
+                    <input type="email" name="email" id="email "class="form-control"placeholder="email"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                     <br>
-                    <input type="number" name="phonenumber" id="number" class="form-control"placeholder="Phone Number"autocomplete="none" />
+                    <label for="phonenumber"style="margin-bottom:0;">Phone Number</label>
+                    <input type="number" name="phonenumber" id="number" class="form-control"placeholder="Phone Number"autocomplete="none"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
-                    <input type="text" name="Address" id="Address" class="form-control"placeholder="Address" />
+                    <label for="Address"style="margin-bottom:0;">Address</label>
+                    <input type="text" name="Address" id="Address" class="form-control"placeholder="Address"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
                     <button style="margin-left:45%;" type="button" name="login_button" id="login_button" class="btn btn-lg btn-primary">Login</button>
                </div>
