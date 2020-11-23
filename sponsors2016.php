@@ -35,7 +35,7 @@
     <a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
             <img class="spons"   src="img/spons/sponsors16/pics/mf.png" width="250" height="60" />
           </a>
-    </div> 
+    </div>
     <div class="col-lg-3 col-md-6 col-sm-12" align="center"><a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
             <img class="spons" src="img/spons/sponsors16/pics/it.png" width="250" height="60" />
           </a> <br> <br>
@@ -360,6 +360,6 @@
        </div> </div>
       </div>
   <?php include 'footer.php';?>
-
+<?php include 'preloader.php' ?>
   </body>
   </html>

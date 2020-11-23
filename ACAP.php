@@ -6,16 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Career Assistance Programme</title>
-    <link rel="stylesheet" href="css/acap.css">
-    <link rel="stylesheet" href="css/SAMP_mobile_style.css">
-    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="css/acap.css">
+        <link rel="stylesheet" href="css/SAMP_mobile_style.css">
+        <link rel="stylesheet" href="css/mentor.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -147,7 +146,7 @@
             </div>
         </section>
         <div id="modal1" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
-             <div class="modal-dialog modal-dialog-centered" style="min-width:400px;margin-top:0;margin-bottom:0;">
+             <div class="modal-dialog " style="max-width:50%;min-width:400px;margin-top:3%;margin-bottom:0;">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;">
                       <div class="modal-header"style="padding-top:0;">
@@ -201,7 +200,7 @@
              </div>
         </div>
         <div id="modal2" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
-             <div class="modal-dialog " style="min-width:400px;margin-top:3%;margin-bottom:1%;;">
+             <div class="modal-dialog " style="max-width:55%;min-width:400px;margin-top:3%;margin-bottom:1%;;">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;font-size:0.9rem;">
                       <div class="modal-header"style="padding-top:0;">
@@ -242,7 +241,7 @@
                              <input placeholder="Company Name" name="PC3" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                           <br />
                           <br>
-                          <label for="PC4"style="margin-bottom:0;">Preferred placement field (Eg. Software, Consultancy)"</label>
+                          <label for="PC4"style="margin-bottom:0;">Preferred placement field (Eg. Software, Consultancy)</label>
                              <input placeholder="Preferred placement field (Eg. Software, Consultancy)" name="PC4" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                          <br />
                          <br>
@@ -260,7 +259,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <!-- <?php include 'preloader.php' ?> -->
+	   <?php include 'preloader.php' ?>
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
