@@ -12,14 +12,14 @@
     <title>Document</title>
 </head>
       <body>
-                  <nav class="navbar navbar-light bg-light"style="position: fixed;top: 98px;width: 100%;z-index: 2;">
-
-                     <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
+                  <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
                        <ul class="navbar-nav header">
                          <li class="nav-item active">
                            <h3 class="navbar-brand" style="margin:0;">Associate With Us </h3>
                          </li>
+
                        </ul>
+                       <button type="button" name="login" id="login" class="btn btn-primary btn-md" data-toggle="modal" data-target="#loginModal">Login</button>
                 </nav>
       </body>
  </html>
