@@ -162,8 +162,9 @@ iframe{
 	 font-weight: 500;
     text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
-    line-height: 1.111vw;
     letter-spacing: 0.02em;
+line-height:3rem;
+	
 	
 }
 
