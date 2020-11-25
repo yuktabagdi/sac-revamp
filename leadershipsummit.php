@@ -75,7 +75,8 @@
                     <div class="card">
                       <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
                       <div class="card-title">
-                        <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p>
+                        <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                        <p>Arjun Malhotra</p>
                         <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
@@ -84,7 +85,7 @@
                     <div class="card">
                       <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
                       <div class="card-title">
-                        <p><a>Anjanrai Chaudhuri</a></p>
+                        <p>Anjanrai Chaudhuri</p>
                         <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
@@ -93,9 +94,13 @@
                     <div class="card">
                       <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
                       <div class="card-title">
-                        <p>Arunabh Kumar</p>
-
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                        <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                        Arunabh Kumar
+                        </a></p> -->
+                        <p>
+                        Arunabh Kumar
+                        </p>
+                        <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>

@@ -64,17 +64,17 @@
                             <div id="gallery_row" class="row">
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="height:50%">
                                 </div>
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="height:50%;">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="height:100%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="height:100%">
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                             <div class=" col-xs-12 py-4 b-img image">
                                 <img src="img/sam/Bangalore/e.jpg">
                                 <p class="x">
-                                    <h5 style="text-align: center;">
+                                    <h5 class="text-center h6">
                                         <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
                                             Owing to the huge response received from the students as well as the alumni,
                                             <strong>SPARC</Strong> will come up with more such events and programmes in the future.</i>
