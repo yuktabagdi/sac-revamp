@@ -68,7 +68,7 @@
                                 </div>
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/4.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="width:100%;">
                                 </div>
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/5.jpg" style="width:100%">

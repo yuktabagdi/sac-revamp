@@ -75,8 +75,8 @@
                     <div class="card">
                       <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
                       <div class="card-title">
-                        <p><a>Arjun Malhotra</a></p>
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                        <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p>
+                        <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
