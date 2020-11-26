@@ -28,13 +28,14 @@
         integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c=" crossorigin="anonymous"></script>
 
     <style>
-    .btn-primary,
-    .btn-primary:hover,
-    .btn-primary:active,
-    .btn-primary:visited {
+    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
         background-color: #00416d !important;
         border-color: #00416d !important;
-        color: white !important;
+        color:white !important;
+    }
+    .btn-outline-primary{
+        color:  #00416d !important;
+        border-color:  white !important;
     }
     </style>
 
@@ -165,7 +166,7 @@
         <div class="tl-item">
 
             <div class="tl-bg" style="background-image: url(img/IIT.jpg)"></div>
- 
+
             <div class="tl-year">
                 <p class="f2"><u>What We Do</u></p>
                 <br>
@@ -205,7 +206,7 @@
 
     <section class="section-3">
         <div class="container-fluid">
-            <h1 class="text-center">News & Updates......</h1>
+            <h1 class="text-center" style="font-family: 'Raleway', sans-serif">News & Updates</h1>
         </div>
     </section>
     <br>
@@ -219,13 +220,28 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/6.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Alumni Talks-2020</h4>
+                                                <p class="card-text">Students Alumni Cell is proud to present another online edition of Alumni Talks 2020. <br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4880091668697694/"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
                                             <img src="img/news&updates/0.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h4 class="card-title">The TOAT</h4>
                                                 <p class="card-text">Students' Alumni Cell presents its Third post in
                                                     the KGPInLines Series- 'Tagore Open Air Theatre
-                                                    (TOAT)'<br><br><button type="button" class="btn btn-primary"><a
+                                                    (TOAT)'<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4807059399334255/"
                                                             style="color:white">More...</a></button>
                                                 </p>
@@ -244,26 +260,9 @@
                                                     by IIT Kharagpur on its Alumni who have provided incomparable
                                                     service to the institute. We cordially invite you to nominate
                                                     potential candidates for DSA 2020.<br><br><button type="button"
-                                                        class="btn btn-primary"><a
+                                                        class="btn btn-outline-primary"><a
                                                             href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4801594343214094"
                                                             style="color:white">More...</a></button></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/2.jpg" style="height: 300px;"
-                                                class="card-img-top">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Student's Gymkhana</h4>
-                                                <p class="card-text">Students' Alumni Cell presents its second post in
-                                                    the KGPInLines Series- 'The Technology Students’
-                                                    Gymkhana'<br><br><button type="button" class="btn btn-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4750762174963978"
-                                                            style="color:white">More...</a></button></p>
-
                                             </div>
 
                                         </div>
@@ -281,6 +280,23 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/2.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Student's Gymkhana</h4>
+                                                <p class="card-text">Students' Alumni Cell presents its second post in
+                                                    the KGPInLines Series- 'The Technology Students’
+                                                    Gymkhana'<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4750762174963978"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
                                             <img src="img/news&updates/3.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
@@ -288,7 +304,7 @@
                                                 <p class="card-text">In these unprecedented times Prof subrata
                                                     chattopadhyay, the Dean of Alumni Affairs sends warm festive
                                                     greetings to all the students and alumni of IIT
-                                                    Kharagpur.<br><br><button type="button" class="btn btn-primary"><a
+                                                    Kharagpur.<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4748824421824420"
                                                             style="color:white">More...</a></button></p>
 
@@ -305,26 +321,8 @@
                                                 <h4 class="card-title">The Main Building</h4>
                                                 <p class="card-text">Students' Alumni Cell presents its first post in
                                                     the KGPInLines Series- 'The Main Building'<br><br><button
-                                                        type="button" class="btn btn-primary"><a
+                                                        type="button" class="btn btn-outline-primary"><a
                                                             href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4730036303703232"
-                                                            style="color:white">More...</a></button></p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/5.jpg" style="height: 300px;"
-                                                class="card-img-top">
-                                            <div class="card-body">
-                                                <h4 class="card-title">ACAP-2020</h4>
-                                                <p class="card-text">Now that you know what ACAP is all about and how it
-                                                    would help you kickstart your career, don't miss out this golden
-                                                    opportunity to make the most out of our brilliant
-                                                    alumni.<br><br><button type="button" class="btn btn-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4593706597336204"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>

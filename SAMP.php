@@ -113,14 +113,20 @@
         </section>
         <!-- Section 4 -->
         <section class="section-4">
+        <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
             <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
                 src="https://prezi.com/embed/4zvbjzz_cb-w/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSnl1ZnJUYnVZUy83ajVCVEFyUThBVlFqUT0&amp;landing_sign=1SVtH5kwPfthIk3XOVRVH2fgKGozX45M83gki9TR_Jg"
-                width="104%" height="500" frameborder="0"></iframe>
+                width="100%" height="500" frameborder="0"></iframe>
+                            </div>
+                            </div>
+                            </div>
 
         </section>
 
         <?php include 'footer.php' ?>
-		  <!-- <?php include 'preloader.php' ?> -->
+		<?php include 'preloader.php' ?>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -137,7 +137,7 @@
                                 </div>
                                 <!-- Button trigger modal -->
                                 <div class="col-md-6 text-center">
-                                    <img src="img/acap/2.jpg" style="height: 315px; width:500px">
+                                    <img src="img/acap/5.jpg" style="height: 315px; width:500px">
                                 </div>
                             </div>
                             </p>
@@ -243,7 +243,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <!-- <?php include 'preloader.php' ?> -->
+	<?php include 'preloader.php' ?>
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
