@@ -319,50 +319,52 @@ main{
     color:grey;
   }
 @media only screen and (min-width:768px){ 
-  .card {
-    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+  .card{
     position: relative;
-    
-}
-
-.card-title {
-    border-radius: 10px;
-    opacity: 0;
-    height: 300px;
-    width: 100%;
-    border:15px solid rgb(73, 71, 71);
-    background-color:	 #d5d5e7;
-    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card:before{
     position: absolute;
-    font-size: 1.5em;
-    color: white;
-}
-.icon{
-  margin-top: 150px;
-  margin-left: -20px;
-}
-.card-title p{
-  margin-top: 100px;
-}
-
-.card:hover .card-title {
-    transition-delay: all 1s ease;
-    opacity: 0.8;
-}
-
-.card:hover .card-img {
-    opacity: 0.5;
-    transition-delay: all 1s ease;
-}
-
-.card-img {
-    border-radius: 10px;
-    height: 300px;
+    content: '';
     width: 100%;
-    object-fit: cover;
-}
-
+    height: 220%;
+    background: rgba(65, 61, 63, 0.7);
+    top: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    transform-origin: center top 0;
+    transition: .5s;
+  }
+  
+  .card:hover:before{
+    top: 0%;
+  }
+  
+  .card img{
+    height: 36vh;
+    object-fit: center;
+  }
+  
+  .card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 1s;
+    font-family: var(--Rubik);
+  }
+  
+  .card:hover .card-text{
+    top: 80px;
+    font-family: var(--Rubik);
+    font-size: 1.75em;
+    color: blue;
+  }
 }
 
     
@@ -381,7 +383,7 @@ main{
         background-color: #346adf;
     }
 
-    .card-title {
+    .card-text {
         width: 100%;
         text-align: center;
         font-size: 1.5em;
@@ -389,12 +391,11 @@ main{
     }
 
     .card-img {
-        border: 2px outset white;
         height: 200px;
         width: 100%;
-        object-fit: cover;
+        object-fit: center;
     }
-    .icon{
+    .icon1{
       height: 0;
       width: 0;
     }
