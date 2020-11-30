@@ -136,7 +136,7 @@
                                 </div>
                                 <!-- Button trigger modal -->
                                 <div class="col-md-6 text-center">
-                                    <img src="img/acap/2.jpg" style="height: 315px; width:500px">
+                                    <img src="img/acap/5.jpg" style="height: 315px; width:500px">
                                 </div>
                             </div>
                             </p>
