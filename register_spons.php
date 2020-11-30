@@ -19,7 +19,7 @@
                          </li>
 
                        </ul>
-                       <button type="button" name="login" id="login" class="btn btn-primary btn-md" data-toggle="modal" data-target="#loginModal">Login</button>
+                       <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal"style="background-color:#00416d;">Login</button>
                 </nav>
       </body>
  </html>

@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
 </head>
 
@@ -19,9 +26,9 @@
 
   <div class="container" align="center">
 
-  <div class="row">
+  <div class="s-1 row">
    <div class="col-sm-12" align="center"> <h2>Title Sponsor <hr></h2> </div> </div>
-    <div class="row">
+    <div class="s-1 row">
     <div class="col-lg-3 col-md-6 col-sm-12" align="center">
     <a href="http://www.larsentoubro.com/" target="_blank" ><br><br>
           <img src="img/spons/sponsors16/pics/Larsen.jpg" width="200" height="70" />
@@ -42,12 +49,12 @@
         </div>
     </div>
 
-  <div class="row">
+  <div class="s-2 row">
      <div class="col-sm-12" align="center">
      	<h2 style="text-align:center">Co Sponsors</h2> <hr>
      </div>
 	 </div>
-  <div class="row">
+  <div class="s-2 row">
     <div class="col l3 offset-l2"><a href="http://www.tata.com/" target="_blank" >
         <img class="spons"  src="img/spons/sponsors16/pics/ta.jpg" width="290" height="140" />
       </a>
@@ -60,16 +67,16 @@
 
 
 
-  <div class="row">
+  <div class="s-3 row">
 
   <div class="col-sm-12" >  <h2 style="text-align:center;">Strategic Sponsor <hr></h2> </div> <br>        </div>
-     <div class="row"><div  class="col-sm-12"  align="center"><a href="http://www.maxlifeinsurance.com/"  target="_blank" >
+     <div class="s-3 row"><div  class="col-sm-12"  align="center"><a href="http://www.maxlifeinsurance.com/"  target="_blank" >
           <img class="spons" src="img/spons/sponsors16/i.jpg" width="200" height="130" />
         </a> </div>
         </div>
 
 
-  <div class="row" >
+  <div class="s-4 row" >
    <div class="col-sm-12" >  <h2 style="text-align:center;">Major Sponsor <hr></h2> </div>
 
         <div class="col-sm-12"  align="center"><br><a href="http://www.acclimited.com/newsite/index.asp" target="_blank" >
@@ -80,7 +87,7 @@
        </div> <br> <br>
 
 
-<div class="row">
+<div class="s-5 row">
 
 <div  class="col-sm-12" >  <h2 style="text-align:center;">Driven By <hr></h2> </div>
      <div class="col-md-6 col-sm-12"><a href="http://www.jaguar.in/index.html" target="_blank" >
@@ -91,7 +98,7 @@
         <img class="spons" src="img/spons/sponsors16/f.jpg" width="200" height="100" />
       </a> </div> </div> <br> <br>
 
-  <div class="row">
+  <div class="s-6 row">
 
   <div class="col-sm-12" >  <h2 style="text-align:center;">Media Partner <hr></h2> </div>
    <div  class="col-sm-12"  align="center">
@@ -102,7 +109,7 @@
 
   </div>  <br> <br>
 
-  <div class="row">
+  <div class="s-7 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">Broadcast Partner <hr></h2> </div>
 
@@ -121,7 +128,7 @@
 </div> <br> <br>
 
 
-   <div class="row">
+   <div class="s-8 row">
     <div class="col-sm-12" > <h2 style="text-align:center;">Event Sponsors <hr></h2> </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12"><a href="http://www.isaimpex.in/" target="_blank" >
@@ -137,7 +144,7 @@
         <img class="spons"   src="img/spons/sponsors16/pics/airtel.jpg" width="170" height="120" />
       </a>
       </div> </div> <br> <br>
-<div class="row">
+<div class="s-9 row">
 
    <div class="col-sm-12" > <h2 style="text-align:center;">  Outdoor Gear Partner <hr> </h2> </div>
 
@@ -148,7 +155,7 @@
       </div>
  </div> <br> <br>
 
-<div class="row">
+<div class="s-10 row">
 
 <div  class="col-sm-12" >  <h2 style="text-align:center">Fine Arts Photography <hr></h2> </div>
   <div  class="col-sm-12"  align="center"><a href="" target="_blank" >
@@ -158,7 +165,7 @@
 
   </div> <br> <br>
 
-  <div class="row">
+  <div class="s-11 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">Beverage Partner <hr></h2> </div>
   <div  class="col-sm-12"  align="center">
@@ -168,7 +175,7 @@
       </div>
 
   </div> <br> <br>
-  <div class="row">
+  <div class="s-12 row">
   <div  class="col-sm-12" > <h2 style="text-align:center;">Luxury Gift Partner<hr> </h2> </div>
       <div  class="col-sm-12"  align="center"><a href="http://www.giftstoindia24x7.com/" target="_blank" >
         <img class="spons" src="img/spons/sponsors16/pics/g.jpg" width="290" height="175" />
@@ -177,7 +184,7 @@
 
   </div> <br> <br>
 
-  <div class="row">
+  <div class="s-13 row">
   <div c class="col-sm-12" > <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
 
      <div class="col-sm-12"  align="center"><a href="https://www.sbi.co.in/" target="_blank" >
@@ -190,12 +197,12 @@
   </div> <br> <br>
 
 
-<div class="row">
+<div class="s-14 row">
 
 <div class="col-sm-12" > <h2 style="text-align:center">Gift Sponsors <hr></h2> </div> </div>
 
 
-<div class="row">
+<div class="s-14 row">
      <div class="col-lg-3 col-md-6 col-sm-12"style="margin-top:20px;"><a href="http://www.prestogifts.com/" target="_blank">
         <img class="spons" src="img/spons/sponsors16/pics/presto.jpg" width="190" height="80">
       </a>
@@ -218,7 +225,7 @@
         <img class="spons"  src="img/spons/sponsors16/b.jpg" width="200" height="80" />
       </a>
     </div> </div>
-    <div class="row">
+    <div class="s-15 row">
 
      <div class="col-lg-3 col-md-6 col-sm-12"   align="center" style="margin-top:20px;"><a href="" target="_blank" >
         <img class="spons" src="img/spons/sponsors16/pics/JustPro.jpg" width="190" height="80" />
@@ -243,7 +250,7 @@
         <img class="spons"  src="img/spons/sponsors16/l.jpg" width="200" height="100" />
       </a>
       </div> </div>
-      <div class="row">
+      <div class="s-16 row">
 
       <div class="col-md-6 col-sm-12" align="center"style="margin-top:20px;"><a href="https://mobtexting.com/"  target="_blank"> <br> <br>
         <img class="spons"  src="img/spons/sponsors16/pics/m.png" width="190" height="80" />
@@ -255,16 +262,16 @@
          <img class="spons" src="img/spons/sponsors16/pics/bee.jpg" width="190" height="120" />
       </a>
       </div> </div>
-      <div class="row">
+      <div class="s-17 row">
        <div class="col-sm-12">
       <h2  style="text-align:center">Chocolate Gift <hr></h2> </div> </div>
-      <div  class="row">
+      <div  class="s-17 row">
      <div class="col-sm-12"align="center"> <a href="http://www.chocolatevenue.com/" target="_blank">
          <img class="spons" src="img/spons/sponsors16/pics/Co.png" width="190" height="120" />
       </a>
 
     </div> </div> <br> <br>
-     <div class="row">
+     <div class="s-18 row">
 
 
        <div class="col-sm-12">
@@ -277,42 +284,42 @@
 
 
 
-    <div class="row">
+    <div class="s-18 row">
 
 
        <div  class="col-sm-12">
        <h2 style="text-align:center">Confectionary Partner <hr></h2> </div> </div>
-       <div class="row">
+       <div class="s-18 row">
 
        <div class="col-sm-12" align="center"><a href="" target="_blank">
          <img class="spons"    src="img/spons/sponsors16/pics/a3.jpg" width="190" height="120" />
       </a> </div> </div> <br> <br>
 
 
-        <div class="row">
+        <div class="s-19 row">
        <div  class="col-sm-12">
          <h2 style="text-align:center">Stationary Partner <hr></h2> </div> </div>
-         <div class="row">
+         <div class="s-19 row">
       <div class="col-sm-12"align="center"> <a href="" target="_blank">
          <img class="spons" src="img/spons/sponsors16/pics/p.jpg" width="190" height="50" />
       </a>
     </div> </div> <br> <br>
 
-       <div class="row">
+       <div class="s-19 row">
        <div  class="col-sm-12">
          <h2 style="text-align:center">Cashback Partner <hr></h2> </div> </div>
-<div class="row">
+<div class="s-19 row">
          <div  class="col-sm-12" align="center"> <a href="http://www.gopaisa.com/" target="_blank">
         <img class="spons" src="img/spons/sponsors16/pics/go.jpg" width="190" height="70" />
       </a>
 
       </div> </div> <br> <br>
 
-   <div class="row">
+   <div class="s-20 row">
    <div  class="col-sm-12">
         <h2 class="spons_head" style="text-align:center;" >Premium Suitings Partner <hr></h2> </div>
 				      </div>
- <div class="row">
+ <div class="s-20 row">
 	 <div class="col-md-6 col-sm-12"> <a href="" target="_blank">
 		 <img class="spons"   src="img/spons/sponsors16/pics/r.jpg" width="190" height="80" />
 	</a>
@@ -328,11 +335,11 @@
 
 
 
-  <div class="row">
+  <div class="s-21 row">
 
    <div class="col-sm-12"> <h2 class="spons_head" style="text-align:center;" >Online Media Partner <hr></h2> </div></div></hr>
 
-     <div class="row">
+     <div class="s-21 row">
 
       <div class="col-lg-4 col-md-6 col-sm-12"> <a href="http://www.faadooengineers.com/" target="_blank">
          <img class="spons"  src="img/spons/sponsors16/pics/fa.jpeg" width="190" height="80" />
@@ -361,5 +368,12 @@
       </div>
   <?php include 'footer.php';?>
 <?php include 'preloader.php' ?>
+<script type="text/javascript">
+for (var i = 1; i <22; i++) {
+  gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+  gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+}
+</script>
   </body>
   </html>

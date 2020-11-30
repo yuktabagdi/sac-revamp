@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
 </head>
 
@@ -18,7 +25,7 @@
         <div class="_wrapper" style="overflow: hidden; background-color: white;">
             <div class="container" align="center">
                 <!-- new -->
-                <div class="row" >
+                <div class="s-1 row" >
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Title Sponsor
@@ -33,7 +40,7 @@
                 </div>
                 <br> <br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-2 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Co-Sponsor
@@ -48,7 +55,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-3 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Driven by
@@ -63,7 +70,7 @@
                 </div>
                 <br><br><br>
                 <!-- new -->
-                <div class="row" >
+                <div class="s-4 row" >
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Major Sponsor
@@ -77,7 +84,7 @@
                     </div>
                 </div>
                 <!-- new -->
-                <div class="row" >
+                <div class="s-5 row" >
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                              Luxury Car Partner
@@ -91,7 +98,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="s-6 row">
                         <div class="col-sm-12">
                             <h2 style="text-align:center;">
                                 Ride Partner
@@ -105,7 +112,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="s-7 row">
                         <div class="col-sm-12">
                             <h2 style="text-align:center;">
                                 Luxury Hotel Partner
@@ -121,7 +128,7 @@
                     </div>
                     <br><br>
                     <!-- new -->
-                <div class="row">
+                <div class="s-8 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Time Keeper
@@ -136,7 +143,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-9 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Youth Outreach Partner
@@ -152,7 +159,7 @@
                 <br><br>
 
                 <!-- new -->
-                <div class="row">
+                <div class="s-10 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             CSR Partner
@@ -160,7 +167,7 @@
                         </h2>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="s-10 row">
                     <div class="col-md-6 col-sm-12" align="center">
                         <a href="http://npcc.gov.in/" target="_blank">
                         <img class="spons" src="img/spons/2019/csr1.jpg" width="240px" height="170px"  />
@@ -173,7 +180,7 @@
                     </div>
                 </div>
                 <!-- new -->
-                <div class="row">
+                <div class="s-11 row">
                     <div class="col-sm-12">
                         <h2 class="spons_head" style="text-align:center;" >
                             Event Partner
@@ -181,7 +188,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-11 row">
                         <div class="col-lg-4 col-md-6 col-sm-12"  align="center">
                             <a href="http://www.oil-india.com/" target="_blank"><br> <br>
                             <img class="spons"  src="img/spons/2019/es3.jpg" width="200" height="170" />
@@ -243,7 +250,7 @@
                     </div>
 
                 <br><br>
-                <div class="row">
+                <div class="s-12 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Travel Partner
@@ -257,7 +264,7 @@
                     </div>
                 </div>
                 <br><br>
-                 <div class="row">
+                 <div class="s-13 row">
                         <div class="col-sm-12">
                             <h2 style="text-align:center;">
                                 Fine Dine Partner
@@ -274,7 +281,7 @@
                     <br><br>
 
                 <!-- new -->
-                <div class="row">
+                <div class="s-14 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Beverage Partner
@@ -282,7 +289,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-14 row">
                         <div class="col-lg-4 col-md-6 col-sm-12" align="center">  <a href="https://www.nescafe.com/in/" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/bvp1.jpg" width="190" height="180" />
                             </a>
@@ -300,7 +307,7 @@
                     </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-15 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Food Partner
@@ -308,7 +315,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-15 row">
                         <div class="col-lg-4 col-md-6 col-sm-12" align="center">  <a href="http://www.bittuchanachur.com/" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/fp1.png" width="170" height="140" />
                             </a>
@@ -325,7 +332,7 @@
                         </div>
                     </div>
                     <br><br>
-                <div class="row">
+                <div class="s-16 row">
                     <div class="col-sm-12">
                         <h2 class="spons_head" style="text-align:center;" >
                             Gift Partner
@@ -333,7 +340,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-16 row">
                             <div class="col-lg-4 col-md-6 col-sm-12" align="center">  <a href="http://amleatherindia.com/" target="_blank"> <br> <br>
                                 <img class="spons"  src="img/spons/2019/gp1.jpg" width="190px" height="130px" />
                                 </a>
@@ -360,7 +367,7 @@
                             </div>
                     </div>
                 <!-- new -->
-                <div class="row">
+                <div class="s-17 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Corporate Gifting Partner
@@ -375,7 +382,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-18 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Stationary Partner
@@ -397,7 +404,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-19 row">
                     <div class="col-sm-12">
                         <h2 class="spons_head" style="text-align:center;" >
                             Apparel Partner
@@ -405,7 +412,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-19 row">
                             <div class="col-md-6 col-sm-12" align="center">
                                 <a href="https://steenbok.in/" target="_blank">
                                 <img class="spons" src="img/spons/2019/app2.jpg" width="270px" height="160px"  />
@@ -419,7 +426,7 @@
                     </div>
                 <br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-20 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Writing Partner
@@ -434,7 +441,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-21 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Electronics Partner
@@ -449,7 +456,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-22 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Merchandise Partner
@@ -464,7 +471,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-23 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Gadget Partner
@@ -472,7 +479,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-23 row">
                         <div class="col-sm-12" align="center"> <a href="https://www.toreto.in/" target="_blank">
                             <img class="spons" src="img/spons/2019/gzp2.jpg" width="200" height="150" />
                             </a>
@@ -481,7 +488,7 @@
                     <br><br>
 
                 <!-- new -->
-                <div class="row">
+                <div class="s-24 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Healthy Snacks Partner
@@ -496,7 +503,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-25 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Photography Partner
@@ -511,7 +518,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-26 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Corporate Media Partner
@@ -528,7 +535,7 @@
 
 
                 <!-- new -->
-                <div class="row">
+                <div class="s-27 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             Hindi Outreach Partner
@@ -543,7 +550,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-28 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center">
                             Online Media Partner
@@ -558,7 +565,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-29 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center;">
                             <br>
@@ -574,7 +581,7 @@
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
+                <div class="s-30 row">
                     <div class="col-sm-12">
                         <h2 style="text-align:center">
                             SMS Partner
@@ -582,7 +589,7 @@
                         </h2>
                     </div>
                   </div>
-                    <div class="row">
+                    <div class="s-30 row">
                         <div class="col-lg-4 col-md-6 col-sm-12" align="center">  <a href="https://www.mobtexting.com/" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/sms1.png" width="220" height="110" />
                             </a>
@@ -603,5 +610,12 @@
         </div>
         <?php include 'footer.php';?>
         <?php include 'preloader.php' ?>
+        <script type="text/javascript">
+        for (var i = 1; i <31; i++) {
+          gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+          gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+        }
+        </script>
     </body>
 </html>

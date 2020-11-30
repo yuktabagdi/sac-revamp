@@ -539,10 +539,6 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
   <?php include 'preloader.php' ?>
     <?php include 'footer.php' ?>
 

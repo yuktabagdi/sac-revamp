@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
 </head>
 
@@ -19,7 +26,7 @@
   <br><br><br>
   <div class="container">
 
-    <div class="row">
+    <div class="s-1 row">
 
       <div class="col-sm-12" align="center">
 
@@ -28,7 +35,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="s-2 row">
 
       <div  class="col-sm-12" align="center">
 
@@ -40,7 +47,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="s-3 row">
 
       <div  class="col-sm-12" align="center">
         <h4> Major Sponsor </h4>
@@ -48,7 +55,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="s-4 row">
 
       <div class="col-lg-6 col-md-6 col-sm-12" align="center">
 
@@ -67,7 +74,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="s-5 row">
 
       <div  class="col-sm-12" align="center">
 
@@ -77,7 +84,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="s-6 row">
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
@@ -109,7 +116,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="s-7 row">
 
       <div  class="col-lg-3 col-md-6 col-sm-12" align="center">
 
@@ -141,7 +148,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="s-8 row">
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
@@ -173,7 +180,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="s-9 row">
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
@@ -194,6 +201,15 @@
 
   <?php include 'footer.php';?>
 <?php include 'preloader.php' ?>
+<script type="text/javascript">
+gsap.registerPlugin(ScrollTrigger);
+
+for (var i = 1; i <10; i++) {
+  gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+  gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+}
+</script>
 </body>
 
 </html>

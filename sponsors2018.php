@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
 </head>
 
@@ -17,7 +24,7 @@
     <br><br><br>
         <div class="_wrapper" style="overflow: hidden; background-color: white;">
             <div class="container" align="center">
-                <div class="row" >
+                <div class="s-1 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Title Sponsor
@@ -31,7 +38,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-2 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Associate Title Sponsor
@@ -45,7 +52,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-3 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Co Sponsor
@@ -59,7 +66,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-4 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Driven by
@@ -73,7 +80,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-5 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Major Sponsor
@@ -87,7 +94,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-6 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Strategic Sponsor
@@ -101,7 +108,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row">
+                <div class="s-7 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 class="spons_head" style="text-align:center;" >
                             Event Sponsors
@@ -109,7 +116,7 @@
                         </h2>
                     </div>
                     </div>
-                    <div class="row"align="center">
+                    <div class="s-7 row"align="center">
                         <div class="col-lg-4 col-md-6 col-sm-12" align="center"style="margin-bottom:20px;">  <a href="#" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2018/11.png" width="190" height="170" />
                             </a>
@@ -136,7 +143,7 @@
                         </div>
                     </div>
                 <br><br>
-                <div class="row">
+                <div class="s-8 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             CSR Partner
@@ -155,7 +162,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-9 row" >
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Hospitality Partner
@@ -169,7 +176,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row" >
+                <div class="s-10 row" >
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Airline Partner
@@ -183,7 +190,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row">
+                <div class="s-11 row">
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Luggage Partner
@@ -197,7 +204,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="s-12 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Electronic Partner
@@ -211,7 +218,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="s-13 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Multiplex Partner
@@ -225,7 +232,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="s-14 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Stationery Partner
@@ -244,7 +251,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row">
+                <div class="s-15 row">
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Online Shopping Partner
@@ -258,7 +265,7 @@
                     </div>
                 </div>
                 <br> <br>
-                <div class="row">
+                <div class="s-16 row">
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 class="spons_head" style="text-align:center;" >
                             Apparel Partners
@@ -281,7 +288,7 @@
                 </div>
                 </row>
                 <br> <br>
-                <div class="row">
+                <div class="s-17 row">
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Media Partner
@@ -295,7 +302,7 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+                <div class="s-18 row">
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Time Keeper
@@ -308,7 +315,7 @@
                         </a>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="s-19 row">
                       <div class="col-sm-12"align="center">
                         <h2>
                             Gift Partner
@@ -316,7 +323,7 @@
                         </h2>
                       </div>
                     </div>
-                    <div class="row">
+                    <div class="s-19 row">
                             <div class="col-lg-4 col-md-6 col-sm-12" align="center"style="margin-bottom:20px;">  <a href="http://www.akar.co.in/" target="_blank"> <br> <br>
                                 <img class="spons"  src="img/spons/2018/gifting partner/Screenshot (294).png" width="190" height="120" />
                                 </a>
@@ -344,7 +351,7 @@
                             </div>
                     </div>
                     <br>
-                    <div class="row">
+                    <div class="s-20 row">
                       <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                             <h2 >
                                 Fine Dine Partner
@@ -361,7 +368,7 @@
                     <br><br>
                 </div>
                 <br> <br>
-                <div class="row">
+                <div class="s-20 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Food Partner
@@ -375,7 +382,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row">
+                <div class="s-20 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center;">
                             Bakery Partner
@@ -389,7 +396,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row">
+                <div class="s-21 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center">
                             SMS Partner
@@ -397,7 +404,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="s-21 row">
                     <div class="col-md-6 col-sm-12" align="center"style="margin-bottom:20px;"> <a href="https://www.textguru.in/" target="_blank">
                         <img class="spons" src="img/spons/2018/SMS Partner/textguru.png" width="300" height="150" />
                         </a>
@@ -408,7 +415,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row">
+                <div class="s-21 row">
                     <div class="col-md-6 col-sm-12" align="center"style="margin-bottom:20px;"> <a href="https://www.textlocal.in/" target="_blank">
                         <img class="spons" src="img/spons/2018/SMS Partner/textlocal.png" width="300" height="150" />
                         </a>
@@ -419,7 +426,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row">
+                <div class="s-22 row">
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <h2 style="text-align:center">
                             Online Media Partner
@@ -427,7 +434,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="s-22 row">
                     <div class="col-md-6 col-sm-12" align="center"style="margin-bottom:20px;"> <a href="https://allevents.in/" target="_blank">
                         <img class="spons" src="img/spons/2018/Online Media Partner/ae-logo.png" width="300" height="150" />
                         </a>
@@ -437,7 +444,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="s-22 row">
                     <div class="col-md-6 col-sm-12" align="center"style="margin-bottom:20px;"> <a href="https://www.thecollegefever.com/" target="_blank">
                         <img class="spons" src="img/spons/2018/Online Media Partner/TCFLOGO.png" width="300" height="150" />
                         </a>
@@ -453,5 +460,12 @@
         </div></div>
         <?php include 'footer.php';?>
         <?php include 'preloader.php' ?>
+        <script type="text/javascript">
+        for (var i = 1; i <23; i++) {
+          gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+          gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+        }
+        </script>
     </body>
 </html>

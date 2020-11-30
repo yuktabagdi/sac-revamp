@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
 </head>
 
@@ -17,20 +24,20 @@
     <br><br><br>
 <div class="_wrapper" style="overflow: hidden; background-color: white;">
   <div class="container" align="center">
-  <div class="row" >
+  <div class="s-1 row" >
    <div class="col-sm-12">  <h2 style="text-align:center;">Co Sponsor <hr></h2> </div>
  </div>
- <div class="row">
+ <div class="s-1 row">
       <div class="col-sm-12"style="margin-bottom:20px;">
         <a href="http://www.tatamotors.com/" target="_blank" >
             <img class="spons" src="img/spons/2017/Co-Sponsor/TATA-Motors-min.png" width="350" height="170" />
         </a>
       </div>
    </div>  <br> <br>
-   <div class="row" >
+   <div class="s-2 row" >
    <div class="col-sm-12">  <h2 style="text-align:center;">Major Sponsor <hr></h2> </div>
  </div>
- <div class="row">
+ <div class="s-2 row">
         <div class="col-lg-4 col-md-6 col-sm-12" align="center"style="margin-bottom:20px;"><br><a href="http://www.archiesonline.com/" target="_blank" >
           <img class="spons" src="img/spons/2017/Major Sponsor/a-min-1.png" width="350" height="170" />
         </a>
@@ -53,11 +60,11 @@
         </div>
 
        </div> <br> <br>
-<div class="row">
+<div class="s-3 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;">Event Sponsors <hr></h2> </div>
 </div>
-<div class="row">
+<div class="s-3 row">
   <div class="col-lg-3 col-md-6 col-sm-12" align="center" style="margin-top: 20px;margin-left: -90px">
         <a href="https://hurix.com/digital-education/" target="_blank">
           <img class="spons" src="img/spons/2017/Event Sponsor/a.png" width="" height=""  />
@@ -81,26 +88,26 @@
 
   </div> <br> <br>
 
-  <div class="row">
+  <div class="s-4 row">
   <div class="col-sm-12"> <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
 </div>
-<div class="row">
+<div class="s-4 row">
  <div class="col-sm-12" align="center"style="margin-bottom:20px;"><a href="http://www.bankofbaroda.co.in/" target="_blank" >
         <img class="spons" src="img/spons/2017/Banking partner/bob-min.png" width="290" height="140" >
       </a>
       </div>
 </div> <br> <br>
- <div class="row">
+ <div class="s-5 row">
   <div class="col-sm-12"> <h2 style="text-align:center;">In Association With<hr></h2> </div>
 </div>
-<div class="row">
+<div class="s-5 row">
      <div class="col-sm-12" align="center"style="margin-bottom:20px;"><a href="https://www.telegraphindia.com/" target="_blank" >
         <img class="spons" src="img\spons\2017\In Association with\Telegraph1.jpg" width="290" height="140" >
       </a>
       </div>
     </div> <br> <br>
 
- <div class="row">
+ <div class="s-6 row">
   <div class="col-sm-12"> <h2 style="text-align:center;">Media Partner<hr></h2> </div>
 
      <div class="col-sm-12" align="center"style="margin-bottom:20px;"><a href="https://www.inshorts.com" target="_blank" >
@@ -112,10 +119,10 @@
 
   </div> <br> <br>
 
-     <div class="row">
+     <div class="s-7 row">
        <div class="col-sm-12">
          <h2 style="text-align:center"> Suitings Partner <hr></h2> </div> </div>
-<div class="row">
+<div class="s-7 row">
          <div class="col-sm-12" align="center"style="margin-bottom:20px;"> <a href="http://www.siyaram.com//" target="_blank">
         <img class="spons" src="img/spons/2017/Premium Suitings Partner/sr-min.jpg" width="200" height="90" />
       </a>
@@ -126,7 +133,7 @@
 
 
 
-  <div class="row">
+  <div class="s-8 row">
 
    <div class="col-sm-12"> <h2 class="spons_head" style="text-align:center;" >Luxury Gift Partners <hr></h2> </div>
 
@@ -143,11 +150,11 @@
    </div>
  <br> <br>
 
-  <div class="row">
+  <div class="s-9 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;">Electronics Partner<hr></h2> </div>
 </div>
-<div class="row">
+<div class="s-9 row">
   <div class="col-lg-6 col-sm-12" align="center"style="margin-bottom:20px;">
         <a href="http://www.ambraneindia.com/" target="_blank">
           <img class="spons" src="img/spons/2017/Electronics partner/a-min1.png" width="350px" height="200px"  />
@@ -162,7 +169,7 @@
   </div>  <br> <br>
 
 
-  <div class="row">
+  <div class="s-10 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">E Gifting Partner<hr></h2> </div>
   <div class="col-sm-12"  align="center"style="margin-bottom:20px;">
@@ -174,7 +181,7 @@
   </div>
 
  <br> <br>
-  <div class="row">
+  <div class="s-11 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">Energy Partner <hr></h2> </div>
   <div class="col-sm-12"  align="center"style="margin-bottom:20px;">
@@ -185,7 +192,7 @@
 
   </div> <br> <br>
 
-  <div class="row">
+  <div class="s-12 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">Online Shopping Partner <hr></h2> </div>
   <div class="col-sm-12"  align="center"style="margin-bottom:20px;">
@@ -197,7 +204,7 @@
   </div> <br> <br>
 
 
-  <div class="row">
+  <div class="s-12 row">
 
   <div class="col-sm-12" > <h2 style="text-align:center;">Beverage Partner <hr></h2> </div>
   <div class="col-sm-12"  align="center"style="margin-bottom:20px;">
@@ -210,11 +217,11 @@
 
 
 
-  <div class="row">
+  <div class="s-13 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;">Banquet Partner <hr></h2> </div>
 </div>
-<div class="row">
+<div class="s-13 row">
   <div class="col-sm-12" align="center"style="margin-bottom:20px;">
         <a href="http://www.mioamore.net/" target="_blank">
           <img class="spons" src="img\spons\2017\Banquet Partner\mio amore-min.jpg" width="200px" height="200px"  />
@@ -223,7 +230,7 @@
 
   </div> <br> <br>
 
-  <div class="row">
+  <div class="s-14 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;">Apparel Partner <hr></h2> </div>
 
@@ -244,7 +251,7 @@
 
 
 
-        <div class="row">
+        <div class="s-14 row">
        <div class="col-sm-12"style="margin-bottom:20px;">
          <h2 style="text-align:center">Stationary Partner <hr></h2> </div> </div>
          <div class="row">
@@ -268,11 +275,11 @@
     </div> <br> <br>
 
 
-  <div class="row">
+  <div class="s-15 row">
 
    <div class="col-sm-12 "> <h2 class="spons_head" style="text-align:center;"style="margin-bottom:20px;" >Gift Partners <hr></h2> </div></div>
 
-     <div class="row">
+     <div class="s-15 row">
 
       <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom:20px;"> <a href="http://www.hidekraft.com/browse/bags" target="_blank">
          <img class="spons"  src="img/spons/2017/Gift Partner/hcraft.jpg" width="190" height="80" />
@@ -313,11 +320,11 @@
 
  <br> <br>
 
-    <div class="row">
+    <div class="s-16 row">
    <div class="col-sm-12">
        <h2 style="text-align:center">Food Partner<hr></h2></div>
    </div>
-  <div class="row">
+  <div class="s-16 row">
     <div class="col-lg-4 col-md-6 col-sm-12"style="margin-bottom:20px;"><a href="http://www.marinofoods.in/" target="_blank" >
         <img class="spons"  src="img/spons/2017/Food Partner_/m (1).jpg" width="290" height="140" />
       </a>
@@ -331,7 +338,7 @@
       </a>
       </div>
       </div> <br> <br>
-  <div class="row">
+  <div class="s-17 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;">Freshness partner<hr></h2> </div>
   <div class="col-sm-12" align="center"style="margin-bottom:20px;">
@@ -341,7 +348,7 @@
       </div>
 
   </div> <br> <br>
-  <div class="row">
+  <div class="s-18 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;"style="margin-bottom:20px;">Ride partner<hr></h2> </div>
   <div class="col-sm-12" align="center">
@@ -351,22 +358,22 @@
       </div>
 
   </div> <br> <br>
-<div class="row">
+<div class="s-18 row">
 
   <div class="col-sm-12"> <h2 style="text-align:center;"style="margin-bottom:20px;">Luggage Partner <hr></h2> </div>
 </div>
-    <div class="row">
+    <div class="s-19 row">
   <div class="col-sm-12" align="center"style="margin-bottom:20px;">
         <a href="http://www.bleubags.com/" target="_blank">
           <img class="spons" src="img/spons/2017/Luggage Partner/bleu-min.jpg" width="250px" height="150px"  />
         </a>
       </div>
     </div>
-        <div class="row">
+        <div class="s-19 row">
           <div class="col-sm-12"align="center"style="margin-bottom:20px;"> <h2 style="text-align:center;">SMS Partners </h2> <hr> </div>
         </div>
 
-      <div class="row">
+      <div class="s-19 row">
           <div class="col-lg-3 col-md-6 col-sm-12"style="margin-bottom:20px;"><a href="http://www.siegsms.com/" target="_blank" >
                   <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
               </a>
@@ -385,13 +392,13 @@
               </a>
           </div> </div> <br> <br>
 
-  <div class="row">
+  <div class="s-20 row">
 
    <div class="col-sm-12"> <h2 class="spons_head" style="text-align:center;" >Online Media Partners <hr></h2> </div> </div>
 
 
 
-    <div  class="row">
+    <div  class="s-20 row">
 
       <div class="col-lg-4 col-md-6 col-sm-12" align="center"style="margin-bottom:20px;">  <a href="https://www.crazyengineers.com/" target="_blank"> <br> <br>
          <img class="spons"  src="img/spons/2017/Online Media Partner/Crazy Engineers-min.png" width="190" height="80" />
@@ -425,5 +432,12 @@
       </div>
   <?php include 'footer.php';?>
 <?php include 'preloader.php' ?>
+<script type="text/javascript">
+for (var i = 1; i <21; i++) {
+  gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+  gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+}
+</script>
   </body>
   </html>
