@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Alumni Talks</title>
+  <title>Teams</title>
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/team.css">
@@ -30,7 +30,7 @@
           <div class="panel text-center">
             <h1 class="x">The TEAM 2020</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div class="progress-bar-purple" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>
@@ -372,7 +372,7 @@
           <div class="panel text-center">
             <h1 class="x">Former Heads</h1>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+              <div class="progress-bar-purple" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <br>

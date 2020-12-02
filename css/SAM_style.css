@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+
 /* 
 * {
   box-sizing: border-box;
@@ -27,6 +32,16 @@ section {
 }
 
 :root {
+  --heading1:'Abril Fatface', cursive;
+  --heading2:'Oswald', sans-serif;
+  --heading3: 'Lato', sans-serif;
+  --heading4: 'Open Sans', sans-serif;
+  --heading5: 'Raleway', sans-serif;
+  --heading6: 'Roboto', sans-serif;
+
+
+  --para1:'Montserrat', sans-serif;
+
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
@@ -182,13 +197,13 @@ main{
 	padding: 0vmin 5vmin 5vmin 5vmin;
 	padding: 5vmin 5vmin 5vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-	font-family: var(--Rubik);
+	font-family: var(--para1);
   z-index: 1;
   background-color: whitesmoke;
   }
   .section-1 .row .col-md-12 .panel h1 {
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: var(--heading6s);
 	padding: 0.4em 0;
 	font-size: 3em;
   }
@@ -225,7 +240,7 @@ main{
 	text-align: left;
 	padding: 5vmin 5vmin 5vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-	font-family: var(--Rubik);
+	font-family: var(--heading4);
 	z-index: 1;
   }
   
