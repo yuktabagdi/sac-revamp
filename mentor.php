@@ -29,32 +29,47 @@
                              <input type="hidden" name="_token" value="PsbGXbDMF6nIjElNT19TkbnVMXVkDB1QlZtIGfKx">
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="name">Name</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="name" name="name" class="form-control"id="username" placeholder="Enter your name" required="required" value="">
+                                 <input type="name" name="name" class="form-control"id="username" placeholder="Enter your name" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="email">Email</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="email" name="email" class="form-control"id="email" placeholder="Enter your email" required="required" value="">
+                                 <input type="email" name="email" class="form-control"id="email" placeholder="Enter your email" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="password">Password</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="password" name="password" class="form-control"id="passwword" placeholder="Enter your password" required="required">
+                                 <input type="password" name="password" class="form-control"id="passwword" placeholder="Enter your password" required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="re-password">Re-Password</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password " required="required">
+                                 <input type="password" name="password_confirmation"id="re-password" class="form-control" placeholder="Re-Enter your password " required="required"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="department">Department</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <select required="" name="department"id="department" class="form-control">
+                                 <select required="" name="department"id="department" class="form-control"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                    <option value="" disabled="" selected="">Select Your Department</option>
                                    <option value="AE">Aerospace Engineering</option>
                                    <option value="AG">Agricultural &amp; Food Engineering</option>
@@ -102,15 +117,21 @@
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="graduation">Graduation year</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="text" name="pout"id="graduation" class="form-control" placeholder="Enter Your Year Of Graduation" required="required" value="">
+                                 <input type="text" name="pout"id="graduation" class="form-control" placeholder="Enter Your Year Of Graduation" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
 
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="fieldofexperince">Fieldofexperince</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="text" name="foe"id="fieldofexperince" class="form-control" placeholder="Enter Your Field Of Expertise" required="required" value="">
+                                 <input type="text" name="foe"id="fieldofexperince" class="form-control" placeholder="Enter Your Field Of Expertise" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
 
                                </div>
                              </div>
@@ -122,7 +143,7 @@
                                  <p>Preferred No. Of Mentees</p>
                                </div>
                                <div class="col-sm-4" style="display:inline-block;">
-                                 <select required="" name="mentee"id="mentees" class="form-control">
+                                 <select required="" name="mentee"id="mentees" class="form-control"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                    <option value="" disabled="" selected="">No. of Mentees</option>
                                    <option value="2">Two</option>
                                    <option value="3">Three</option>
@@ -138,8 +159,11 @@
                              <h5>In which field do you want to Mentor?</h5>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="fieldofmentor">Fieldofmentor</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <select required="" name="pref1"id="fieldofmentor" class="form-control">
+                                 <select required="" name="pref1"id="fieldofmentor" class="form-control"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                    <option value="" disabled="" selected="">Choose your 1st Preference</option>
                                    <option value="4">Banking &amp; Finance</option>
                                    <option value="23">Entrepreneurship</option>
@@ -176,7 +200,7 @@
 
                              <div class="form-group">
                                <div class="col-sm-12">
-                                 <select onchange="f1(this)" class="form-control"id="morepreference">
+                                 <select onchange="f1(this)" class="form-control"id="morepreference"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                    <option value="-1">Do You Want More Preferences</option>
                                    <option>Yes</option>
                                    <option>No</option>
@@ -187,8 +211,11 @@
 
                              <div id="f1">
                                <div class="form-group">
+                                 <div class="col-sm-12"style="margin-bottom:0;">
+                                   <label for="extrafield2">Extrafield</label>
+                                 </div>
                                  <div class="col-sm-12">
-                                   <select name="pref2"id="extrafield2" class="form-control">
+                                   <select name="pref2"id="extrafield2" class="form-control"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                      <option>Choose your 2nd Preference</option>
 
                                    <option value="4">Banking &amp; Finance</option>
@@ -224,8 +251,11 @@
                                  </div>
                                </div>
                                <div class="form-group">
+                                 <div class="col-sm-12"style="margin-bottom:0;">
+                                   <label for="extrafield3">Extrafield</label>
+                                 </div>
                                  <div class="col-sm-12">
-                                   <select name="pref3"id="extrafield3" class="form-control">
+                                   <select name="pref3"id="extrafield3" class="form-control"style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                      <option>Choose your 3rd Preference</option>
                                    <option value="4">Banking &amp; Finance</option>
                                    <option value="23">Entrepreneurship</option>
@@ -264,8 +294,11 @@
                              <h5 class="center"> Contact Details </h5>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="phonenumber">Phonenumber</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="text" name="phone"id="phonenumber" class="form-control" placeholder="Enter Your Phone No." required="required" value="">
+                                 <input type="text" name="phone"id="phonenumber" class="form-control" placeholder="Enter Your Phone No." required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
 
                                </div>
                              </div>
@@ -274,15 +307,21 @@
 
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="organisation">Organisation</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="text" name="firm" class="form-control"id="organisation" placeholder="Enter Your Organisation" required="required" value="">
+                                 <input type="text" name="firm" class="form-control"id="organisation" placeholder="Enter Your Organisation" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
 
                                </div>
                              </div>
 
                              <div class="form-group">
+                               <div class="col-sm-12"style="margin-bottom:0;">
+                                 <label for="desg">Designation</label>
+                               </div>
                                <div class="col-sm-12">
-                                 <input type="text" name="desg" class="form-control"id="Designation" placeholder="Enter Your Designation" required="required" value="">
+                                 <input type="text" name="desg" class="form-control"id="Designation" placeholder="Enter Your Designation" required="required" value=""style="border:0;background-color:#e8e8e8;font-size:0.9em;">
                                </div>
                              </div>
 

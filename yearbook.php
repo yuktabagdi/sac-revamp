@@ -18,22 +18,23 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-
+    <style>
+    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+        background-color: #00416d !important;
+        border-color: #00416d !important;
+        color:white !important;
+    }
+    .btn-outline-primary{
+        color:  #00416d !important;
+        border-color:  #00416d !important;
+    }
+</style>
 </head>
 
 <body>
 
 
     <?php include 'navbar.php' ?>
-    <header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white">
-
-                </div>
-            </div>
-        </div>
-    </header>
 
     <main>
         <section class="section-1">
@@ -55,9 +56,9 @@
                                 the yearbook will be
                                 the light which will lit up the faded memories and show the path through the old forgotten ways
                             </p>
-                            <div class="row text-right">
+                            <div class="row text-center">
                                 <div class="col-12">
-                                    <button class="yrbk-btn">YearBook Portal</button>
+                                    <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/yearbook/"><i class="fa fa-book"></i> YearBook</button>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +70,7 @@
 
         <section class="section-3">
             <div class="container-fluid">
-                <h1 class="text-center">Exibition Corner......</h1>
+                <h1 class="text-center" style="color:white;">Exibition Corner...</h1>
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
@@ -93,14 +94,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 ">
-                                                                <button class="img-txt">UG</button>
+                                                            <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">PG</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">RS</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
 
@@ -115,14 +116,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 ">
-                                                                <button class="img-txt">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">PG</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">RS</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -134,14 +135,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2015...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 ">
-                                                                <button class="img-txt">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">PG</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">RS</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,14 +166,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 ">
-                                                                <button class="img-txt">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">PG</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">RS</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -186,14 +187,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 ">
-                                                                <button class="img-txt">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">PG</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2">
-                                                                <button class="img-txt">RS</button>
+                                                            <div class="col-2 img-txt">
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -223,117 +224,167 @@
 
             </div>
         </section>
-        <!-- 		Footer start -->
-        <?php include 'footer.php' ?>
-        <?php include 'preloader.php' ?>
-        <!--        Footer end -->
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-        <script>
-            $("#one,#two").each(function() {
-                $(this).addClass("progress-bar-purple");
-            });
-            gsap.from('header', {
-                opacity: 0,
-                duration: 1
-            })
-            gsap.from('header h1', {
-                opacity: 0,
-                duration: 2,
-                x: -200
-            })
-            gsap.from('header h6', {
-                opacity: 0,
-                duration: 2,
-                x: -500
-            })
+
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Class Songs</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/eVt_KHFRPmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2018</p>
+                                </div>
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/BMbMHIVlyjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Class Memoir</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/9L_8Jqizhcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Memoir 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="height:100px">
+        </section>
+    </main>
+    <!-- 		Footer start -->
+    <?php include 'footer.php' ?>
+    <?php include 'preloader.php' ?>
+    <!--        Footer end -->
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+        $("#one,#two").each(function() {
+            $(this).addClass("progress-bar-purple");
+        });
+        gsap.from('header', {
+            opacity: 0,
+            duration: 1
+        })
+        gsap.from('header h1', {
+            opacity: 0,
+            duration: 2,
+            x: -200
+        })
+        gsap.from('header h6', {
+            opacity: 0,
+            duration: 2,
+            x: -500
+        })
 
 
-            gsap.from('.nav-item', {
+        gsap.from('.nav-item', {
+            scrollTrigger: {
+                trigger: '.nav-item',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
+
+
+        gsap.from('.section-1 h1', {
+            scrollTrigger: {
+                trigger: '.section-1 h1',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
+
+        gsap.from('.section-1 p', {
+            scrollTrigger: {
+                trigger: '.section-1 p',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 2.0,
+        });
+
+        gsap.from('.section-1 img', {
+            scrollTrigger: {
+                trigger: '.section-1 img',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1.5,
+            x: 200
+        });
+
+        var img_txt = document.getElementsByClassName("img-txt");
+        var card = document.getElementsByClassName("card");
+
+        for (let i = 0; i < card.length; i++) {
+            gsap.from(card[i], {
                 scrollTrigger: {
-                    trigger: '.nav-item',
-                    toggleActions: "play none none none"
-                },
-                opacity: 0,
-                duration: 1,
-                x: -200
-            });
-
-
-            gsap.from('.section-1 h1', {
-                scrollTrigger: {
-                    trigger: '.section-1 h1',
-                    toggleActions: "play none none none"
-                },
-                opacity: 0,
-                duration: 1,
-                x: -200
-            });
-
-            gsap.from('.section-1 p', {
-                scrollTrigger: {
-                    trigger: '.section-1 p',
-                    toggleActions: "play none none none"
-                },
-                opacity: 0,
-                duration: 2.0,
-            });
-
-            gsap.from('.section-1 img', {
-                scrollTrigger: {
-                    trigger: '.section-1 img',
+                    trigger: card[i],
                     toggleActions: "play none none none"
                 },
                 opacity: 0,
                 duration: 1.5,
-                x: 200
+                x: -200
             });
-
-            var img_txt = document.getElementsByClassName("img-txt");
-            var card = document.getElementsByClassName("card");
-
-            for (let i = 0; i < card.length; i++) {
-                gsap.from(card[i], {
-                    scrollTrigger: {
-                        trigger: card[i],
-                        toggleActions: "play none none none"
-                    },
-                    opacity: 0,
-                    duration: 1.5,
-                    x: -200
+            $(card[i]).on('mouseenter', function(e) {
+                for (let j = 0; j < 3; j++) {
+                    gsap.to($(img_txt[i * 3 + j]), 1, {
+                        opacity: 1,
+                        ease: Sine.easeInOut
+                    });
+                }
+            });
+            $(card[i]).on('mouseleave', function(e) {
+                for (let j = 0; j < 3; j++) {
+                    gsap.to($(img_txt[i * 3 + j]), 1, {
+                        opacity: 0,
+                        ease: Sine.easeInOut
+                    });
+                }
+            });
+        }
+        for (let i = 0; i < img_txt.length; i++) {
+            $(img_txt[i]).on('mouseenter', function(e) {
+                gsap.to($(img_txt[i]), 0.5, {
+                    y: -8,
+                    ease: Sine.easeInOut
                 });
-                $(card[i]).on('mouseenter', function(e) {
-                    for (let j = 0; j < 3; j++) {
-                        gsap.to($(img_txt[i * 3 + j]), 1, {
-                            opacity: 1,
-                            ease: Sine.easeInOut
-                        });
-                    }
+            });
+            $(img_txt[i]).on('mouseleave', function(e) {
+                gsap.to($(img_txt[i]), 1, {
+                    y: 0,
+                    ease: Sine.easeInOut
                 });
-                $(card[i]).on('mouseleave', function(e) {
-                    for (let j = 0; j < 3; j++) {
-                        gsap.to($(img_txt[i * 3 + j]), 1, {
-                            opacity: 0,
-                            ease: Sine.easeInOut
-                        });
-                    }
-                });
-            }
-            for(let i=0;i<img_txt.length;i++){
-                $(img_txt[i]).on('mouseenter', function(e) {
-                        gsap.to($(img_txt[i]), 0.5, {
-                            y:-8,
-                            ease: Sine.easeInOut
-                        });
-                });
-                $(img_txt[i]).on('mouseleave', function(e) {
-                        gsap.to($(img_txt[i]), 1, {
-                            y:0,
-                            ease: Sine.easeInOut
-                        });
-                });
-            }
-        </script>
+            });
+        }
+    </script>
 </body>
 
 </html>

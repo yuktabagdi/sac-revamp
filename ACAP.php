@@ -6,16 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Career Assistance Programme</title>
-    <link rel="stylesheet" href="css/acap.css">
-    <link rel="stylesheet" href="css/SAMP_mobile_style.css">
-    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="css/acap.css">
+        <link rel="stylesheet" href="css/SAMP_mobile_style.css">
+        <link rel="stylesheet" href="css/mentor.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -50,7 +49,7 @@
         width: 300px !important;
     }
   }
-  
+
 </style>
 </head>
 
@@ -63,7 +62,7 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
 
-                    
+
                     <h1 style="text-align: left;"></h1>
 
                 </div>
@@ -137,7 +136,7 @@
                                 </div>
                                 <!-- Button trigger modal -->
                                 <div class="col-md-6 text-center">
-                                    <img src="img/acap/2.jpg" style="height: 315px; width:500px">
+                                    <img src="img/acap/5.jpg" style="height: 315px; width:500px">
                                 </div>
                             </div>
                             </p>
@@ -147,7 +146,7 @@
             </div>
         </section>
         <div id="modal1" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
-             <div class="modal-dialog modal-dialog-centered" style="min-width:400px;margin-top:0;margin-bottom:0;">
+             <div class="modal-dialog " style="max-width:50%;min-width:400px;margin-top:3%;margin-bottom:0;">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;">
                       <div class="modal-header"style="padding-top:0;">
@@ -157,31 +156,40 @@
                       </div>
                       <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
                          <form class="form-horizontal" class="col-sm-12" id="form1">
-                           <input placeholder="Name" name="name" type="text" class="validate"style="width:100%;" >
+                           <label for="name"style="margin-bottom:0;">Name</label>
+                           <input placeholder="Name" name="name" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                            <input placeholder="Phone Number" name="phoneno" type="text" class="validate"style="width:100%;" >
+                           <label for="phoneno"style="margin-bottom:0;">phonenumber</label>
+                            <input placeholder="Phone Number" name="phoneno" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                         <input placeholder="Email" name="email" type="email" class="validate"style="width:100%;" >
+                           <label for="email"style="margin-bottom:0;">Email</label>
+                         <input placeholder="Email" name="email" type="email" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                           <input placeholder="Company Name" name="company" type="text" class="validate" style="width:100%;" >
+                           <label for="company"style="margin-bottom:0;">Company</label>
+                           <input placeholder="Company Name" name="company" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br>
                            <br>
-                              <input placeholder="Company Designation" name="designation" type="text" class="validate" style="width:100%;" >
+                           <label for="designation"style="margin-bottom:0;">Designation</label>
+                              <input placeholder="Company Designation" name="designation" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                            <input placeholder="Current City" name="city" type="text" class="validate" style="width:100%;" >
+                           <label for="city"style="margin-bottom:0;">City</label>
+                            <input placeholder="Current City" name="city" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                            <input placeholder="Areas Of Expertise" name="expertise" type="text" class="validate"style="width:100%;"  >
+                           <label for="expertise"style="margin-bottom:0;">Areas Of Expertise</label>
+                            <input placeholder="Areas Of Expertise" name="expertise" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                           <br />
                           <br>
-                           <input placeholder="Year of Graduation" name="gradyear" type="text" class="validate" style="width:100%;" >
+                          <label for="gradyear"style="margin-bottom:0;">Year of Graduation</label>
+                           <input placeholder="Year of Graduation" name="gradyear" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                          <br />
                          <br>
-                            <input placeholder="Company placed via CDC" name="cdc" type="text" class="validate"style="width:100%;"  >
+                         <label for="cdc"style="margin-bottom:0;">Company placed via CDC</label>
+                            <input placeholder="Company placed via CDC" name="cdc" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                         <br />
                         <br>
                            <button  type="button" name="login_button" id="login_button" class="btn btn-block btn-primary">Login</button>
@@ -192,7 +200,7 @@
              </div>
         </div>
         <div id="modal2" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
-             <div class="modal-dialog " style="min-width:400px;margin-top:3%;margin-bottom:1%;;" align="center">
+             <div class="modal-dialog " style="max-width:55%;min-width:400px;margin-top:3%;margin-bottom:1%;;">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;font-size:0.9rem;">
                       <div class="modal-header"style="padding-top:0;">
@@ -202,31 +210,39 @@
                       </div>
                       <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
                            <form id="form2" >
-                                    <input placeholder="Name" name="name" type="text" class="validate"style="width:100%;"  >
+                             <label for="name"style="margin-bottom:0;">Name</label>
+                                    <input placeholder="Name" name="name" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                            <br />
                            <br>
-                                     <input placeholder="Roll Number" name="roll" type="text" class="validate" style="width:100%;" >
+                           <label for="roll"style="margin-bottom:0;">Rollnumber</label>
+                                     <input placeholder="Roll Number" name="roll" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                         <input placeholder="Phone Number" name="phoneno" type="text" class="validate"style="width:100%;" >
+                           <label for="phoneno"style="margin-bottom:0;">Phonenumber</label>
+                         <input placeholder="Phone Number" name="phoneno" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                           <input placeholder="Email" name="email" type="email" class="validate"style="width:100%;" >
+                           <label for="email"style="margin-bottom:0;">Email</label>
+                           <input placeholder="Email" name="email" type="email" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <p style="
                            margin-left: 12px;
                            color: palegoldenrod;
                            text-align: justify;
                            ">**Please fill in the companies for which you genuinely want to prepare for. This will greatly help us in allotting mentors to you.</p>
-                                   <input placeholder="Company Name" name="PC1" type="text" class="validate" style="width:100%;" >
+                           <label for="PC1"style="margin-bottom:0;">Company Name1</label>
+                                   <input placeholder="Company Name" name="PC1" type="text" class="validate" style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                            <br />
                            <br>
-                               <input placeholder="Company Name" name="PC2" type="text" class="validate"style="width:100%;"  >
+                           <label for="PC2"style="margin-bottom:0;">Company Name2</label>
+                               <input placeholder="Company Name" name="PC2" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                            <br />
                            <br>
-                             <input placeholder="Company Name" name="PC3" type="text" class="validate"style="width:100%;"  >
+                           <label for="PC3"style="margin-bottom:0;">Company Name3</label>
+                             <input placeholder="Company Name" name="PC3" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
                           <br />
                           <br>
-                             <input placeholder="Preferred placement field (Eg. Software, Consultancy)" name="PC4" type="text" class="validate"style="width:100%;" >
+                          <label for="PC4"style="margin-bottom:0;">Preferred placement field (Eg. Software, Consultancy)</label>
+                             <input placeholder="Preferred placement field (Eg. Software, Consultancy)" name="PC4" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
                          <br />
                          <br>
                         <button  type="button" name="login_button" id="login_button" class="btn btn-block btn-primary">Login</button>
@@ -243,7 +259,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <!-- <?php include 'preloader.php' ?> -->
+	   <?php include 'preloader.php' ?>
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
@@ -442,4 +458,3 @@ else
 </body>
 
 </html>
-
