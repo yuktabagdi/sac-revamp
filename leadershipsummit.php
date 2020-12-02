@@ -43,8 +43,8 @@
           <div class="col-md-12 col-12">
             <div class="panel text-left">
               <h1 class="text-center">The Summit</h1>
-              <div class="progress" style="height:0.7rem;">
-                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+              <div class="progress" style="height:0.4rem;">
+                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <p class="pt-4">
                 <strong>Leadership Summit</strong>, organized
@@ -64,8 +64,10 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">Past Speakers</h1>
-              <div class="progress" style="height:0.7rem;">
-                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+              <div class="progress" style="height:0.4rem;">
+                <div id="two" class="progress-bar" role="progressbar" 
+				style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+				aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->

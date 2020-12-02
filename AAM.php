@@ -23,13 +23,13 @@
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
-	<div class="container-fluid" style="padding:0 5rem;">
+	<div class="container-fluid" style="padding:0 9rem;">
 		<div class="row">
 			<div class="col-md-7">
 				<h1 class="one">ABOUT US</h1>
 				<div class="row">
 					<div class="col-md-10 justify-content-left">
-				<p class="pt-3 one">
+			<p class="pt-3 one">
 				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
 				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
 				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
@@ -42,7 +42,7 @@
 			<div class="col-md-5">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
-					<div class="col-md-10 col-12 trailer" style="padding-top:3.5rem; padding-bottom:15rem;">
+					<div class="col-md-10 col-12 trailer" style="padding-right:9rem; padding-top:3.5rem; padding-bottom:15rem;">
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third">
@@ -59,11 +59,10 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Arena</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<div class="col-md-6 x">
@@ -78,32 +77,48 @@
 					<div class="image">
 					<img  src="img/day2/arena.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
-				</div></div>
+					</div></div>
 				<div class="image pt-3">
 					<img  src="img/day2/cake_cutting.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
-				</div></div>
+					  </div></div>
 				
 			</div>
 			<div class="col-md-3 x align-items-center">
 					<div class="image">
 					<img  src="img/day1/alumni4.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
-				</div></div>
+						</div></div>
 				<div class="image pt-3">
 					<img  src="img/day1/alumni2.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
+					  </div></div>
+			</div>
+			</div>
+			<div class="row d-flex justify-content-center pt-3">
+				<div class="col-md-4 content-overlay x">
+					<div class="image">
+					<img  src="img/day2/night1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
 				</div></div>
-			</div>
-			</div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+				<div class="image">
+					<img  src="img/day2/night2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+										<div class="image">
+
+					<img  src="img/day2/night3.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+	</div>
 			</div>
 	</div>
 	</div>	
@@ -112,13 +127,12 @@
   </section> 
   <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 5rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Grand Reunion</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-4 x align-items-center">
@@ -126,23 +140,17 @@
 				<div class="image ">
 					<img  src="img/day1/awards.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
-				</div></div>
+								</div></div>
 				<div class="image pt-3">
 					<img  src="img/day1/alumni.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
-				</div></div>
+							</div></div>
 				
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
 				<img  src="img/day3/ceremony4.jpg" class="img-fluid image__img">
 				<div class="image__overlay image__overlay--primary text-center">
-							<div class="image__title">Arena</div>
-							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
 				</div></div>
 			</div>
 			</div>
@@ -156,11 +164,10 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class=" gallery-h3 pt-5">Department Visit</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-4 x align-items-center">
@@ -194,44 +201,28 @@
   </section>
  <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 5rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Musical Night</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
-			<div class="row d-flex justify-content-center pt-4 ">
-					<div class="col-md-4 content-overlay x">
-										<div class="image">
-
-					<img  src="img/day2/night1.jpg" class="img-fluid image__img">
+			<div class="col-md-6 content-overlay x">					
+				<div class="image">
+					<img  src="img/day1/toat.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
+					
+				</div></div></div>
+				<div class="col-md-6 content-overlay x">	
+				<div class="image">
+					<img  src="img/day2/yellow-diary.jpg" class="img-fluid image__img">
 				</div>
-				<div class="col-md-4 content-overlay pt-sm-0 pt-4 x">
-									<div class="image">
-
-					<img  src="img/day2/night2.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
 				</div>
-				<div class="col-md-4 content-overlay x">
-										<div class="image">
-
-					<img  src="img/day2/night3.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
-				</div>
-			</div>
 									
-			</div>
-			</div>
+	</div>
+	</div>
 	</div>
 	</div>
 	</div>
@@ -239,13 +230,12 @@
   </section>
   <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 5rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Hall Visit</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-3 content-overlay x">					
@@ -253,12 +243,12 @@
 					<img  src="img/day1/flames.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>				
-					<div class="image pt-2">
+					<div class="image pt-3">
 					<img  src="img/day1/hall_visit2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 </div>
-<div class="col-md-3 content-overlay x">					
+				<div class="col-md-3 content-overlay x">					
 					<div class="image ">
 					<img  src="img/day1/flames2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
@@ -266,7 +256,9 @@
 					<div class="image pt-2">
 					<img  src="img/day1/hall_visit4.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-				</div></div></div><div class="col-md-6 content-overlay x">
+				</div></div></div>
+				
+				<div class="col-md-6 content-overlay x">
 										<div class="image">
 
 					<img src="img/day1/hall_visit.jpg" class="img-fluid image__img">
@@ -285,23 +277,22 @@
   </section>
     <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 5rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Campus Tour</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">			
-			<div class="col-md-6 content-overlay x">
+			<div class="col-md-7 content-overlay x">
 				<div class="image">
 					<img  src="img/day2/campus_tour.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 													<div class="image__title">Campus Tour</div>
 							<p class="image__description">Remember the first time you've been shown the history of our college-Nehru Museum</p>	
 				</div></div></div>
-				<div class="col-md-5 content-overlay pt-sm-0 pt-4 x">
+				<div class="col-md-5 content-overlay x">
 									<div class="image">
 
 					<img  src="img/day2/campus_tour2.jpg" class="img-fluid image__img">
@@ -321,13 +312,11 @@
 					</p>	
 				</div></div>
 				</div>
-				<div class="col-md-6 x">
-										<div class="image">
-
+				<div class="col-md-7 x">
+					<div class="image">
 					<img src="img/day2/football.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
-				</div>
 				</div>
 				</div>
 	</div>
@@ -341,11 +330,10 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Entertania</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 content-overlay x">	
@@ -356,23 +344,9 @@
 							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
 				</div></div>								
 		</div>
-<div class="col-md-4 content-overlay x">					
-				<div class="image">
-					<img  src="img/day1/toat.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Entertania</div>
-							<p class="image__description">This is a short description</p>	
-				</div></div>
-				<div class="image pt-2">
-					<img  src="img/day2/yellow-diary.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Entertania</div>
-							<p class="image__description">This is a short description</p>	
-				</div></div>
-				</div>	
+				
 				</div>
 			
-	</div>
 	</div>
 	</div>
 	</div>
@@ -382,13 +356,12 @@
   	
 	  <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 1rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">Illumination</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>		
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 		<div class="col-md-4 content-overlay x">					
@@ -412,8 +385,7 @@
 							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns 
 							creates an aura of happiness all around before we kick.</p>	
 				</div></div>
-				</div>
-	
+				</div>	
 				</div>
 			
 	</div>
@@ -421,27 +393,25 @@
 	</div>
 	</div>
 	</div>
-	</div>
   </section>
 
-  <section class="section-3  pt-3">
+  <section class="section-3 pt-3 pb-5">
 	<div class="container-fluid p-0">
-	<div style="padding:0 5rem;">
+	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-2 text-center">
+			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">2.2 marathon</h1>
-				<div class="box d-flex justify-content-center"></div>
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-9">
 			<div class="container">
-			<div class="row d-flex justify-content-center pt-4 ">
+			<div class="row d-flex justify-content-center">
 					<div class="col-md-6 content-overlay x">
 					<div class="image">
 					<img  src="img/day3/emo.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 				</div>
-				<div class="col-md-6 content-overlay pt-sm-0 pt-4 x">
+				<div class="col-md-6 content-overlay x">
 									<div class="image">
 
 					<img  src="img/day3/marathon.jpg" class="img-fluid image__img">
@@ -452,7 +422,7 @@
 				</div></div>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center pt-4 x">
+			<div class="row d-flex justify-content-center pt-3 x">
 					<div class="col-md-8 content-overlay">
 										<div class="image">
 
@@ -462,18 +432,12 @@
 				</div></div>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center pt-4">
-					
-			<div class="row d-flex justify-content-center pt-4">
-					
-			
-			</div>
-			</div>
 		</div>
 		</div>
 	</div>
 	</div>
-	</div>	
+	</div>
+	</div>
   </section>
 
 	<?php include'footer.php' ?>

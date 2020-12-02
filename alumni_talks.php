@@ -39,9 +39,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class ="x">ABOUT</h1>
-            <div class="progress" style="height:0.7rem;">
+            <div class="progress" style="height:0.4rem;">
               <div class="progress-bar" id= "one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.7rem;"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
 
             </div>
             <p class="pt-3 x">
@@ -64,9 +64,9 @@
         <div class="col-md-12 col-12">
           <div class="panel panel1 text-center">
             <h1 class="x">Alumni Talks</h1>
-            <div class="progress">
+            <div class="progress" style="height:0.4rem;">
               <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -160,9 +160,9 @@
         <div class="col-md-12 col-12">
           <div class="panel panel2 text-center">
             <h1 class="x">Guest Lectures</h1>
-            <div class="progress" style="height:0.7rem;">
+            <div class="progress" style="height:0.4rem;">
               <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.7rem;"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -234,9 +234,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">Tips from Top</h1>
-            <div class="progress" style="height:0.7rem;">
+            <div class="progress" style="height:0.4rem;">
               <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.7rem;"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -267,9 +267,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">Kgp & Beyond</h1>
-            <div class="progress">
+            <div class="progress" style="height:0.4rem;">
               <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -294,9 +294,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">Videos</h1>
-            <div class="progress">
+            <div class="progress" style="height:0.4rem;">
               <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">

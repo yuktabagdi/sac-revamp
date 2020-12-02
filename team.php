@@ -29,9 +29,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">The TEAM 2020</h1>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div class="progress" style="height:0.4rem;">
+              <div class="progress-bar" id="one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -371,9 +371,9 @@
         <div class="col-md-12 col-12">
           <div class="panel text-center">
             <h1 class="x">Former Heads</h1>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+            <div class="progress" style="height:0.4rem;">
+              <div class="progress-bar" id="two" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -565,6 +565,9 @@
             </script>
 
   <script>
+  		$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
     gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
     gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
