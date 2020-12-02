@@ -220,12 +220,12 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/6.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/01.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">Alumni Talks-2020</h4>
-                                                <p class="card-text">Students Alumni Cell is proud to present another online edition of Alumni Talks 2020. <br><br><button type="button" class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4880091668697694/"
+                                                <h5 class="card-title">IIT-KGP Alumni hold online quiz to raise funds for campus workers</h5>
+                                                <p class="card-text">With the pandemic and lockdown raising question mark over the next semester, students and alumni got together to help alleviate the distress of informal workers on campus... <br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://indianexpress.com/article/cities/kolkata/rs-90-lakh-and-50-yrs-iit-kgp-alumni-hold-online-quiz-to-raise-funds-for-campus-workers-6480765/"
                                                             style="color:white">More...</a></button>
                                                 </p>
                                             </div>
@@ -235,14 +235,12 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/0.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/05.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">The TOAT</h4>
-                                                <p class="card-text">Students' Alumni Cell presents its Third post in
-                                                    the KGPInLines Series- 'Tagore Open Air Theatre
-                                                    (TOAT)'<br><br><button type="button" class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4807059399334255/"
+                                                <h5 class="card-title">Coronavirus: Startups by IIT-KGP alumni unveil tech to fight pandemic</h5>
+                                                <p class="card-text">IIT Kharagpur alumnus Debayan Saha has collaboratively developed Airlens Minus Corona, a device which may help sanitise large areas...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/coronavirus-start-ups-by-iit-kgp-alumni-unveil-tech-to-fight-pandemic/articleshow/75179928.cms"
                                                             style="color:white">More...</a></button>
                                                 </p>
                                             </div>
@@ -252,16 +250,13 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/1.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/03.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">DSA-2020</h4>
-                                                <p class="card-text">The Distinguished Service Award (DSA) is conferred
-                                                    by IIT Kharagpur on its Alumni who have provided incomparable
-                                                    service to the institute. We cordially invite you to nominate
-                                                    potential candidates for DSA 2020.<br><br><button type="button"
+                                                <h5 class="card-title">IIT Alumnus Launches Mission 10k Khushiyan; 10,000 Children To Receive Educational Play Boxes</h5>
+                                                <p class="card-text">As part of this campaign -- Mission 10K Khushiyaan, Anthill Creations seeks to deliver 10,000 underprivileged children with educational boxes. The educational boxes will provide the children an opportunity to learn via structured games...<br><br><button type="button"
                                                         class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4801594343214094"
+                                                            href="https://www.ndtv.com/education/iit-alumnus-launches-mission-10k-khushiyan-10000-children-receive-educational-play-boxes"
                                                             style="color:white">More...</a></button></p>
                                             </div>
 
@@ -280,14 +275,12 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/2.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/06.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">Student's Gymkhana</h4>
-                                                <p class="card-text">Students' Alumni Cell presents its second post in
-                                                    the KGPInLines Series- 'The Technology Students’
-                                                    Gymkhana'<br><br><button type="button" class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4750762174963978"
+                                                <h5 class="card-title">How an IIT Kharagpur alumnus, investment banker, and traveller started a trekking company</h5>
+                                                <p class="card-text">Trekmunk is a Delhi-NCR based bootstrapped startup. Apart from regular treks, it hosts trail cleaning treks and escorts doctors to high altitudes to treat the less fortunate...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://yourstory.com/2020/09/iit-kharagpur-alumnus-investment-banker-traveller-trekking-startup"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>
@@ -297,15 +290,12 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/3.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/02.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">Festive greetings</h4>
-                                                <p class="card-text">In these unprecedented times Prof subrata
-                                                    chattopadhyay, the Dean of Alumni Affairs sends warm festive
-                                                    greetings to all the students and alumni of IIT
-                                                    Kharagpur.<br><br><button type="button" class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4748824421824420"
+                                                <h5 class="card-title">IIT & Super30 alumni launch Uber-like study help app FILO for K12 students</h5>
+                                                <p class="card-text">FILO is a sachet education app that aims to bridge the foundational divide for millions of deserving students of India with a lifeline - a simple video call that connects students with expert teachers...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://www.livemint.com/brand-post/iit-super30-alumni-launch-uber-like-study-help-app-filo-for-k12-students-11606311047505.html"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>
@@ -315,14 +305,13 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/4.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/04.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h4 class="card-title">The Main Building</h4>
-                                                <p class="card-text">Students' Alumni Cell presents its first post in
-                                                    the KGPInLines Series- 'The Main Building'<br><br><button
+                                                <h5 class="card-title">Lockdown: IIT Kharagpur alumni to provide financial aid to 10,500 unorganised sector workers</h5>
+                                                <p class="card-text">The beneficiaries, who will receive financial assistance for six months, include daily wagers in eateries, ward boys of the hostels, laundrymen, tea stall owners, rickshaw-pullers, domestic workers and labourers engaged in construction projects, it said...<br><br><button
                                                         type="button" class="btn btn-outline-primary"><a
-                                                            href="https://www.facebook.com/iitkgp.alumnicell/photos/a.367054666668106/4730036303703232"
+                                                            href="https://www.hindustantimes.com/education/lockdown-iit-kharagpur-alumni-to-provide-financial-aid-to-10-500-unorganised-sector-workers/story-QBr2qCFZQ84qWgAaBM93rN.html"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>
