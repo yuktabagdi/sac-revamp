@@ -19,8 +19,8 @@
 
 
 <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/venobox/venobox.css" rel="stylesheet">
 
 </head>
 
@@ -45,9 +45,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="x text-center">THE ANNUAL FAREWELL</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div></div>
                             <p class="pt-3 x">
                                 When we look back to our college days, we plunge into a pool of nostalgia and savour the
                                 sweet and salty taste of life that was offered to us then. The strangers who turned out
@@ -69,9 +69,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Alvida 2019</h1>
-                            <div class="progress">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -132,9 +132,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Alvida 2018</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -195,9 +195,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Alvida 2017</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -258,9 +258,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Alvida 2014</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
    <style>
 	/*--------------------------------------------------------------
 # Preloader
@@ -64,7 +64,7 @@
     z-index: 995;
 }
 
-.back-to-top .fa-arrow-alt-circle-up{
+.back-to-top i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,14 +72,21 @@
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    color: #00416d;
+    color:#00416d ;
     transition: all 0.4s;
+    border: 2px solid #00416d ;
 }
+
+.back-to-top i:hover {
+    background:#00416d ;
+    color: #fff;
+}
+
    </style>
 </head>
 <body>
 	  <div id="preloader"></div>
-    <a href="#" class="back-to-top"><i class="far fa-3x fa-arrow-alt-circle-up"></i></a>
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -95,30 +95,7 @@
 					  </div></div>
 			</div>
 			</div>
-			<div class="row d-flex justify-content-center pt-3">
-				<div class="col-md-4 content-overlay x">
-					<div class="image">
-					<img  src="img/day2/night1.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
-				</div>
-				<div class="col-md-4 content-overlay x">
-				<div class="image">
-					<img  src="img/day2/night2.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
-				</div>
-				<div class="col-md-4 content-overlay x">
-										<div class="image">
-
-					<img  src="img/day2/night3.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-							<div class="image__title">Gala Dinner</div>
-				</div></div>
-				</div>
-	</div>
+			
 			</div>
 	</div>
 	</div>	
@@ -144,6 +121,7 @@
 				<div class="image pt-3">
 					<img  src="img/day1/alumni.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
+					  
 							</div></div>
 				
 			</div>
@@ -151,6 +129,11 @@
 				<div class="image">
 				<img  src="img/day3/ceremony4.jpg" class="img-fluid image__img">
 				<div class="image__overlay image__overlay--primary text-center">
+				<div class="image__title">Grand Reunion</div>
+							<p class="image__description">The Annual Alumni Meet is a fascinating trip down memory lane
+							that allows our alumni to see old friends again and remember places and stories that were 
+							almost forgotten.
+</p>
 				</div></div>
 			</div>
 			</div>
@@ -209,12 +192,11 @@
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
-			<div class="col-md-6 content-overlay x">					
+				<div class="col-md-6 content-overlay x">	
 				<div class="image">
-					<img  src="img/day1/toat.jpg" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-					
-				</div></div></div>
+					<img  src="img/yellow-diary.jfif" class="img-fluid image__img">
+				</div>
+				</div>
 				<div class="col-md-6 content-overlay x">	
 				<div class="image">
 					<img  src="img/day2/yellow-diary.jpg" class="img-fluid image__img">
@@ -264,7 +246,8 @@
 					<img src="img/day1/hall_visit.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Hall Visit</div>
-							<p class="image__description">Visiting the place which was our second home back again.</p>	
+							<p class="image__description">The place we learnt and lived for the 4 most important years in our life surely has a fragment of our soul inside
+							it and to come back to our hall of residence is nothing less than a reunion of all of our soul.</p>	
 				</div></div>
 				</div>
 			
@@ -290,7 +273,9 @@
 					<img  src="img/day2/campus_tour.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 													<div class="image__title">Campus Tour</div>
-							<p class="image__description">Remember the first time you've been shown the history of our college-Nehru Museum</p>	
+							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell
+							and highlighting all the major developments around.
+</p>	
 				</div></div></div>
 				<div class="col-md-5 content-overlay x">
 									<div class="image">
@@ -298,7 +283,7 @@
 					<img  src="img/day2/campus_tour2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 									<div class="image__title">Campus Tour</div>
-							<p class="image__description">Remember the first time you've been shown the history of our college-Nehru Museum</p>	
+							<p class="image__description"></p>	
 				</div></div>
 				</div>		
 	</div>
@@ -308,7 +293,7 @@
 					<img  src="img/day2/nalanda.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center text-center">
 								<div class="image__title">Campus Tour</div>
-							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
+							<p class="image__description">
 					</p>	
 				</div></div>
 				</div>
@@ -316,10 +301,12 @@
 					<div class="image">
 					<img src="img/day2/football.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
-				</div></div>
+					<div class="image__title">Campus Tour</div>
+							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
+							and it’s a pleasure to see the newer developments in harmony with the same old roads.</p>
+				</div></div></div>
 				</div>
 				</div>
-	</div>
 	</div>
 	</div>
 	</div>
@@ -344,6 +331,17 @@
 							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
 				</div></div>								
 		</div>
+		<div class="col-md-4 content-overlay x">					
+				<div class="image">
+					<img  src="img/day1/toat.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/day1/toat2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					
+				</div></div></div>
 				
 				</div>
 			
@@ -387,6 +385,30 @@
 				</div></div>
 				</div>	
 				</div>
+				<div class="row d-flex justify-content-center pt-3">
+				<div class="col-md-4 content-overlay x">
+					<div class="image">
+					<img  src="img/day2/night1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+				<div class="image">
+					<img  src="img/day2/night2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+										<div class="image">
+
+					<img  src="img/day2/night3.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+	</div>
 			
 	</div>
 	</div>

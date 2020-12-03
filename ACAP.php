@@ -79,9 +79,9 @@
 
                         <div class="panel text-left">
                             <h1 class="text-center">OVERVIEW</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;" ></div>
                             </div>
                             <p class="pt-4">
                                 The most tedious, confusing and overwhelming time of your student life is the placement
@@ -103,9 +103,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Register Here!</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4">
 
