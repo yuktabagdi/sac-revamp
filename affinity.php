@@ -25,22 +25,16 @@
 <body>
 <?php include 'navbar.php' ?>
   <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;">AFFINITY PROGRAMME</h1>
-          <h6 style="text-align: left;">SAC initiative</h6>
-        </div>
-      </div>
-    </div>
+        <img style="height:80vh;overflow:hidden;width:1349px;;" src="img\affinity\wall.jpg" alt="affinity programme">
   </header>
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-12">
+          <br>
           <div class="panel text-left">
-            <h1 class="text-center">AFFINITY PROGRAMME</h1>
-            <div class="progress" style="height:0.4rem;">
+            <h1 class="text-left">ABOUT</h1>
+            <div class="progress">
               <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
@@ -58,7 +52,6 @@
         </div>
         <div class="col-md-6 col-12">
           <div class="pray">
-            <br><br><br><br>
             <img src="img/guest-lecture/alumnitalks-2019-2.jpg" class="img-fluid">
           </div>
         </div>
