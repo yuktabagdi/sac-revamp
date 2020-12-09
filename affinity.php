@@ -36,7 +36,7 @@
             <h1 class="text-left">ABOUT</h1>
             <div class="progress">
               <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <p class="pt-4">
               IIT Kharagpur's Affinity Programme, is an initiative
@@ -64,9 +64,9 @@
         <div class="col-md-12 col-12">
           <div class="panel panel1 text-center">
             <h1 class="x">Current Associations</h1>
-            <div class="progress">
+            <div class="progress" style="height:0.4rem;">
               <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -138,9 +138,9 @@
         <div class="col-md-12 col-12">
           <div class="panel panel1 text-center">
             <h1 class="x">Previous Associations</h1>
-            <div class="progress">
+            <div class="progress" style="height:0.4rem;">
               <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">

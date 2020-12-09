@@ -50,9 +50,9 @@
                     <div class="col-md-6 col-12" id="padding">
                         <div class="panel text-left">
                             <h1 class="gsap1">ABOUT</h1>
-                            <div class="progress">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4 gsap1">
                                 Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
@@ -91,9 +91,9 @@
                     <div class="col-12 text-center text-black">
                         <h1 class="font-weight-bold gsap2">Phonathon 4.0
                         </h1>
-                        <div class="progress gsap2">
+                        <div class="progress gsap2" style="height:0.4rem;">
                             <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                         <br>
                     </div>
@@ -131,9 +131,9 @@
             <div class="col-md-12 col-12">
               <div class="panel panel2 text-center">
                 <h1 class="x">Testimonials</h1>
-                <div class="progress" style="height:0.7rem;">
+                <div class="progress" style="height:0.4rem;">
                   <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100" style="height:0.7rem;"></div>
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <br>
                 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
