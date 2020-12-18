@@ -51,9 +51,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="text-center">About the Programme</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div></div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
                                 Students' Alumni Cell, IIT Kharagpur.
@@ -77,9 +77,9 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Framework of the Programme</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;" ></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;" ></div>
                             </div>
                             <p class="pt-4">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
@@ -94,9 +94,9 @@
                     <div class="col-md-6 col-12">
                         <div class="panel text-left">
                             <h1>Connecting with our Alumni</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The Student Alumni Mentorship Programme is an active step to keep the alumni in

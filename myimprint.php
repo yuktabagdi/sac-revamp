@@ -25,9 +25,9 @@
         <div class="col-12">
           <div class="panel text-left">
             <h1 class="one text-center">MY IMPRINT</h1>
-              <div class="progress"  style="height:0.7rem;">
+              <div class="progress"  style="height:0.4rem;">
                 <div id="one" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;" ></div>
+                  aria-valuemax="100" style="height:0.4rem;" ></div>
               </div>
             <p class="pt-3 one">
               Ever since its inception, IIT Kharagpur has given its students outstanding academic resources, a brand to
@@ -47,9 +47,9 @@
         <div class="col-12">
           <div class="panel text-left">
             <h1 class="one text-center">SENIOR CLASS GIFT</h1>
-              <div class="progress"  style="height:0.7rem;">
+              <div class="progress"  style="height:0.4rem;">
                 <div id="one" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;" ></div>
+                  aria-valuemax="100" style="height:0.4rem;" ></div>
               </div>
             <p class="pt-3 one">
               Ever since its inception, IIT Kharagpur has given its students outstanding academic resources, a brand to
@@ -72,9 +72,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2017</h1>
-                <div class="progress" style="height:0.7rem;">
+                <div class="progress" style="height:0.4rem;">
                   <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100" style="height:0.7rem;"></div>
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel pt-3">
@@ -89,9 +89,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2016</h1>
-                <div class="progress" style="height:0.7rem;">
+                <div class="progress" style="height:0.4rem;">
                   <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100" style="height:0.7rem;"></div>
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel pt-3">
@@ -106,9 +106,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2015</h1>
-                <div class="progress" style="height:0.7rem;">
+                <div class="progress" style="height:0.4rem;">
                   <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100" style="height:0.7rem;"></div>
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/CG15.jpg" class="img-fluid img-panel pt-3">
@@ -123,9 +123,9 @@
             <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2014</h1>
-                <div class="progress" style="height:0.7rem;">
+                <div class="progress" style="height:0.4rem;">
                   <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100" style="height:0.7rem;"></div>
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
                   <img src="img/latest programs/cg14.jpg" class="img-fluid img-panel pt-3">

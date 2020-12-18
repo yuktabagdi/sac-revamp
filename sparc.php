@@ -33,8 +33,8 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Students' Pan IIT<br /> Alumni Relations Cell</h1>
-                            <div class="progress">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" style="height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p class="pt-4">
                                 The vision of the Indian Institutes of Technology has been to contribute to India and the world
@@ -56,25 +56,27 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Student Alumni Meet '17 - Mumbai</h1>
-                            <div class="progress">
-                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" 
+								style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+								aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
                             <div id="gallery_row" class="row">
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="height:50%">
                                 </div>
                                 <div id="gallery_row" class="column">
                                     <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="width:100%;">
+                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="height:50%;">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="height:100%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="height:100%">
                                 </div>
                             </div>
                         </div>
@@ -90,8 +92,10 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Student Alumni Meet '16 - Banglore</h1>
-                            <div class="progress">
-                                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="three" class="progress-bar" role="progressbar"
+								style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+								aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
 
@@ -99,7 +103,7 @@
                             <div class=" col-xs-12 py-4 b-img image">
                                 <img src="img/sam/Bangalore/e.jpg">
                                 <p class="x">
-                                    <h5 style="text-align: center;">
+                                    <h5 class="text-center h6">
                                         <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
                                             Owing to the huge response received from the students as well as the alumni,
                                             <strong>SPARC</Strong> will come up with more such events and programmes in the future.</i>
@@ -120,8 +124,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Dean's MEET</h1>
-                            <div class="progress">
-                                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" 
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->
@@ -149,8 +154,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="x">Future Initiatives</h1>
-                            <div class="progress">
-                                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" 
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <br>
                             <!-- Photo Grid -->

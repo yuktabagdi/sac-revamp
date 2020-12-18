@@ -43,8 +43,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">YearBook</h1>
-                            <div class="progress" style="height:0.7rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The yearbook is a dedicated volume that captures the
@@ -55,7 +56,7 @@
                                 the yearbook will be
                                 the light which will lit up the faded memories and show the path through the old forgotten ways
                             </p>
-                            <div class="row text-right">
+                            <div class="row text-center">
                                 <div class="col-12">
                                     <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/yearbook/"><i class="fa fa-book"></i> YearBook</button>
                                 </div>
@@ -69,12 +70,13 @@
 
         <section class="section-3">
             <div class="container-fluid">
-                <h1 class="text-center" style="color:white;">Exibition Corner......</h1>
+                <h1 class="text-center" style="color:white;">Exibition Corner...</h1>
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress" style="height:0.7rem;">
-                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                        <div class="progress" style="height:0.4rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" 
+							aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -93,13 +95,13 @@
                                                         <h4 class="card-title">YearBook 2017...</h4>
                                                         <div class="row ">
                                                             <div class="col-2 img-txt ">
-                                                                <button class="btn btn-outline-primary justify-content-center">UG</button>
+                                                                <h6>UG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">PG</button>
+                                                                <h6>PG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">RS</button>
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
 
@@ -114,14 +116,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 img-txt ">
-                                                                <button class="btn btn-outline-primary justify-content-center">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">PG</button>
+                                                                <h6>PG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">RS</button>
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -133,14 +135,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2015...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 img-txt ">
-                                                                <button class="btn btn-outline-primary justify-content-center">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">PG</button>
+                                                                <h6>PG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">RS</button>
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -164,14 +166,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 img-txt ">
-                                                                <button class="btn btn-outline-primary justify-content-center">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">PG</button>
+                                                                <h6>PG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">RS</button>
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -185,14 +187,14 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 img-txt ">
-                                                                <button class="btn btn-outline-primary justify-content-center">UG</button>
+                                                        <div class="col-2 img-txt ">
+                                                                <h6>UG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">PG</button>
+                                                                <h6>PG</h6>
                                                             </div>
                                                             <div class="col-2 img-txt">
-                                                                <button class="btn btn-outline-primary justify-content-center">RS</button>
+                                                                <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -240,6 +242,27 @@
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">
                                     <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/BMbMHIVlyjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <p class="text-center">Class Song of 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Class Memoir</h1>
+                            <div class="progress" style="height:0.7rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/9L_8Jqizhcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Memoir 2020</p>
                                 </div>
                             </div>
                         </div>

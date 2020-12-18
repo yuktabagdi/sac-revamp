@@ -112,7 +112,6 @@ header a {
   }
   header {
     /* fallback for old browsers */
-    background: #7579e7;
     background-size: cover;
     background-position: center;
 
@@ -148,7 +147,6 @@ header a {
 
 .progress-bar-purple {
       background-color: #00416d !important;
-	  height:0.7rem;
 }
 
     .section-2 {

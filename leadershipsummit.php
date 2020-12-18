@@ -43,8 +43,8 @@
           <div class="col-md-12 col-12">
             <div class="panel text-left">
               <h1 class="text-center">The Summit</h1>
-              <div class="progress" style="height:0.7rem;">
-                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+              <div class="progress" style="height:0.4rem;">
+                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <p class="pt-4">
                 <strong>Leadership Summit</strong>, organized
@@ -64,8 +64,10 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">Past Speakers</h1>
-              <div class="progress" style="height:0.7rem;">
-                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+              <div class="progress" style="height:0.4rem;">
+                <div id="two" class="progress-bar" role="progressbar" 
+				style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+				aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -74,58 +76,63 @@
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
                     <div class="card">
                       <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
-                      <div class="card-title">
-                        <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p>
-                        <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                      <div class="card-text">
+                        <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                        <p style="color:white;">Arjun Malhotra</p>
+                        <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                     <div class="card">
                       <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
-                      <div class="card-title">
-                        <p><a>Anjanrai Chaudhuri</a></p>
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                      <div class="card-text">
+                        <p style="color:white;">Anjanrai Chaudhuri</p>
+                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                     <div class="card">
                       <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
-                      <div class="card-title">
-                        <p>Arunabh Kumar</p>
-
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                      <div class="card-text">
+                        <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                        Arunabh Kumar
+                        </a></p> -->
+                        <p style="color:white;">
+                        Arunabh Kumar
+                        </p>
+                        <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                     <div class="card">
                       <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
-                      <div class="card-title">
-                        <p>Gopalraj Garhia</p>
+                      <div class="card-text">
+                        <p style="color:white;">Gopalraj Garhia</p>
 
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                     <div class="card">
                       <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
-                      <div class="card-title">
-                          <p>Prasad Menon</p>
-                          <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                      <div class="card-text">
+                          <p style="color:white;">Prasad Menon</p>
+                          <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                     <div class="card">
                       <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
-                      <div class="card-title">
-                        <p>Sakyasinha Roy</p>
+                      <div class="card-text">
+                        <p style="color:white;">Sakyasinha Roy</p>
 
 
-                        <a href="#"><i class="icon fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                       </div>
                     </div>
                   </div>

@@ -43,26 +43,27 @@
             duration: 2
         });
     </script>
-    <section class="section-2">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12 col-12">
-                    <div class="panel text-center">
-                        <h1 class="gsap1">ABOUT</h1>
-                        <div class="progress">
-                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="pt-3 gsap1">
-                            Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
-                            under the Endowment Campaign while serving as a platform for the alumni to give back to
-                            the alma mater. In various avenues like developing centers of excellence for innovative
-                            research, recruiting world-class faculties, students scholarships etc; this event
-                            benefits the institute. In our continuous efforts to expand the alumni network, bringing
-                            forward conversations of first year students with the alumni supports our efforts as
-                            well as provides the students with a unique opportunity to interact with the alumni as
-                            well as contribute to the development of the institute.
-                        </p>
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-12" id="padding">
+                        <div class="panel text-left">
+                            <h1 class="gsap1">ABOUT</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <p class="pt-4 gsap1">
+                                Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
+                                under the Endowment Campaign while serving as a platform for the alumni to give back to
+                                the alma mater. In various avenues like developing centers of excellence for innovative
+                                research, recruiting world-class faculties, students scholarships etc; this event
+                                benefits the institute. In our continuous efforts to expand the alumni network, bringing
+                                forward conversations of first year students with the alumni supports our efforts as
+                                well as provides the students with a unique opportunity to interact with the alumni as
+                                well as contribute to the development of the institute.
+                            </p>
                     </div>
                 </div>
             </div>
@@ -81,15 +82,18 @@
             duration: 2
         });
     </script>
-    <section class="section-2">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <div class="panel text-center">
-              <h1 class="x gsap2">Phonathon 4.0</h1>
-              <div class="progress gsap2">
-                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                       aria-valuemin="0" aria-valuemax="100">
+<section>
+            <div class="container section-inner">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center text-black">
+                        <h1 class="font-weight-bold gsap2">Phonathon 4.0
+                        </h1>
+                        <div class="progress gsap2" style="height:0.4rem;">
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                        </div>
+                        <br>
+                    </div>
                 </div>
               </div>
               <br>
@@ -125,14 +129,14 @@
 
     </script>
      <section class="section-2">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <div class="panel text-center">
-              <h1 class="x gsap2">Phonathon 3.0</h1>
-              <div class="progress gsap2">
-                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                       aria-valuemin="0" aria-valuemax="100">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12 col-12">
+              <div class="panel panel2 text-center">
+                <h1 class="x">Testimonials</h1>
+                <div class="progress" style="height:0.4rem;">
+                  <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
               </div>
               <br>
