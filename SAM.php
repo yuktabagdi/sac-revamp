@@ -48,9 +48,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1>ABOUT THE MEET</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <p class="pt-4">
                 Student Alumni Meets bring together the students and the alumni under one roof and encourage interactive
@@ -69,9 +69,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'20 KOLKATA</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -105,9 +105,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'18 SINGAPORE</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100"></div>
               </div>
               <br>
 
@@ -144,9 +144,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'18 BANGALORE</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -182,9 +182,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'17 HYDERABAD</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->
@@ -220,9 +220,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x">SAM'17 KOLKATA</h1>
-              <div class="progress" style="height:0.7rem;">
+              <div class="progress" style="height:0.4rem;">
                 <div id="seven" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100" style="height:0.7rem;"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
               <!-- Photo Grid -->

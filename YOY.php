@@ -40,9 +40,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
                             <h1 class="text-center">Yearnings of Yore</h1>
-                            <div class="progress" style="height:0.7rem;">
+                            <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4">
                                 Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
@@ -65,9 +65,9 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
-                        <div class="progress" style="height:0.7rem;">
+                        <div class="progress" style="height:0.4rem;">
                             <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                     </div>
                 </div>

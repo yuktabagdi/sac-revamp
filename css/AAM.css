@@ -7,6 +7,12 @@
 }
 body{
 	  font-family: 'Raleway', sans-serif;
+	background: url(../img/Asset.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	  z-index:-88;
+	  
 }
 header,section{
   overflow-y: hidden; /* Hide vertical scrollbar */
@@ -36,13 +42,12 @@ section{
 overflow-x:hidden;
 }
 .section-1{
-	height:80vh;
+	height:100vh;
 }	
 
 .img{
-	height:65vh;
-	background:url(../img/17th_aam.jpg);
-	  background-repeat: no-repeat;
+	height:88vh;
+	background:url(../img/align.png);
   background-position: center;
     background-size: cover;
 }
@@ -106,14 +111,14 @@ iframe{
   /*new*/
   
   .first{
-	    background: #5f34a4;
+	    background:#9e80bd;
 	    transform: rotate(10deg);
 		opacity:80%;
 }
 .second {
-    background: #232a34;
+    background:  #cea6f7;
     transform: rotate(-10deg);
-	opacity:80%;
+	opacity:50%;
 }
 .section-2 h1 {
 	font-weight: bold;
@@ -122,8 +127,8 @@ iframe{
 	font-size: 3em;
   }
   .section-2 p{
-	  font-size: 1em;
-	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.1em;
+	color: rgba(0, 0, 0, 0.6);
 	font-weight:500;
 	font-family:sans-serif;
   }
@@ -163,9 +168,7 @@ iframe{
     text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
     letter-spacing: 0.02em;
-line-height:3rem;
-	
-	
+line-height:3rem;	
 }
 
 	 
