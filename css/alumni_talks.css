@@ -141,9 +141,7 @@ section {
     border-radius: 30px;
     font-weight: bold;
   }
-  main{
-    background: var(--bggradient);
-  }   
+  
 	.progress-bar-purple {
       background-color: #00416d !important;
 	  height:0.7rem;
