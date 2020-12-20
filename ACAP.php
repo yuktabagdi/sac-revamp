@@ -48,7 +48,6 @@
         width: 300px !important;
     }
   }
-
 </style>
 </head>
 
@@ -60,7 +59,6 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
-
 
                     <h1 style="text-align: left;"></h1>
 
