@@ -231,8 +231,10 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Class Songs</h1>
-                            <div class="progress" style="height:0.7rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar"
+								role="progressbar" style="width: 100%" aria-valuenow="100" 
+								aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">
@@ -256,8 +258,9 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Class Memoir</h1>
-                            <div class="progress" style="height:0.7rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">

@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title></title>
     <style>
+    body(
+      overflow-x:hidden;
+    )
       .navbar{
   font-size: 1.1rem;
 }
@@ -53,7 +56,7 @@
       </style>
   </head>
   <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-0">
     <a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

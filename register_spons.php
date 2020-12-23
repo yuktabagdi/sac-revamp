@@ -1,3 +1,27 @@
+<?php 
+if(isset($_POST['commit'])){
+    
+    $var1=$_POST['name'];
+    $var6=$_POST['designation'];
+    $var2=$_POST['email'];
+    $var3=$_POST['contact'];
+    $var4=$_POST['phone'];
+    $var5=$_POST['add'];
+    
+    include 'database.inc.php';
+    $sql = "INSERT INTO joinus (name,designation, email,contact,phone ,city)
+    VALUES ('$var1','$var6','$var2','$var3','$var4','$var5')";
+    if (mysqli_query($connection, $sql)) {
+        echo "<h1><script>alert('Thanks! Your message has been succesfully sent');</script></h1>";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($connection);
+    }
+mysqli_close($connection);
+}
+ ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
