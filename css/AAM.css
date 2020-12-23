@@ -51,6 +51,25 @@ overflow-x:hidden;
   background-position: center;
     background-size: cover;
 }
+#login {
+  font-weight: 200;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: black;
+  border: 2px solid #7F007F;
+  font-family: 'Raleway', sans-serif;
+}
+
+#login:hover {
+background-color:#7F007F;
+  color: white;
+}
 
 /*  
   .section-2 .row .col-md-6:last-child {

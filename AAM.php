@@ -35,7 +35,185 @@
 				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
 				brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
 				their college lives as they get a chance to visit all the locations they once frequented.
-            </p>
+			</p>
+			<div>
+								<button type="button" name="login" id="login" class="btn" data-toggle="modal" data-target="#loginModal" >REGISTER </button>
+								<div id="loginModal" class="modal fade" role="dialog" style="padding-left:5%;">
+								<div class="modal-dialog modal-dialog-centered" style="min-width:400px;">
+								<!-- Modal content-->
+								<div class="modal-content">
+										<div class="body">
+										<div class="modal-header">
+												<h3 class="modal-title">Join with Us</h3>
+												<button  type="button" class="close" data-dismiss="modal">&times;</button>
+
+										</div>
+										<div class="modal-body">
+										<form class="text-dark" style="opacity: 1;" id="form1" method="POST">
+
+										<div class="form-group">
+											<label for="FirstName">Name</label>
+											<input type="text" class="form-control" id="FirstName" aria-describedby="FirstName" required>
+										</div>
+
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<label for="email">Email ID <span style="color:red;">*</span></label>
+												<input class="form-control"  type="email"  name="email" id="email" required>
+											</div>
+											<div class="form-group col-md-6">
+											<label for="password">Password (For future login) <span style="color:red;">*</span></label>
+												<input  type="password" id="password" name="password" class="form-control" required>  	
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label for="inputAddress">Address</label>
+											<input type="text" class="form-control" id="inputAddress" required>
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-4">
+											<label for="inputCity">City</label>
+											<input type="text" class="form-control" id="inputCity" required>
+											</div>
+											<div class="form-group col-md-4">
+											<label for="inputState">State</label>
+											<input type="text" class="form-control" id="personal_state" name="state" >
+											</div>
+											<div class="form-group col-md-4">
+											<label for="inputZip">Zip Code</label>
+											<input type="text" class="form-control" id="inputZip" required>
+											</div>
+										</div>
+
+										<div class="form-group">
+										<label for="mobile">Mobile <span style="color:red;">*</span></label>
+										<input  type="text"  class="form-control"  name="mobile" id="mobile" required>
+										
+										</div>
+
+										<div class="form-row">
+											<div class="form-group col-md-6">
+											<label for="dob">Date of Birth</label>
+											<input type="date" class="form-control" id="dob" placeholder="dob">
+											</div>
+											<div class="form-group col-md-6">
+											<label for="marital">Marital Status</label>
+											<div class="btn-group btn-group-toggle" data-toggle="buttons" id="Gender">
+												<label class="btn btn-secondary form-control" for="male">
+												<input type="radio" name="male" id="male"> Single
+												</label>
+												<label class="btn btn-secondary form-control" for="female">
+												<input type="radio" name="female" id="female"> Married
+												</label>
+												<label class="btn btn-secondary form-control" for="others">
+												<input type="radio" name="others" id="others"> Others
+												</label>
+											</div>
+											</div>
+										</div>
+										<hr class="center">
+										<div class="row" class="pl-3">
+										<h3 class="pl-3">Work Experience</h3>
+										</div>
+										<hr class="center">
+										<div class="form-row">
+											<div class="form-group col-md-6">
+											<label for="ind">Industry </label>
+											<input  class="form-control" type="text" id="ind" name="industry"  >
+											</div>
+											<div class="form-group col-md-6">
+											<label for="prof">Profession </label> 
+											<input class="form-control" type="text" id="prof" name="profession" >	
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-6">
+											<label for="org">Organisation Name <span style="color:red;">*</span></label>
+											<input  class="form-control" type="text" id="org" name="orgName" required>
+											</div>
+											<div class="form-group col-md-6">
+											<label for="desig">Designation <span style="color:red;">*</span></label> 
+											<input  class="form-control" type="text" id="desig" name="designation" required>	
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label for="inputAddress">Address</label>
+											<input type="text" class="form-control" id="inputAddress" required>
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-4">
+											<label for="inputCity">City</label>
+											<input type="text" class="form-control" id="inputCity" required>
+											</div>
+											<div class="form-group col-md-4">
+											<label for="inputState">State</label>
+											<input type="text" class="form-control" id="personal_state" name="state" >
+											</div>
+											<div class="form-group col-md-4">
+											<label for="inputZip">Zip Code</label>
+											<input type="text" class="form-control" id="inputZip" required>
+											</div>
+										</div>
+										<hr class="center">	
+										<div class="row" class="pl-3">
+										<h3 class="pl-3">Nostalgic Section</h3>
+										</div>	
+										<hr class="center">
+										<div class="form-group">
+												<label for="roll">Roll Number</label>
+												<input  type="text" class="form-control" id="roll" name="rollNum">
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-4">
+											<label for="degree">Degree <span style="color:red;">*</span></label>
+											<input  type="text" class="form-control" id="degree" name="degree" required>
+											
+											</div>
+											<div class="form-group col-md-4">
+											<label for="dept">Department <span style="color:red;">*</span></label>	
+											<input  type="text" class="form-control" id="dept" name="department" required>
+											</div>
+											<div class="form-group col-md-4">
+											<label for="hall">Hall <span style="color:red;">*</span></label>	
+											<input  type="text" class="form-control"  id="hall" name="hall" required>
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-6">
+											<label for="join">Join Year <span style="color:red;">*</span></label>
+											<input  type="number" min="1951" class="form-control" max="2007" id="join" name="joinYear" required>
+											</div>
+											<div class="form-group col-md-6">
+											<label for="yog">Year of Graduating <span style="color:red;">*</span></label>
+											<input  type="number" min="1955" class="form-control" max="2010" id="yog" name="graduatingYear"  required>               	
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<label for="accompanyingNo">Accompaniments(Number of guests)<span style="color:red;">*</span></label>  
+												<input  type="number" min="0" id="accompanyingNo" class="form-control" name="accompanyingNo" required> 
+											</div>
+											<div class="form-group col-md-6">
+											<label for="yog">Hobbies</label>  
+											<input  type="text" id="hobbies" class="form-control" name="hobbies">         	
+											</div>
+										</div>
+										<div class="form-row">
+											<label for="yog">Involvements (Societies, Hall Events, etc) </label>
+											<input  type="text" id="involvements" class="form-control" name="involvements">	
+											</div>
+										</div>
+										<div class="pl-3">
+										<p class="btn btn-secondary" type="submit" name="submit">Register</p>
+										</div>
+										</form>
+										</div>
+										</div>
+									</div>     
+								</div>
+							</div>
 			</div>
 			</div>
 			</div>
@@ -146,7 +324,7 @@
    <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
-		<div class="row">
+<div class="row">																																																														
 			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class=" gallery-h3 pt-5">Department Visit</h1>
 			</div>		
