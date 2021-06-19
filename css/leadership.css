@@ -226,10 +226,6 @@ main{
 	font-size: 3em;
   }
   
-  .section-2 .row .col-md-12 .panel p {
-	font-size: 0.9em;
-	color: rgba(0, 0, 0, 0.5);
-  }
 
  
   .row {
@@ -363,7 +359,7 @@ main{
     top: 80px;
     font-family: var(--Rubik);
     font-size: 1.75em;
-    color: blue;
+    color: white;
   }
 }
 

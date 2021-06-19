@@ -153,9 +153,14 @@ header .container .col-md-7 p {
 main{
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/yearbook/main_edited-01.jpg);
+  /* background-attachment: fixed;*/
+  background: url(../img/yearbook/main-building-01-01.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
+  background-attachment: fixed;
+
+  /* background-position: bottom; */
 }
 .progress-bar-purple {
       background-color: #00416d !important;
@@ -298,49 +303,43 @@ main{
   color: black;
 }
 .section-3 .card{
+    background-color: #5a1488;
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
-/* 
-.section-3 .card:before{
-    position: absolute;
-    content: '';
-    width: 150%;
-    height: 220%;
-    background: rgba(65, 61, 63, 0.7);
-    top: -50%;
-    left: -100%;
-    z-index: 1;
-    transform: rotate(25deg);
-    transform-origin: center top 0;
-    transition: .5s;
-} */
 
 .section-3 .card:hover:before{
     left: 10%;
 }
 
 .section-3 .card img{
-    width: 100%;
-    height: 470px;
+    height: 400px;
+}
+.h-img{
+  height: 100%;
+  object-fit: revert;
+}
+
+.card-body{
+  background-color: #eceaee;
 }
 
 .section-3 .card-text{
     width: 100%;
-    padding: 0 20px;
-    position: absolute;
-    top: -100%;
     color: #fff;
     left: 0;
     z-index: 2;
     transition: 0.7s;
 }
+.img-txt{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 .section-3 .card:hover .card-text{
     top: 80px;
 }
-
 
 .yrbk-btn{
   background-color:#132e97;

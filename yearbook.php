@@ -19,16 +19,19 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <style>
-    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
-        background-color: #00416d !important;
-        border-color: #00416d !important;
-        color:white !important;
-    }
-    .btn-outline-primary{
-        color:  #00416d !important;
-        border-color:  #00416d !important;
-    }
-</style>
+        .btn-outline-primary:hover,
+        .btn-outline-primary:active,
+        .btn-outline-primary:visited {
+            background-color: #00416d !important;
+            border-color: #00416d !important;
+            color: white !important;
+        }
+
+        .btn-outline-primary {
+            color: #00416d !important;
+            border-color: #00416d !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,8 +47,7 @@
                         <div class="panel text-left">
                             <h1 class="text-center">YearBook</h1>
                             <div class="progress" style="height:0.4rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
-								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <p class="pt-4">
                                 The yearbook is a dedicated volume that captures the
@@ -75,8 +77,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
                         <div class="progress" style="height:0.4rem;">
-                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" 
-							aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -85,94 +86,148 @@
                     <div class="col-sm-12">
                         <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                            <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2020.jpg" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2020...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2019.jpg" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2019...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year17.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2018.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2018...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2017.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
                                                         <div class="row ">
-                                                            <div class="col-2 img-txt ">
+                                                            <div class="img-txt ">
                                                                 <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>RS</h6>
                                                             </div>
                                                         </div>
-
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year16.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2016.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
                                                         <div class="row ">
-                                                        <div class="col-2 img-txt ">
+                                                            <div class="img-txt ">
                                                                 <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>RS</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
-                                                <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2015.jpg" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">YearBook 2015...</h4>
-                                                        <div class="row ">
-                                                        <div class="col-2 img-txt ">
-                                                                <h6>UG</h6>
-                                                            </div>
-                                                            <div class="col-2 img-txt">
-                                                                <h6>PG</h6>
-                                                            </div>
-                                                            <div class="col-2 img-txt">
-                                                                <h6>RS</h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
                                         </div>
-
                                     </div>
-
-
                                 </div>
                                 <div class="carousel-item">
                                     <div class="container">
                                         <div class="row justify-content-center">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2015.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2015...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2014.jpg" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
                                                         <div class="row ">
-                                                        <div class="col-2 img-txt ">
+                                                            <div class="img-txt ">
                                                                 <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>RS</h6>
                                                             </div>
                                                         </div>
@@ -187,13 +242,13 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
                                                         <div class="row ">
-                                                        <div class="col-2 img-txt ">
+                                                            <div class="img-txt ">
                                                                 <h6>UG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>PG</h6>
                                                             </div>
-                                                            <div class="col-2 img-txt">
+                                                            <div class="img-txt">
                                                                 <h6>RS</h6>
                                                             </div>
                                                         </div>
@@ -231,8 +286,8 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Class Songs</h1>
-                            <div class="progress" style="height:0.7rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">
@@ -256,8 +311,8 @@
                     <div class="col-md-12 col-12">
                         <div class="panel text-left">
                             <h1 class="text-center">Class Memoir</h1>
-                            <div class="progress" style="height:0.7rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">
