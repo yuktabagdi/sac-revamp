@@ -1,1 +1,2 @@
-console.log("File by Anjnai");
+let Anjani = "using fetch , merge and resolving merge conflicts";
+console.log(Anjani);
