@@ -1,1 +1,1 @@
-console.log("File by Anjani");
+console.log("Use fetch ,merge and resolve merge conflicts");
