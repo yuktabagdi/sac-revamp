@@ -1,1 +1,1 @@
-console.log("Use fetch ,merge and resolve merge conflicts/Anjani");
+console.log("Use fetch ,merge and resolve merge conflicts/Sanskar");
