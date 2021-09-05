@@ -25,7 +25,7 @@
 <body>
 <?php include 'navbar.php' ?>
   <header>
-        <img style="height:80vh;overflow:hidden;width:1349px;;" src="img\affinity\wall.jpg" alt="affinity programme">
+        <img style="width: 100%;" src="img\affinity\wall.jpg" alt="affinity programme">
   </header>
   <section class="section-1">
     <div class="container text-center">
@@ -74,16 +74,15 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:13em;'>
-                    <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img\affinity\headspace.jpeg" alt="Card image cap" style='height:18em;'>
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text">
                         <b>The benefits of this association include:</b><br>
-                           Special Prices<br>
-                           Affordable EMIs<br>
-                           Free 3rd party accidental and liquid damage insurance<br>
-                           Easy Exchange<br>
-                           <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
+                           Six months of free subscription<br>
+                           Guided online meditation resources<br>
+                           Guided sessions on stress management, happiness, resilience and physical health<br>
+                           <a href='https://www.headspace.com/' target='_blank'>CLICK HERE</a>
                       </p>
                     </div>
                   </div>
@@ -143,9 +142,26 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
+            
             <div class="row">
-              <div class="col-sm-2">
-
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:13em;'>
+                    <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text">
+                        <b>The benefits of this association include:</b><br>
+                           Special Prices<br>
+                           Affordable EMIs<br>
+                           Free 3rd party accidental and liquid damage insurance<br>
+                           Easy Exchange<br>
+                           <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-sm-4">
                 <div class="service-card">
