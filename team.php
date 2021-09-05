@@ -343,6 +343,17 @@
               <div class="progress-bar" id="two" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
+            <li>Subhadra Jena</li>
+            <li>Akash Srivastava</li>
+            <li>Mayank Arora</li>
+            <li>Nitika Shroff</li>
+            <li>Sanjay Motwani</li>
+            <li>Vishaw Kashyap</li>
+            <li>Anuja Raj Verma</li>
+            <li>Yukta Bagdi</li>
+            <li>Prasang Kumar</li>
+            <li>Ritish Dutt</li>
+            <li>Nischay Gothwal</li>
             <div class="row">
               <div div class="col-12 col-sm-4 former-team-text">
                 <h4>2020</h4>
